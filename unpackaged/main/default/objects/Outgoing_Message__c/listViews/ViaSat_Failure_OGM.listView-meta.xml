@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ViaSat_Failure_OGM</fullName>
+    <columns>NAME</columns>
+    <columns>Object_Id__c</columns>
+    <columns>Status__c</columns>
+    <columns>URL__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Response_Body__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>URL__c</field>
+        <operation>contains</operation>
+        <value>ViaSatInc</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Fail</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/28/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>notEqual</operation>
+        <value>BillFlex User</value>
+    </filters>
+    <label>ViaSat (Failure) OGM</label>
+</ListView>

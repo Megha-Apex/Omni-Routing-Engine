@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Local_Create_Datetime__c</fullName>
+    <description>Show UTC Create Date/Time based on Address States for its time zone</description>
+    <externalId>false</externalId>
+    <formula>TEXT(CASE((State),
+&quot;NL&quot;,CreatedDate +(-210/1440),
+&quot;NS&quot;,CreatedDate +(-240/1440),
+&quot;IN:FL:CT:DE:DC:GA:ME:MD:MA:NH:NJ:NY:NC:OH:PA:RI:SC:VT:VA:WV:ON:QC&quot;,CreatedDate +(-300/1440),
+&quot;SD:ND:TX:AL:AR:IL:IA:KS:LA:MN:MS:MO:OK:WI:MB&quot;,CreatedDate +(-360/1440),
+&quot;SK&quot;,CreatedDate +(-360/1440),
+&quot;ID:CO:MT:NM:UT:WY:AB&quot;,CreatedDate +(-420/1440),
+&quot;AZ&quot;,CreatedDate+(-360/1440),
+&quot;OR:CA:NV:WA:BC&quot;,CreatedDate +(-480/1440),
+&quot;AK&quot;,CreatedDate +(-540 /1440),
+&quot;HI&quot;,CreatedDate +(-600/1440),
+CreatedDate
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Show UTC Create Date based on Address States for its time zone</inlineHelpText>
+    <label>Local Create Datetime</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Routing_Rule_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Routing Rule Group</label>
+    <referenceTo>Routing_Rule_Group__c</referenceTo>
+    <relationshipLabel>Routing Rules</relationshipLabel>
+    <relationshipName>Routing_Rules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

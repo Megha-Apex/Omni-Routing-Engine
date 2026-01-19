@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resource_Type__c</fullName>
+    <label>Resource Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Contract_ID__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Area Manager</fullName>
+                <default>false</default>
+                <label>Area Manager</label>
+            </value>
+            <value>
+                <fullName>BIR Internal</fullName>
+                <default>false</default>
+                <label>BIR Internal</label>
+            </value>
+            <value>
+                <fullName>FLM Internal</fullName>
+                <default>false</default>
+                <label>FLM Internal</label>
+            </value>
+            <value>
+                <fullName>BIR Contractor</fullName>
+                <default>false</default>
+                <label>BIR Contractor</label>
+            </value>
+            <value>
+                <fullName>FLM Contractor</fullName>
+                <default>false</default>
+                <label>FLM Contractor</label>
+            </value>
+            <value>
+                <fullName>FTE to Contractor</fullName>
+                <default>false</default>
+                <label>FTE to Contractor</label>
+            </value>
+            <value>
+                <fullName>Contractor to FTE</fullName>
+                <default>false</default>
+                <label>Contractor to FTE</label>
+            </value>
+            <value>
+                <fullName>BIR Employee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BIR Employee</label>
+            </value>
+            <value>
+                <fullName>BTV Contractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BTV Contractor</label>
+            </value>
+            <value>
+                <fullName>BTV Employee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BTV Employee</label>
+            </value>
+            <value>
+                <fullName>EF&amp;I Contractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EF&amp;I Contractor</label>
+            </value>
+            <value>
+                <fullName>EF&amp;I Employee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EF&amp;I Employee</label>
+            </value>
+            <value>
+                <fullName>FLM Employee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FLM Employee</label>
+            </value>
+            <value>
+                <fullName>Falcon Contractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Falcon Contractor</label>
+            </value>
+            <value>
+                <fullName>Falcon Employee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Falcon Employee</label>
+            </value>
+            <value>
+                <fullName>Ledcor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ledcor</label>
+            </value>
+            <value>
+                <fullName>Rogers Drops Contractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rogers Drops Contractor</label>
+            </value>
+            <value>
+                <fullName>Rogers Drops Employee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rogers Drops Employee</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Business IR CAN</controllingFieldValue>
+            <controllingFieldValue>Business IR USA</controllingFieldValue>
+            <valueName>BIR Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business IR CAN</controllingFieldValue>
+            <controllingFieldValue>Business IR USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse CAN</controllingFieldValue>
+            <valueName>BIR Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business IR CAN</controllingFieldValue>
+            <controllingFieldValue>Business IR USA</controllingFieldValue>
+            <controllingFieldValue>FLM CAN</controllingFieldValue>
+            <controllingFieldValue>FLM USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse CAN</controllingFieldValue>
+            <valueName>FTE to Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business IR CAN</controllingFieldValue>
+            <controllingFieldValue>Business IR USA</controllingFieldValue>
+            <controllingFieldValue>FLM CAN</controllingFieldValue>
+            <controllingFieldValue>FLM USA</controllingFieldValue>
+            <valueName>Contractor to FTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLM CAN</controllingFieldValue>
+            <controllingFieldValue>FLM USA</controllingFieldValue>
+            <valueName>FLM Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLM CAN</controllingFieldValue>
+            <controllingFieldValue>FLM USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse CAN</controllingFieldValue>
+            <valueName>FLM Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Warehouse USA</controllingFieldValue>
+            <controllingFieldValue>Warehouse CAN</controllingFieldValue>
+            <valueName>Area Manager</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spectrum_Jobs</fullName>
+    <columns>Sub_Customer_Name__c</columns>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>Reference2__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>LocalArrivalEnd__c</columns>
+    <columns>LocalScheduledStart__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>CITY</columns>
+    <columns>STATE</columns>
+    <columns>Service_Type__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Open_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>Spectrum Voip</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Open,01 Open,Tentative,Dispatched,03 Dispatched,Rejected,Accepted,05 Accepted,Enroute,06 Enroute,On-Site,07 On-Site,Off-Site,08 Off-Site,Field Complete,09 Field Complete,Field Incompleted,10 Field Incompleted</value>
+    </filters>
+    <label>Spectrum Jobs</label>
+</ListView>

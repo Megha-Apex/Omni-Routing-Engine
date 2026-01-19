@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThirdParty_Ladder_Inspected__c</fullName>
+    <description>Have you personally inspected the Third-Party Ladder from top to bottom for defects or weaknesses? (Consider: top caps, rails, rungs/steps, check for cracks, bends, damage; locking mechanism and strand hooks on extension ladders; spreader bars and hinges on step ladders; rivets, bolts; and finally, feet/bases for damage or wear.)&quot;?</description>
+    <label>ThirdParty Ladder Inspected</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

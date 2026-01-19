@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ticket_History_Updated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Custom field to be updated if Ticket History Field and Files have been updated via flow.</description>
+    <label>Ticket History Updated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

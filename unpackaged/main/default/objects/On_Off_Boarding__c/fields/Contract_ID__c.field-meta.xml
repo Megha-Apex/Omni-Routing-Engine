@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_ID__c</fullName>
+    <label>Contract ID</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business IR CAN</fullName>
+                <default>false</default>
+                <label>Business IR CAN</label>
+            </value>
+            <value>
+                <fullName>Business IR USA</fullName>
+                <default>false</default>
+                <label>Business IR USA</label>
+            </value>
+            <value>
+                <fullName>FLM CAN</fullName>
+                <default>false</default>
+                <label>FLM CAN</label>
+            </value>
+            <value>
+                <fullName>FLM USA</fullName>
+                <default>false</default>
+                <label>FLM USA</label>
+            </value>
+            <value>
+                <fullName>Warehouse USA</fullName>
+                <default>false</default>
+                <label>Warehouse USA</label>
+            </value>
+            <value>
+                <fullName>Warehouse CAN</fullName>
+                <default>false</default>
+                <label>Warehouse CAN</label>
+            </value>
+            <value>
+                <fullName>EF&amp;I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EF&amp;I</label>
+            </value>
+            <value>
+                <fullName>Falcon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Falcon</label>
+            </value>
+            <value>
+                <fullName>Outside Build</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Outside Build</label>
+            </value>
+            <value>
+                <fullName>Select item 4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Select item 4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

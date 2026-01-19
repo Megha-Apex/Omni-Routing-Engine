@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>API_Clone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCLONE(),
+AND(
+Account.Is_API__c = TRUE,
+AND(
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Customer Admin BIR CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Customer Admin BIR USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Customer Admin FLM CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Customer Admin FLM USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Training - BIR CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Training - BIR USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Training - FLM CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Non-Billable Training - FLM USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Part Pick Up - BIR CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Part Pick Up - BIR USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Part Pick-Up - FLM CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;Part Pick-Up - FLM USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;RMA Drop Off - BIR CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;RMA Drop Off - BIR USA&#39;,
+Service_Type__r.Name &lt;&gt; &#39;RMA Drop Off - FLM CAN&#39;,
+Service_Type__r.Name &lt;&gt; &#39;RMA Drop Off - FLM USA&#39;
+)
+)
+)</errorConditionFormula>
+    <errorMessage>You can&#39;t clone this type of Work Order. Customer is API.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Unavailable - Off Call</fullName>
+        <default>true</default>
+        <label>Unavailable - Off Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vacation</fullName>
+        <default>false</default>
+        <label>Vacation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sick CDN - Paid</fullName>
+        <default>false</default>
+        <label>Sick CDN - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sick - Unpaid</fullName>
+        <default>false</default>
+        <label>Sick - Unpaid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sick USA - Paid</fullName>
+        <default>false</default>
+        <label>Sick USA - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unpaid Time Off</fullName>
+        <default>false</default>
+        <label>Unpaid Time Off</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acting Supervisor - Paid</fullName>
+        <default>false</default>
+        <label>Acting Supervisor - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Admin - Paid</fullName>
+        <default>false</default>
+        <label>Admin - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vehicle Maintenance - Paid</fullName>
+        <default>false</default>
+        <label>Vehicle Maintenance - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training Classroom - Paid</fullName>
+        <default>false</default>
+        <label>Training Classroom - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training Ride Along - Paid</fullName>
+        <default>false</default>
+        <label>Training Ride Along - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personal Emergency Leave - Paid</fullName>
+        <default>false</default>
+        <label>Personal Emergency Leave - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Personal Emergency Leave - Unpaid</fullName>
+        <default>false</default>
+        <label>Personal Emergency Leave - Unpaid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On Call US Per Day Fixed Rate</fullName>
+        <default>false</default>
+        <label>On Call US Per Day Fixed Rate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On Call US - Weekday &amp; Weekend</fullName>
+        <default>false</default>
+        <label>On Call US - Weekday &amp; Weekend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On Call Weekday - Paid CAN</fullName>
+        <default>false</default>
+        <label>On Call Weekday - Paid CAN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On Call Weekend and Holidays - Paid CAN</fullName>
+        <default>false</default>
+        <label>On Call Weekend and Holidays - Paid CAN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assist Time - Paid</fullName>
+        <default>false</default>
+        <label>Assist Time - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bereavement - Paid</fullName>
+        <default>false</default>
+        <label>Bereavement - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Computer Problems - Paid</fullName>
+        <default>false</default>
+        <label>Computer Problems - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EFI Training - ALU EF</fullName>
+        <default>false</default>
+        <label>EFI Training - ALU EF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EFI Training - General EF</fullName>
+        <default>false</default>
+        <label>EFI Training - General EF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EFI Training - Infinera EF</fullName>
+        <default>false</default>
+        <label>EFI Training - Infinera EF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EFI Training - Vzn Turf EF</fullName>
+        <default>false</default>
+        <label>EFI Training - Vzn Turf EF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jury Duty - Paid</fullName>
+        <default>false</default>
+        <label>Jury Duty - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lieu - Paid</fullName>
+        <default>false</default>
+        <label>Lieu - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Light Duties - Paid</fullName>
+        <default>false</default>
+        <label>Light Duties - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Long Term Disability - Unpaid</fullName>
+        <default>false</default>
+        <label>Long Term Disability - Unpaid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maternity Leave USA - Paid</fullName>
+        <default>false</default>
+        <label>Maternity Leave USA - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maternity Leave USA - Unpaid</fullName>
+        <default>false</default>
+        <label>Maternity Leave USA - Unpaid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maternity Paternity Leave CDN - Unpaid</fullName>
+        <default>false</default>
+        <label>Maternity Paternity Leave CDN - Unpaid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting - Paid</fullName>
+        <default>false</default>
+        <label>Meeting - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mentorship - Paid</fullName>
+        <default>false</default>
+        <label>Mentorship - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-Click Redeployment - Paid</fullName>
+        <default>false</default>
+        <label>Non-Click Redeployment - Paid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-Click Redeployment - Unpaid</fullName>
+        <default>false</default>
+        <label>Non-Click Redeployment - Unpaid</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workers Compensation Board - Unpaid</fullName>
+        <default>false</default>
+        <label>Workers Compensation Board - Unpaid</label>
+    </standardValue>
+</StandardValueSet>

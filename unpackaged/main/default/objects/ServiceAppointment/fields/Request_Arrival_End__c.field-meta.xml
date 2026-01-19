@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Arrival_End__c</fullName>
+    <description>Date/time based on Service Appointment requested time zone</description>
+    <inlineHelpText>Date/time based on Service Appointment requested time zone</inlineHelpText>
+    <label>Request Arrival End</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

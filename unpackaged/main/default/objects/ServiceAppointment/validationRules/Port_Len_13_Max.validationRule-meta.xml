@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Port_Len_13_Max</fullName>
+    <active>true</active>
+    <errorConditionFormula>Information01Int__c=0
+||
+Information01Int__c&gt;13</errorConditionFormula>
+    <errorDisplayField>Information01Int__c</errorDisplayField>
+    <errorMessage>Port cannot be more than 13</errorMessage>
+</ValidationRule>

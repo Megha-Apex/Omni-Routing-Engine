@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Hawaiian Time</fullName>
+        <default>false</default>
+        <label>Hawaiian Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Alaska Time</fullName>
+        <default>false</default>
+        <label>Alaska Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Time</fullName>
+        <default>false</default>
+        <label>Pacific Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Arizona Time</fullName>
+        <default>false</default>
+        <label>Arizona Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountain Time</fullName>
+        <default>false</default>
+        <label>Mountain Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Saskatchewan Time</fullName>
+        <default>false</default>
+        <label>Saskatchewan Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Time</fullName>
+        <default>false</default>
+        <label>Central Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Eastern Time</fullName>
+        <default>false</default>
+        <label>Eastern Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantic Time</fullName>
+        <default>false</default>
+        <label>Atlantic Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Newfoundland Time</fullName>
+        <default>false</default>
+        <label>Newfoundland Time</label>
+    </customValue>
+    <customValue>
+        <fullName>GMT/UTC</fullName>
+        <default>false</default>
+        <label>GMT/UTC</label>
+    </customValue>
+    <masterLabel>Request Time Zone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

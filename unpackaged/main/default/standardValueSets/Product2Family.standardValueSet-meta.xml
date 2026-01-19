@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Router</fullName>
+        <default>false</default>
+        <label>Router</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Modem</fullName>
+        <default>false</default>
+        <label>Modem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Access Point</fullName>
+        <default>false</default>
+        <label>Access Point</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Kit</fullName>
+        <default>false</default>
+        <label>Kit</label>
+    </standardValue>
+</StandardValueSet>

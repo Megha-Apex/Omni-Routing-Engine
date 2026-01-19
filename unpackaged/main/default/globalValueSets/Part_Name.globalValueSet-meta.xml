@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 20DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 20DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 1DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 1DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 17DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 17DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 15DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 15DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 14DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 14DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 13DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 13DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 12DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 12DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 11DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 11DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 10DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 10DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 9DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 9DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 8DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 8DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 7DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 7DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 6DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 6DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 5DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 5DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 4DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 4DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 3DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 3DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 2DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 2DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, LC/UPC, 1310/1550, 19DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, LC/UPC, 1310/1550, 19DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 4DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 4DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 20DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 20DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 19DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 19DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 18DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 18DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 17DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 17DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 16DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 16DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 15DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 15DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 13DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 13DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 12DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 12DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 11DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 11DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 10DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 10DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 9DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 9DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 8DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 8DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 7DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 7DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 6DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 6DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 3DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 3DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 2DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 2DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 5DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 5DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Singlemode Attenuator, SC/UPC, 1310/1550, 1DB</fullName>
+        <default>false</default>
+        <label>Singlemode Attenuator, SC/UPC, 1310/1550, 1DB</label>
+    </customValue>
+    <customValue>
+        <fullName>Cat5e, 4 pair, 24 awg, Snagless Boot - 3ft -</fullName>
+        <default>false</default>
+        <label>Cat5e, 4 pair, 24 awg, Snagless Boot - 3ft -</label>
+    </customValue>
+    <customValue>
+        <fullName>Cat5e, 4 pair, 24 awg, Snagless Boot - 5ft -</fullName>
+        <default>false</default>
+        <label>Cat5e, 4 pair, 24 awg, Snagless Boot - 5ft -</label>
+    </customValue>
+    <customValue>
+        <fullName>Cat5e, 4 pair, 24 awg, Snagless Boot - 7ft -</fullName>
+        <default>false</default>
+        <label>Cat5e, 4 pair, 24 awg, Snagless Boot - 7ft -</label>
+    </customValue>
+    <customValue>
+        <fullName>Cat5e, 4 pair, 24 awg, Snagless Boot - 10ft -</fullName>
+        <default>false</default>
+        <label>Cat5e, 4 pair, 24 awg, Snagless Boot - 10ft -</label>
+    </customValue>
+    <customValue>
+        <fullName>Cat5e, 4 pair, 24 awg, Snagless Boot - 15ft -</fullName>
+        <default>false</default>
+        <label>Cat5e, 4 pair, 24 awg, Snagless Boot - 15ft -</label>
+    </customValue>
+    <customValue>
+        <fullName>CAT 5e U/UTP Solid Riser CMR Cable, 1000 FT Pull Box -</fullName>
+        <default>false</default>
+        <label>CAT 5e U/UTP Solid Riser CMR Cable, 1000 FT Pull Box -</label>
+    </customValue>
+    <customValue>
+        <fullName>RJ45 8 Conductor Surface 2-port Mount Box (biscuit jack)</fullName>
+        <default>false</default>
+        <label>RJ45 8 Conductor Surface 2-port Mount Box (biscuit jack)</label>
+    </customValue>
+    <customValue>
+        <fullName>RJ45 Connectors</fullName>
+        <default>false</default>
+        <label>RJ45 Connectors</label>
+    </customValue>
+    <customValue>
+        <fullName>CAT5 Keystone Jack</fullName>
+        <default>false</default>
+        <label>CAT5 Keystone Jack</label>
+    </customValue>
+    <customValue>
+        <fullName>Vericom MKJ5U03669 White CAT5e RJ45 Inline Keystone Coupler</fullName>
+        <default>false</default>
+        <label>Vericom MKJ5U03669 White CAT5e RJ45 Inline Keystone Coupler</label>
+    </customValue>
+    <customValue>
+        <fullName>Port Keystone Single Gang Wall Plate</fullName>
+        <default>false</default>
+        <label>Port Keystone Single Gang Wall Plate</label>
+    </customValue>
+    <customValue>
+        <fullName>RJ45 8 Conductor Surface 1-port Mount Box (biscuit jack)</fullName>
+        <default>false</default>
+        <label>RJ45 8 Conductor Surface 1-port Mount Box (biscuit jack)</label>
+    </customValue>
+    <customValue>
+        <fullName>CAT 5e U/UTP Plenum Rated CMP Cable, 1000 FT Pull Box -</fullName>
+        <default>false</default>
+        <label>CAT 5e U/UTP Plenum Rated CMP Cable, 1000 FT Pull Box -</label>
+    </customValue>
+    <customValue>
+        <fullName>One-Click Fiber Cleaner for SC, ST, and FC Connectors</fullName>
+        <default>false</default>
+        <label>One-Click Fiber Cleaner for SC, ST, and FC Connectors</label>
+    </customValue>
+    <customValue>
+        <fullName>One-Click Fiber Cleaner for LC &amp; MU Connectors</fullName>
+        <default>false</default>
+        <label>One-Click Fiber Cleaner for LC &amp; MU Connectors</label>
+    </customValue>
+    <customValue>
+        <fullName>AFL 8500-10-0012MZ Blue Replacement Cletop Tape</fullName>
+        <default>false</default>
+        <label>AFL 8500-10-0012MZ Blue Replacement Cletop Tape</label>
+    </customValue>
+    <customValue>
+        <fullName>CLETOP, CONNECTOR CLEANER, ORIGINAL SERIES, TYPE A, WHITE TAPE</fullName>
+        <default>false</default>
+        <label>CLETOP, CONNECTOR CLEANER, ORIGINAL SERIES, TYPE A, WHITE TAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>AFL 8500-05-0030MZ One-Click Fiber Cleaner For MPO And MTP Connectors</fullName>
+        <default>false</default>
+        <label>AFL 8500-05-0030MZ One-Click Fiber Cleaner For MPO And MTP Connectors</label>
+    </customValue>
+    <customValue>
+        <fullName>012 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>012 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>011 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>011 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>010 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>010 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>009 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>009 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>008 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>008 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>007 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>007 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>006 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>006 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>005 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>005 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>004 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>004 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>003 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>003 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>002 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>002 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>00.5 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>00.5 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>020 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>020 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>017 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>017 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>019 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>019 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>010 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>010 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>011 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>011 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>012 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>012 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>013 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>013 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>014 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>014 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>015 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>015 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>016 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>016 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>009 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>009 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>008 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>008 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>007 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>007 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>006 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>006 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>005 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>005 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>004 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>004 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>003 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>003 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>002 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>002 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>00.5 METER Simplex LC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>00.5 METER Simplex LC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>020 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>020 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>017 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>017 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>019 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>019 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>010 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>010 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>011 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>011 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>014 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>014 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>015 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>015 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>016 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>016 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>009 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>009 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>008 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>008 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>007 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>007 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>006 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>006 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>005 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>005 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>004 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>004 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>003 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>003 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>002 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>002 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>00.5 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>00.5 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>012 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>012 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>013 METER Simplex LC/LC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>013 METER Simplex LC/LC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>020 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>020 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>018 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>018 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>017 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>017 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>016 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>016 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>015 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>015 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>014 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>014 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>013 METER Simplex SC/SC, M Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>013 METER Simplex SC/SC, M Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>019 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>019 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>00.5 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>00.5 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>011 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>011 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>012 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>012 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>013 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>013 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>014 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>014 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>015 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>015 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>016 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>016 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>009 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>009 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>008 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>008 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>007 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>007 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>006 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>006 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>005 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>005 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>004 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>004 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>003 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>003 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>002 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>002 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>00.5 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>00.5 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>020 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>020 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>017 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>017 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>019 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>019 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>010 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>010 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>011 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>011 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>012 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>012 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>013 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>013 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>014 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>014 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>015 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>015 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>016 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>016 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>020 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>020 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>017 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>017 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>009 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>009 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>008 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>008 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>007 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>007 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>006 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>006 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>005 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>005 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>004 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>004 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>003 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>003 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>002 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>002 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>00.5 METER Simplex LC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>00.5 METER Simplex LC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>020 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>020 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>017 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>017 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>019 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>019 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>010 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>010 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>011 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>011 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>012 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>012 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>013 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>013 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>014 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>014 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>015 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>015 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>016 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>016 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>009 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>009 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>008 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>008 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>007 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>007 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>006 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>006 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>005 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>005 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>004 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>004 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>003 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>003 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>002 METER Simplex LC/LC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>002 METER Simplex LC/LC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>010 METER Simplex SC/SC, Single Mode 2.0mm</fullName>
+        <default>false</default>
+        <label>010 METER Simplex SC/SC, Single Mode 2.0mm</label>
+    </customValue>
+    <customValue>
+        <fullName>P-TouchÃ‚Â® Label Tape, 1/4&quot; Black on White</fullName>
+        <default>false</default>
+        <label>P-TouchÃ‚Â® Label Tape, 1/4&quot; Black on White</label>
+    </customValue>
+    <customValue>
+        <fullName>P-TouchÃ‚Â® Label Tape, 3/4&quot; Black on White</fullName>
+        <default>false</default>
+        <label>P-TouchÃ‚Â® Label Tape, 3/4&quot; Black on White</label>
+    </customValue>
+    <customValue>
+        <fullName>P-TouchÃ‚Â® Label Tape, 1/2&quot; Black on White</fullName>
+        <default>false</default>
+        <label>P-TouchÃ‚Â® Label Tape, 1/2&quot; Black on White</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Tie, 8in, 40LB, GRAY</fullName>
+        <default>false</default>
+        <label>Cable Tie, 8in, 40LB, GRAY</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Tie, 8in, 40LB, NATURAL</fullName>
+        <default>false</default>
+        <label>Cable Tie, 8in, 40LB, NATURAL</label>
+    </customValue>
+    <customValue>
+        <fullName>4&quot; Miniature Flag Cable Ties (18 lb.)</fullName>
+        <default>false</default>
+        <label>4&quot; Miniature Flag Cable Ties (18 lb.)</label>
+    </customValue>
+    <customValue>
+        <fullName>ACT AL-17-50-0-C Black Standard Cable Ties 17-Inch</fullName>
+        <default>false</default>
+        <label>ACT AL-17-50-0-C Black Standard Cable Ties 17-Inch</label>
+    </customValue>
+    <customValue>
+        <fullName>Rip-Tie (velcro) 1/2&quot; W-75-1RL-BK 75-Foot Black Wrapstrap Roll</fullName>
+        <default>false</default>
+        <label>Rip-Tie (velcro) 1/2&quot; W-75-1RL-BK 75-Foot Black Wrapstrap Roll</label>
+    </customValue>
+    <customValue>
+        <fullName>Rip-Tie (velcro) 3/4&quot; W-75-1RL-BK 75-Foot Black Wrapstrap Roll</fullName>
+        <default>false</default>
+        <label>Rip-Tie (velcro) 3/4&quot; W-75-1RL-BK 75-Foot Black Wrapstrap Roll</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Tie, 8in, 40LB, RED</fullName>
+        <default>false</default>
+        <label>Cable Tie, 8in, 40LB, RED</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Tie, 8in, 40LB, GREEN</fullName>
+        <default>false</default>
+        <label>Cable Tie, 8in, 40LB, GREEN</label>
+    </customValue>
+    <customValue>
+        <fullName>5&quot; Miniature Cable Ties (18 lb.) (Natural)</fullName>
+        <default>false</default>
+        <label>5&quot; Miniature Cable Ties (18 lb.) (Natural)</label>
+    </customValue>
+    <customValue>
+        <fullName>5&quot; Miniature Cable Ties (18 lb.) (Black)</fullName>
+        <default>false</default>
+        <label>5&quot; Miniature Cable Ties (18 lb.) (Black)</label>
+    </customValue>
+    <customValue>
+        <fullName>8&quot; Miniature Cable Ties (18 lb.) (Natural)</fullName>
+        <default>false</default>
+        <label>8&quot; Miniature Cable Ties (18 lb.) (Natural)</label>
+    </customValue>
+    <customValue>
+        <fullName>8&quot; Miniature Cable Ties (18 lb.) (Black)</fullName>
+        <default>false</default>
+        <label>8&quot; Miniature Cable Ties (18 lb.) (Black)</label>
+    </customValue>
+    <customValue>
+        <fullName>Cable Tie, 8in, 40LB, BROWN</fullName>
+        <default>false</default>
+        <label>Cable Tie, 8in, 40LB, BROWN</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuse, 20AMP GMT Type</fullName>
+        <default>false</default>
+        <label>Fuse, 20AMP GMT Type</label>
+    </customValue>
+    <customValue>
+        <fullName>145-P TAG</fullName>
+        <default>false</default>
+        <label>145-P TAG</label>
+    </customValue>
+    <customValue>
+        <fullName>FISH PAPER PRECUT, .010 MIL, 10&quot; X 24&quot;   EA.</fullName>
+        <default>false</default>
+        <label>FISH PAPER PRECUT, .010 MIL, 10&quot; X 24&quot;   EA.</label>
+    </customValue>
+    <customValue>
+        <fullName>NO-OX-ID 8 Oz Tube of &quot;A-Special&quot; Grease Compound</fullName>
+        <default>false</default>
+        <label>NO-OX-ID 8 Oz Tube of &quot;A-Special&quot; Grease Compound</label>
+    </customValue>
+    <customValue>
+        <fullName>LABEL, RIBBON CARTRIDGE - BLACK, VINYL LABELS</fullName>
+        <default>false</default>
+        <label>LABEL, RIBBON CARTRIDGE - BLACK, VINYL LABELS</label>
+    </customValue>
+    <customValue>
+        <fullName>LABEL, CONTINUOUS ROLL POLYESTER (1&quot;x 50FT ROLL)</fullName>
+        <default>false</default>
+        <label>LABEL, CONTINUOUS ROLL POLYESTER (1&quot;x 50FT ROLL)</label>
+    </customValue>
+    <customValue>
+        <fullName>POWER WIRE, 10 AWG, KS24194, L3, COTTON BRAID, RED</fullName>
+        <default>false</default>
+        <label>POWER WIRE, 10 AWG, KS24194, L3, COTTON BRAID, RED</label>
+    </customValue>
+    <customValue>
+        <fullName>POWER WIRE, 10 AWG, KS24194, L3, BLACK, COTTON BRAID</fullName>
+        <default>false</default>
+        <label>POWER WIRE, 10 AWG, KS24194, L3, BLACK, COTTON BRAID</label>
+    </customValue>
+    <customValue>
+        <fullName>Power, 22 AWG Black Hook-Up Wire, Solid, Tinned Copper</fullName>
+        <default>false</default>
+        <label>Power, 22 AWG Black Hook-Up Wire, Solid, Tinned Copper</label>
+    </customValue>
+    <customValue>
+        <fullName>Power, 22 AWG Red Hook-Up Wire, Solid, Tinned Copper</fullName>
+        <default>false</default>
+        <label>Power, 22 AWG Red Hook-Up Wire, Solid, Tinned Copper</label>
+    </customValue>
+    <customValue>
+        <fullName>Power, 14 AWG Black (KS24194 L3)</fullName>
+        <default>false</default>
+        <label>Power, 14 AWG Black (KS24194 L3)</label>
+    </customValue>
+    <customValue>
+        <fullName>Power, 14 AWG, Red (KS24194 L3)</fullName>
+        <default>false</default>
+        <label>Power, 14 AWG, Red (KS24194 L3)</label>
+    </customValue>
+    <customValue>
+        <fullName>14-1C THHN/THWN 19 STR BC 90C 600V RED</fullName>
+        <default>false</default>
+        <label>14-1C THHN/THWN 19 STR BC 90C 600V RED</label>
+    </customValue>
+    <customValue>
+        <fullName>14-1C THHN/THWN 19 STR BC 90C 600V BLK</fullName>
+        <default>false</default>
+        <label>14-1C THHN/THWN 19 STR BC 90C 600V BLK</label>
+    </customValue>
+    <customValue>
+        <fullName>14-1C THHN/THWN 19 STR BC 90C 600V BLU</fullName>
+        <default>false</default>
+        <label>14-1C THHN/THWN 19 STR BC 90C 600V BLU</label>
+    </customValue>
+    <customValue>
+        <fullName>GMT DUMMY FUSE</fullName>
+        <default>false</default>
+        <label>GMT DUMMY FUSE</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuse, 3AMP GMT Type</fullName>
+        <default>false</default>
+        <label>Fuse, 3AMP GMT Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuse, 5AMP GMT Type</fullName>
+        <default>false</default>
+        <label>Fuse, 5AMP GMT Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuse, 7.5AMP GMT Type</fullName>
+        <default>false</default>
+        <label>Fuse, 7.5AMP GMT Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuse, 10AMP GMT Type</fullName>
+        <default>false</default>
+        <label>Fuse, 10AMP GMT Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Fuse, 15AMP GMT Type</fullName>
+        <default>false</default>
+        <label>Fuse, 15AMP GMT Type</label>
+    </customValue>
+    <customValue>
+        <fullName>Power, #6 AWG Black Hook-Up Wire, Solid, Tinned Copper</fullName>
+        <default>false</default>
+        <label>Power, #6 AWG Black Hook-Up Wire, Solid, Tinned Copper</label>
+    </customValue>
+    <customValue>
+        <fullName>18-14 AWG RING TERMINAL, #6 HL, VINYL INS 600V, STA-KON</fullName>
+        <default>false</default>
+        <label>18-14 AWG RING TERMINAL, #6 HL, VINYL INS 600V, STA-KON</label>
+    </customValue>
+    <customValue>
+        <fullName>12-10 AWG Ring Tongue Lug, #6 Stud, Sta-Kon, PVC Insulation, Yellow</fullName>
+        <default>false</default>
+        <label>12-10 AWG Ring Tongue Lug, #6 Stud, Sta-Kon, PVC Insulation, Yellow</label>
+    </customValue>
+    <customValue>
+        <fullName>12-10 AWG RING TERMINAL, #8 HL, VINYL INS 600V, STA-KON</fullName>
+        <default>false</default>
+        <label>12-10 AWG RING TERMINAL, #8 HL, VINYL INS 600V, STA-KON</label>
+    </customValue>
+    <customValue>
+        <fullName>12-10 AWG RING TERMINAL, #10 HL, VINYL INS 600V, STA-KON</fullName>
+        <default>false</default>
+        <label>12-10 AWG RING TERMINAL, #10 HL, VINYL INS 600V, STA-KON</label>
+    </customValue>
+    <customValue>
+        <fullName>12-10 AWG RING TERMINAL, 1/4&quot; HL, VINYL INS 600V, STA-KON</fullName>
+        <default>false</default>
+        <label>12-10 AWG RING TERMINAL, 1/4&quot; HL, VINYL INS 600V, STA-KON</label>
+    </customValue>
+    <customValue>
+        <fullName>16-14 AWG Ring Lug, #8-10 Stud, Blue</fullName>
+        <default>false</default>
+        <label>16-14 AWG Ring Lug, #8-10 Stud, Blue</label>
+    </customValue>
+    <customValue>
+        <fullName>22-18 AWG Ring Lug, #12, 1/4&quot; Stud, Red</fullName>
+        <default>false</default>
+        <label>22-18 AWG Ring Lug, #12, 1/4&quot; Stud, Red</label>
+    </customValue>
+    <customValue>
+        <fullName>22-16 AWG Ring Tongue Lug, #8-10 Stud, Red</fullName>
+        <default>false</default>
+        <label>22-16 AWG Ring Tongue Lug, #8-10 Stud, Red</label>
+    </customValue>
+    <customValue>
+        <fullName>TUBING, HEAT SHRINK 3/8&quot;x 4&#39; CLEAR</fullName>
+        <default>false</default>
+        <label>TUBING, HEAT SHRINK 3/8&quot;x 4&#39; CLEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>Power, #6 AWG Green Hook-Up Wire, Solid, Tinned Copper</fullName>
+        <default>false</default>
+        <label>Power, #6 AWG Green Hook-Up Wire, Solid, Tinned Copper</label>
+    </customValue>
+    <customValue>
+        <fullName>6 Gauge 6 AWG Red Copper Flexible Cable Wire</fullName>
+        <default>false</default>
+        <label>6 Gauge 6 AWG Red Copper Flexible Cable Wire</label>
+    </customValue>
+    <customValue>
+        <fullName>6 Gauge 6 AWG Black Copper Flexible Cable Wire</fullName>
+        <default>false</default>
+        <label>6 Gauge 6 AWG Black Copper Flexible Cable Wire</label>
+    </customValue>
+    <customValue>
+        <fullName>TUBING, HEAT SHRINK 1/2&quot;x 4&#39; CLEAR</fullName>
+        <default>false</default>
+        <label>TUBING, HEAT SHRINK 1/2&quot;x 4&#39; CLEAR</label>
+    </customValue>
+    <customValue>
+        <fullName>TAPE, 3/4&quot;x 66&#39; GRAY ELECTRICAL</fullName>
+        <default>false</default>
+        <label>TAPE, 3/4&quot;x 66&#39; GRAY ELECTRICAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LACING CORD, COATS, 9 PLY WAXED (175 YDS)</fullName>
+        <default>false</default>
+        <label>LACING CORD, COATS, 9 PLY WAXED (175 YDS)</label>
+    </customValue>
+    <customValue>
+        <fullName>LABEL, FLAG TYPE VINYL, SINGLE (1&quot;x 2-1/2&quot; - 100/ROLL)</fullName>
+        <default>false</default>
+        <label>LABEL, FLAG TYPE VINYL, SINGLE (1&quot;x 2-1/2&quot; - 100/ROLL)</label>
+    </customValue>
+    <customValue>
+        <fullName>Energizer 9V 522VP Alkaline Battery</fullName>
+        <default>false</default>
+        <label>Energizer 9V 522VP Alkaline Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>Rayovac AA NEDA-15A Alkaline Battery</fullName>
+        <default>false</default>
+        <label>Rayovac AA NEDA-15A Alkaline Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>Energizer E95 D Alkaline Battery</fullName>
+        <default>false</default>
+        <label>Energizer E95 D Alkaline Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>Energizer C Alkaline Battery (one) E93VP</fullName>
+        <default>false</default>
+        <label>Energizer C Alkaline Battery (one) E93VP</label>
+    </customValue>
+    <customValue>
+        <fullName>Energizer E92VP AAA Alkaline Battery</fullName>
+        <default>false</default>
+        <label>Energizer E92VP AAA Alkaline Battery</label>
+    </customValue>
+    <customValue>
+        <fullName>Energizer E91VP AA Alkaline Battery</fullName>
+        <default>false</default>
+        <label>Energizer E91VP AA Alkaline Battery</label>
+    </customValue>
+    <masterLabel>Part Name</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Message_Type__c</fullName>
+    <label>Message Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Known Message</fullName>
+                <default>false</default>
+                <label>Known Message</label>
+            </value>
+            <value>
+                <fullName>Dynamic Message</fullName>
+                <default>false</default>
+                <label>Dynamic Message</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

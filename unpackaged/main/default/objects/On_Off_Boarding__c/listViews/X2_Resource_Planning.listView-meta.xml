@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2_Resource_Planning</fullName>
+    <columns>NAME</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Hiring_Manager__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>Action__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Company__c</columns>
+    <columns>Workday_Ready__c</columns>
+    <columns>FSL_Training_Scheduled_Date__c</columns>
+    <columns>FSL_Training_Completed__c</columns>
+    <columns>Ball_in_Court__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ball_in_Court__c</field>
+        <operation>equals</operation>
+        <value>Resource Planning</value>
+    </filters>
+    <filters>
+        <field>Action__c</field>
+        <operation>equals</operation>
+        <value>Add,Update,Delete</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>On_Off_Boarding__c.Technician</value>
+    </filters>
+    <label>2 Resource Planning</label>
+    <sharedTo>
+        <role>Dispatch_Manager</role>
+        <role>Resource_Manager</role>
+    </sharedTo>
+</ListView>

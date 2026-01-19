@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ball_in_Court__c</fullName>
+    <label>Ball in Court</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>JDE</fullName>
+                <default>false</default>
+                <label>1 JDE</label>
+            </value>
+            <value>
+                <fullName>Resource Planning</fullName>
+                <default>false</default>
+                <label>2 Resource Planning</label>
+            </value>
+            <value>
+                <fullName>Billflex</fullName>
+                <default>false</default>
+                <label>3 Billflex</label>
+            </value>
+            <value>
+                <fullName>FSL</fullName>
+                <default>false</default>
+                <label>4 FSL</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>5 Pending</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>6 Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

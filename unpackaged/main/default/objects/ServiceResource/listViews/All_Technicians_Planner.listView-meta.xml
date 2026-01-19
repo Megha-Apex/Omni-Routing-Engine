@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Technicians_Planner</fullName>
+    <columns>Name</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>ResourceType</columns>
+    <columns>IsActive</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>RelatedRecord</columns>
+    <columns>Max_Travel_Distance__c</columns>
+    <columns>AreaManager__c</columns>
+    <columns>Safety__c</columns>
+    <columns>Email__c</columns>
+    <columns>Description</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Technicians (Planner)</label>
+    <sharedTo>
+        <group>Planner_Access</group>
+    </sharedTo>
+</ListView>

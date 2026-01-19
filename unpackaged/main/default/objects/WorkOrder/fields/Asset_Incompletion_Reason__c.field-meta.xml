@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Incompletion_Reason__c</fullName>
+    <label>Asset Incompletion Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset not found in storage</fullName>
+                <default>false</default>
+                <label>Asset not found in storage</label>
+            </value>
+            <value>
+                <fullName>Asset not needed – returned to storage</fullName>
+                <default>false</default>
+                <label>Asset not needed – returned to storage</label>
+            </value>
+            <value>
+                <fullName>Asset not used – engineer decision</fullName>
+                <default>false</default>
+                <label>Asset not used – engineer decision</label>
+            </value>
+            <value>
+                <fullName>Asset not used – found faulty</fullName>
+                <default>false</default>
+                <label>Asset not used – found faulty</label>
+            </value>
+            <value>
+                <fullName>Asset not used – wrong type</fullName>
+                <default>false</default>
+                <label>Asset not used – wrong type</label>
+            </value>
+            <value>
+                <fullName>Customer didn’t provide asset</fullName>
+                <default>false</default>
+                <label>Customer didn’t provide asset</label>
+            </value>
+            <value>
+                <fullName>Issue traced to incoming circuit</fullName>
+                <default>false</default>
+                <label>Issue traced to incoming circuit</label>
+            </value>
+            <value>
+                <fullName>No access to replacement location</fullName>
+                <default>false</default>
+                <label>No access to replacement location</label>
+            </value>
+            <value>
+                <fullName>No part required – issue resolved</fullName>
+                <default>false</default>
+                <label>No part required – issue resolved</label>
+            </value>
+            <value>
+                <fullName>Spare not on hand</fullName>
+                <default>false</default>
+                <label>Spare not on hand</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>ABC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ABC</label>
+            </value>
+            <value>
+                <fullName>No Asset</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Asset</label>
+            </value>
+            <value>
+                <fullName>XYZ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XYZ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

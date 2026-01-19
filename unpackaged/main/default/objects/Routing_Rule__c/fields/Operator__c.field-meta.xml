@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operator__c</fullName>
+    <label>Operator</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contains</fullName>
+                <default>false</default>
+                <label>Contains</label>
+            </value>
+            <value>
+                <fullName>Equals</fullName>
+                <default>false</default>
+                <label>Equals</label>
+            </value>
+            <value>
+                <fullName>Starts With</fullName>
+                <default>false</default>
+                <label>Starts With</label>
+            </value>
+            <value>
+                <fullName>Does Not Contain</fullName>
+                <default>false</default>
+                <label>Does Not Contain</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

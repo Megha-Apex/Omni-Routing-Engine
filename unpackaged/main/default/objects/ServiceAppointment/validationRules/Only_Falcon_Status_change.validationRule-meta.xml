@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Falcon_Status_change</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT(PRIORVALUE(Status)) = &#39;Accepted&#39;
+&amp;&amp;
+TEXT(Status) = &#39;Off-Site&#39;
+&amp;&amp;
+Is_Falcon__c = False</errorConditionFormula>
+    <errorMessage>You can only change the status from Accepted to Off-Site for Falcon sub customers</errorMessage>
+</ValidationRule>

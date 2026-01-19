@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zayo_ILA_on_Hold</fullName>
+    <columns>CreatedDate</columns>
+    <columns>Name</columns>
+    <columns>SiteID__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Reference2__c</columns>
+    <columns>SLA__c</columns>
+    <columns>Status</columns>
+    <columns>Site_Access_Approved__c</columns>
+    <columns>Vendor_Status__c</columns>
+    <columns>Short_Description__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reference1__c</field>
+        <operation>equals</operation>
+        <value>US-1004892</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>On Hold</value>
+    </filters>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>contains</operation>
+        <value>Chris</value>
+    </filters>
+    <label>Zayo ILA on Hold</label>
+    <sharedTo>
+        <group>Dispatcher_Group</group>
+    </sharedTo>
+</ListView>

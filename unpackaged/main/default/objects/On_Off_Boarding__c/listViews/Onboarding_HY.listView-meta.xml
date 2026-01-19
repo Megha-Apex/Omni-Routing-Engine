@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_HY</fullName>
+    <columns>NAME</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>Hiring_Manager__c</columns>
+    <columns>City__c</columns>
+    <columns>State_Prov__c</columns>
+    <columns>Email_Address__c</columns>
+    <columns>Alt_Email__c</columns>
+    <columns>FSL_BillFlex_Username__c</columns>
+    <columns>Company__c</columns>
+    <columns>Time_Zone_Code__c</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Ball_in_Court__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ball_in_Court__c</field>
+        <operation>equals</operation>
+        <value>JDE,Resource Planning,Billflex</value>
+    </filters>
+    <filters>
+        <field>Start_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>On_Off_Boarding__c.Technician</value>
+    </filters>
+    <label>Onboarding - Pending</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

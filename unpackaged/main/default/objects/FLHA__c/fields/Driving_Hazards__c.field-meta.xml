@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Driving_Hazards__c</fullName>
+    <label>Driving Hazards</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Traffic Congestion</fullName>
+                <default>false</default>
+                <label>Traffic Congestion</label>
+            </value>
+            <value>
+                <fullName>Hit By Passing Vehicle While Parked</fullName>
+                <default>false</default>
+                <label>Hit By Passing Vehicle While Parked</label>
+            </value>
+            <value>
+                <fullName>Driving Distractions</fullName>
+                <default>false</default>
+                <label>Driving Distractions</label>
+            </value>
+            <value>
+                <fullName>Contact with structures or obstacles while moving the vehicle.</fullName>
+                <default>false</default>
+                <label>Contact with structures or obstacles while moving the vehicle.</label>
+            </value>
+            <value>
+                <fullName>Sunlight Glare</fullName>
+                <default>false</default>
+                <label>Sunlight Glare</label>
+            </value>
+            <value>
+                <fullName>Poor Road Conditions</fullName>
+                <default>false</default>
+                <label>Poor Road Conditions</label>
+            </value>
+            <value>
+                <fullName>Poor Weather Conditions</fullName>
+                <default>false</default>
+                <label>Poor Weather Conditions</label>
+            </value>
+            <value>
+                <fullName>Theft/Damage In Unsecured Parking</fullName>
+                <default>false</default>
+                <label>Theft/Damage In Unsecured Parking</label>
+            </value>
+            <value>
+                <fullName>Poorly Lit Area</fullName>
+                <default>false</default>
+                <label>Poorly Lit Area</label>
+            </value>
+            <value>
+                <fullName>Assets In Visible Sight Lines</fullName>
+                <default>false</default>
+                <label>Assets In Visible Sight Lines</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

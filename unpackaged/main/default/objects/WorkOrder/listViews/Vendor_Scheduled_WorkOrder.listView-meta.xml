@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Scheduled_WorkOrder</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <filterScope>Queue</filterScope>
+    <label>Vendor Scheduled</label>
+    <queue>Vendor_Scheduled</queue>
+    <sharedTo>
+        <group>Dispatcher_Group</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThirdParty_Ladder_Used__c</fullName>
+    <description>Will you be using a Third-Party Ladder on this job?</description>
+    <label>ThirdParty Ladder Used</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

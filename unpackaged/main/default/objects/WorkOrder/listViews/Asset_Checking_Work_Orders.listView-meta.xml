@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Checking_Work_Orders</fullName>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>SLA__c</columns>
+    <columns>Bill_to_Customer__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Requestor_Name__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>SiteID__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>ZIP</columns>
+    <columns>STATE</columns>
+    <columns>COUNTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>On Hold,Open</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterThan</operation>
+        <value>3/17/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Asset</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Asset Checking -  Work Orders</label>
+</ListView>

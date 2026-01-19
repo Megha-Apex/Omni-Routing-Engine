@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Missed_Team_Lead</fullName>
+    <columns>Name</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>EngineerType__c</columns>
+    <columns>ContractID__c</columns>
+    <columns>AreaManager__c</columns>
+    <columns>Area_Manager_Filter__c</columns>
+    <columns>Region__c</columns>
+    <columns>Team_Lead__c</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Team_Lead__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>ContractID__c</field>
+        <operation>contains</operation>
+        <value>USA</value>
+    </filters>
+    <label>Tech Missed Team Lead</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

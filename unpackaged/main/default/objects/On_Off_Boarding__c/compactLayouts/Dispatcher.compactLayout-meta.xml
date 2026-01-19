@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispatcher</fullName>
+    <fields>Name</fields>
+    <fields>Full_Name__c</fields>
+    <fields>LOC_Supervisor__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Request_Date__c</fields>
+    <fields>Completed__c</fields>
+    <fields>Action__c</fields>
+    <fields>User__c</fields>
+    <label>Dispatcher</label>
+</CompactLayout>

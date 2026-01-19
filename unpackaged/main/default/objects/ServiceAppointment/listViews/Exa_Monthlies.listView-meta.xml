@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exa_Monthlies</fullName>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>LatestEndTime</columns>
+    <columns>COUNTRY</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>EstDuration</columns>
+    <columns>FSL__Pinned__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer__c</field>
+        <operation>contains</operation>
+        <value>Interoute</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Open,01 Open,Tentative</value>
+    </filters>
+    <label>Exa Monthlies</label>
+</ListView>

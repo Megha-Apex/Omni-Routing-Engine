@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Type</fullName>
+    <active>true</active>
+    <label>Job Type</label>
+    <picklistValues>
+        <picklist>Duration_in__c</picklist>
+        <values>
+            <fullName>Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minutes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Guided_Selection__c</picklist>
+        <values>
+            <fullName>Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inside Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locating Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio Frequency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

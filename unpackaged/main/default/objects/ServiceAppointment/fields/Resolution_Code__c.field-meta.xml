@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Code__c</fullName>
+    <label>Resolution Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Managerial Escalation Needed</fullName>
+                <default>false</default>
+                <label>No Managerial Escalation Needed</label>
+            </value>
+            <value>
+                <fullName>Resource Brought From Out Of Territory</fullName>
+                <default>false</default>
+                <label>Resource Brought From Out Of Territory</label>
+            </value>
+            <value>
+                <fullName>Prioritized Over Another Customer</fullName>
+                <default>false</default>
+                <label>Prioritized Over Another Customer</label>
+            </value>
+            <value>
+                <fullName>Managerial Escalation Needed</fullName>
+                <default>false</default>
+                <label>Managerial Escalation Needed</label>
+            </value>
+            <value>
+                <fullName>Director Escalation Needed</fullName>
+                <default>false</default>
+                <label>Director Escalation Needed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

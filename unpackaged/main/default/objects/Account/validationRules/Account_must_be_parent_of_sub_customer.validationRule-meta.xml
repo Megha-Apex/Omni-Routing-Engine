@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_must_be_parent_of_sub_customer</fullName>
+    <active>true</active>
+    <description>Sub Customer Account cannot be created it it&#39;s parent account is not &#39; Account&#39;</description>
+    <errorConditionFormula>AND(RecordType.Name =&quot;Sub Customer&quot;,Parent.RecordType.Name &lt;&gt; &quot;Bill to Customer&quot;)</errorConditionFormula>
+    <errorMessage>Sub Customer cannot be created without a Bill to Customer parent</errorMessage>
+</ValidationRule>

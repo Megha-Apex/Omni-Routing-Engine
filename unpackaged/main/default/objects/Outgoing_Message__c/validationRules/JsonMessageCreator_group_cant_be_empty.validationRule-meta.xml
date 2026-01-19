@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JsonMessageCreator_group_cant_be_empty</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordType.DeveloperName = &#39;Dynamic_Message&#39;,
+  Class_Name__c = &#39;JsonMessageCreator&#39;,
+  ISBLANK( Group__c ),
+  !IsMaster__c 
+)</errorConditionFormula>
+    <errorDisplayField>Group__c</errorDisplayField>
+    <errorMessage>This is a mandatory field in the handler class &#39;JsonMessageCreator&#39;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rogers_WBI_OPEN</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>Reference1__c</columns>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>SiteID__c</columns>
+    <columns>SLA__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Arrival_Window_Start__c</columns>
+    <columns>Arrival_Window_End__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>ZIP</columns>
+    <columns>Short_Description__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>TextAttachments__c</columns>
+    <columns>Requestor_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer__c</field>
+        <operation>contains</operation>
+        <value>Rogers WBI</value>
+    </filters>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>contains</operation>
+        <value>Boomi</value>
+    </filters>
+    <label>Rogers WBI (OPEN)</label>
+</ListView>

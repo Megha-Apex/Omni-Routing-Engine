@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X4_FSL</fullName>
+    <columns>NAME</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Action__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Technician__c</columns>
+    <columns>Hiring_Manager__c</columns>
+    <columns>Region_Old__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>Completed__c</columns>
+    <columns>FSL_User__c</columns>
+    <columns>Permission_Set__c</columns>
+    <columns>Email__c</columns>
+    <columns>Ball_in_Court__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ball_in_Court__c</field>
+        <operation>equals</operation>
+        <value>FSL</value>
+    </filters>
+    <filters>
+        <field>Action__c</field>
+        <operation>equals</operation>
+        <value>Add,Update,Delete</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>On_Off_Boarding__c.Technician</value>
+    </filters>
+    <label>4 FSL</label>
+    <sharedTo>
+        <role>Dispatch_Manager</role>
+        <role>Resource_Manager</role>
+    </sharedTo>
+</ListView>

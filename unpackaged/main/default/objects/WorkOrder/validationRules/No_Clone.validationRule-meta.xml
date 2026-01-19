@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Clone</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ISCLONE(),
+OR(
+Bill_to_Customer__r.Name = &quot;ViaSat Inc&quot;,
+Sub_Customer__r.Name = &quot;Rogers WBI - Install&quot;,
+Sub_Customer__r.Name = &quot;Rogers WBI - Repair&quot;,
+Sub_Customer__r.Name = &quot;Infinera FLM&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>You can&#39;t clone Work Orders for this customer. If you require another Work Order for any reason please contact the customer and they will create a new Work Order for you.</errorMessage>
+</ValidationRule>

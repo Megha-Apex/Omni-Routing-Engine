@@ -1,0 +1,3475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JDE</fullName>
+    <active>false</active>
+    <compactLayoutAssignment>On_Offboarding</compactLayoutAssignment>
+    <label>JDE</label>
+    <picklistValues>
+        <picklist>Action__c</picklist>
+        <values>
+            <fullName>Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ball_in_Court__c</picklist>
+        <values>
+            <fullName>Billflex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Planning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BillFlex_Action__c</picklist>
+        <values>
+            <fullName>Create New Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update Account</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billflex_State__c</picklist>
+        <values>
+            <fullName>Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>De-Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Unit__c</picklist>
+        <values>
+            <fullName>5016100-111-Telus BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5016200-111-Telus AB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5026002-111-BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5026005-111-ON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5047001-217-Kentucky FLM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CDN_BFS_POINT_of_PRESENCE__c</picklist>
+        <values>
+            <fullName>BARRIE ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLEVILLE ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRANDON MB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CALGARY AB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHICOUTIMI QC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDMONTON AB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORT MCMURRAY AB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FREDERICTON NB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GANDER NL POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HALIFAX NS POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAMILTON ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KAMLOOPS BC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KELOWNA BC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KIRKLAND LAKE ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LONDON ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDICINE HAT AB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONCTON NB POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONTRÉAL QC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTTAWA ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEBEC CITY QC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REGINA SK POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SASKATOON SK POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ST%2E JOHN%27S NL POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUDBURY ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>THUNDER BAY ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TORONTO ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VANCOUVER BC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VICTORIA BC POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WINDSOR ON POP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WINNIPEG MB POP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Company__c</picklist>
+        <values>
+            <fullName>%28EFT%29PROTEL INDUSTRIES LTD%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%28EFT%29VIDEOSAT ELECTRONICS INC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COSERVE GLOBAL SOLUTIONS%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIELD NATION LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GCI COMMUNICATION CORP%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GOBALASINGHAM%2C NEETH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSPYR SOLUTIONS LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POZIT TECHNOLOGIES INC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SCANPLUS LOCATING LTD%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WESTPOINT TELECOMMUNICATIONS I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WORK MARKET INC%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_ID__c</picklist>
+        <values>
+            <fullName>Business IR CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business IR USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLM CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLM USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse USA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Department__c</picklist>
+        <values>
+            <fullName>Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Device_Type__c</picklist>
+        <values>
+            <fullName>Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iOS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Eligible_State_Prov__c</picklist>
+        <values>
+            <fullName>AB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL_Resource_Type__c</picklist>
+        <values>
+            <fullName>Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor - BTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ledcor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ledcor - BTV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL_TimeZone__c</picklist>
+        <values>
+            <fullName>America%2FAnchorage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FChicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FDenver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FEl_Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FHalifax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FLos_Angeles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FNew_York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FPhoenix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>America%2FSt_Johns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific%2FHonolulu</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hiring_Manager__c</picklist>
+        <values>
+            <fullName>Arient%2C Jonathan -122877</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bains%2C Rajdeep-462370</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blake%2C Robert D-1139325</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller%2C Robert D - 1097109</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morgan%2C Daniel - 3008831</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Narwal%2C Manoz - 1097538</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singh%2C Jagpreet-3002947</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solis%2C Joel - 1073129</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soueid%2C Talaat M-1071009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swogger%2C Brian L - 341364</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>JDE_Status__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>JDE__c</picklist>
+        <values>
+            <fullName>Added</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Updated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LOC_Supervisor__c</picklist>
+        <values>
+            <fullName>Cannon%2C Christopher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Herbert%2C Jason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jovanovic%2C Tamara</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lane%2C Thomas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Martinelli%2C Laura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Williams%2C Lindsay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LOC_Team__c</picklist>
+        <values>
+            <fullName>CSC - Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSC - Port Moody</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSC - Vancouver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMO - Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMO - Port Moody</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PMO - Vancouver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Max_Travel_Distance__c</picklist>
+        <values>
+            <fullName>100 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1000 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>125 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>150 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>175 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>200 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>225 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>275 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>325 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>350 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>375 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>400 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>425 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>450 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>475 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>525 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>550 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>575 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>625 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>650 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>675 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>700 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>725 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>750 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>775 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>825 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>850 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>875 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>900 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>925 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>950 KM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>975 KM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>POP_Capacity_Allocation__c</picklist>
+        <values>
+            <fullName>Backfilling Pop Capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pop Capacity Expansion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Method__c</picklist>
+        <values>
+            <fullName>AP - PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COSERVE GLOBAL SOLUTIONS%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRECT PAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSPYR SOLUTIONS LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others - TBD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WORK MARKET INC%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payroll_Cycle__c</picklist>
+        <values>
+            <fullName>PR %3D Payroll LTS Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XT %3D Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZT %3D Do not Generate Pay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Service_Territory__c</picklist>
+        <values>
+            <fullName>AB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID %28PT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR %28PT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region_Old__c</picklist>
+        <values>
+            <fullName>Central US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Atlantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southwest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>AB-SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AB-Telus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC-Telus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greater Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Atlantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON-A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON-B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC-Atlantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Central</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern U%2ES%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southwest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resource_Type__c</picklist>
+        <values>
+            <fullName>Area Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIR Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contractor to FTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLM Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FTE to Contractor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Service_Territory__c</picklist>
+        <values>
+            <fullName>AB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID %28PT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR %28PT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Send_Guide_Msg__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Type__c</picklist>
+        <values>
+            <fullName>Admin Contractor CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell FTTP - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell Ground Level Box - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Aerial or Conduit BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Buried BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CN Rail - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast CAN - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast CAN - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast USA - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast USA - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIN Drops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibernia - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibernia Offrail - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infinera Certified - ISP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - Build Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - Escort US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - ISP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - Locates US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - OSP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - PMR US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - Site Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky Wired - TTBF US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masergy - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masergy - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitor Only - Locates US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Billable Training - BIR CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Billable Training - BIR USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Billable Training - FLM CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Billable Training - FLM USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBD Drops - Business Aerial or Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBD Drops - Business Buried</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBD Drops - Residential Aerial or Conduit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBD Drops - Residential Buried</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Time - ViaSat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential Aerial or Conduit BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential Buried BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers - Drops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers Business - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers Fixed Wireless - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers Off Rail - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers SMB Unison - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers WIFI - Install MACD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaw WIFI - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaw WIFI - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Survey - BIR CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Survey - BIR US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Survey - FLM CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Survey - FLM US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectrum - ISP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectrum - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectrum - PMR US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectrum - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus SMB Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus SMB Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testing - OSP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Bus Install CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Bus Install US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Bus Repair CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Bus Repair US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - EF%26I Installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Escort CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Escort US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - ISP CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - ISP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - Locates US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - OSP CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - OSP US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - PMR CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - PMR US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - TTBF CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typical - TTBF US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verizon - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ViaSat - RF CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ViaSat Badged and Trained - RF US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse CAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XO Out of Market - Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XO Out of Market - Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zayo - Locates CAN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Skill__c</picklist>
+        <values>
+            <fullName>ATT Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AVALANCHE Annual Certification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allstream Cleared</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aviat US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BASF%2FOBS Freeport TX - Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BASF%2FOBS Geismar LA - Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BASF%2FOBS Palmyra MO - Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BASF%2FOBS Port Arthur TX - Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BASF%2FOBS Wyandotte MI - Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell Locates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bell Nexxia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COVID Vaccinated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centurylink FLM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciena - States Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciena General Badged and Trained</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciena-Verizon Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast Install Starbucks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-RAIL Certified %26 Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fujitsu Depot Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GCNET Public Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GCNET RCMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GTT%2FHibernia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genesis ATS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Red Badge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infinera AMC Certified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infinera Break Fix Certified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lift Certified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Utility Ontario Locates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%2EP%2EP Clearance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orange Business Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petroleum Oriented Safety Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers BIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rogers FLM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaw BIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaw FLM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern Cross %28Pacific Carriage Ltd%29 FLM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southern Cross %28Pacific Carriage Ltd%29 Inventory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stack 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T-Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELUS SECURITY Certification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus Business Connect White Glove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus NaaS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valley Fiber Locates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verizon Badged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verizon Turf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ViaSat Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viasat Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Working at Heights Certified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xplornet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spares_Depot__c</picklist>
+        <values>
+            <fullName>Albuquerque%2C NM Depot - Unit D0008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashburn%2C VA Depot - Unit 5034</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bellevue%2C WA Depot- Unit 1095</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brandon%2C MB Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calgary%2C AB Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chambersburg%2C PA Depot - Unit 117</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte%2C NC Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chicago%2C IL Depot - Unit 66</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chicago%2C IL Depot - Unit 842</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas%2C TX Depot - Unit 927</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denver%2C CO Depot - Unit M-15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doraville%2C GA Depot - Unit 1055</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edmonton%2C AB Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elkins Park%2C PA Depot - Unit 310B  P%2EO%2E Box 101835</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eugene%2C OR Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fredericton%2C NB Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gander NL Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halifax%2C NS Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston%2C TX Depot - Unit C700</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston%2C TX Depot - Unit C705</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kamloops%2C BC Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas City%2C MO Depot - Unit 497</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelowna%2C BC Depot - Unit C553</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelowna%2C BC Depot - Unit C566</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lawrenceville%2C GA Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>London%2C ON Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Los Angeles%2C CA Depot - Unit 1077</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marana%2C AZ Depot - Unit E080</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicine Hat%2C AB Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metuchen%2C NJ Depot - Unit 127</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metuchen%2C NJ Depot - Unit 264</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metuchen%2C NJ Depot - Unit 442</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metuchen%2C NJ Depot - Unit 66</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metuchen%2C NJ Depot- Unit 69</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middletown%2C DE Depot - Unit 3112</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississauga%2C ON Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moncton%2C NB Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montreal%2C QC Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Olmsted%2C OH Depot - Unit F-34</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%27Fallon%2C IL Depot - Unit 453</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBS%2FOINIS - Ashburn%2C VA Depot - Unit 428</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBS%2FOINIS - Charlottesville%2C VA Depot - Unit 1069</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBS%2FOINIS - Glen Allen%2C VA Depot - Unit 3241</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBS%2FOINIS - New York%2C NY Depot - Unit 1-3-3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OBS%2FOINIS - Virginia Beach%2C VA Depot - Unit 2147</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ottawa%2C ON Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plymouth%2C IN Depot - Unit 320</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port Moody%2C BC Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quebec City%2C QC Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quincy%2C MA Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regina%2C SK Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reno NV%2C Depot - Unit C3115</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richmond%2C VA Depot - Unit 868</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Diego%2CCA Depot - Unit 124A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Fransico%2C CA Depot - Southern Cross Storage Unit 855</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Fransico%2C CA Depot - Unit 130</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saskatoon%2C SK Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seattle%2C WA Depot - Unit 003%28Basement%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seattle%2C WA Depot - Unit 2802</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seattle%2C WA Depot - Unit 700</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sierra Vista%2C AZ Depot - Unit M644</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E Johns NL Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sudbury%2C ON Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syracuse%2C NY Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tempe%2C AZ Depot - Unit 336</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thunder Bay%2C ON Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vancouver%2C BC Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victoria%2C BC Depot - Unit 408</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victoria%2C BC Depot - Unit 416</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wellington%2C FL Depot - Unit B19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windsor%2C ON Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winnipeg%2C MB Depot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yuba%2C CA Depot - Unit 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yuma%2C AZ Depot</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>State_Prov__c</picklist>
+        <values>
+            <fullName>AB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ON</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Lead__c</picklist>
+        <values>
+            <fullName>Brian Trzeciak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brock R Kvamme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clarence F Dalcour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dan Carpiniello</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frank P Ardelean Jr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holley S Wills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>James Sanders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joseph A Martin Jr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mario H Sandoval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark Dykes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocky O Lensegrav</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stacy M Scheff</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Test_Set__c</picklist>
+        <values>
+            <fullName>EXFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIAVI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier_Level__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Zone_Code__c</picklist>
+        <values>
+            <fullName>03 - Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 - Atlantic Time %28Canada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 - Central Time %28US %26 Canada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23 - Eastern Time %28US %26 Canada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29 - Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42 - Mountain Time %28US %26 Canada%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>43 - Newfoundland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>44 - Pacific Time %28US %26 Canada%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trainer__c</picklist>
+        <values>
+            <fullName>Clancy O%27Heffernan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eric Robbins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>John Amey</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transport__c</picklist>
+        <values>
+            <fullName>EXFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIAVI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>USFO_Point_of_Presence__c</picklist>
+        <values>
+            <fullName>ALBANY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALBUQUERQUENM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMARILLOTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASHBURNVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATLANTAGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUSTINTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAKERSFIELDCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BALTIMOREMD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIRMINGHAMAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BISMARCKND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOISEID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOSTONMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOZEMANMT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BUFFALONY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHARLESTONWV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHARLOTTENC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHICAGOIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHILOQUINOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CINCINNATIOH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLEVELANDOH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLORADO_SPRINGSCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLUMBIASC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COLUMBUSOH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DALLASTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DANBURYCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DENVERCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DES_MOINESIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DETROITMI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL_ PASOTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FARGOND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FORT_COLLINSCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GRAND_RAPIDSMI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HARTFORDCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HONOLULUHI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOUSTONTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDIANAPOLISIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JACKSONMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JACKSONVILLEFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KANSAS_CITYKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KNOXVILLETN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAS_VEGASNV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LITTLE_ROCKAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOS_ANGELESCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOUISVILLEKY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LUBBOCKTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MACONGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCALLENTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMPHISTN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIAMIFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MIDDLESEXNJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILWAUKEEWI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MINNEAPOLISMN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NASHVILLETN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEW_ORLEANSLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEW_YORK_CITYNY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODESSATX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OKLAHOMA_CITYOK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMAHANE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORLANDOFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENSACOLAFL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHILADELPHIAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHOENIXAZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PITTSBURGHPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTLANDOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RALEIGHNC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAPID_CITYSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RENONV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RICHMONDVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RIVERSIDECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SACRAMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAINT_LOUISMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SALT_LAKE_CITYUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN_ANTONIOTX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN_DIEGOCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN_FRANCISCOCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAN_JOSECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEATTLEWA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIOUX_FALLSSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOUTH_BENDIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TULSAOK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WASHINGTONDC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WORLANDWY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

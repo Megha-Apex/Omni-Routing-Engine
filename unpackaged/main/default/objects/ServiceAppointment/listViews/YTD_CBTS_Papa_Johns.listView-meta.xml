@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YTD_CBTS_Papa_Johns</fullName>
+    <columns>LocalArrivalEnd__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Reference2__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>JSR_CDL_Mobile__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>CBTS</value>
+    </filters>
+    <filters>
+        <field>Reference2__c</field>
+        <operation>contains</operation>
+        <value>2.0</value>
+    </filters>
+    <filters>
+        <field>Service_Type__c</field>
+        <operation>notContain</operation>
+        <value>non</value>
+    </filters>
+    <filters>
+        <field>LocalArrivalEnd__c</field>
+        <operation>greaterThan</operation>
+        <value>01/01/2023 00:00</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Completed,11 Complete</value>
+    </filters>
+    <label>YTD CBTS Papa Johns</label>
+</ListView>

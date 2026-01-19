@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Service_Territories</fullName>
+    <columns>Name</columns>
+    <columns>IsActive</columns>
+    <columns>OperatingHours</columns>
+    <columns>ParentTerritory</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ParentTerritory</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Parent Service Territories</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

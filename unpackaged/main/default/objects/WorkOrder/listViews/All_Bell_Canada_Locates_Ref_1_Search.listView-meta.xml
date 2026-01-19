@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Bell_Canada_Locates_Ref_1_Search</fullName>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>SLA__c</columns>
+    <columns>Bill_to_Customer__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Open_Date__c</columns>
+    <columns>Incompletion_Reason_Code__c</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer__c</field>
+        <operation>contains</operation>
+        <value>Bell Canada Locates</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </filters>
+    <filters>
+        <field>Open_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2021 12:00 AM</value>
+    </filters>
+    <label>Bell Canada Locates Cleanup</label>
+    <sharedTo>
+        <group>Dispatcher_Group</group>
+    </sharedTo>
+</ListView>

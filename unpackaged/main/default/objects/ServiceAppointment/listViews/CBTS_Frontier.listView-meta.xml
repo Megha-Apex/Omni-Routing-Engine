@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CBTS_Frontier</fullName>
+    <columns>LocalArrivalEnd__c</columns>
+    <columns>LocalScheduledStart__c</columns>
+    <columns>Name</columns>
+    <columns>CreatedDate</columns>
+    <columns>STATE</columns>
+    <columns>Status</columns>
+    <columns>Reference1__c</columns>
+    <columns>Reference2__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>CreatedBy</columns>
+    <columns>StatusCategory</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>CBTS,OnX</value>
+    </filters>
+    <filters>
+        <field>Reference2__c</field>
+        <operation>contains</operation>
+        <value>Frontier</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Open,01 Open,Tentative,Dispatched,Rejected,Accepted,Enroute,On-Site,Off-Site</value>
+    </filters>
+    <filters>
+        <field>Service_Type__c</field>
+        <operation>notContain</operation>
+        <value>non</value>
+    </filters>
+    <label>CBTS Frontier</label>
+</ListView>

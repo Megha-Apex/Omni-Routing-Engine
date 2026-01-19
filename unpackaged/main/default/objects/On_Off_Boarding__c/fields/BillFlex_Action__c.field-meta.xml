@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BillFlex_Action__c</fullName>
+    <label>BillFlex Action</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Create New Account</fullName>
+                <default>false</default>
+                <label>Create New Account</label>
+            </value>
+            <value>
+                <fullName>Remove Access</fullName>
+                <default>false</default>
+                <label>Remove Access</label>
+            </value>
+            <value>
+                <fullName>Update Account</fullName>
+                <default>false</default>
+                <label>Update Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

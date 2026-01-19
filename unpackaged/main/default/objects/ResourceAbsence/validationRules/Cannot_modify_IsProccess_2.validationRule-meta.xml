@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_modify_IsProccess_2</fullName>
+    <active>true</active>
+    <description>Cannot modify NA when Is Process = 2</description>
+    <errorConditionFormula>AND(TEXT(Is_Processed__c) = &#39;2&#39;,
+OR(
+ISCHANGED(Start),
+ISCHANGED(End),
+ISCHANGED(Absence_Activity_Type__c ),
+ISCHANGED( Type )
+))</errorConditionFormula>
+    <errorMessage>Can no longer make modifications as already processed</errorMessage>
+</ValidationRule>

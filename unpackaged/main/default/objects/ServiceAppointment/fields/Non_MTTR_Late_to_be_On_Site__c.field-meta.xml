@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_MTTR_Late_to_be_On_Site__c</fullName>
+    <formula>Is_Falcon__c =false
+&amp;&amp;
+(SLA_Name__c = &quot;CBUD CB&quot; || SLA_Name__c = &quot;Best Effort&quot; || SLA_Name__c = &quot;Sched&quot; || SLA_Name__c = &quot;2BD&quot; || SLA_Name__c = &quot;CompB&quot; || SLA_Name__c = &quot;ZZ DO NOT USE Over 48 Hours&quot; || SLA_Name__c = &quot;NBD&quot; 
+	|| SLA_Name__c = &quot;ZZ DO NOT USE 24 to 48 Hours&quot; || SLA_Name__c = &quot;Sched Short Notice AH Under 24 hrs&quot; || SLA_Name__c = &quot;Sched Short Notive AH 24 to 48 hrs&quot; || SLA_Name__c = &quot;(none)&quot;)
+	&amp;&amp;
+	 ArrivalWindowEndTime &gt;= NOW()
+	&amp;&amp;
+		ArrivalWindowEndTime &lt;= NOW()+0.5/24
+	&amp;&amp;
+	 (ISPICKVAL(Status,&quot;Open&quot;) || ISPICKVAL(Status,&quot;Tentative&quot;) || ISPICKVAL(Status,&quot;Dispatched&quot;) || ISPICKVAL(Status,&quot;Rejected&quot;) || ISPICKVAL(Status,&quot;Accepted&quot;) || ISPICKVAL(Status,&quot;Enroute&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Non MTTR Late to be On Site</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

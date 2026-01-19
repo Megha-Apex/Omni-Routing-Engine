@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Admin_can_edit_unless_bypassed</fullName>
+    <active>true</active>
+    <description>This is a modified version of the original validation rule with the introduction of a bypass feature that enable users to modify specific fields.</description>
+    <errorConditionFormula>/* User object changes allowed only for System Administrator/FSL System Admin or with Validation Bypass; otherwise, validation rule blocks saves */
+
+AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+$Profile.Name &lt;&gt; &quot;FSL System Admin&quot;,
+Validation_Bypass__c = FALSE
+)</errorConditionFormula>
+    <errorMessage>No changes detected or you were trying to edit fields that cannot be changed. Only changes to &#39;My Email Signature&#39; field are allowed. If this is an error, please contact your System Administrator.</errorMessage>
+</ValidationRule>

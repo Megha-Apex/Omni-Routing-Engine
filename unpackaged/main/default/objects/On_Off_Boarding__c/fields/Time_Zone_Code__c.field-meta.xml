@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone_Code__c</fullName>
+    <label>Time Zone Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State_Prov__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>03 - Alaska</fullName>
+                <default>false</default>
+                <label>03 - Alaska</label>
+            </value>
+            <value>
+                <fullName>07 - Atlantic Time (Canada)</fullName>
+                <default>false</default>
+                <label>07 - Atlantic Time (Canada)</label>
+            </value>
+            <value>
+                <fullName>20 - Central Time (US &amp; Canada)</fullName>
+                <default>false</default>
+                <label>20 - Central Time (US &amp; Canada)</label>
+            </value>
+            <value>
+                <fullName>23 - Eastern Time (US &amp; Canada)</fullName>
+                <default>false</default>
+                <label>23 - Eastern Time (US &amp; Canada)</label>
+            </value>
+            <value>
+                <fullName>29 - Hawaii</fullName>
+                <default>false</default>
+                <label>29 - Hawaii</label>
+            </value>
+            <value>
+                <fullName>42 - Mountain Time (US &amp; Canada)</fullName>
+                <default>false</default>
+                <label>42 - Mountain Time (US &amp; Canada)</label>
+            </value>
+            <value>
+                <fullName>43 - Newfoundland</fullName>
+                <default>false</default>
+                <label>43 - Newfoundland</label>
+            </value>
+            <value>
+                <fullName>44 - Pacific Time (US &amp; Canada)</fullName>
+                <default>false</default>
+                <label>44 - Pacific Time (US &amp; Canada)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>UT</controllingFieldValue>
+            <controllingFieldValue>TX (MT)</controllingFieldValue>
+            <controllingFieldValue>WY</controllingFieldValue>
+            <controllingFieldValue>ID</controllingFieldValue>
+            <controllingFieldValue>KS</controllingFieldValue>
+            <controllingFieldValue>AZ</controllingFieldValue>
+            <controllingFieldValue>CO</controllingFieldValue>
+            <controllingFieldValue>AB</controllingFieldValue>
+            <controllingFieldValue>NT</controllingFieldValue>
+            <controllingFieldValue>NU</controllingFieldValue>
+            <controllingFieldValue>ID (MT)</controllingFieldValue>
+            <controllingFieldValue>MT</controllingFieldValue>
+            <controllingFieldValue>NE</controllingFieldValue>
+            <controllingFieldValue>KS (MT)</controllingFieldValue>
+            <controllingFieldValue>NM</controllingFieldValue>
+            <controllingFieldValue>ND</controllingFieldValue>
+            <controllingFieldValue>ND (MT)</controllingFieldValue>
+            <controllingFieldValue>NE (MT)</controllingFieldValue>
+            <controllingFieldValue>OR (MT)</controllingFieldValue>
+            <controllingFieldValue>SD (MT)</controllingFieldValue>
+            <controllingFieldValue>SD</controllingFieldValue>
+            <controllingFieldValue>TX</controllingFieldValue>
+            <valueName>42 - Mountain Time (US &amp; Canada)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VT</controllingFieldValue>
+            <controllingFieldValue>VA</controllingFieldValue>
+            <controllingFieldValue>WV</controllingFieldValue>
+            <controllingFieldValue>DC</controllingFieldValue>
+            <controllingFieldValue>GA</controllingFieldValue>
+            <controllingFieldValue>QC</controllingFieldValue>
+            <controllingFieldValue>ON</controllingFieldValue>
+            <controllingFieldValue>IN</controllingFieldValue>
+            <controllingFieldValue>KY</controllingFieldValue>
+            <controllingFieldValue>ME</controllingFieldValue>
+            <controllingFieldValue>CT</controllingFieldValue>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <controllingFieldValue>MD</controllingFieldValue>
+            <controllingFieldValue>MA</controllingFieldValue>
+            <controllingFieldValue>MI</controllingFieldValue>
+            <controllingFieldValue>FL (ET)</controllingFieldValue>
+            <controllingFieldValue>NH</controllingFieldValue>
+            <controllingFieldValue>IN (ET)</controllingFieldValue>
+            <controllingFieldValue>NJ</controllingFieldValue>
+            <controllingFieldValue>KY (ET)</controllingFieldValue>
+            <controllingFieldValue>NY</controllingFieldValue>
+            <controllingFieldValue>MI (ET)</controllingFieldValue>
+            <controllingFieldValue>NC</controllingFieldValue>
+            <controllingFieldValue>OH</controllingFieldValue>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>RI</controllingFieldValue>
+            <controllingFieldValue>SC</controllingFieldValue>
+            <controllingFieldValue>TN</controllingFieldValue>
+            <controllingFieldValue>TN (ET)</controllingFieldValue>
+            <valueName>23 - Eastern Time (US &amp; Canada)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WA</controllingFieldValue>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>BC</controllingFieldValue>
+            <controllingFieldValue>YT</controllingFieldValue>
+            <controllingFieldValue>ID (PT)</controllingFieldValue>
+            <controllingFieldValue>NV</controllingFieldValue>
+            <controllingFieldValue>OR</controllingFieldValue>
+            <controllingFieldValue>OR (PT)</controllingFieldValue>
+            <valueName>44 - Pacific Time (US &amp; Canada)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WI</controllingFieldValue>
+            <controllingFieldValue>IL</controllingFieldValue>
+            <controllingFieldValue>IN</controllingFieldValue>
+            <controllingFieldValue>MB</controllingFieldValue>
+            <controllingFieldValue>IA</controllingFieldValue>
+            <controllingFieldValue>SK</controllingFieldValue>
+            <controllingFieldValue>KS</controllingFieldValue>
+            <controllingFieldValue>KY</controllingFieldValue>
+            <controllingFieldValue>LA</controllingFieldValue>
+            <controllingFieldValue>AL</controllingFieldValue>
+            <controllingFieldValue>AR</controllingFieldValue>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <controllingFieldValue>NU</controllingFieldValue>
+            <controllingFieldValue>FL (CT)</controllingFieldValue>
+            <controllingFieldValue>MI</controllingFieldValue>
+            <controllingFieldValue>MN</controllingFieldValue>
+            <controllingFieldValue>MS</controllingFieldValue>
+            <controllingFieldValue>MO</controllingFieldValue>
+            <controllingFieldValue>IN (CT)</controllingFieldValue>
+            <controllingFieldValue>NE</controllingFieldValue>
+            <controllingFieldValue>KS (CT)</controllingFieldValue>
+            <controllingFieldValue>KY (CT)</controllingFieldValue>
+            <controllingFieldValue>MI (CT)</controllingFieldValue>
+            <controllingFieldValue>ND (CT)</controllingFieldValue>
+            <controllingFieldValue>ND</controllingFieldValue>
+            <controllingFieldValue>NE (CT)</controllingFieldValue>
+            <controllingFieldValue>OK</controllingFieldValue>
+            <controllingFieldValue>SD (CT)</controllingFieldValue>
+            <controllingFieldValue>SD</controllingFieldValue>
+            <controllingFieldValue>TN (CT)</controllingFieldValue>
+            <controllingFieldValue>TN</controllingFieldValue>
+            <controllingFieldValue>TX</controllingFieldValue>
+            <controllingFieldValue>TX (CT)</controllingFieldValue>
+            <valueName>20 - Central Time (US &amp; Canada)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>43 - Newfoundland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PE</controllingFieldValue>
+            <controllingFieldValue>NS</controllingFieldValue>
+            <controllingFieldValue>NB</controllingFieldValue>
+            <valueName>07 - Atlantic Time (Canada)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HI</controllingFieldValue>
+            <valueName>29 - Hawaii</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AK</controllingFieldValue>
+            <valueName>03 - Alaska</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

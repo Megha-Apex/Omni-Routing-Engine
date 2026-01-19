@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Task__c</fullName>
+    <label>Project Task</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billflex</fullName>
+                <default>false</default>
+                <label>Billflex</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration</label>
+            </value>
+            <value>
+                <fullName>FSL</fullName>
+                <default>false</default>
+                <label>FSL</label>
+            </value>
+            <value>
+                <fullName>CIS</fullName>
+                <default>false</default>
+                <label>CIS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

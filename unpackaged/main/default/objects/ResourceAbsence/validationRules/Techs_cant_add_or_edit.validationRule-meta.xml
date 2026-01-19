@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Techs_cant_add_or_edit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+$Profile.Name &lt;&gt; &quot;FSL System Admin&quot;,
+$Profile.Name &lt;&gt; &quot;FSL Dispatch Team Lead Coordinator&quot;,
+$Profile.Name &lt;&gt; &quot;FSL Dispatcher&quot;,
+$Profile.Name &lt;&gt; &quot;FSL Dispatch Manager&quot;,
+$Profile.Name &lt;&gt; &quot;FSL Resource Planner&quot;,
+$Profile.Name &lt;&gt; &quot;E2C Dispatcher&quot;
+)</errorConditionFormula>
+    <errorMessage>You can&#39;t create or edit absences. Please contact a dispatcher</errorMessage>
+</ValidationRule>

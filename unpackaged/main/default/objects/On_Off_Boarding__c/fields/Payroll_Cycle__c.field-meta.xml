@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payroll_Cycle__c</fullName>
+    <label>Payroll Cycle</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Resource_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PR = Payroll LTS Employee</fullName>
+                <default>false</default>
+                <label>PR = Payroll LTS Employee</label>
+            </value>
+            <value>
+                <fullName>XT = Contractor</fullName>
+                <default>false</default>
+                <label>XT = Contractor</label>
+            </value>
+            <value>
+                <fullName>ZT = Do not Generate Pay</fullName>
+                <default>false</default>
+                <label>ZT = Do not Generate Pay</label>
+            </value>
+            <value>
+                <fullName>PE Payroll - EFI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PE = Payroll - EFI</label>
+            </value>
+            <value>
+                <fullName>WT = Contractor EF&amp;I</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>WT = Contractor EF&amp;I</label>
+            </value>
+            <value>
+                <fullName>YT = Contractor Falcon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YT = Contractor Falcon</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FLM Contractor</controllingFieldValue>
+            <controllingFieldValue>BIR Contractor</controllingFieldValue>
+            <controllingFieldValue>FTE to Contractor</controllingFieldValue>
+            <controllingFieldValue>Contractor to FTE</controllingFieldValue>
+            <valueName>XT = Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLM Contractor</controllingFieldValue>
+            <controllingFieldValue>BIR Contractor</controllingFieldValue>
+            <controllingFieldValue>FLM Internal</controllingFieldValue>
+            <controllingFieldValue>BIR Internal</controllingFieldValue>
+            <controllingFieldValue>FTE to Contractor</controllingFieldValue>
+            <controllingFieldValue>Contractor to FTE</controllingFieldValue>
+            <valueName>ZT = Do not Generate Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLM Internal</controllingFieldValue>
+            <controllingFieldValue>BIR Internal</controllingFieldValue>
+            <controllingFieldValue>FTE to Contractor</controllingFieldValue>
+            <controllingFieldValue>Contractor to FTE</controllingFieldValue>
+            <valueName>PR = Payroll LTS Employee</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_Manager_Filter__c</fullName>
+    <label>Area Manager Filter</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Area Manager</fullName>
+                <default>false</default>
+                <label>Area Manager</label>
+            </value>
+            <value>
+                <fullName>Alexander S Frisch</fullName>
+                <default>false</default>
+                <label>Alexander S Frisch</label>
+            </value>
+            <value>
+                <fullName>Brian L Swogger</fullName>
+                <default>false</default>
+                <label>Brian L Swogger</label>
+            </value>
+            <value>
+                <fullName>Chris Nelson</fullName>
+                <default>false</default>
+                <label>Chris Nelson</label>
+            </value>
+            <value>
+                <fullName>Dameond Jones</fullName>
+                <default>false</default>
+                <label>Dameond Jones</label>
+            </value>
+            <value>
+                <fullName>Daniel Morgan</fullName>
+                <default>false</default>
+                <label>Daniel Morgan</label>
+            </value>
+            <value>
+                <fullName>Danny Nguyen</fullName>
+                <default>false</default>
+                <label>Danny Nguyen</label>
+            </value>
+            <value>
+                <fullName>Frank P Ardelean Jr</fullName>
+                <default>false</default>
+                <label>Frank P Ardelean Jr</label>
+            </value>
+            <value>
+                <fullName>Gary Lady</fullName>
+                <default>false</default>
+                <label>Gary Lady</label>
+            </value>
+            <value>
+                <fullName>Gordon Martin</fullName>
+                <default>false</default>
+                <label>Gordon Martin</label>
+            </value>
+            <value>
+                <fullName>Jagpreet Singh</fullName>
+                <default>false</default>
+                <label>Jagpreet Singh</label>
+            </value>
+            <value>
+                <fullName>Jeremy Jaques</fullName>
+                <default>false</default>
+                <label>Jeremy Jaques</label>
+            </value>
+            <value>
+                <fullName>Joel Solis</fullName>
+                <default>false</default>
+                <label>Joel Solis</label>
+            </value>
+            <value>
+                <fullName>Jonathan Arient</fullName>
+                <default>false</default>
+                <label>Jonathan Arient</label>
+            </value>
+            <value>
+                <fullName>Jonathon Young</fullName>
+                <default>false</default>
+                <label>Jonathon Young</label>
+            </value>
+            <value>
+                <fullName>Jose Luis Flores</fullName>
+                <default>false</default>
+                <label>Jose Luis Flores</label>
+            </value>
+            <value>
+                <fullName>Joseph Ellis</fullName>
+                <default>false</default>
+                <label>Joseph Ellis</label>
+            </value>
+            <value>
+                <fullName>Manoz Narwal</fullName>
+                <default>false</default>
+                <label>Manoz Narwal</label>
+            </value>
+            <value>
+                <fullName>Michael A Rochelle</fullName>
+                <default>false</default>
+                <label>Michael A Rochelle</label>
+            </value>
+            <value>
+                <fullName>Omar Al-Bess</fullName>
+                <default>false</default>
+                <label>Omar Al-Bess</label>
+            </value>
+            <value>
+                <fullName>Rajdeep Bains</fullName>
+                <default>false</default>
+                <label>Rajdeep Bains</label>
+            </value>
+            <value>
+                <fullName>Robert D Miller</fullName>
+                <default>false</default>
+                <label>Robert D Miller</label>
+            </value>
+            <value>
+                <fullName>Talaat Soueid</fullName>
+                <default>false</default>
+                <label>Talaat Soueid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

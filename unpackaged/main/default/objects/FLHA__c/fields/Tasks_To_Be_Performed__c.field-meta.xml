@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tasks_To_Be_Performed__c</fullName>
+    <label>Tasks To Be Performed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Work at Heights - Ladders/Spurring</fullName>
+                <default>false</default>
+                <label>Work at Heights - Ladders/Spurring</label>
+            </value>
+            <value>
+                <fullName>Work at Heights - Elevated Platform</fullName>
+                <default>false</default>
+                <label>Work at Heights - Elevated Platform</label>
+            </value>
+            <value>
+                <fullName>Drilling /Cutting /Coring</fullName>
+                <default>false</default>
+                <label>Drilling /Cutting /Coring</label>
+            </value>
+            <value>
+                <fullName>Fishing/Running Cable/Tape</fullName>
+                <default>false</default>
+                <label>Fishing/Running Cable/Tape</label>
+            </value>
+            <value>
+                <fullName>Fibre Termination /Splicing</fullName>
+                <default>false</default>
+                <label>Fibre Termination /Splicing</label>
+            </value>
+            <value>
+                <fullName>Working Around Equipment</fullName>
+                <default>false</default>
+                <label>Working Around Equipment</label>
+            </value>
+            <value>
+                <fullName>Heavy Lifting/ Awkward Positioning</fullName>
+                <default>false</default>
+                <label>Heavy Lifting/ Awkward Positioning</label>
+            </value>
+            <value>
+                <fullName>Customer Interaction /Education</fullName>
+                <default>false</default>
+                <label>Customer Interaction /Education</label>
+            </value>
+            <value>
+                <fullName>Working High Risk Area</fullName>
+                <default>false</default>
+                <label>Working High Risk Area</label>
+            </value>
+            <value>
+                <fullName>Access Customer Plant/Network Mapping</fullName>
+                <default>false</default>
+                <label>Access Customer Plant/Network Mapping</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Driving /Parking Vehicle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Driving /Parking Vehicle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

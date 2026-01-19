@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_cant_be_closed_manually_except_adm</fullName>
+    <active>false</active>
+    <description>Case can&#39;t be closed manually except admin</description>
+    <errorConditionFormula>ispickval(Status , &#39;Closed&#39;) &amp;&amp; $Profile.Name != &#39;System Administrator&#39;</errorConditionFormula>
+    <errorMessage>Case can&#39;t be closed manually except admin. It will be closed automatically when all the related works are completed.</errorMessage>
+</ValidationRule>

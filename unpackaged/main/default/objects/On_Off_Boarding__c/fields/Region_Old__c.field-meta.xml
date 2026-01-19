@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region_Old__c</fullName>
+    <label>Region(Old)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AB-SK</fullName>
+                <default>false</default>
+                <label>AB-SK</label>
+            </value>
+            <value>
+                <fullName>AB-Telus</fullName>
+                <default>false</default>
+                <label>AB-Telus</label>
+            </value>
+            <value>
+                <fullName>BC</fullName>
+                <default>false</default>
+                <label>BC</label>
+            </value>
+            <value>
+                <fullName>BC-Telus</fullName>
+                <default>false</default>
+                <label>BC-Telus</label>
+            </value>
+            <value>
+                <fullName>MB</fullName>
+                <default>false</default>
+                <label>MB</label>
+            </value>
+            <value>
+                <fullName>ON-A</fullName>
+                <default>false</default>
+                <label>ON-A</label>
+            </value>
+            <value>
+                <fullName>ON-B</fullName>
+                <default>false</default>
+                <label>ON-B</label>
+            </value>
+            <value>
+                <fullName>QC-Atlantic</fullName>
+                <default>false</default>
+                <label>QC-Atlantic</label>
+            </value>
+            <value>
+                <fullName>Central US</fullName>
+                <default>false</default>
+                <label>Central US</label>
+            </value>
+            <value>
+                <fullName>East Central</fullName>
+                <default>false</default>
+                <label>East Central</label>
+            </value>
+            <value>
+                <fullName>Greater Chicago</fullName>
+                <default>false</default>
+                <label>Greater Chicago</label>
+            </value>
+            <value>
+                <fullName>Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Northwest</fullName>
+                <default>false</default>
+                <label>Northwest</label>
+            </value>
+            <value>
+                <fullName>South Central</fullName>
+                <default>false</default>
+                <label>South Central</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Southern US</fullName>
+                <default>false</default>
+                <label>Southern US</label>
+            </value>
+            <value>
+                <fullName>Southwest</fullName>
+                <default>false</default>
+                <label>Southwest</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

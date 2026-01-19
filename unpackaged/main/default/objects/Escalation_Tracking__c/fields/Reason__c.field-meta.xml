@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <label>Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Job has been escalated due to CSR adding to nonwhite space.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR adding to nonwhite space.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR adding to tech which goes over max hours allowed to work.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR adding to tech which goes over max hours allowed to work.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR converting time wrong</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR converting time wrong</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR incorrect date placement.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR incorrect date placement.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR No OTDR/Test Set</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR No OTDR/Test Set</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR not actioning the case/work order/SA</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR not actioning the case/work order/SA</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR not adding a blocker.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR not adding a blocker.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR not confirming access hours or incorrect arrival window on ticket.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR not confirming access hours or incorrect arrival window on ticket.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR not creating a ticket for second tech requirement; safety/scissor lift.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR not creating a ticket for second tech requirement; safety/scissor lift.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR not doing their assigned jeopardy check</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR not doing their assigned jeopardy check</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR not following the escalation process</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR not following the escalation process</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR overbooking the technician</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR overbooking the technician</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to CSR placing on non-badged or unskilled tech.</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to CSR placing on non-badged or unskilled tech.</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Tech caused job to be missed</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Tech caused job to be missed</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Tech not answering phone</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Tech not answering phone</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Tech over hours/ Rest period</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Tech over hours/ Rest period</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Tech refusal/ conflicting work</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Tech refusal/ conflicting work</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Tech Vehicle breakdown/ maintenance</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Tech Vehicle breakdown/ maintenance</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Tech was not prepared</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Tech was not prepared</label>
+            </value>
+            <value>
+                <fullName>Job has been escalated due to Unprofessional behavior</fullName>
+                <default>false</default>
+                <label>Job has been escalated due to Unprofessional behavior</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

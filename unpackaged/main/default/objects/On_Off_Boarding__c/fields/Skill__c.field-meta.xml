@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill__c</fullName>
+    <label>Skill</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allstream Cleared</fullName>
+                <default>false</default>
+                <label>Allstream Cleared</label>
+            </value>
+            <value>
+                <fullName>ATT Badged</fullName>
+                <default>false</default>
+                <label>ATT Badged</label>
+            </value>
+            <value>
+                <fullName>AVALANCHE Annual Certification</fullName>
+                <default>false</default>
+                <label>AVALANCHE Annual Certification</label>
+            </value>
+            <value>
+                <fullName>Aviat US</fullName>
+                <default>false</default>
+                <label>Aviat US</label>
+            </value>
+            <value>
+                <fullName>BASF/OBS Freeport TX - Badged</fullName>
+                <default>false</default>
+                <label>BASF/OBS Freeport TX - Badged</label>
+            </value>
+            <value>
+                <fullName>BASF/OBS Geismar LA - Badged</fullName>
+                <default>false</default>
+                <label>BASF/OBS Geismar LA - Badged</label>
+            </value>
+            <value>
+                <fullName>BASF/OBS Palmyra MO - Badged</fullName>
+                <default>false</default>
+                <label>BASF/OBS Palmyra MO - Badged</label>
+            </value>
+            <value>
+                <fullName>BASF/OBS Port Arthur TX - Badged</fullName>
+                <default>false</default>
+                <label>BASF/OBS Port Arthur TX - Badged</label>
+            </value>
+            <value>
+                <fullName>BASF/OBS Wyandotte MI - Badged</fullName>
+                <default>false</default>
+                <label>BASF/OBS Wyandotte MI - Badged</label>
+            </value>
+            <value>
+                <fullName>Bell</fullName>
+                <default>false</default>
+                <label>Bell</label>
+            </value>
+            <value>
+                <fullName>Bell Engineering</fullName>
+                <default>false</default>
+                <label>Bell Engineering</label>
+            </value>
+            <value>
+                <fullName>Bell Locates</fullName>
+                <default>false</default>
+                <label>Bell Locates</label>
+            </value>
+            <value>
+                <fullName>Bell Nexxia</fullName>
+                <default>false</default>
+                <label>Bell Nexxia</label>
+            </value>
+            <value>
+                <fullName>Centurylink FLM</fullName>
+                <default>false</default>
+                <label>Centurylink FLM</label>
+            </value>
+            <value>
+                <fullName>Ciena General Badged and Trained</fullName>
+                <default>false</default>
+                <label>Ciena General Badged and Trained</label>
+            </value>
+            <value>
+                <fullName>Ciena - States Bank</fullName>
+                <default>false</default>
+                <label>Ciena - States Bank</label>
+            </value>
+            <value>
+                <fullName>Ciena-Verizon Badged</fullName>
+                <default>false</default>
+                <label>Ciena-Verizon Badged</label>
+            </value>
+            <value>
+                <fullName>Comcast Business</fullName>
+                <default>false</default>
+                <label>Comcast Business</label>
+            </value>
+            <value>
+                <fullName>Comcast Install</fullName>
+                <default>false</default>
+                <label>Comcast Install</label>
+            </value>
+            <value>
+                <fullName>Comcast Install Starbucks</fullName>
+                <default>false</default>
+                <label>Comcast Install Starbucks</label>
+            </value>
+            <value>
+                <fullName>Comcast Repair</fullName>
+                <default>false</default>
+                <label>Comcast Repair</label>
+            </value>
+            <value>
+                <fullName>COVID Vaccinated</fullName>
+                <default>false</default>
+                <label>COVID Vaccinated</label>
+            </value>
+            <value>
+                <fullName>E-RAIL Certified &amp; Badged</fullName>
+                <default>false</default>
+                <label>E-RAIL Certified &amp; Badged</label>
+            </value>
+            <value>
+                <fullName>Fujitsu Depot Audit</fullName>
+                <default>false</default>
+                <label>Fujitsu Depot Audit</label>
+            </value>
+            <value>
+                <fullName>GCNET Public Work</fullName>
+                <default>false</default>
+                <label>GCNET Public Work</label>
+            </value>
+            <value>
+                <fullName>GCNET RCMP</fullName>
+                <default>false</default>
+                <label>GCNET RCMP</label>
+            </value>
+            <value>
+                <fullName>Genesis ATS</fullName>
+                <default>false</default>
+                <label>Genesis ATS</label>
+            </value>
+            <value>
+                <fullName>Google Red Badge</fullName>
+                <default>false</default>
+                <label>Google Red Badge</label>
+            </value>
+            <value>
+                <fullName>GTT/Hibernia</fullName>
+                <default>false</default>
+                <label>GTT/Hibernia</label>
+            </value>
+            <value>
+                <fullName>Infinera AMC Certified</fullName>
+                <default>false</default>
+                <label>Infinera AMC Certified</label>
+            </value>
+            <value>
+                <fullName>Infinera Break Fix Certified</fullName>
+                <default>false</default>
+                <label>Infinera Break Fix Certified</label>
+            </value>
+            <value>
+                <fullName>Lift Certified</fullName>
+                <default>false</default>
+                <label>Lift Certified</label>
+            </value>
+            <value>
+                <fullName>LIL</fullName>
+                <default>false</default>
+                <label>LIL</label>
+            </value>
+            <value>
+                <fullName>Multi Utility Ontario Locates</fullName>
+                <default>false</default>
+                <label>Multi Utility Ontario Locates</label>
+            </value>
+            <value>
+                <fullName>O.P.P Clearance</fullName>
+                <default>false</default>
+                <label>O.P.P Clearance</label>
+            </value>
+            <value>
+                <fullName>Orange Business Services</fullName>
+                <default>false</default>
+                <label>Orange Business Services</label>
+            </value>
+            <value>
+                <fullName>Petroleum Oriented Safety Training</fullName>
+                <default>false</default>
+                <label>Petroleum Oriented Safety Training</label>
+            </value>
+            <value>
+                <fullName>Rogers BIR</fullName>
+                <default>false</default>
+                <label>Rogers BIR</label>
+            </value>
+            <value>
+                <fullName>Rogers FLM</fullName>
+                <default>false</default>
+                <label>Rogers FLM</label>
+            </value>
+            <value>
+                <fullName>Shaw BIR</fullName>
+                <default>false</default>
+                <label>Shaw BIR</label>
+            </value>
+            <value>
+                <fullName>Shaw FLM</fullName>
+                <default>false</default>
+                <label>Shaw FLM</label>
+            </value>
+            <value>
+                <fullName>Southern Cross (Pacific Carriage Ltd) FLM</fullName>
+                <default>false</default>
+                <label>Southern Cross (Pacific Carriage Ltd) FLM</label>
+            </value>
+            <value>
+                <fullName>Southern Cross (Pacific Carriage Ltd) Inventory</fullName>
+                <default>false</default>
+                <label>Southern Cross (Pacific Carriage Ltd) Inventory</label>
+            </value>
+            <value>
+                <fullName>Stack 8</fullName>
+                <default>false</default>
+                <label>Stack 8</label>
+            </value>
+            <value>
+                <fullName>Telus Business Connect White Glove</fullName>
+                <default>false</default>
+                <label>Telus Business Connect White Glove</label>
+            </value>
+            <value>
+                <fullName>Telus NaaS</fullName>
+                <default>false</default>
+                <label>Telus NaaS</label>
+            </value>
+            <value>
+                <fullName>TELUS SECURITY Certification</fullName>
+                <default>false</default>
+                <label>TELUS SECURITY Certification</label>
+            </value>
+            <value>
+                <fullName>T-Systems</fullName>
+                <default>false</default>
+                <label>T-Systems</label>
+            </value>
+            <value>
+                <fullName>Valley Fiber Locates</fullName>
+                <default>false</default>
+                <label>Valley Fiber Locates</label>
+            </value>
+            <value>
+                <fullName>Verizon Badged</fullName>
+                <default>false</default>
+                <label>Verizon Badged</label>
+            </value>
+            <value>
+                <fullName>Verizon Turf</fullName>
+                <default>false</default>
+                <label>Verizon Turf</label>
+            </value>
+            <value>
+                <fullName>ViaSat Inc</fullName>
+                <default>false</default>
+                <label>ViaSat Inc</label>
+            </value>
+            <value>
+                <fullName>Viasat Tier 2</fullName>
+                <default>false</default>
+                <label>Viasat Tier 2</label>
+            </value>
+            <value>
+                <fullName>Working at Heights Certified</fullName>
+                <default>false</default>
+                <label>Working at Heights Certified</label>
+            </value>
+            <value>
+                <fullName>Xplornet</fullName>
+                <default>false</default>
+                <label>Xplornet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

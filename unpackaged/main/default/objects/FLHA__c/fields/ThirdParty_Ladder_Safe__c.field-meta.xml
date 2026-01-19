@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThirdParty_Ladder_Safe__c</fullName>
+    <description>Is the Third- Party Ladder built to be safely used in the environment in which you are working. (No metal in Proximity to Live Electrical, A-frame for free standing use, Hooks for mid Span securement, if needed… ETC)?</description>
+    <label>ThirdParty Ladder Safe</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

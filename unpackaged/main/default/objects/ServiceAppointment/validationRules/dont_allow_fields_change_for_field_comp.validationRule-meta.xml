@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dont_allow_fields_change_for_field_comp</fullName>
+    <active>false</active>
+    <errorConditionFormula>( $UserRole.Name =&#39;Technician - Contractor&#39; || $UserRole.Name =&#39;Technician - Employees&#39;|| $UserRole.Name = &#39;Technicians - Employees + Orders&#39;||$UserRole.Name =&#39;Technicians - with Dispatcher Area Manager (Read Only)&#39;)&amp;&amp;
+
+NOT(ISCHANGED(Status))&amp;&amp;NOT(ISCHANGED(Field_Incomplete_Time_Stamp__c))&amp;&amp;NOT(ISCHANGED(Field_Complete_Time_Stamp__c))&amp;&amp;NOT(ISCHANGED(Field_Incomplete_by__c))&amp;&amp;NOT(ISCHANGED(Field_Complete_by__c
+))&amp;&amp; NOT(ISCHANGED(Updated_Through_Mobile__c))&amp;&amp; NOT(ISCHANGED(Assigned_Technician__c))&amp;&amp;
+(ISPICKVAL(Status, &#39;Field Incompleted&#39;)
+||
+ISPICKVAL(Status, &#39;Field Complete&#39;)
+||
+ISPICKVAL(Status, &#39;Incompleted&#39;)
+||
+ISPICKVAL(Status, &#39;Completed&#39;))</errorConditionFormula>
+    <errorMessage>It&#39;s not possible to make any changes on status Field Complete/Field Incompleted/Complete/Incompleted</errorMessage>
+</ValidationRule>

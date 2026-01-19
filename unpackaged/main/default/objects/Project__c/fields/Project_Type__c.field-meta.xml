@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Type__c</fullName>
+    <label>Task Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billflex</fullName>
+                <default>false</default>
+                <label>Billflex</label>
+            </value>
+            <value>
+                <fullName>Integration</fullName>
+                <default>false</default>
+                <label>Integration/API</label>
+            </value>
+            <value>
+                <fullName>FSL</fullName>
+                <default>false</default>
+                <label>FSL</label>
+            </value>
+            <value>
+                <fullName>JasperSoft</fullName>
+                <default>false</default>
+                <label>JasperSoft</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>CIS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Continuous Improvement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

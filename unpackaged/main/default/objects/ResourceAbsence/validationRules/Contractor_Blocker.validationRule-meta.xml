@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Blocker</fullName>
+    <active>true</active>
+    <description>Contractor cannot have vacation or On-Call blocker</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(Resource.EngineerType__c ,&quot;BIR Contractor&quot;),
+ISPICKVAL(Resource.EngineerType__c ,&quot;FLM Contractor&quot;)
+),
+OR(
+   TEXT(Type) = &quot;On Call US Per Day Fixed Rate&quot;,
+   TEXT(Type) = &quot;On Call US - Weekday &amp; Weekend&quot;,
+   TEXT(Type) = &quot;On Call Weekday - Paid CAN&quot;,
+   TEXT(Type) = &quot;On Call Weekend and Holidays - Paid CAN&quot;
+   )
+)</errorConditionFormula>
+    <errorMessage>Contractor does not get On-Call; it should be a Standby ticket</errorMessage>
+</ValidationRule>

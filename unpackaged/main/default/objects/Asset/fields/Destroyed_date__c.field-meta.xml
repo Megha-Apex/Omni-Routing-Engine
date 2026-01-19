@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Destroyed_date__c</fullName>
+    <description>Asset is physically or chemically obliterated, it can no longer be reuse.  Marks the definitive end of the asset’s life.</description>
+    <inlineHelpText>Asset is physically or chemically obliterated, it can no longer be reuse</inlineHelpText>
+    <label>Destroyed date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

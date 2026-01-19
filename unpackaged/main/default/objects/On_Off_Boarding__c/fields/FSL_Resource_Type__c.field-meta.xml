@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Resource_Type__c</fullName>
+    <label>FSL Resource Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Resource_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ledcor</fullName>
+                <default>false</default>
+                <label>Ledcor</label>
+            </value>
+            <value>
+                <fullName>Ledcor - BTV</fullName>
+                <default>false</default>
+                <label>Ledcor - BTV</label>
+            </value>
+            <value>
+                <fullName>Contractor</fullName>
+                <default>false</default>
+                <label>Contractor</label>
+            </value>
+            <value>
+                <fullName>Contractor - BTV</fullName>
+                <default>false</default>
+                <label>Contractor - BTV</label>
+            </value>
+            <value>
+                <fullName>Contractor - EFI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor - EFI</label>
+            </value>
+            <value>
+                <fullName>Contractor - Falcon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor - Falcon</label>
+            </value>
+            <value>
+                <fullName>Contractor - Manual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor - Manual</label>
+            </value>
+            <value>
+                <fullName>Contractor - Rogers Drops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contractor - Rogers Drops</label>
+            </value>
+            <value>
+                <fullName>Ledcor - EFI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ledcor - EFI</label>
+            </value>
+            <value>
+                <fullName>Ledcor - Falcon</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ledcor - Falcon</label>
+            </value>
+            <value>
+                <fullName>Ledcor - Manual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ledcor - Manual</label>
+            </value>
+            <value>
+                <fullName>Ledcor - Rogers Drops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ledcor - Rogers Drops</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FLM Contractor</controllingFieldValue>
+            <controllingFieldValue>BIR Contractor</controllingFieldValue>
+            <controllingFieldValue>FTE to Contractor</controllingFieldValue>
+            <controllingFieldValue>Contractor to FTE</controllingFieldValue>
+            <valueName>Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLM Contractor</controllingFieldValue>
+            <controllingFieldValue>BIR Contractor</controllingFieldValue>
+            <controllingFieldValue>FTE to Contractor</controllingFieldValue>
+            <valueName>Contractor - BTV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Area Manager</controllingFieldValue>
+            <controllingFieldValue>FLM Internal</controllingFieldValue>
+            <controllingFieldValue>BIR Internal</controllingFieldValue>
+            <controllingFieldValue>FTE to Contractor</controllingFieldValue>
+            <controllingFieldValue>Contractor to FTE</controllingFieldValue>
+            <valueName>Ledcor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLM Internal</controllingFieldValue>
+            <controllingFieldValue>BIR Internal</controllingFieldValue>
+            <controllingFieldValue>Contractor to FTE</controllingFieldValue>
+            <valueName>Ledcor - BTV</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

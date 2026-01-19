@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cant_be_completed_except_by_admin</fullName>
+    <active>true</active>
+    <errorConditionFormula>ispickval(Status , &#39;Completed&#39;)
+&amp;&amp;
+$Profile.Name != &#39;System Administrator&#39;
+&amp;&amp;
+$User.Alias != &#39;lilliams&#39;
+&amp;&amp;
+$User.Alias != &#39;jlasn&#39;
+&amp;&amp;
+$User.Alias != &#39;bparks&#39;
+&amp;&amp;
+$User.Alias != &#39;mpena&#39;
+&amp;&amp;
+$User.Alias != &#39;tane&#39;
+&amp;&amp;
+$User.Alias != &#39;aernande&#39;
+&amp;&amp;
+$User.Alias != &#39;cedondo&#39;
+&amp;&amp;
+$User.Alias != &#39;hrush&#39;
+&amp;&amp;
+$User.Alias != &#39;njack&#39;
+&amp;&amp;
+$User.Alias != &#39;pjone&#39;
+&amp;&amp;
+$User.Alias != &#39;sovarcho&#39;
+&amp;&amp;
+$User.Alias != &#39;hjame&#39;
+&amp;&amp;
+$User.Alias != &#39;lartinel&#39;
+&amp;&amp;
+$User.Alias != &#39;tjova&#39;
+&amp;&amp;
+$User.Alias != &#39;bwrig&#39;
+&amp;&amp;
+$User.Alias != &#39;avald&#39;</errorConditionFormula>
+    <errorMessage>Work order can&#39;t be completed manually except by an admin. It will be completed automatically when all the related works are completed.</errorMessage>
+</ValidationRule>

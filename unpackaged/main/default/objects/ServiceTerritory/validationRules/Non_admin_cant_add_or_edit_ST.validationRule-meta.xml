@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_admin_cant_add_or_edit_ST</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$UserRole.Name &lt;&gt; &quot;Admin&quot;)</errorConditionFormula>
+    <errorMessage>You can&#39;t create or edit Service Territories. Please contact a System Admin</errorMessage>
+</ValidationRule>

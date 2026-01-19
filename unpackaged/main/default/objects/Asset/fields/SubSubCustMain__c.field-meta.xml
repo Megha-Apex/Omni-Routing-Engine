@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubSubCustMain__c</fullName>
+    <label>SubSubCustMain</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generic</fullName>
+                <default>false</default>
+                <label>Generic</label>
+            </value>
+            <value>
+                <fullName>ADVA</fullName>
+                <default>false</default>
+                <label>ADVA</label>
+            </value>
+            <value>
+                <fullName>AllStream</fullName>
+                <default>false</default>
+                <label>AllStream</label>
+            </value>
+            <value>
+                <fullName>Aviat</fullName>
+                <default>false</default>
+                <label>Aviat</label>
+            </value>
+            <value>
+                <fullName>CenturyLink</fullName>
+                <default>false</default>
+                <label>CenturyLink</label>
+            </value>
+            <value>
+                <fullName>Ciena</fullName>
+                <default>false</default>
+                <label>Ciena</label>
+            </value>
+            <value>
+                <fullName>COLT</fullName>
+                <default>false</default>
+                <label>COLT</label>
+            </value>
+            <value>
+                <fullName>Commdex</fullName>
+                <default>false</default>
+                <label>Commdex</label>
+            </value>
+            <value>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+                <label>Fujitsu</label>
+            </value>
+            <value>
+                <fullName>Indigo</fullName>
+                <default>false</default>
+                <label>Indigo</label>
+            </value>
+            <value>
+                <fullName>Infinera</fullName>
+                <default>false</default>
+                <label>Infinera</label>
+            </value>
+            <value>
+                <fullName>Ledcor Technical Services</fullName>
+                <default>false</default>
+                <label>Ledcor Technical Services</label>
+            </value>
+            <value>
+                <fullName>MDSI</fullName>
+                <default>false</default>
+                <label>MDSI</label>
+            </value>
+            <value>
+                <fullName>Pacific Carriage</fullName>
+                <default>false</default>
+                <label>Pacific Carriage</label>
+            </value>
+            <value>
+                <fullName>Radiant</fullName>
+                <default>false</default>
+                <label>Radiant</label>
+            </value>
+            <value>
+                <fullName>Rogers</fullName>
+                <default>false</default>
+                <label>Rogers</label>
+            </value>
+            <value>
+                <fullName>XO Communications</fullName>
+                <default>false</default>
+                <label>XO Communications</label>
+            </value>
+            <value>
+                <fullName>Zayo Group</fullName>
+                <default>false</default>
+                <label>Zayo Group</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

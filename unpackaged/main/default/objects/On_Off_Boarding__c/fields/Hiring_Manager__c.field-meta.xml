@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hiring_Manager__c</fullName>
+    <label>Hiring Manager</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Business_Unit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Al-Bess, Omar - 1135639</fullName>
+                <default>false</default>
+                <label>Al-Bess, Omar - 1135639</label>
+            </value>
+            <value>
+                <fullName>Ardelean Jr, Frank P - 1076759</fullName>
+                <default>false</default>
+                <label>Ardelean Jr, Frank P - 1076759</label>
+            </value>
+            <value>
+                <fullName>Arient, Jonathan -122877</fullName>
+                <default>false</default>
+                <label>Arient, Jonathan -122877</label>
+            </value>
+            <value>
+                <fullName>Bains, Rajdeep-462370</fullName>
+                <default>false</default>
+                <label>Bains, Rajdeep-462370</label>
+            </value>
+            <value>
+                <fullName>Blake, Robert D-1139325</fullName>
+                <default>false</default>
+                <label>Blake, Robert D-1139325</label>
+            </value>
+            <value>
+                <fullName>Ellis, Joseph A - 1112502</fullName>
+                <default>false</default>
+                <label>Ellis, Joseph A - 1112502</label>
+            </value>
+            <value>
+                <fullName>Flores, Jose Luis - 3012407</fullName>
+                <default>false</default>
+                <label>Flores, Jose Luis - 3012407</label>
+            </value>
+            <value>
+                <fullName>Frank P Ardelean Jr</fullName>
+                <default>false</default>
+                <label>Frank P Ardelean Jr</label>
+            </value>
+            <value>
+                <fullName>Frisch, Alexander S - 1139604</fullName>
+                <default>false</default>
+                <label>Frisch, Alexander S - 1139604</label>
+            </value>
+            <value>
+                <fullName>Jaques, Jeremy - 3011506</fullName>
+                <default>false</default>
+                <label>Jaques, Jeremy - 3011506</label>
+            </value>
+            <value>
+                <fullName>Jones, Dameond - 3001928</fullName>
+                <default>false</default>
+                <label>Jones, Dameond - 3001928</label>
+            </value>
+            <value>
+                <fullName>Martin, Gordon - 3030224</fullName>
+                <default>false</default>
+                <label>Martin, Gordon - 3030224</label>
+            </value>
+            <value>
+                <fullName>Miller, Robert D - 1097109</fullName>
+                <default>false</default>
+                <label>Miller, Robert D - 1097109</label>
+            </value>
+            <value>
+                <fullName>Morgan, Daniel - 3008831</fullName>
+                <default>false</default>
+                <label>Morgan, Daniel - 3008831</label>
+            </value>
+            <value>
+                <fullName>Narwal, Manoz - 1097538</fullName>
+                <default>false</default>
+                <label>Narwal, Manoz - 1097538</label>
+            </value>
+            <value>
+                <fullName>Nelson, Chris - 3012591</fullName>
+                <default>false</default>
+                <label>Nelson, Chris - 3012591</label>
+            </value>
+            <value>
+                <fullName>Nguyen, Danny - 627527</fullName>
+                <default>false</default>
+                <label>Nguyen, Danny - 627527</label>
+            </value>
+            <value>
+                <fullName>Rochelle, Michael A - 1153979</fullName>
+                <default>false</default>
+                <label>Rochelle, Michael A - 1153979</label>
+            </value>
+            <value>
+                <fullName>Singh, Jagpreet-3002947</fullName>
+                <default>false</default>
+                <label>Singh, Jagpreet-3002947</label>
+            </value>
+            <value>
+                <fullName>Solis, Joel - 1073129</fullName>
+                <default>false</default>
+                <label>Solis, Joel - 1073129</label>
+            </value>
+            <value>
+                <fullName>Soueid, Talaat M-1071009</fullName>
+                <default>false</default>
+                <label>Soueid, Talaat M-1071009</label>
+            </value>
+            <value>
+                <fullName>Swogger, Brian L - 341364</fullName>
+                <default>false</default>
+                <label>Swogger, Brian L - 341364</label>
+            </value>
+            <value>
+                <fullName>Young, Jonathon - 3016102</fullName>
+                <default>false</default>
+                <label>Young, Jonathon - 3016102</label>
+            </value>
+            <value>
+                <fullName>Blake, Nicholas R-1154834</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Blake, Nicholas R-1154834</label>
+            </value>
+            <value>
+                <fullName>Carr, Bradley J-1161785</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Carr, Bradley J-1161785</label>
+            </value>
+            <value>
+                <fullName>Flowers, Lawrence - 1106772</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Flowers, Lawrence - 1106772</label>
+            </value>
+            <value>
+                <fullName>Harder, Glen A-1157992</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Harder, Glen A-1157992</label>
+            </value>
+            <value>
+                <fullName>Terrell, Richard - 1088227</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terrell, Richard - 1088227</label>
+            </value>
+            <value>
+                <fullName>Ulloa, Michael A-1072928</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ulloa, Michael A-1072928</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>5026009-111-NS</controllingFieldValue>
+            <controllingFieldValue>5026013-111-PE</controllingFieldValue>
+            <controllingFieldValue>5026006-111-QC</controllingFieldValue>
+            <controllingFieldValue>5026007-111-NL</controllingFieldValue>
+            <controllingFieldValue>5026008-111-NB</controllingFieldValue>
+            <valueName>Soueid, Talaat M-1071009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Arient, Jonathan -122877</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Flores, Jose Luis - 3012407</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Frisch, Alexander S - 1139604</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Jaques, Jeremy - 3011506</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Jones, Dameond - 3001928</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Morgan, Daniel - 3008831</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Nelson, Chris - 3012591</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Rochelle, Michael A - 1153979</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Solis, Joel - 1073129</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5038000-BIR National OH</controllingFieldValue>
+            <controllingFieldValue>5038200-FLM National OH</controllingFieldValue>
+            <valueName>Swogger, Brian L - 341364</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5047001-217-Kentucky FLM</controllingFieldValue>
+            <valueName>Ellis, Joseph A - 1112502</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5047001-217-Kentucky FLM</controllingFieldValue>
+            <valueName>Young, Jonathon - 3016102</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5016100-111-Telus BC</controllingFieldValue>
+            <valueName>Blake, Robert D-1139325</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5016100-111-Telus BC</controllingFieldValue>
+            <valueName>Nguyen, Danny - 627527</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5016200-111-Telus AB</controllingFieldValue>
+            <valueName>Narwal, Manoz - 1097538</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5026001-111-AB</controllingFieldValue>
+            <controllingFieldValue>5026003-111-SK</controllingFieldValue>
+            <valueName>Singh, Jagpreet-3002947</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5026002-111-BC</controllingFieldValue>
+            <valueName>Bains, Rajdeep-462370</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5026004-111-MB</controllingFieldValue>
+            <valueName>Miller, Robert D - 1097109</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5026005-111-ON</controllingFieldValue>
+            <valueName>Al-Bess, Omar - 1135639</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5026005-111-ON</controllingFieldValue>
+            <valueName>Martin, Gordon - 3030224</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

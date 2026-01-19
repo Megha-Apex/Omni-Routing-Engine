@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Add_Service_Types</fullName>
+    <active>true</active>
+    <errorConditionFormula>Service_Type__r.RecordType.Name != &#39;Service Type&#39;</errorConditionFormula>
+    <errorMessage>You can only add Service Types to a Technicians profile. Please Select a valid ServiceType.</errorMessage>
+</ValidationRule>

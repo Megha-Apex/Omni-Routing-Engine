@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Haley_Rushtons_Cases</fullName>
+    <columns>Assignee__c</columns>
+    <columns>Stage__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Open_Date__c</columns>
+    <columns>Case_Identity__c</columns>
+    <columns>Bill_To_Customer__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>hrush</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.EmailtoCase</value>
+    </filters>
+    <label>Haley Rushtons Cases</label>
+</ListView>

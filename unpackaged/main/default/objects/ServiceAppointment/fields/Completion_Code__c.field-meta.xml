@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Code__c</fullName>
+    <label>Completion Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Service_Type_Picklist__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>00 Collect signed BDO</fullName>
+                <default>false</default>
+                <label>00 Collect signed BDO</label>
+            </value>
+            <value>
+                <fullName>00 Dump Fee</fullName>
+                <default>false</default>
+                <label>00 Dump Fee</label>
+            </value>
+            <value>
+                <fullName>00 FTTH Existing Aerial Drop - 1 Span - QTY in Metres</fullName>
+                <default>false</default>
+                <label>00 FTTH Existing Aerial Drop - 1 Span - QTY in Metres</label>
+            </value>
+            <value>
+                <fullName>00 FTTH EXISTING Conduit - QTY in Metres</fullName>
+                <default>false</default>
+                <label>00 FTTH EXISTING Conduit - QTY in Metres</label>
+            </value>
+            <value>
+                <fullName>00 FTTH NEW Spade P2P - QTY in Metres</fullName>
+                <default>false</default>
+                <label>00 FTTH NEW Spade P2P - QTY in Metres</label>
+            </value>
+            <value>
+                <fullName>00 FTTH NEW Spade - QTY in Metres</fullName>
+                <default>false</default>
+                <label>00 FTTH NEW Spade - QTY in Metres</label>
+            </value>
+            <value>
+                <fullName>00 FTTH EXISTING Conduit - Cap Required</fullName>
+                <default>false</default>
+                <label>00 FTTH EXISTING Conduit - Cap Required</label>
+            </value>
+            <value>
+                <fullName>00 Hydrovac</fullName>
+                <default>false</default>
+                <label>00 Hydrovac</label>
+            </value>
+            <value>
+                <fullName>02 Customer Refused - Comeback Later</fullName>
+                <default>false</default>
+                <label>02 Customer Refused - Comeback Later</label>
+            </value>
+            <value>
+                <fullName>02 Customer Refused - Invalid Permission Order</fullName>
+                <default>false</default>
+                <label>02 Customer Refused - Invalid Permission Order</label>
+            </value>
+            <value>
+                <fullName>02 Customer Refused - Property Disruption</fullName>
+                <default>false</default>
+                <label>02 Customer Refused - Property Disruption</label>
+            </value>
+            <value>
+                <fullName>04 Previous installation error correction</fullName>
+                <default>false</default>
+                <label>04 Previous installation error correction</label>
+            </value>
+            <value>
+                <fullName>05 No path - direct buried</fullName>
+                <default>false</default>
+                <label>05 No path - direct buried</label>
+            </value>
+            <value>
+                <fullName>06 Engineering problem - existing drop not as per drawing</fullName>
+                <default>false</default>
+                <label>06 Engineering problem - existing drop not as per drawing</label>
+            </value>
+            <value>
+                <fullName>07 Out of Fibre Boundary</fullName>
+                <default>false</default>
+                <label>07 Out of Fibre Boundary</label>
+            </value>
+            <value>
+                <fullName>09 Wrong Boundary</fullName>
+                <default>false</default>
+                <label>09 Wrong Boundary</label>
+            </value>
+            <value>
+                <fullName>10 Safety concern</fullName>
+                <default>false</default>
+                <label>10 Safety concern</label>
+            </value>
+            <value>
+                <fullName>12 Conduit inside a wall</fullName>
+                <default>false</default>
+                <label>12 Conduit inside a wall</label>
+            </value>
+            <value>
+                <fullName>13 Conduit broken or plugged</fullName>
+                <default>false</default>
+                <label>13 Conduit broken or plugged</label>
+            </value>
+            <value>
+                <fullName>14 On Hold Waiting for Customer</fullName>
+                <default>false</default>
+                <label>14 On Hold Waiting for Customer</label>
+            </value>
+            <value>
+                <fullName>16 No Access</fullName>
+                <default>false</default>
+                <label>16 No Access</label>
+            </value>
+            <value>
+                <fullName>18 High Cost Drops</fullName>
+                <default>false</default>
+                <label>18 High Cost Drops</label>
+            </value>
+            <value>
+                <fullName>20 Requires Brushing or Bucket Truck</fullName>
+                <default>false</default>
+                <label>20 Requires Brushing or Bucket Truck</label>
+            </value>
+            <value>
+                <fullName>21 Disqualified</fullName>
+                <default>false</default>
+                <label>21 Disqualified</label>
+            </value>
+            <value>
+                <fullName>27 Customer Missed Booked Appointment</fullName>
+                <default>false</default>
+                <label>27 Customer Missed Booked Appointment</label>
+            </value>
+            <value>
+                <fullName>35 Pre-approved quote for non-piece rate drop</fullName>
+                <default>false</default>
+                <label>35 Pre-approved quote for non-piece rate drop</label>
+            </value>
+            <value>
+                <fullName>36 Quote Rejected by Rogers</fullName>
+                <default>false</default>
+                <label>36 Quote Rejected by Rogers</label>
+            </value>
+            <value>
+                <fullName>37 Permit Required</fullName>
+                <default>false</default>
+                <label>37 Permit Required</label>
+            </value>
+            <value>
+                <fullName>42 Requires Aerial crew</fullName>
+                <default>false</default>
+                <label>42 Requires Aerial crew</label>
+            </value>
+            <value>
+                <fullName>44 Aerial Trespass</fullName>
+                <default>false</default>
+                <label>44 Aerial Trespass</label>
+            </value>
+            <value>
+                <fullName>51 Out of Scope</fullName>
+                <default>false</default>
+                <label>51 Out of Scope</label>
+            </value>
+            <value>
+                <fullName>01 - Travel Time</fullName>
+                <default>false</default>
+                <label>01 - Travel Time</label>
+            </value>
+            <value>
+                <fullName>02 - Other Customer Admin</fullName>
+                <default>false</default>
+                <label>02 - Other Customer Admin</label>
+            </value>
+            <value>
+                <fullName>Customer Delay</fullName>
+                <default>false</default>
+                <label>Customer Delay</label>
+            </value>
+            <value>
+                <fullName>Customer Site Not Ready</fullName>
+                <default>false</default>
+                <label>Customer Site Not Ready</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <label>Site Survey</label>
+            </value>
+            <value>
+                <fullName>Test and Configuration Existing Equipment</fullName>
+                <default>false</default>
+                <label>Test and Configuration Existing Equipment</label>
+            </value>
+            <value>
+                <fullName>Tone Test Label Cable</fullName>
+                <default>false</default>
+                <label>Tone Test Label Cable</label>
+            </value>
+            <value>
+                <fullName>Troubleshooting</fullName>
+                <default>false</default>
+                <label>Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Admin Contractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin Contractor</label>
+            </value>
+            <value>
+                <fullName>Admin Contractor CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin Contractor CAN</label>
+            </value>
+            <value>
+                <fullName>Business Aerial or Conduit BC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Business Aerial or Conduit BC</label>
+            </value>
+            <value>
+                <fullName>Business Buried BC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Business Buried BC</label>
+            </value>
+            <value>
+                <fullName>CN Rail - Locates CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CN Rail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>FIN Drops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FIN Drops</label>
+            </value>
+            <value>
+                <fullName>Hibernia Offrail - Locates CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hibernia Offrail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Build Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - Build Support</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Escort US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - Escort US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - ISP US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - ISP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Locates US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - Locates US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - OSP US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - OSP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - PMR US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - PMR US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Site Migration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - Site Migration</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - TTBF US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kentucky Wired - TTBF US</label>
+            </value>
+            <value>
+                <fullName>Masergy - Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Masergy - Install</label>
+            </value>
+            <value>
+                <fullName>Masergy - Repair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Masergy - Repair</label>
+            </value>
+            <value>
+                <fullName>Monitor Only - Locates US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Monitor Only - Locates US</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-Billable Customer Admin</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-Billable Customer Admin US</label>
+            </value>
+            <value>
+                <fullName>Project Time - ViaSat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Project Time - ViaSat</label>
+            </value>
+            <value>
+                <fullName>Residential Aerial or Conduit BC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Residential Aerial or Conduit BC</label>
+            </value>
+            <value>
+                <fullName>Residential Buried BC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Residential Buried BC</label>
+            </value>
+            <value>
+                <fullName>Rogers - Drops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rogers - Drops</label>
+            </value>
+            <value>
+                <fullName>Rogers Fixed Wireless - Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rogers Fixed Wireless - Install</label>
+            </value>
+            <value>
+                <fullName>Rogers Off Rail - Locates CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rogers Off Rail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Rogers WIFI - Install MACD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rogers WIFI - Install MACD</label>
+            </value>
+            <value>
+                <fullName>Shaw WIFI - Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shaw WIFI - Install</label>
+            </value>
+            <value>
+                <fullName>Spectrum - ISP US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spectrum - ISP US</label>
+            </value>
+            <value>
+                <fullName>Spectrum - Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spectrum - Install</label>
+            </value>
+            <value>
+                <fullName>Spectrum - PMR US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spectrum - PMR US</label>
+            </value>
+            <value>
+                <fullName>Telus - Locates CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Telus - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Telus SMB Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Telus SMB Install</label>
+            </value>
+            <value>
+                <fullName>Testing - OSP US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Testing - OSP US</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Install CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Bus Install CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Install US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Bus Install US</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Repair US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Bus Repair US</label>
+            </value>
+            <value>
+                <fullName>Typical - EF&amp;I Installation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - EF&amp;I Installation</label>
+            </value>
+            <value>
+                <fullName>Typical - Escort CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Escort CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Escort US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Escort US</label>
+            </value>
+            <value>
+                <fullName>Typical - ISP CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - ISP CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - ISP US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - ISP US</label>
+            </value>
+            <value>
+                <fullName>Typical - Locates CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Locates US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - Locates US</label>
+            </value>
+            <value>
+                <fullName>Typical - OSP CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - OSP CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - OSP US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - OSP US</label>
+            </value>
+            <value>
+                <fullName>Typical - PMR CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - PMR CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - PMR US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - PMR US</label>
+            </value>
+            <value>
+                <fullName>Typical - TTBF CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Typical - TTBF CAN</label>
+            </value>
+            <value>
+                <fullName>ViaSat - RF CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ViaSat - RF CAN</label>
+            </value>
+            <value>
+                <fullName>ViaSat Badged and Trained - RF US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ViaSat Badged and Trained - RF US</label>
+            </value>
+            <value>
+                <fullName>XO Out of Market - Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XO Out of Market - Install</label>
+            </value>
+            <value>
+                <fullName>XO Out of Market - Repair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XO Out of Market - Repair</label>
+            </value>
+            <value>
+                <fullName>Zayo - Locates CAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zayo - Locates CAN</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 Collect signed BDO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 Dump Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 FTTH Existing Aerial Drop - 1 Span - QTY in Metres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 FTTH EXISTING Conduit - QTY in Metres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 FTTH NEW Spade P2P - QTY in Metres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 FTTH NEW Spade - QTY in Metres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 FTTH EXISTING Conduit - Cap Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>00 Hydrovac</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>02 Customer Refused - Comeback Later</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>02 Customer Refused - Invalid Permission Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>02 Customer Refused - Property Disruption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>04 Previous installation error correction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>05 No path - direct buried</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>06 Engineering problem - existing drop not as per drawing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>07 Out of Fibre Boundary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>09 Wrong Boundary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>10 Safety concern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>12 Conduit inside a wall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>13 Conduit broken or plugged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>14 On Hold Waiting for Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>16 No Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>18 High Cost Drops</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>20 Requires Brushing or Bucket Truck</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>21 Disqualified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>27 Customer Missed Booked Appointment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>35 Pre-approved quote for non-piece rate drop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>36 Quote Rejected by Rogers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>37 Permit Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>42 Requires Aerial crew</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>44 Aerial Trespass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers - Drops</controllingFieldValue>
+            <valueName>51 Out of Scope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>01 - Travel Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>02 - Other Customer Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Customer Delay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Customer Site Not Ready</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Installation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Site Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Test and Configuration Existing Equipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Tone Test Label Cable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Typical - Bus Install CAN</controllingFieldValue>
+            <valueName>Troubleshooting</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

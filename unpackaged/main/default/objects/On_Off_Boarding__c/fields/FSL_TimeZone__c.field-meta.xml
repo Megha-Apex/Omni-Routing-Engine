@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_TimeZone__c</fullName>
+    <label>FSL TimeZone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>State_Prov__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>America/Anchorage</fullName>
+                <default>false</default>
+                <label>America/Anchorage</label>
+            </value>
+            <value>
+                <fullName>America/Chicago</fullName>
+                <default>false</default>
+                <label>America/Chicago</label>
+            </value>
+            <value>
+                <fullName>America/Denver</fullName>
+                <default>false</default>
+                <label>America/Denver</label>
+            </value>
+            <value>
+                <fullName>America/El_Salvador</fullName>
+                <default>false</default>
+                <label>America/El_Salvador</label>
+            </value>
+            <value>
+                <fullName>America/Halifax</fullName>
+                <default>false</default>
+                <label>America/Halifax</label>
+            </value>
+            <value>
+                <fullName>America/Los_Angeles</fullName>
+                <default>false</default>
+                <label>America/Los_Angeles</label>
+            </value>
+            <value>
+                <fullName>America/New_York</fullName>
+                <default>false</default>
+                <label>America/New_York</label>
+            </value>
+            <value>
+                <fullName>America/Phoenix</fullName>
+                <default>false</default>
+                <label>America/Phoenix</label>
+            </value>
+            <value>
+                <fullName>America/St_Johns</fullName>
+                <default>false</default>
+                <label>America/St_Johns</label>
+            </value>
+            <value>
+                <fullName>Pacific/Honolulu</fullName>
+                <default>false</default>
+                <label>Pacific/Honolulu</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>UT</controllingFieldValue>
+            <controllingFieldValue>TX (MT)</controllingFieldValue>
+            <controllingFieldValue>WY</controllingFieldValue>
+            <controllingFieldValue>ID</controllingFieldValue>
+            <controllingFieldValue>KS</controllingFieldValue>
+            <controllingFieldValue>CO</controllingFieldValue>
+            <controllingFieldValue>AB</controllingFieldValue>
+            <controllingFieldValue>NT</controllingFieldValue>
+            <controllingFieldValue>NU</controllingFieldValue>
+            <controllingFieldValue>ID (MT)</controllingFieldValue>
+            <controllingFieldValue>MT</controllingFieldValue>
+            <controllingFieldValue>NE</controllingFieldValue>
+            <controllingFieldValue>KS (MT)</controllingFieldValue>
+            <controllingFieldValue>NM</controllingFieldValue>
+            <controllingFieldValue>ND</controllingFieldValue>
+            <controllingFieldValue>ND (MT)</controllingFieldValue>
+            <controllingFieldValue>OR</controllingFieldValue>
+            <controllingFieldValue>NE (MT)</controllingFieldValue>
+            <controllingFieldValue>OR (MT)</controllingFieldValue>
+            <controllingFieldValue>SD (MT)</controllingFieldValue>
+            <controllingFieldValue>SD</controllingFieldValue>
+            <controllingFieldValue>TX</controllingFieldValue>
+            <valueName>America/Denver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VT</controllingFieldValue>
+            <controllingFieldValue>VA</controllingFieldValue>
+            <controllingFieldValue>WV</controllingFieldValue>
+            <controllingFieldValue>DC</controllingFieldValue>
+            <controllingFieldValue>GA</controllingFieldValue>
+            <controllingFieldValue>QC</controllingFieldValue>
+            <controllingFieldValue>ON</controllingFieldValue>
+            <controllingFieldValue>IN</controllingFieldValue>
+            <controllingFieldValue>KY</controllingFieldValue>
+            <controllingFieldValue>ME</controllingFieldValue>
+            <controllingFieldValue>CT</controllingFieldValue>
+            <controllingFieldValue>DE</controllingFieldValue>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <controllingFieldValue>MD</controllingFieldValue>
+            <controllingFieldValue>MA</controllingFieldValue>
+            <controllingFieldValue>MI</controllingFieldValue>
+            <controllingFieldValue>FL (ET)</controllingFieldValue>
+            <controllingFieldValue>NH</controllingFieldValue>
+            <controllingFieldValue>IN (ET)</controllingFieldValue>
+            <controllingFieldValue>NJ</controllingFieldValue>
+            <controllingFieldValue>KY (ET)</controllingFieldValue>
+            <controllingFieldValue>NY</controllingFieldValue>
+            <controllingFieldValue>MI (ET)</controllingFieldValue>
+            <controllingFieldValue>NC</controllingFieldValue>
+            <controllingFieldValue>OH</controllingFieldValue>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>RI</controllingFieldValue>
+            <controllingFieldValue>SC</controllingFieldValue>
+            <controllingFieldValue>TN</controllingFieldValue>
+            <controllingFieldValue>TN (ET)</controllingFieldValue>
+            <valueName>America/New_York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WA</controllingFieldValue>
+            <controllingFieldValue>ID</controllingFieldValue>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>BC</controllingFieldValue>
+            <controllingFieldValue>YT</controllingFieldValue>
+            <controllingFieldValue>ID (PT)</controllingFieldValue>
+            <controllingFieldValue>NV</controllingFieldValue>
+            <controllingFieldValue>OR</controllingFieldValue>
+            <controllingFieldValue>OR (PT)</controllingFieldValue>
+            <valueName>America/Los_Angeles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WI</controllingFieldValue>
+            <controllingFieldValue>IL</controllingFieldValue>
+            <controllingFieldValue>IN</controllingFieldValue>
+            <controllingFieldValue>MB</controllingFieldValue>
+            <controllingFieldValue>IA</controllingFieldValue>
+            <controllingFieldValue>KS</controllingFieldValue>
+            <controllingFieldValue>KY</controllingFieldValue>
+            <controllingFieldValue>LA</controllingFieldValue>
+            <controllingFieldValue>AL</controllingFieldValue>
+            <controllingFieldValue>AR</controllingFieldValue>
+            <controllingFieldValue>FL</controllingFieldValue>
+            <controllingFieldValue>NU</controllingFieldValue>
+            <controllingFieldValue>FL (CT)</controllingFieldValue>
+            <controllingFieldValue>MI</controllingFieldValue>
+            <controllingFieldValue>MN</controllingFieldValue>
+            <controllingFieldValue>MS</controllingFieldValue>
+            <controllingFieldValue>MO</controllingFieldValue>
+            <controllingFieldValue>IN (CT)</controllingFieldValue>
+            <controllingFieldValue>NE</controllingFieldValue>
+            <controllingFieldValue>KS (CT)</controllingFieldValue>
+            <controllingFieldValue>KY (CT)</controllingFieldValue>
+            <controllingFieldValue>MI (CT)</controllingFieldValue>
+            <controllingFieldValue>ND (CT)</controllingFieldValue>
+            <controllingFieldValue>ND</controllingFieldValue>
+            <controllingFieldValue>NE (CT)</controllingFieldValue>
+            <controllingFieldValue>OK</controllingFieldValue>
+            <controllingFieldValue>SD (CT)</controllingFieldValue>
+            <controllingFieldValue>SD</controllingFieldValue>
+            <controllingFieldValue>TN (CT)</controllingFieldValue>
+            <controllingFieldValue>TN</controllingFieldValue>
+            <controllingFieldValue>TX</controllingFieldValue>
+            <controllingFieldValue>TX (CT)</controllingFieldValue>
+            <valueName>America/Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NL</controllingFieldValue>
+            <valueName>America/St_Johns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PE</controllingFieldValue>
+            <controllingFieldValue>NS</controllingFieldValue>
+            <controllingFieldValue>NB</controllingFieldValue>
+            <valueName>America/Halifax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HI</controllingFieldValue>
+            <valueName>Pacific/Honolulu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SK</controllingFieldValue>
+            <valueName>America/El_Salvador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AK</controllingFieldValue>
+            <valueName>America/Anchorage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AZ</controllingFieldValue>
+            <valueName>America/Phoenix</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

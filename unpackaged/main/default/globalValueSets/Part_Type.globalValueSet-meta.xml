@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Attenuator SC</fullName>
+        <default>false</default>
+        <label>Attenuator SC</label>
+    </customValue>
+    <customValue>
+        <fullName>Ethernet Cabling</fullName>
+        <default>false</default>
+        <label>Ethernet Cabling</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiber Cleaning</fullName>
+        <default>false</default>
+        <label>Fiber Cleaning</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiber Jumper Multi-Mode</fullName>
+        <default>false</default>
+        <label>Fiber Jumper Multi-Mode</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiber Jumpers Single Mode</fullName>
+        <default>false</default>
+        <label>Fiber Jumpers Single Mode</label>
+    </customValue>
+    <customValue>
+        <fullName>Labels</fullName>
+        <default>false</default>
+        <label>Labels</label>
+    </customValue>
+    <customValue>
+        <fullName>Mics</fullName>
+        <default>false</default>
+        <label>Mics</label>
+    </customValue>
+    <customValue>
+        <fullName>Power</fullName>
+        <default>false</default>
+        <label>Power</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Cell Batteries</fullName>
+        <default>false</default>
+        <label>Small Cell Batteries</label>
+    </customValue>
+    <masterLabel>Part Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

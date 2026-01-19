@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Hours_Worked__c</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Sponsor__c</columns>
+    <columns>Parent_Project__c</columns>
+    <columns>Project_Number__c</columns>
+    <columns>Assignee__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Backlog,Ready for Release</value>
+    </filters>
+    <label>All</label>
+</ListView>

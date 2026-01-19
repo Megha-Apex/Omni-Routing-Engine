@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC14_Start_Before_Finish</fullName>
+    <active>true</active>
+    <errorConditionFormula>Completion_Code_14_Start__c &gt; Completion_Code_14_Finish__c
+||
+Completion_Code_14_Finish__c - Completion_Code_14_Start__c &gt; 1</errorConditionFormula>
+    <errorDisplayField>Completion_Code_14_Start__c</errorDisplayField>
+    <errorMessage>Start Date must be set earlier than End Date and Duration no longer than 24 hours.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_SA_Creation_SiteAccess</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISNEW(),
+    NOT(
+        OR(
+            $UserRole.Name = &quot;Admin&quot;,
+            $User.Alias  = &quot;hrush&quot;
+        )
+    ),
+    OR(
+        Do_Not_Use_SA__c = TRUE,
+        AND(
+            Work_Order__r.Sub_Customer__r.Site_Access_Required__c = TRUE,
+            Work_Order__r.Site_Access_Approved__c = FALSE,
+            NOT(
+                AND(
+                    NOT(ISBLANK(Work_Order__r.CaseId)),
+                    Work_Order__r.Case.No_Technicians_Found__c = TRUE
+                )
+            )
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Site Access is required but not yet approved. Once Site Access has been approved you can create a Service Appointment</errorMessage>
+</ValidationRule>

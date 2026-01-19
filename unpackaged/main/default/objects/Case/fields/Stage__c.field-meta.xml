@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <inlineHelpText>Current state of the Case in the workflow process</inlineHelpText>
+    <label>Stage</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Action Today</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Action Today</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Awaiting Quote</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Awaiting Quote</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <color>#999999</color>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Checked</fullName>
+                <color>#3366FF</color>
+                <default>false</default>
+                <label>Checked</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <color>#000000</color>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Customer Chatter</fullName>
+                <default>false</default>
+                <label>Customer Chatter</label>
+            </value>
+            <value>
+                <fullName>Customer Escalated</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Customer Escalated</label>
+            </value>
+            <value>
+                <fullName>Damages</fullName>
+                <default>false</default>
+                <label>Damages</label>
+            </value>
+            <value>
+                <fullName>Escalated To Tier 2</fullName>
+                <default>false</default>
+                <label>Escalated To Tier 2</label>
+            </value>
+            <value>
+                <fullName>Escalation Resolved</fullName>
+                <default>false</default>
+                <label>Escalation Resolved</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <color>#A845DC</color>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <color>#33CCFF</color>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Internally Escalate</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Internally Escalate</label>
+            </value>
+            <value>
+                <fullName>Jeopardy</fullName>
+                <default>false</default>
+                <label>Jeopardy</label>
+            </value>
+            <value>
+                <fullName>Lift Required</fullName>
+                <color>#993399</color>
+                <default>false</default>
+                <label>Lift Required</label>
+            </value>
+            <value>
+                <fullName>Locked On-Hold</fullName>
+                <default>false</default>
+                <label>Locked On-Hold</label>
+            </value>
+            <value>
+                <fullName>MTTR</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>MTTR</label>
+            </value>
+            <value>
+                <fullName>Needs To Be Scheduled</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Needs To Be Scheduled</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <color>#33CC00</color>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>No Technicians Found</fullName>
+                <default>false</default>
+                <label>No Technicians Found</label>
+            </value>
+            <value>
+                <fullName>Pending COI</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Pending COI</label>
+            </value>
+            <value>
+                <fullName>Reschedule</fullName>
+                <color>#33FF33</color>
+                <default>false</default>
+                <label>Reschedule</label>
+            </value>
+            <value>
+                <fullName>SEV 1</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>SEV 1</label>
+            </value>
+            <value>
+                <fullName>SEV 2</fullName>
+                <color>#FF6666</color>
+                <default>false</default>
+                <label>SEV 2</label>
+            </value>
+            <value>
+                <fullName>SEV 3</fullName>
+                <color>#FFCC33</color>
+                <default>false</default>
+                <label>SEV 3</label>
+            </value>
+            <value>
+                <fullName>SEV 4</fullName>
+                <color>#FFCC66</color>
+                <default>false</default>
+                <label>SEV 4</label>
+            </value>
+            <value>
+                <fullName>SEV 5</fullName>
+                <color>#FFFF66</color>
+                <default>false</default>
+                <label>SEV 5</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Site Access Approval</fullName>
+                <default>false</default>
+                <label>Site Access Approval</label>
+            </value>
+            <value>
+                <fullName>Tech Concern - Urgent</fullName>
+                <color>#66FF99</color>
+                <default>false</default>
+                <label>Tech Concern - Urgent</label>
+            </value>
+            <value>
+                <fullName>Today</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Today</label>
+            </value>
+            <value>
+                <fullName>Tomorrow</fullName>
+                <color>#FFFF66</color>
+                <default>false</default>
+                <label>Tomorrow</label>
+            </value>
+            <value>
+                <fullName>Urgent</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Urgent</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+            <value>
+                <fullName>Waiting On Comcast Acceptance</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Comcast Acceptance</label>
+            </value>
+            <value>
+                <fullName>Waiting On Contractor</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Contractor</label>
+            </value>
+            <value>
+                <fullName>Waiting On Customer</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Customer</label>
+            </value>
+            <value>
+                <fullName>Waiting On Director</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Director</label>
+            </value>
+            <value>
+                <fullName>Waiting On Manager</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Manager</label>
+            </value>
+            <value>
+                <fullName>Waiting On PC</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On PC</label>
+            </value>
+            <value>
+                <fullName>Waiting On Tech</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Tech</label>
+            </value>
+            <value>
+                <fullName>Waiting On Vendor</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Waiting On Vendor</label>
+            </value>
+            <value>
+                <fullName>WorkOrder Update</fullName>
+                <default>false</default>
+                <label>WorkOrder Update</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Add Docs To Tickets</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Add Docs To Tickets</label>
+            </value>
+            <value>
+                <fullName>Ask Viasat PC (Lily Rong)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ask Viasat PC (Lily Rong)</label>
+            </value>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Blocked</label>
+            </value>
+            <value>
+                <fullName>Comcast PO/WO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Comcast PO/WO</label>
+            </value>
+            <value>
+                <fullName>Customer Cancelled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Cancelled</label>
+            </value>
+            <value>
+                <fullName>Immediate Follow Up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Immediate Follow Up</label>
+            </value>
+            <value>
+                <fullName>Merged</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Merged</label>
+            </value>
+            <value>
+                <fullName>No Comcast Acceptance Received</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Comcast Acceptance Received</label>
+            </value>
+            <value>
+                <fullName>OBS Project</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OBS Project</label>
+            </value>
+            <value>
+                <fullName>PMI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PMI</label>
+            </value>
+            <value>
+                <fullName>Related</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Related</label>
+            </value>
+            <value>
+                <fullName>Waiting On Completed Spectrum Survey</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting On Completed Spectrum Survey</label>
+            </value>
+            <value>
+                <fullName>Waiting On Survey</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting On Survey</label>
+            </value>
+            <value>
+                <fullName>Waiting On Viasat Approval</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting On Viasat Approval</label>
+            </value>
+            <value>
+                <fullName>Zayo Project - NM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Zayo Project - NM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

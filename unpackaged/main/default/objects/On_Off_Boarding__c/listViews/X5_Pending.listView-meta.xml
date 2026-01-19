@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Pending</fullName>
+    <columns>NAME</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Ball_in_Court__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Hiring_Manager__c</columns>
+    <columns>Action__c</columns>
+    <columns>JDE_Status__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Tech_on_Leave__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>Completed__c</columns>
+    <columns>Technician__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ball_in_Court__c</field>
+        <operation>equals</operation>
+        <value>Pending</value>
+    </filters>
+    <filters>
+        <field>Action__c</field>
+        <operation>equals</operation>
+        <value>Add,Update,Delete</value>
+    </filters>
+    <label>5 Pending</label>
+    <sharedTo>
+        <role>Dispatch_Manager</role>
+        <role>Resource_Manager</role>
+    </sharedTo>
+</ListView>

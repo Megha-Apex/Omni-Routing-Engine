@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today_s_Appointment</fullName>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>Sub_Customer_Name__c</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Work_Order__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Reference2__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <filterScope>AssignedToMe</filterScope>
+    <filters>
+        <field>SchedStartTime</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Today&#39;s Appointment</label>
+    <sharedTo>
+        <group>Dispatcher_Group</group>
+        <group>Technician_Search_Views</group>
+    </sharedTo>
+</ListView>

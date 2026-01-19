@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <label>Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>5038000-BIR National OH</fullName>
+                <default>false</default>
+                <label>5038000-BIR National OH</label>
+            </value>
+            <value>
+                <fullName>5038200-FLM National OH</fullName>
+                <default>false</default>
+                <label>5038200-FLM National OH</label>
+            </value>
+            <value>
+                <fullName>5047001-217-Kentucky FLM</fullName>
+                <default>false</default>
+                <label>5047001-217-Kentucky FLM</label>
+            </value>
+            <value>
+                <fullName>5016100-111-Telus BC</fullName>
+                <default>false</default>
+                <label>5016100-111-Telus BC</label>
+            </value>
+            <value>
+                <fullName>5016200-111-Telus AB</fullName>
+                <default>false</default>
+                <label>5016200-111-Telus AB</label>
+            </value>
+            <value>
+                <fullName>5026001-111-AB</fullName>
+                <default>false</default>
+                <label>5026001-111-AB</label>
+            </value>
+            <value>
+                <fullName>5026002-111-BC</fullName>
+                <default>false</default>
+                <label>5026002-111-BC</label>
+            </value>
+            <value>
+                <fullName>5026003-111-SK</fullName>
+                <default>false</default>
+                <label>5026003-111-SK</label>
+            </value>
+            <value>
+                <fullName>5026004-111-MB</fullName>
+                <default>false</default>
+                <label>5026004-111-MB</label>
+            </value>
+            <value>
+                <fullName>5026005-111-ON</fullName>
+                <default>false</default>
+                <label>5026005-111-ON</label>
+            </value>
+            <value>
+                <fullName>5026006-111-QC</fullName>
+                <default>false</default>
+                <label>5026006-111-QC</label>
+            </value>
+            <value>
+                <fullName>5026007-111-NL</fullName>
+                <default>false</default>
+                <label>5026007-111-NL</label>
+            </value>
+            <value>
+                <fullName>5026008-111-NB</fullName>
+                <default>false</default>
+                <label>5026008-111-NB</label>
+            </value>
+            <value>
+                <fullName>5026009-111-NS</fullName>
+                <default>false</default>
+                <label>5026009-111-NS</label>
+            </value>
+            <value>
+                <fullName>5026013-111-PE</fullName>
+                <default>false</default>
+                <label>5026013-111-PE</label>
+            </value>
+            <value>
+                <fullName>5017010</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5017010</label>
+            </value>
+            <value>
+                <fullName>5019100-112-Falcon Drops Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5019100-112-Falcon Drops Admin</label>
+            </value>
+            <value>
+                <fullName>5019176-111-FIN Drops</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5019176-111-FIN Drops</label>
+            </value>
+            <value>
+                <fullName>5025007</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5025007</label>
+            </value>
+            <value>
+                <fullName>5026041-111-BFS Multi Utility Locates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5026041-111-BFS Multi Utility Locates</label>
+            </value>
+            <value>
+                <fullName>5031005</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5031005</label>
+            </value>
+            <value>
+                <fullName>5032005</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5032005</label>
+            </value>
+            <value>
+                <fullName>5038001</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038001</label>
+            </value>
+            <value>
+                <fullName>5038002</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038002</label>
+            </value>
+            <value>
+                <fullName>5038003</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038003</label>
+            </value>
+            <value>
+                <fullName>5038004-210-BIR OH-N_WEST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038004-210-BIR OH-N_WEST</label>
+            </value>
+            <value>
+                <fullName>5038005-210-BIR OH-N_CENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038005-210-BIR OH-N_CENT</label>
+            </value>
+            <value>
+                <fullName>5038006-210-BIR OH-N_EAST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038006-210-BIR OH-N_EAST</label>
+            </value>
+            <value>
+                <fullName>5038007-210-BIR OH-S_WEST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038007-210-BIR OH-S_WEST</label>
+            </value>
+            <value>
+                <fullName>5038008-210-BIR OH-S_CENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038008-210-BIR OH-S_CENT</label>
+            </value>
+            <value>
+                <fullName>5038009-210-BIR OH-S_EAST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038009-210-BIR OH-S_EAST</label>
+            </value>
+            <value>
+                <fullName>5038030-210 BIR OH-A_CENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038030-210-BIR OH-A_CENT</label>
+            </value>
+            <value>
+                <fullName>5038201</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038201</label>
+            </value>
+            <value>
+                <fullName>5038202</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038202</label>
+            </value>
+            <value>
+                <fullName>5038203</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038203</label>
+            </value>
+            <value>
+                <fullName>5038204-210-FLM OH-N_WEST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038204-210-FLM OH-N_WEST</label>
+            </value>
+            <value>
+                <fullName>5038205-210-FLM OH-N_CENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038205-210-FLM OH-N_CENT</label>
+            </value>
+            <value>
+                <fullName>5038206-210-FLM OH-N_EAST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038206-210-FLM OH-N_EAST</label>
+            </value>
+            <value>
+                <fullName>5038207-210-FLM OH-S_WEST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038207-210-FLM OH-S_WEST</label>
+            </value>
+            <value>
+                <fullName>5038208-210-FLM OH-S_CENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038208-210-FLM OH-S_CENT</label>
+            </value>
+            <value>
+                <fullName>5038209-210-FLM OH-S_EAST</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038209-210-FLM OH-S_EAST</label>
+            </value>
+            <value>
+                <fullName>5038230-210 FLM OH-A_CENT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5038230-210-FLM OH-A_CENT</label>
+            </value>
+            <value>
+                <fullName>5041005</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5041005</label>
+            </value>
+            <value>
+                <fullName>5042005</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5042005</label>
+            </value>
+            <value>
+                <fullName>5042007</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5042007</label>
+            </value>
+            <value>
+                <fullName>5047000-217-Kentucky FLM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5047000-217-Kentucky FLM</label>
+            </value>
+            <value>
+                <fullName>5048002</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5048002</label>
+            </value>
+            <value>
+                <fullName>5055001</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5055001</label>
+            </value>
+            <value>
+                <fullName>5080522-Rogers Build - FTTH GTAW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5080522-Rogers Build - FTTH GTAW</label>
+            </value>
+            <value>
+                <fullName>5090178</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5090178</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

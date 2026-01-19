@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delay__c</fullName>
+    <formula>(ActualStartTime &gt;  ArrivalWindowEndTime) &amp;&amp; ISPICKVAL(Delay_Reason__c,&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Delay</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

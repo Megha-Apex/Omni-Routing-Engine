@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue__c</fullName>
+    <label>Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Issue</fullName>
+                <default>false</default>
+                <label>Customer Issue</label>
+            </value>
+            <value>
+                <fullName>Lack of Resources</fullName>
+                <default>false</default>
+                <label>Lack of Resources</label>
+            </value>
+            <value>
+                <fullName>LOC Issue</fullName>
+                <default>false</default>
+                <label>LOC Issue</label>
+            </value>
+            <value>
+                <fullName>Manager Delay</fullName>
+                <default>false</default>
+                <label>Manager Delay</label>
+            </value>
+            <value>
+                <fullName>Multiple MTTRs in Market</fullName>
+                <default>false</default>
+                <label>Multiple MTTRs in Market</label>
+            </value>
+            <value>
+                <fullName>On-Call Tech Delay</fullName>
+                <default>false</default>
+                <label>On-Call Tech Delay</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Rescheduling Other Work</fullName>
+                <default>false</default>
+                <label>Rescheduling Other Work</label>
+            </value>
+            <value>
+                <fullName>System Issue</fullName>
+                <default>false</default>
+                <label>System Issue</label>
+            </value>
+            <value>
+                <fullName>Ticket Reassigned</fullName>
+                <default>false</default>
+                <label>Ticket Reassigned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

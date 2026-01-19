@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LOC_Team__c</fullName>
+    <defaultValue>$User.Division</defaultValue>
+    <description>Division in User</description>
+    <label>LOC Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CSC - Austin</fullName>
+                <default>false</default>
+                <label>CSC - Austin</label>
+            </value>
+            <value>
+                <fullName>CSC - Port Moody</fullName>
+                <default>false</default>
+                <label>CSC - Port Moody</label>
+            </value>
+            <value>
+                <fullName>CSC - Vancouver</fullName>
+                <default>false</default>
+                <label>CSC - Vancouver</label>
+            </value>
+            <value>
+                <fullName>PMO - Austin</fullName>
+                <default>false</default>
+                <label>PMO - Austin</label>
+            </value>
+            <value>
+                <fullName>PMO - Port Moody</fullName>
+                <default>false</default>
+                <label>PMO - Port Moody</label>
+            </value>
+            <value>
+                <fullName>PMO - Vancouver</fullName>
+                <default>false</default>
+                <label>PMO - Vancouver</label>
+            </value>
+            <value>
+                <fullName>STM Technician</fullName>
+                <default>false</default>
+                <label>STM Technician</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

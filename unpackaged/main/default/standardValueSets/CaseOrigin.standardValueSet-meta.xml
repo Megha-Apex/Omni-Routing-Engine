@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>1 - E-mail Request</fullName>
+        <default>false</default>
+        <label>1 - E-mail Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2 - Telephone Request</fullName>
+        <default>false</default>
+        <label>2 - Telephone Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3 - Customer Self Service</fullName>
+        <default>false</default>
+        <label>3 - Customer Self Service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4 - Self Initiated</fullName>
+        <default>false</default>
+        <label>4 - Self Initiated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5 - Auto Generated</fullName>
+        <default>false</default>
+        <label>5 - Auto Generated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DIG - DigTrack Request</fullName>
+        <default>false</default>
+        <label>DIG - DigTrack Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billflex</fullName>
+        <default>false</default>
+        <label>Billflex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Call</fullName>
+        <default>false</default>
+        <label>Direct Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FSL Support</fullName>
+        <default>false</default>
+        <label>FSL Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Salesforce Support</fullName>
+        <default>false</default>
+        <label>Salesforce Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Service Now</fullName>
+        <default>false</default>
+        <label>Service Now</label>
+    </standardValue>
+</StandardValueSet>

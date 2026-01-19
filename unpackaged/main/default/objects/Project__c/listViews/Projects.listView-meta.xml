@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projects</fullName>
+    <columns>NAME</columns>
+    <columns>Hours_Worked__c</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Sponsor_delete__c</columns>
+    <columns>Parent_Project__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Project__c.Project</value>
+    </filters>
+    <filters>
+        <field>Is_Parent__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Projects</label>
+</ListView>

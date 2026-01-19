@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BellNexxia_Today_CR</fullName>
+    <columns>NAME</columns>
+    <columns>Additional_Headers__c</columns>
+    <columns>Object_Id__c</columns>
+    <columns>Status__c</columns>
+    <columns>URL__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>URL__c</field>
+        <operation>contains</operation>
+        <value>BellNexxia</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>BellNexxia (Today) CR</label>
+</ListView>

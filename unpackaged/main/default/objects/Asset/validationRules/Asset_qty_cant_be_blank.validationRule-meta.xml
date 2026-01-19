@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_qty_cant_be_blank</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Quantity)</errorConditionFormula>
+    <errorMessage>Quantity can not be Blank. you must enter at least a 0 to create a new asset</errorMessage>
+</ValidationRule>

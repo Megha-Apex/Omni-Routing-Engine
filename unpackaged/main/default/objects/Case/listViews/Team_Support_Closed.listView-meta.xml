@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Support_Closed</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Stage__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>TimeInQue__c</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CaseDueDate__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Assignee__c</columns>
+    <columns>CASES.CLOSED</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.FSL_Support</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed,Merged</value>
+    </filters>
+    <label>Team Support Closed</label>
+    <sharedTo>
+        <role>Admin</role>
+        <role>Area_Manager_Read_Only</role>
+    </sharedTo>
+</ListView>

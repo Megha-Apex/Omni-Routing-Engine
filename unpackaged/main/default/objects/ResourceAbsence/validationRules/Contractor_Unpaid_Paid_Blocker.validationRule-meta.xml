@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Unpaid_Paid_Blocker</fullName>
+    <active>true</active>
+    <description>Contractor do not get unpaid or paid leave</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(Resource.EngineerType__c ,&quot;BIR Contractor&quot;),
+ISPICKVAL(Resource.EngineerType__c ,&quot;FLM Contractor&quot;)
+),
+OR(
+	TEXT(Type) = &quot;Bereavement - Paid&quot;,
+	TEXT(Type) = &quot;Vacation&quot;,
+	TEXT(Type) = &quot;Unpaid Time Off&quot;,
+	TEXT(Type) = &quot;Sick CDN - Paid&quot;,
+	TEXT(Type) = &quot;Sick - Unpaid&quot;,
+	TEXT(Type) = &quot;Sick USA - Paid&quot;,
+	TEXT(Type) = &quot;Personal Emergency Leave - Paid&quot;,
+	TEXT(Type) = &quot;Personal Emergency Leave - Unpaid&quot;,
+	TEXT(Type) = &quot;Jury Duty - Paid&quot;,
+	TEXT(Type) = &quot;Lieu - Paid&quot;,   
+	TEXT(Type) = &quot;Long Term Disability - Unpaid&quot;,
+	TEXT(Type) = &quot;Maternity Leave USA - Paid&quot;,
+	TEXT(Type) = &quot;Maternity Leave USA - Unpaid&quot;,
+	TEXT(Type) = &quot;Maternity Paternity Leave CDN - Unpaid&quot;,
+	TEXT(Type) = &quot;Workers Compensation Board - Unpaid&quot;,
+	TEXT(Type) = &quot;Vehicle Maintenance - Paid&quot;   
+   )
+)</errorConditionFormula>
+    <errorMessage>Contractors do not use unpaid/paid blocker, it should be Unavailable - Off Call</errorMessage>
+</ValidationRule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL_Complete</fullName>
+    <columns>NAME</columns>
+    <columns>Ball_in_Court__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Hiring_Manager__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>BillFlex_Action__c</columns>
+    <columns>FSL_Resource_Type__c</columns>
+    <columns>User__c</columns>
+    <columns>Technician__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ball_in_Court__c</field>
+        <operation>equals</operation>
+        <value>Complete</value>
+    </filters>
+    <label>FSL Complete</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

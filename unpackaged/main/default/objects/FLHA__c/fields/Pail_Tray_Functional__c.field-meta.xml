@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pail_Tray_Functional__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Pail Tray Functional</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

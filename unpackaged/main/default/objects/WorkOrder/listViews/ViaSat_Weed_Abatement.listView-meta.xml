@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ViaSat_Weed_Abatement</fullName>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>SLA__c</columns>
+    <columns>Bill_to_Customer__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Requestor_Name__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>SiteID__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>ZIP</columns>
+    <columns>STATE</columns>
+    <columns>COUNTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Bill_to_Customer__c</field>
+        <operation>contains</operation>
+        <value>Viasat</value>
+    </filters>
+    <filters>
+        <field>Short_Description__c</field>
+        <operation>contains</operation>
+        <value>Weed Abatement_Vendor</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>On Hold,Open</value>
+    </filters>
+    <label>ViaSat Weed Abatement</label>
+</ListView>

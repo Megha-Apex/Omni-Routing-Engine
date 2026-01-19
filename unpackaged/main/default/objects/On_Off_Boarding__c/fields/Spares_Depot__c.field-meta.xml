@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spares_Depot__c</fullName>
+    <label>Spares Depot</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Calgary, AB Warehouse</fullName>
+                <default>false</default>
+                <label>Calgary, AB Warehouse</label>
+            </value>
+            <value>
+                <fullName>Edmonton, AB Warehouse</fullName>
+                <default>false</default>
+                <label>Edmonton, AB Warehouse</label>
+            </value>
+            <value>
+                <fullName>Medicine Hat, AB Depot</fullName>
+                <default>false</default>
+                <label>Medicine Hat, AB Depot</label>
+            </value>
+            <value>
+                <fullName>Kamloops, BC Depot</fullName>
+                <default>false</default>
+                <label>Kamloops, BC Depot</label>
+            </value>
+            <value>
+                <fullName>Kelowna, BC Depot - Unit C553</fullName>
+                <default>false</default>
+                <label>Kelowna, BC Depot - Unit C553</label>
+            </value>
+            <value>
+                <fullName>Kelowna, BC Depot - Unit C566</fullName>
+                <default>false</default>
+                <label>Kelowna, BC Depot - Unit C566</label>
+            </value>
+            <value>
+                <fullName>Port Moody, BC Warehouse</fullName>
+                <default>false</default>
+                <label>Port Moody, BC Warehouse</label>
+            </value>
+            <value>
+                <fullName>Vancouver, BC Warehouse</fullName>
+                <default>false</default>
+                <label>Vancouver, BC Warehouse</label>
+            </value>
+            <value>
+                <fullName>Victoria, BC Depot - Unit 408</fullName>
+                <default>false</default>
+                <label>Victoria, BC Depot - Unit 408</label>
+            </value>
+            <value>
+                <fullName>Victoria, BC Depot - Unit 416</fullName>
+                <default>false</default>
+                <label>Victoria, BC Depot - Unit 416</label>
+            </value>
+            <value>
+                <fullName>Brandon, MB Depot</fullName>
+                <default>false</default>
+                <label>Brandon, MB Depot</label>
+            </value>
+            <value>
+                <fullName>Winnipeg, MB Depot</fullName>
+                <default>false</default>
+                <label>Winnipeg, MB Depot</label>
+            </value>
+            <value>
+                <fullName>Fredericton, NB Depot</fullName>
+                <default>false</default>
+                <label>Fredericton, NB Depot</label>
+            </value>
+            <value>
+                <fullName>Moncton, NB Depot</fullName>
+                <default>false</default>
+                <label>Moncton, NB Depot</label>
+            </value>
+            <value>
+                <fullName>St. Johns NL Depot</fullName>
+                <default>false</default>
+                <label>St. Johns NL Depot</label>
+            </value>
+            <value>
+                <fullName>Halifax, NS Depot</fullName>
+                <default>false</default>
+                <label>Halifax, NS Depot</label>
+            </value>
+            <value>
+                <fullName>London, ON Depot</fullName>
+                <default>false</default>
+                <label>London, ON Depot</label>
+            </value>
+            <value>
+                <fullName>Mississauga, ON Warehouse</fullName>
+                <default>false</default>
+                <label>Mississauga, ON Warehouse</label>
+            </value>
+            <value>
+                <fullName>Ottawa, ON Depot</fullName>
+                <default>false</default>
+                <label>Ottawa, ON Depot</label>
+            </value>
+            <value>
+                <fullName>Sudbury, ON Depot</fullName>
+                <default>false</default>
+                <label>Sudbury, ON Depot</label>
+            </value>
+            <value>
+                <fullName>Thunder Bay, ON Depot</fullName>
+                <default>false</default>
+                <label>Thunder Bay, ON Depot</label>
+            </value>
+            <value>
+                <fullName>Windsor, ON Depot</fullName>
+                <default>false</default>
+                <label>Windsor, ON Depot</label>
+            </value>
+            <value>
+                <fullName>Montreal, QC Depot</fullName>
+                <default>false</default>
+                <label>Montreal, QC Depot</label>
+            </value>
+            <value>
+                <fullName>Quebec City, QC Depot</fullName>
+                <default>false</default>
+                <label>Quebec City, QC Depot</label>
+            </value>
+            <value>
+                <fullName>Regina, SK Depot</fullName>
+                <default>false</default>
+                <label>Regina, SK Depot</label>
+            </value>
+            <value>
+                <fullName>Saskatoon, SK Depot</fullName>
+                <default>false</default>
+                <label>Saskatoon, SK Depot</label>
+            </value>
+            <value>
+                <fullName>Marana, AZ Depot - Unit E080</fullName>
+                <default>false</default>
+                <label>Marana, AZ Depot - Unit E080</label>
+            </value>
+            <value>
+                <fullName>Sierra Vista, AZ Depot - Unit M644</fullName>
+                <default>false</default>
+                <label>Sierra Vista, AZ Depot - Unit M644</label>
+            </value>
+            <value>
+                <fullName>Tempe, AZ Depot - Unit 336</fullName>
+                <default>false</default>
+                <label>Tempe, AZ Depot - Unit 336</label>
+            </value>
+            <value>
+                <fullName>Yuma, AZ Depot</fullName>
+                <default>false</default>
+                <label>Yuma, AZ Depot</label>
+            </value>
+            <value>
+                <fullName>Los Angeles, CA Depot - Unit 1077</fullName>
+                <default>false</default>
+                <label>Los Angeles, CA Depot - Unit 1077</label>
+            </value>
+            <value>
+                <fullName>San Diego,CA Depot - Unit 124A</fullName>
+                <default>false</default>
+                <label>San Diego,CA Depot - Unit 124A</label>
+            </value>
+            <value>
+                <fullName>San Fransico, CA Depot - Southern Cross Storage Unit 855</fullName>
+                <default>false</default>
+                <label>San Fransico, CA Depot - Southern Cross Storage Unit 855</label>
+            </value>
+            <value>
+                <fullName>San Fransico, CA Depot - Unit 130</fullName>
+                <default>false</default>
+                <label>San Fransico, CA Depot - Unit 130</label>
+            </value>
+            <value>
+                <fullName>Yuba, CA Depot - Unit 7</fullName>
+                <default>false</default>
+                <label>Yuba, CA Depot - Unit 7</label>
+            </value>
+            <value>
+                <fullName>Denver, CO Depot - Unit M-15</fullName>
+                <default>false</default>
+                <label>Denver, CO Depot - Unit M-15</label>
+            </value>
+            <value>
+                <fullName>Middletown, DE Depot - Unit 3112</fullName>
+                <default>false</default>
+                <label>Middletown, DE Depot - Unit 3112</label>
+            </value>
+            <value>
+                <fullName>Wellington, FL Depot - Unit B19</fullName>
+                <default>false</default>
+                <label>Wellington, FL Depot - Unit B19</label>
+            </value>
+            <value>
+                <fullName>Doraville, GA Depot - Unit 1055</fullName>
+                <default>false</default>
+                <label>Doraville, GA Depot - Unit 1055</label>
+            </value>
+            <value>
+                <fullName>Lawrenceville, GA Depot</fullName>
+                <default>false</default>
+                <label>Lawrenceville, GA Depot</label>
+            </value>
+            <value>
+                <fullName>Chicago, IL Depot - Unit 66</fullName>
+                <default>false</default>
+                <label>Chicago, IL Depot - Unit 66</label>
+            </value>
+            <value>
+                <fullName>Chicago, IL Depot - Unit 842</fullName>
+                <default>false</default>
+                <label>Chicago, IL Depot - Unit 842</label>
+            </value>
+            <value>
+                <fullName>O&#39;Fallon, IL Depot - Unit 453</fullName>
+                <default>false</default>
+                <label>O&#39;Fallon, IL Depot - Unit 453</label>
+            </value>
+            <value>
+                <fullName>Plymouth, IN Depot - Unit 320</fullName>
+                <default>false</default>
+                <label>Plymouth, IN Depot - Unit 320</label>
+            </value>
+            <value>
+                <fullName>Quincy, MA Depot</fullName>
+                <default>false</default>
+                <label>Quincy, MA Depot</label>
+            </value>
+            <value>
+                <fullName>Kansas City, MO Depot - Unit 497</fullName>
+                <default>false</default>
+                <label>Kansas City, MO Depot - Unit 497</label>
+            </value>
+            <value>
+                <fullName>Charlotte, NC Depot</fullName>
+                <default>false</default>
+                <label>Charlotte, NC Depot</label>
+            </value>
+            <value>
+                <fullName>Metuchen, NJ Depot - Unit 127</fullName>
+                <default>false</default>
+                <label>Metuchen, NJ Depot - Unit 127</label>
+            </value>
+            <value>
+                <fullName>Metuchen, NJ Depot - Unit 264</fullName>
+                <default>false</default>
+                <label>Metuchen, NJ Depot - Unit 264</label>
+            </value>
+            <value>
+                <fullName>Metuchen, NJ Depot - Unit 442</fullName>
+                <default>false</default>
+                <label>Metuchen, NJ Depot - Unit 442</label>
+            </value>
+            <value>
+                <fullName>Metuchen, NJ Depot - Unit 66</fullName>
+                <default>false</default>
+                <label>Metuchen, NJ Depot - Unit 66</label>
+            </value>
+            <value>
+                <fullName>Metuchen, NJ Depot- Unit 69</fullName>
+                <default>false</default>
+                <label>Metuchen, NJ Depot- Unit 69</label>
+            </value>
+            <value>
+                <fullName>Gander NL Depot</fullName>
+                <default>false</default>
+                <label>Gander NL Depot</label>
+            </value>
+            <value>
+                <fullName>Albuquerque, NM Depot - Unit D0008</fullName>
+                <default>false</default>
+                <label>Albuquerque, NM Depot - Unit D0008</label>
+            </value>
+            <value>
+                <fullName>Reno NV, Depot - Unit C3115</fullName>
+                <default>false</default>
+                <label>Reno NV, Depot - Unit C3115</label>
+            </value>
+            <value>
+                <fullName>OBS/OINIS - New York, NY Depot - Unit 1-3-3</fullName>
+                <default>false</default>
+                <label>OBS/OINIS - New York, NY Depot - Unit 1-3-3</label>
+            </value>
+            <value>
+                <fullName>Syracuse, NY Depot</fullName>
+                <default>false</default>
+                <label>Syracuse, NY Depot</label>
+            </value>
+            <value>
+                <fullName>North Olmsted, OH Depot - Unit F-34</fullName>
+                <default>false</default>
+                <label>North Olmsted, OH Depot - Unit F-34</label>
+            </value>
+            <value>
+                <fullName>Eugene, OR Depot</fullName>
+                <default>false</default>
+                <label>Eugene, OR Depot</label>
+            </value>
+            <value>
+                <fullName>Chambersburg, PA Depot - Unit 117</fullName>
+                <default>false</default>
+                <label>Chambersburg, PA Depot - Unit 117</label>
+            </value>
+            <value>
+                <fullName>Elkins Park, PA Depot - Unit 310B  P.O. Box 101835</fullName>
+                <default>false</default>
+                <label>Elkins Park, PA Depot - Unit 310B  P.O. Box 101835</label>
+            </value>
+            <value>
+                <fullName>Dallas, TX Depot - Unit 927</fullName>
+                <default>false</default>
+                <label>Dallas, TX Depot - Unit 927</label>
+            </value>
+            <value>
+                <fullName>Houston, TX Depot - Unit C700</fullName>
+                <default>false</default>
+                <label>Houston, TX Depot - Unit C700</label>
+            </value>
+            <value>
+                <fullName>Houston, TX Depot - Unit C705</fullName>
+                <default>false</default>
+                <label>Houston, TX Depot - Unit C705</label>
+            </value>
+            <value>
+                <fullName>Ashburn, VA Depot - Unit 5034</fullName>
+                <default>false</default>
+                <label>Ashburn, VA Depot - Unit 5034</label>
+            </value>
+            <value>
+                <fullName>OBS/OINIS - Ashburn, VA Depot - Unit 428</fullName>
+                <default>false</default>
+                <label>OBS/OINIS - Ashburn, VA Depot - Unit 428</label>
+            </value>
+            <value>
+                <fullName>OBS/OINIS - Charlottesville, VA Depot - Unit 1069</fullName>
+                <default>false</default>
+                <label>OBS/OINIS - Charlottesville, VA Depot - Unit 1069</label>
+            </value>
+            <value>
+                <fullName>OBS/OINIS - Glen Allen, VA Depot - Unit 3241</fullName>
+                <default>false</default>
+                <label>OBS/OINIS - Glen Allen, VA Depot - Unit 3241</label>
+            </value>
+            <value>
+                <fullName>OBS/OINIS - Virginia Beach, VA Depot - Unit 2147</fullName>
+                <default>false</default>
+                <label>OBS/OINIS - Virginia Beach, VA Depot - Unit 2147</label>
+            </value>
+            <value>
+                <fullName>Richmond, VA Depot - Unit 868</fullName>
+                <default>false</default>
+                <label>Richmond, VA Depot - Unit 868</label>
+            </value>
+            <value>
+                <fullName>Bellevue, WA Depot- Unit 1095</fullName>
+                <default>false</default>
+                <label>Bellevue, WA Depot- Unit 1095</label>
+            </value>
+            <value>
+                <fullName>Seattle, WA Depot - Unit 003(Basement)</fullName>
+                <default>false</default>
+                <label>Seattle, WA Depot - Unit 003(Basement)</label>
+            </value>
+            <value>
+                <fullName>Seattle, WA Depot - Unit 2802</fullName>
+                <default>false</default>
+                <label>Seattle, WA Depot - Unit 2802</label>
+            </value>
+            <value>
+                <fullName>Seattle, WA Depot - Unit 700</fullName>
+                <default>false</default>
+                <label>Seattle, WA Depot - Unit 700</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

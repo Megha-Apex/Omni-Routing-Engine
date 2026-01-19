@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractor_Require</fullName>
+    <active>false</active>
+    <description>Payment Method will be required</description>
+    <errorConditionFormula>IF(IsActive = true, IF(OR(ISPICKVAL(EngineerType__c,&quot;BIR Contractor&quot;),ISPICKVAL(EngineerType__c,&quot;FLM Contractor&quot;)),ISPICKVAL(Payment_Method__c,&#39;&#39;),
+OR(ISPICKVAL(Payment_Method__c,&quot;WORK MARKET INC.&quot;),ISPICKVAL(Payment_Method__c,&quot;INSPYR SOLUTIONS LLC&quot;),ISPICKVAL(Payment_Method__c,&quot;AP - PO&quot;),
+ISPICKVAL(Payment_Method__c,&quot;COSERVE GLOBAL SOLUTIONS, LLC&quot;),ISPICKVAL(Payment_Method__c,&quot;DIRECT PAY&quot;))), ISBLANK(0))</errorConditionFormula>
+    <errorDisplayField>Payment_Method__c</errorDisplayField>
+    <errorMessage>Payment Method will be required for Contractor ONLY</errorMessage>
+</ValidationRule>

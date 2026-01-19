@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_Exceed_Time_Duration</fullName>
+    <active>true</active>
+    <description>NA Exceed Time Duration of 8 hours per day</description>
+    <errorConditionFormula>AND
+( OR(
+    ISPICKVAL(Type,&quot;Vacation&quot;),
+    ISPICKVAL(Type,&quot;Light Duties - Paid&quot;),
+    ISPICKVAL(Type,&quot;Sick CDN - Paid&quot;),
+    ISPICKVAL(Type,&quot;Sick - Unpaid&quot;),
+    ISPICKVAL(Type,&quot;Sick USA - Paid&quot;),
+    ISPICKVAL(Type,&quot;Unpaid Time Off&quot;),
+    ISPICKVAL(Type,&quot;Personal Emergency Leave - Paid&quot;),
+    ISPICKVAL(Type,&quot;Personal Emergency Leave - Unpaid&quot;),
+    ISPICKVAL(Type,&quot;Bereavement - Paid&quot;),
+    ISPICKVAL(Type,&quot;Jury Duty - Paid&quot;),
+    ISPICKVAL(Type,&quot;Long Term Disability - Unpaid&quot;),
+    ISPICKVAL(Type,&quot;Maternity Leave USA - Paid&quot;),
+    ISPICKVAL(Type,&quot;Maternity Leave USA - Unpaid&quot;),
+    ISPICKVAL(Type,&quot;Maternity Paternity Leave CDN - Unpaid&quot;),
+    ISPICKVAL(Type,&quot;Workers Compensation Board - Unpaid&quot;)
+   ),	
+   (FSL__Duration_In_Minutes__c/60)  &gt; 8)</errorConditionFormula>
+    <errorMessage>NA Type Duration cannot exceed 8 hours per day</errorMessage>
+</ValidationRule>

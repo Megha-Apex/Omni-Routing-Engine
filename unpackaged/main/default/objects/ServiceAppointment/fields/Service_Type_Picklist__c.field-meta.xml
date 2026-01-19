@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type_Picklist__c</fullName>
+    <label>Service Type Picklist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rogers Fixed Wireless - Install</fullName>
+                <default>false</default>
+                <label>Rogers Fixed Wireless - Install</label>
+            </value>
+            <value>
+                <fullName>Rogers WIFI - Install MACD</fullName>
+                <default>false</default>
+                <label>Rogers WIFI - Install MACD</label>
+            </value>
+            <value>
+                <fullName>Shaw WIFI - Install</fullName>
+                <default>false</default>
+                <label>Shaw WIFI - Install</label>
+            </value>
+            <value>
+                <fullName>Telus SMB Install</fullName>
+                <default>false</default>
+                <label>Telus SMB Install</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Install CAN</fullName>
+                <default>false</default>
+                <label>Typical - Bus Install CAN</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin US</fullName>
+                <default>false</default>
+                <label>Non-Billable Customer Admin US</label>
+            </value>
+            <value>
+                <fullName>Masergy - Install</fullName>
+                <default>false</default>
+                <label>Masergy - Install</label>
+            </value>
+            <value>
+                <fullName>Spectrum - Install</fullName>
+                <default>false</default>
+                <label>Spectrum - Install</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Install US</fullName>
+                <default>false</default>
+                <label>Typical - Bus Install US</label>
+            </value>
+            <value>
+                <fullName>XO Out of Market - Install</fullName>
+                <default>false</default>
+                <label>XO Out of Market - Install</label>
+            </value>
+            <value>
+                <fullName>Masergy - Repair</fullName>
+                <default>false</default>
+                <label>Masergy - Repair</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Repair US</fullName>
+                <default>false</default>
+                <label>Typical - Bus Repair US</label>
+            </value>
+            <value>
+                <fullName>XO Out of Market - Repair</fullName>
+                <default>false</default>
+                <label>XO Out of Market - Repair</label>
+            </value>
+            <value>
+                <fullName>Rogers - Drops</fullName>
+                <default>false</default>
+                <label>Rogers - Drops</label>
+            </value>
+            <value>
+                <fullName>Typical - EF&amp;I Installation</fullName>
+                <default>false</default>
+                <label>Typical - EF&amp;I Installation</label>
+            </value>
+            <value>
+                <fullName>Business Aerial or Conduit BC</fullName>
+                <default>false</default>
+                <label>Business Aerial or Conduit BC</label>
+            </value>
+            <value>
+                <fullName>Business Buried BC</fullName>
+                <default>false</default>
+                <label>Business Buried BC</label>
+            </value>
+            <value>
+                <fullName>Residential Aerial or Conduit BC</fullName>
+                <default>false</default>
+                <label>Residential Aerial or Conduit BC</label>
+            </value>
+            <value>
+                <fullName>Residential Buried BC</fullName>
+                <default>false</default>
+                <label>Residential Buried BC</label>
+            </value>
+            <value>
+                <fullName>FIN Drops</fullName>
+                <default>false</default>
+                <label>FIN Drops</label>
+            </value>
+            <value>
+                <fullName>Admin Contractor CAN</fullName>
+                <default>false</default>
+                <label>Admin Contractor CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Escort CAN</fullName>
+                <default>false</default>
+                <label>Typical - Escort CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - ISP CAN</fullName>
+                <default>false</default>
+                <label>Typical - ISP CAN</label>
+            </value>
+            <value>
+                <fullName>CN Rail - Locates CAN</fullName>
+                <default>false</default>
+                <label>CN Rail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Hibernia Offrail - Locates CAN</fullName>
+                <default>false</default>
+                <label>Hibernia Offrail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Rogers Off Rail - Locates CAN</fullName>
+                <default>false</default>
+                <label>Rogers Off Rail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Telus - Locates CAN</fullName>
+                <default>false</default>
+                <label>Telus - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Locates CAN</fullName>
+                <default>false</default>
+                <label>Typical - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Zayo - Locates CAN</fullName>
+                <default>false</default>
+                <label>Zayo - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - OSP CAN</fullName>
+                <default>false</default>
+                <label>Typical - OSP CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - PMR CAN</fullName>
+                <default>false</default>
+                <label>Typical - PMR CAN</label>
+            </value>
+            <value>
+                <fullName>ViaSat - RF CAN</fullName>
+                <default>false</default>
+                <label>ViaSat - RF CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - TTBF CAN</fullName>
+                <default>false</default>
+                <label>Typical - TTBF CAN</label>
+            </value>
+            <value>
+                <fullName>Admin Contractor</fullName>
+                <default>false</default>
+                <label>Admin Contractor</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin</fullName>
+                <default>false</default>
+                <label>Non-Billable Customer Admin</label>
+            </value>
+            <value>
+                <fullName>Project Time - ViaSat</fullName>
+                <default>false</default>
+                <label>Project Time - ViaSat</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Build Support</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Build Support</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Site Migration</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Site Migration</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Escort US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Escort US</label>
+            </value>
+            <value>
+                <fullName>Typical - Escort US</fullName>
+                <default>false</default>
+                <label>Typical - Escort US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - ISP US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - ISP US</label>
+            </value>
+            <value>
+                <fullName>Spectrum - ISP US</fullName>
+                <default>false</default>
+                <label>Spectrum - ISP US</label>
+            </value>
+            <value>
+                <fullName>Typical - ISP US</fullName>
+                <default>false</default>
+                <label>Typical - ISP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Locates US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Locates US</label>
+            </value>
+            <value>
+                <fullName>Monitor Only - Locates US</fullName>
+                <default>false</default>
+                <label>Monitor Only - Locates US</label>
+            </value>
+            <value>
+                <fullName>Typical - Locates US</fullName>
+                <default>false</default>
+                <label>Typical - Locates US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - OSP US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - OSP US</label>
+            </value>
+            <value>
+                <fullName>Testing - OSP US</fullName>
+                <default>false</default>
+                <label>Testing - OSP US</label>
+            </value>
+            <value>
+                <fullName>Typical - OSP US</fullName>
+                <default>false</default>
+                <label>Typical - OSP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - PMR US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - PMR US</label>
+            </value>
+            <value>
+                <fullName>Spectrum - PMR US</fullName>
+                <default>false</default>
+                <label>Spectrum - PMR US</label>
+            </value>
+            <value>
+                <fullName>Typical - PMR US</fullName>
+                <default>false</default>
+                <label>Typical - PMR US</label>
+            </value>
+            <value>
+                <fullName>ViaSat Badged and Trained - RF US</fullName>
+                <default>false</default>
+                <label>ViaSat Badged and Trained - RF US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - TTBF US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - TTBF US</label>
+            </value>
+            <value>
+                <fullName>Typical - TTBF US</fullName>
+                <default>false</default>
+                <label>Typical - TTBF US</label>
+            </value>
+            <value>
+                <fullName>02 - Other Customer Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>02 - Other Customer Admin</label>
+            </value>
+            <value>
+                <fullName>Customer Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Delay</label>
+            </value>
+            <value>
+                <fullName>Customer Site Not Ready</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer Site Not Ready</label>
+            </value>
+            <value>
+                <fullName>Installation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Installation</label>
+            </value>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Site Survey</label>
+            </value>
+            <value>
+                <fullName>Test and Configuration Existing Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test and Configuration Existing Equipment</label>
+            </value>
+            <value>
+                <fullName>Tone Test Label Cable</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tone Test Label Cable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

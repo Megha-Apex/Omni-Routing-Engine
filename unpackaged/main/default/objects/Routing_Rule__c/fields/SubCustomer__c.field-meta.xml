@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubCustomer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>SubCustomer</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Routing Rules</relationshipLabel>
+    <relationshipName>Routing_Rules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dont_allow_creation_if_WO_is_completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNEW()
+&amp;&amp;
+(
+ISPICKVAL(Work_Order__r.Status, &quot;Completed&quot;)
+||
+ISPICKVAL(Work_Order__r.Status, &quot;Canceled&quot;)
+				)</errorConditionFormula>
+    <errorMessage>You can&#39;t create new service appointments for a completed or canceled work order</errorMessage>
+</ValidationRule>

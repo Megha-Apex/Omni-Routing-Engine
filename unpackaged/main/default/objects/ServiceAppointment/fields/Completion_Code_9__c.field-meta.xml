@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Code_9__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Completion Code 9</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Completion_Code_Member__c.Service_Type__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Service_Type__c</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Completion_Code_Member__c</referenceTo>
+    <relationshipLabel>Service Appointments (Completion Code 9)</relationshipLabel>
+    <relationshipName>Service_Appointments8</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

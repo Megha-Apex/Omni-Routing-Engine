@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Consumables_Used_Reason__c</fullName>
+    <label>No Consumables Used Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <label>Site Survey</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Vendor Escort</fullName>
+                <default>false</default>
+                <label>Vendor Escort</label>
+            </value>
+            <value>
+                <fullName>PMR</fullName>
+                <default>false</default>
+                <label>PMR</label>
+            </value>
+            <value>
+                <fullName>Part Pickup</fullName>
+                <default>false</default>
+                <label>Part Pickup</label>
+            </value>
+            <value>
+                <fullName>Job Canceled</fullName>
+                <default>false</default>
+                <label>Job Canceled</label>
+            </value>
+            <value>
+                <fullName>No Tolls, Parking or Consumables required</fullName>
+                <default>false</default>
+                <label>No Tolls, Parking or Consumables required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

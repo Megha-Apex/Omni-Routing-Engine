@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_status_Complete_and_Incomplete</fullName>
+    <active>false</active>
+    <errorConditionFormula>(ISPICKVAL(Status, &#39;Completed&#39;)|| ISPICKVAL(Status, &#39;Incompleted&#39;))
+&amp;&amp; $Profile.Name &lt;&gt; &#39;System Administrator&#39;</errorConditionFormula>
+    <errorMessage>Only System Administrators or Integration users are able to change the status to Completed/Incompleted</errorMessage>
+</ValidationRule>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_for_Submission__c</fullName>
+    <label>Status for Submission</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On-site</fullName>
+                <default>false</default>
+                <label>On-Site</label>
+            </value>
+            <value>
+                <fullName>Dispatched</fullName>
+                <default>false</default>
+                <label>Dispatched</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Incompleted</fullName>
+                <default>false</default>
+                <label>Incompleted</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Cannot Complete</fullName>
+                <default>false</default>
+                <label>Cannot Complete</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Tentative</fullName>
+                <default>false</default>
+                <label>Tentative</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Enroute</fullName>
+                <default>false</default>
+                <label>Enroute</label>
+            </value>
+            <value>
+                <fullName>Off-Site</fullName>
+                <default>false</default>
+                <label>Off-Site</label>
+            </value>
+            <value>
+                <fullName>Field Complete</fullName>
+                <default>false</default>
+                <label>Field Complete</label>
+            </value>
+            <value>
+                <fullName>Field Incompleted</fullName>
+                <default>false</default>
+                <label>Field Incompleted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

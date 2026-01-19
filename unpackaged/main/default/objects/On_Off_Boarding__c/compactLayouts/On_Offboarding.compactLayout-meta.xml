@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Offboarding</fullName>
+    <fields>Name</fields>
+    <fields>Employee_ID__c</fields>
+    <fields>Full_Name__c</fields>
+    <fields>Resource_Type__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Assets_Required__c</fields>
+    <fields>User__c</fields>
+    <label>On_Offboarding</label>
+</CompactLayout>

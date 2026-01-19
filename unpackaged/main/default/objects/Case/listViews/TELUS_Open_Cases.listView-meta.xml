@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TELUS_Open_Cases</fullName>
+    <columns>OWNER_NAME</columns>
+    <columns>CaseID__c</columns>
+    <columns>Case_Identity__c</columns>
+    <columns>CaseDueDate__c</columns>
+    <columns>Code__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Stage__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Assignee__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Inbox__c</columns>
+    <columns>DayRemain__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>CASES.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.EmailtoCase</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>notContain</operation>
+        <value>Merritt</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>contains</operation>
+        <value>TELUS</value>
+    </filters>
+    <label>TELUS Open Cases</label>
+</ListView>

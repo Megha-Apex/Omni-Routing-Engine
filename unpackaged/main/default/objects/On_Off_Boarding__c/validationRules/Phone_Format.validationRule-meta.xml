@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Format</fullName>
+    <active>true</active>
+    <description>Restricted Mobile Phone number format</description>
+    <errorConditionFormula>OR(
+AND( NOT(ISBLANK(  Business_Phone__c  )),!REGEX( Business_Phone__c,&quot;^\\d{11}?$&quot;)),
+AND( NOT(ISBLANK(  Other_Phone__c  )),!REGEX( Other_Phone__c,&quot;^\\d{11}?$&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Business_Phone__c</errorDisplayField>
+    <errorMessage>Please enter a valid 11-digit phone number, ex 19991234567</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoResolutionCode</fullName>
+    <active>true</active>
+    <description>Cannot close stage if escalation is true and no resolution code is selected</description>
+    <errorConditionFormula>AND
+(
+IsEscalated = True,
+ISPICKVAL(Stage__c,&#39;Closed&#39;),
+ISBLANK(TEXT(Resolution_Code__c))
+)</errorConditionFormula>
+    <errorDisplayField>Resolution_Code__c</errorDisplayField>
+    <errorMessage>Case Stage Cannot Be Closed Without Resolution Code</errorMessage>
+</ValidationRule>

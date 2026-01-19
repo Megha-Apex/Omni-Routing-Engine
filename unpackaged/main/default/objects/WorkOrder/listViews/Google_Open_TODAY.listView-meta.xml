@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Google_Open_TODAY</fullName>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>SiteID__c</columns>
+    <columns>SLA__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Arrival_Window_Start__c</columns>
+    <columns>Arrival_Window_End__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>ZIP</columns>
+    <columns>COUNTRY</columns>
+    <columns>Reference1__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>Vendor_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>contains</operation>
+        <value>Boomi</value>
+    </filters>
+    <filters>
+        <field>Sub_Customer__c</field>
+        <operation>equals</operation>
+        <value>Google FLM US</value>
+    </filters>
+    <label>Google Open TODAY</label>
+</ListView>

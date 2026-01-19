@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Backlog</fullName>
+                <default>false</default>
+                <label>Backlog</label>
+            </value>
+            <value>
+                <fullName>Document Refinement</fullName>
+                <default>false</default>
+                <label>Document Refinement</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Ready For Work</fullName>
+                <default>false</default>
+                <label>Ready For Work</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Code Review</fullName>
+                <default>false</default>
+                <label>Code Review</label>
+            </value>
+            <value>
+                <fullName>In Testing / QA</fullName>
+                <default>false</default>
+                <label>In Testing / QA</label>
+            </value>
+            <value>
+                <fullName>Dev Done</fullName>
+                <default>false</default>
+                <label>Dev Done</label>
+            </value>
+            <value>
+                <fullName>UAT</fullName>
+                <default>false</default>
+                <label>UAT</label>
+            </value>
+            <value>
+                <fullName>Ready for Release</fullName>
+                <default>false</default>
+                <label>Ready for Release</label>
+            </value>
+            <value>
+                <fullName>Launched</fullName>
+                <default>false</default>
+                <label>Launched</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Archive</fullName>
+                <default>false</default>
+                <label>Archive</label>
+            </value>
+            <value>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Qualification</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

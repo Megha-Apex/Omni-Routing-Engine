@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dispositionName__c</fullName>
+    <label>Disposition Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TEST GENERAL</fullName>
+                <default>false</default>
+                <label>TEST GENERAL</label>
+            </value>
+            <value>
+                <fullName>System Generated Outbound SMS</fullName>
+                <default>true</default>
+                <label>System Generated Outbound SMS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

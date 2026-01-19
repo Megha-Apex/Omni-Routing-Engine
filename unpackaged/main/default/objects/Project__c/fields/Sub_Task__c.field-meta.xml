@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Task__c</fullName>
+    <label>Sub Task</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Project_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billflex Overlap</fullName>
+                <default>false</default>
+                <label>Billflex Overlap</label>
+            </value>
+            <value>
+                <fullName>Time backdating</fullName>
+                <default>false</default>
+                <label>Time backdating</label>
+            </value>
+            <value>
+                <fullName>FS Mobile</fullName>
+                <default>false</default>
+                <label>FS Mobile</label>
+            </value>
+            <value>
+                <fullName>LOC Support</fullName>
+                <default>false</default>
+                <label>LOC Support</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Billflex</controllingFieldValue>
+            <valueName>Billflex Overlap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Billflex</controllingFieldValue>
+            <valueName>Time backdating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL</controllingFieldValue>
+            <valueName>FS Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL</controllingFieldValue>
+            <valueName>LOC Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FSL</controllingFieldValue>
+            <valueName>Reports</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viasat_Retainer</fullName>
+    <columns>Completion_Comments2__c</columns>
+    <columns>Completion_Code_1__c</columns>
+    <columns>Completion_Code_1_Quantity__c</columns>
+    <columns>Completion_Code_1_Start__c</columns>
+    <columns>Completion_Code_1_Finish__c</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Request_Time_Zone__c</columns>
+    <columns>Name</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>COUNTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Reference1__c</field>
+        <operation>equals</operation>
+        <value>Viasat Retainer</value>
+    </filters>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>equals</operation>
+        <value>Chris Rushton</value>
+    </filters>
+    <label>Viasat Retainer</label>
+</ListView>

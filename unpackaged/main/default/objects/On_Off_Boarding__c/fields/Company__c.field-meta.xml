@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Company__c</fullName>
+    <label>Company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WORK MARKET INC.</fullName>
+                <default>true</default>
+                <label>WORK MARKET INC.</label>
+            </value>
+            <value>
+                <fullName>(EFT)PROTEL INDUSTRIES LTD.</fullName>
+                <default>false</default>
+                <label>(EFT)PROTEL INDUSTRIES LTD.</label>
+            </value>
+            <value>
+                <fullName>(EFT)RD UTILITY LOCATING SERVICE</fullName>
+                <default>false</default>
+                <label>(EFT)RD UTILITY LOCATING SERVICE</label>
+            </value>
+            <value>
+                <fullName>(EFT)VIDEOSAT ELECTRONICS INC.</fullName>
+                <default>false</default>
+                <label>(EFT)VIDEOSAT ELECTRONICS INC.</label>
+            </value>
+            <value>
+                <fullName>2059605 ALBERTA LTD</fullName>
+                <default>false</default>
+                <label>2059605 ALBERTA LTD</label>
+            </value>
+            <value>
+                <fullName>COSERVE GLOBAL SOLUTIONS, LLC</fullName>
+                <default>false</default>
+                <label>COSERVE GLOBAL SOLUTIONS, LLC</label>
+            </value>
+            <value>
+                <fullName>E-RAVEN CONSULTING INC.</fullName>
+                <default>false</default>
+                <label>E-RAVEN CONSULTING INC.</label>
+            </value>
+            <value>
+                <fullName>FIELD NATION LLC</fullName>
+                <default>false</default>
+                <label>FIELD NATION LLC</label>
+            </value>
+            <value>
+                <fullName>GCI COMMUNICATION CORP.</fullName>
+                <default>false</default>
+                <label>GCI COMMUNICATION CORP.</label>
+            </value>
+            <value>
+                <fullName>GENUENT GLOBAL, LLC</fullName>
+                <default>false</default>
+                <label>GENUENT GLOBAL, LLC</label>
+            </value>
+            <value>
+                <fullName>GOBALASINGHAM, NEETH</fullName>
+                <default>false</default>
+                <label>GOBALASINGHAM, NEETH</label>
+            </value>
+            <value>
+                <fullName>INSPYR SOLUTIONS LLC</fullName>
+                <default>false</default>
+                <label>INSPYR SOLUTIONS LLC</label>
+            </value>
+            <value>
+                <fullName>MARKANDU, THUSEETHARAN</fullName>
+                <default>false</default>
+                <label>MARKANDU, THUSEETHARAN</label>
+            </value>
+            <value>
+                <fullName>METE, PASQUALE (PAT)</fullName>
+                <default>false</default>
+                <label>METE, PASQUALE (PAT)</label>
+            </value>
+            <value>
+                <fullName>POZIT TECHNOLOGIES INC.</fullName>
+                <default>false</default>
+                <label>POZIT TECHNOLOGIES INC.</label>
+            </value>
+            <value>
+                <fullName>SCANPLUS LOCATING LTD.</fullName>
+                <default>false</default>
+                <label>SCANPLUS LOCATING LTD.</label>
+            </value>
+            <value>
+                <fullName>SINGH, SUKHCHAIN</fullName>
+                <default>false</default>
+                <label>SINGH, SUKHCHAIN</label>
+            </value>
+            <value>
+                <fullName>WESTPOINT TELECOMMUNICATIONS I</fullName>
+                <default>false</default>
+                <label>WESTPOINT TELECOMMUNICATIONS I</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_have_a_contact_or_requestor_email</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISNULL(ContactId)|| ISNULL(Requestor_E_Mail__c)</errorConditionFormula>
+    <errorMessage>Please enter a Contact or Requestor email</errorMessage>
+</ValidationRule>

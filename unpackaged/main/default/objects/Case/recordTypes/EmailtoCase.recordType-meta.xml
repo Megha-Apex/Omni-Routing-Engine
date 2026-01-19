@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailtoCase</fullName>
+    <active>true</active>
+    <businessProcess>EmailtoCase</businessProcess>
+    <label>EmailtoCase</label>
+    <picklistValues>
+        <picklist>Did_you_check_surrounding_areas_for_tech__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inbox__c</picklist>
+        <values>
+            <fullName>Forwarded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Read</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>1 - E-mail Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Telephone Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Customer Self Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Self Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Auto Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIG - DigTrack Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>12 HR MTTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24 HR MTTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 HR MTTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADMIN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Best Effort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emergency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Starbucks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taco Bell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Zone 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Zone 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Zone 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Zone 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Zone 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viasat Sev 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viasat Sev 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viasat Sev 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viasat Sev 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viasat Sev 5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution_Code__c</picklist>
+        <values>
+            <fullName>Director Escalation Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Manager Escalation Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managerial Escalation Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Managerial Escalation Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prioritized Over Another Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resource Brought From Out Of Territory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sr%2E Manager Escalation Needed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Action Today</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Checked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Chatter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated To Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalation Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internally Escalate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeopardy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lift Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locked On-Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTTR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs To Be Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Technicians Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending COI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reschedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEV 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEV 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEV 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEV 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEV 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Access Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Concern - Urgent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Today</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tomorrow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Comcast Acceptance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Tech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting On Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WorkOrder Update</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Canada - Business Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - FTTP Locates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - GTT BIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Locates Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Radiant Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Regional Manager Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Rogers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Shaw Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Travel Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada - Zayo Canada Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Bell Late Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comcast Quotes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - CSC Inbox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Charter Spectrum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Customer Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Infinera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Locates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Needs Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - PC%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - PMs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Regional Manager Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Site Survey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Tech Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Vendor Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US - Zayo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIASAT - PMs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

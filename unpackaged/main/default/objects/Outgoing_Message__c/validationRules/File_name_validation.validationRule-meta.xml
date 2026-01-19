@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_name_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(
+OR(
+ISBLANK(File_Name__c),
+REGEX(File_Name__c, &quot;[A-Za-z0-9]+.[A-Za-z]{3}&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>File_Name__c</errorDisplayField>
+    <errorMessage>File name not valid</errorMessage>
+</ValidationRule>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Service_Territory1</fullName>
+    <columns>Description</columns>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>LatestEndTime</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>CITY</columns>
+    <columns>STATE</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Missing Service Territory</label>
+</ListView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Appointments_Com_Proj</fullName>
+    <columns>Description</columns>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>LatestEndTime</columns>
+    <columns>COUNTRY</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>EstDuration</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer__c</field>
+        <operation>contains</operation>
+        <value>Comcast</value>
+    </filters>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>contains</operation>
+        <value>Sparks</value>
+    </filters>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Service Appointments - Com Proj</label>
+</ListView>

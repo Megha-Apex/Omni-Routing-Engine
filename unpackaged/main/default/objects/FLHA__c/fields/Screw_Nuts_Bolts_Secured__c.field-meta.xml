@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Screw_Nuts_Bolts_Secured__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Screw Nuts Bolts Secured</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

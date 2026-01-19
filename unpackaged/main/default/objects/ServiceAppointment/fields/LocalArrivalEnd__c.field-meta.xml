@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LocalArrivalEnd__c</fullName>
+    <description>Formula to display date/time as &quot;MM/DD/YYYY HH:MM&quot;</description>
+    <externalId>false</externalId>
+    <formula>MID(TZAE__c,6,2)&amp;&quot;/&quot;&amp;MID(TZAE__c,9,2)&amp;&quot;/&quot;&amp;MID(TZAE__c,1,4)&amp;&quot; &quot;&amp;MID(TZAE__c,12,5)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Local date/time based on Service Appointment time zone</inlineHelpText>
+    <label>Local Arrival End</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

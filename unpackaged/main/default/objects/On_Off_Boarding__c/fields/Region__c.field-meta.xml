@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <label>Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Hiring_Manager__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Region</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Singh, Jagpreet-3002947</controllingFieldValue>
+            <valueName>AB-SK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jones, Dameond - 3001928</controllingFieldValue>
+            <valueName>Southeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solis, Joel - 1073129</controllingFieldValue>
+            <valueName>South Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nelson, Chris - 3012591</controllingFieldValue>
+            <valueName>East Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soueid, Talaat M-1071009</controllingFieldValue>
+            <valueName>QC-Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Swogger, Brian L - 341364</controllingFieldValue>
+            <valueName>Mid-Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Martin, Gordon - 3030224</controllingFieldValue>
+            <valueName>ON-B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nguyen, Danny - 627527</controllingFieldValue>
+            <controllingFieldValue>Bains, Rajdeep-462370</controllingFieldValue>
+            <controllingFieldValue>Blake, Robert D-1139325</controllingFieldValue>
+            <valueName>BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nguyen, Danny - 627527</controllingFieldValue>
+            <valueName>BC-Telus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flores, Jose Luis - 3012407</controllingFieldValue>
+            <valueName>Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jaques, Jeremy - 3011506</controllingFieldValue>
+            <valueName>Southern U.S.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al-Bess, Omar - 1135639</controllingFieldValue>
+            <valueName>ON-A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arient, Jonathan -122877</controllingFieldValue>
+            <valueName>Northwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miller, Robert D - 1097109</controllingFieldValue>
+            <valueName>MB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morgan, Daniel - 3008831</controllingFieldValue>
+            <valueName>Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rochelle, Michael A - 1153979</controllingFieldValue>
+            <valueName>Greater Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Narwal, Manoz - 1097538</controllingFieldValue>
+            <valueName>AB-Telus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Frisch, Alexander S - 1139604</controllingFieldValue>
+            <valueName>Central US</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

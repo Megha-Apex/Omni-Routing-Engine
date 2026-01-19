@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CDN_BFS_POINT_of_PRESENCE__c</fullName>
+    <label>CDN BFS POINT of PRESENCE</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BARRIE ON POP</fullName>
+                <default>false</default>
+                <label>BARRIE ON POP</label>
+            </value>
+            <value>
+                <fullName>BELLEVILLE ON POP</fullName>
+                <default>false</default>
+                <label>BELLEVILLE ON POP</label>
+            </value>
+            <value>
+                <fullName>BRANDON MB POP</fullName>
+                <default>false</default>
+                <label>BRANDON MB POP</label>
+            </value>
+            <value>
+                <fullName>CALGARY AB POP</fullName>
+                <default>false</default>
+                <label>CALGARY AB POP</label>
+            </value>
+            <value>
+                <fullName>CHICOUTIMI QC POP</fullName>
+                <default>false</default>
+                <label>CHICOUTIMI QC POP</label>
+            </value>
+            <value>
+                <fullName>EDMONTON AB POP</fullName>
+                <default>false</default>
+                <label>EDMONTON AB POP</label>
+            </value>
+            <value>
+                <fullName>FORT MCMURRAY AB POP</fullName>
+                <default>false</default>
+                <label>FORT MCMURRAY AB POP</label>
+            </value>
+            <value>
+                <fullName>FREDERICTON NB POP</fullName>
+                <default>false</default>
+                <label>FREDERICTON NB POP</label>
+            </value>
+            <value>
+                <fullName>GANDER NL POP</fullName>
+                <default>false</default>
+                <label>GANDER NL POP</label>
+            </value>
+            <value>
+                <fullName>HALIFAX NS POP</fullName>
+                <default>false</default>
+                <label>HALIFAX NS POP</label>
+            </value>
+            <value>
+                <fullName>HAMILTON ON POP</fullName>
+                <default>false</default>
+                <label>HAMILTON ON POP</label>
+            </value>
+            <value>
+                <fullName>KAMLOOPS BC POP</fullName>
+                <default>false</default>
+                <label>KAMLOOPS BC POP</label>
+            </value>
+            <value>
+                <fullName>KELOWNA BC POP</fullName>
+                <default>false</default>
+                <label>KELOWNA BC POP</label>
+            </value>
+            <value>
+                <fullName>KIRKLAND LAKE ON POP</fullName>
+                <default>false</default>
+                <label>KIRKLAND LAKE ON POP</label>
+            </value>
+            <value>
+                <fullName>LONDON ON POP</fullName>
+                <default>false</default>
+                <label>LONDON ON POP</label>
+            </value>
+            <value>
+                <fullName>MEDICINE HAT AB POP</fullName>
+                <default>false</default>
+                <label>MEDICINE HAT AB POP</label>
+            </value>
+            <value>
+                <fullName>MONCTON NB POP</fullName>
+                <default>false</default>
+                <label>MONCTON NB POP</label>
+            </value>
+            <value>
+                <fullName>MONTRÉAL QC POP</fullName>
+                <default>false</default>
+                <label>MONTRÉAL QC POP</label>
+            </value>
+            <value>
+                <fullName>OTTAWA ON POP</fullName>
+                <default>false</default>
+                <label>OTTAWA ON POP</label>
+            </value>
+            <value>
+                <fullName>QUEBEC CITY QC POP</fullName>
+                <default>false</default>
+                <label>QUEBEC CITY QC POP</label>
+            </value>
+            <value>
+                <fullName>REGINA SK POP</fullName>
+                <default>false</default>
+                <label>REGINA SK POP</label>
+            </value>
+            <value>
+                <fullName>SASKATOON SK POP</fullName>
+                <default>false</default>
+                <label>SASKATOON SK POP</label>
+            </value>
+            <value>
+                <fullName>ST. JOHN&#39;S NL POP</fullName>
+                <default>false</default>
+                <label>ST. JOHN&#39;S NL POP</label>
+            </value>
+            <value>
+                <fullName>SUDBURY ON POP</fullName>
+                <default>false</default>
+                <label>SUDBURY ON POP</label>
+            </value>
+            <value>
+                <fullName>THUNDER BAY ON POP</fullName>
+                <default>false</default>
+                <label>THUNDER BAY ON POP</label>
+            </value>
+            <value>
+                <fullName>TORONTO ON POP</fullName>
+                <default>false</default>
+                <label>TORONTO ON POP</label>
+            </value>
+            <value>
+                <fullName>VANCOUVER BC POP</fullName>
+                <default>false</default>
+                <label>VANCOUVER BC POP</label>
+            </value>
+            <value>
+                <fullName>VICTORIA BC POP</fullName>
+                <default>false</default>
+                <label>VICTORIA BC POP</label>
+            </value>
+            <value>
+                <fullName>WINDSOR ON POP</fullName>
+                <default>false</default>
+                <label>WINDSOR ON POP</label>
+            </value>
+            <value>
+                <fullName>WINNIPEG MB POP</fullName>
+                <default>false</default>
+                <label>WINNIPEG MB POP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

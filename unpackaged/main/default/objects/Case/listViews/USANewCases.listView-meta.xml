@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>USANewCases</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6) AND 7 AND 8</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Code__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Assignee__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Inbox__c</columns>
+    <columns>CaseDueDate__c</columns>
+    <columns>DayRemain__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>5/30/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>Assignee__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CaseDueDate__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>CSCEmails</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>EmailQue</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>platint</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.EmailtoCase</value>
+    </filters>
+    <label>New Cases</label>
+    <sharedTo>
+        <role>Dispatch_Manager</role>
+        <role>Dispatch_Team_Leads_Project_Coordinators</role>
+        <role>Dispatcher</role>
+    </sharedTo>
+</ListView>

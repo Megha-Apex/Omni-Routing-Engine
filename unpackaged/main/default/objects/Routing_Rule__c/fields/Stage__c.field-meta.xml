@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <label>Stage</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Action Today</fullName>
+                <default>false</default>
+                <label>Action Today</label>
+            </value>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Awaiting Quote</fullName>
+                <default>false</default>
+                <label>Awaiting Quote</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Checked</fullName>
+                <default>false</default>
+                <label>Checked</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Customer Chatter</fullName>
+                <default>false</default>
+                <label>Customer Chatter</label>
+            </value>
+            <value>
+                <fullName>Customer Escalated</fullName>
+                <default>false</default>
+                <label>Customer Escalated</label>
+            </value>
+            <value>
+                <fullName>Damages</fullName>
+                <default>false</default>
+                <label>Damages</label>
+            </value>
+            <value>
+                <fullName>Escalated To Tier 2</fullName>
+                <default>false</default>
+                <label>Escalated To Tier 2</label>
+            </value>
+            <value>
+                <fullName>Escalation Resolved</fullName>
+                <default>false</default>
+                <label>Escalation Resolved</label>
+            </value>
+            <value>
+                <fullName>Follow Up</fullName>
+                <default>false</default>
+                <label>Follow Up</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Internally Escalate</fullName>
+                <default>false</default>
+                <label>Internally Escalate</label>
+            </value>
+            <value>
+                <fullName>Jeopardy</fullName>
+                <default>false</default>
+                <label>Jeopardy</label>
+            </value>
+            <value>
+                <fullName>Lift Required</fullName>
+                <default>false</default>
+                <label>Lift Required</label>
+            </value>
+            <value>
+                <fullName>Locked On-Hold</fullName>
+                <default>false</default>
+                <label>Locked On-Hold</label>
+            </value>
+            <value>
+                <fullName>MTTR</fullName>
+                <default>false</default>
+                <label>MTTR</label>
+            </value>
+            <value>
+                <fullName>Needs To Be Scheduled</fullName>
+                <default>false</default>
+                <label>Needs To Be Scheduled</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>No Technicians Found</fullName>
+                <default>false</default>
+                <label>No Technicians Found</label>
+            </value>
+            <value>
+                <fullName>Pending COI</fullName>
+                <default>false</default>
+                <label>Pending COI</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Reschedule</fullName>
+                <default>false</default>
+                <label>Reschedule</label>
+            </value>
+            <value>
+                <fullName>SEV 1</fullName>
+                <default>false</default>
+                <label>SEV 1</label>
+            </value>
+            <value>
+                <fullName>SEV 2</fullName>
+                <default>false</default>
+                <label>SEV 2</label>
+            </value>
+            <value>
+                <fullName>SEV 3</fullName>
+                <default>false</default>
+                <label>SEV 3</label>
+            </value>
+            <value>
+                <fullName>SEV 4</fullName>
+                <default>false</default>
+                <label>SEV 4</label>
+            </value>
+            <value>
+                <fullName>SEV 5</fullName>
+                <default>false</default>
+                <label>SEV 5</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Site Access Approval</fullName>
+                <default>false</default>
+                <label>Site Access Approval</label>
+            </value>
+            <value>
+                <fullName>Tech Concern - Urgent</fullName>
+                <default>false</default>
+                <label>Tech Concern - Urgent</label>
+            </value>
+            <value>
+                <fullName>Today</fullName>
+                <default>false</default>
+                <label>Today</label>
+            </value>
+            <value>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+                <label>Tomorrow</label>
+            </value>
+            <value>
+                <fullName>Urgent</fullName>
+                <default>false</default>
+                <label>Urgent</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <label>Voicemail</label>
+            </value>
+            <value>
+                <fullName>Waiting On Comcast Acceptance</fullName>
+                <default>false</default>
+                <label>Waiting On Comcast Acceptance</label>
+            </value>
+            <value>
+                <fullName>Waiting On Contractor</fullName>
+                <default>false</default>
+                <label>Waiting On Contractor</label>
+            </value>
+            <value>
+                <fullName>Waiting On Customer</fullName>
+                <default>false</default>
+                <label>Waiting On Customer</label>
+            </value>
+            <value>
+                <fullName>Waiting On Director</fullName>
+                <default>false</default>
+                <label>Waiting On Director</label>
+            </value>
+            <value>
+                <fullName>Waiting On Manager</fullName>
+                <default>false</default>
+                <label>Waiting On Manager</label>
+            </value>
+            <value>
+                <fullName>Waiting On PC</fullName>
+                <default>false</default>
+                <label>Waiting On PC</label>
+            </value>
+            <value>
+                <fullName>Waiting On Tech</fullName>
+                <default>false</default>
+                <label>Waiting On Tech</label>
+            </value>
+            <value>
+                <fullName>Waiting On Vendor</fullName>
+                <default>false</default>
+                <label>Waiting On Vendor</label>
+            </value>
+            <value>
+                <fullName>WorkOrder Update</fullName>
+                <default>false</default>
+                <label>WorkOrder Update</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Historical_Comments__c</fullName>
+    <description>Custom field used in a flow that concatenates the Appointment Number, Local Arrival Start/End, Completion, and Incompletion comments from the last 5 appointments for the same address</description>
+    <label>Historical Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

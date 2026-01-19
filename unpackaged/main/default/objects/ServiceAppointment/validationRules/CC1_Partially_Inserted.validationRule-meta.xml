@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC1_Partially_Inserted</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT((ISBLANK(Completion_Code_1__c)==true&amp;&amp;ISBLANK( Completion_Code_1_Quantity__c)==true&amp;&amp;ISBLANK( Completion_Code_1_Start__c)==true)||(ISBLANK(Completion_Code_1__c)==false&amp;&amp;ISBLANK( Completion_Code_1_Quantity__c)==false&amp;&amp;ISBLANK( Completion_Code_1_Start__c)==false))</errorConditionFormula>
+    <errorDisplayField>Completion_Code_1__c</errorDisplayField>
+    <errorMessage>Quantity, Start Date and End Date must be all filled for an inserted Code.</errorMessage>
+</ValidationRule>

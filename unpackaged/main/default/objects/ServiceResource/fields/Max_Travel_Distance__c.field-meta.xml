@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Travel_Distance__c</fullName>
+    <label>Max Travel Distance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>50 KM</fullName>
+                <default>false</default>
+                <label>50 KM</label>
+            </value>
+            <value>
+                <fullName>75 KM</fullName>
+                <default>false</default>
+                <label>75 KM</label>
+            </value>
+            <value>
+                <fullName>100 KM</fullName>
+                <default>false</default>
+                <label>100 KM</label>
+            </value>
+            <value>
+                <fullName>125 KM</fullName>
+                <default>false</default>
+                <label>125 KM</label>
+            </value>
+            <value>
+                <fullName>150 KM</fullName>
+                <default>false</default>
+                <label>150 KM</label>
+            </value>
+            <value>
+                <fullName>175 KM</fullName>
+                <default>false</default>
+                <label>175 KM</label>
+            </value>
+            <value>
+                <fullName>200 KM</fullName>
+                <default>false</default>
+                <label>200 KM</label>
+            </value>
+            <value>
+                <fullName>225 KM</fullName>
+                <default>false</default>
+                <label>225 KM</label>
+            </value>
+            <value>
+                <fullName>250 KM</fullName>
+                <default>false</default>
+                <label>250 KM</label>
+            </value>
+            <value>
+                <fullName>275 KM</fullName>
+                <default>false</default>
+                <label>275 KM</label>
+            </value>
+            <value>
+                <fullName>300 KM</fullName>
+                <default>false</default>
+                <label>300 KM</label>
+            </value>
+            <value>
+                <fullName>325 KM</fullName>
+                <default>false</default>
+                <label>325 KM</label>
+            </value>
+            <value>
+                <fullName>350 KM</fullName>
+                <default>false</default>
+                <label>350 KM</label>
+            </value>
+            <value>
+                <fullName>375 KM</fullName>
+                <default>false</default>
+                <label>375 KM</label>
+            </value>
+            <value>
+                <fullName>400 KM</fullName>
+                <default>false</default>
+                <label>400 KM</label>
+            </value>
+            <value>
+                <fullName>425 KM</fullName>
+                <default>false</default>
+                <label>425 KM</label>
+            </value>
+            <value>
+                <fullName>450 KM</fullName>
+                <default>false</default>
+                <label>450 KM</label>
+            </value>
+            <value>
+                <fullName>475 KM</fullName>
+                <default>false</default>
+                <label>475 KM</label>
+            </value>
+            <value>
+                <fullName>500 KM</fullName>
+                <default>false</default>
+                <label>500 KM</label>
+            </value>
+            <value>
+                <fullName>550 KM</fullName>
+                <default>false</default>
+                <label>550 KM</label>
+            </value>
+            <value>
+                <fullName>600 KM</fullName>
+                <default>false</default>
+                <label>600 KM</label>
+            </value>
+            <value>
+                <fullName>650 KM</fullName>
+                <default>false</default>
+                <label>650 KM</label>
+            </value>
+            <value>
+                <fullName>700 KM</fullName>
+                <default>false</default>
+                <label>700 KM</label>
+            </value>
+            <value>
+                <fullName>750 KM</fullName>
+                <default>false</default>
+                <label>750 KM</label>
+            </value>
+            <value>
+                <fullName>800 KM</fullName>
+                <default>false</default>
+                <label>800 KM</label>
+            </value>
+            <value>
+                <fullName>900 KM</fullName>
+                <default>false</default>
+                <label>900 KM</label>
+            </value>
+            <value>
+                <fullName>1000 KM</fullName>
+                <default>false</default>
+                <label>1000 KM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

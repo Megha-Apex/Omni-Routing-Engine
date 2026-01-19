@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Bypass__c</fullName>
+    <description>This checkbox is used in the validation rules and when set to true, allows user to make modifications in the User fields for X seconds.</description>
+    <formula>/*Set checkbox to TRUE for X seconds. Checks if Validation Bypass DateTime (custom field) is greater than CURRENT TIME - X seconds otherwise set checkbox to FALSE. */
+
+Validation_Bypass_DateTime__c &gt; (NOW() - 0.00002314814814814814) /*Two Seconds*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Validation Bypass</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

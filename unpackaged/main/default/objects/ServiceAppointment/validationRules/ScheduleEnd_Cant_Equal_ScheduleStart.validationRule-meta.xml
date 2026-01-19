@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScheduleEnd_Cant_Equal_ScheduleStart</fullName>
+    <active>true</active>
+    <errorConditionFormula>SchedEndTime = SchedStartTime</errorConditionFormula>
+    <errorMessage>You must wait 1 minute between Onsite and Offsite status transitions. Scheduled End can not equal Schedule Start.</errorMessage>
+</ValidationRule>

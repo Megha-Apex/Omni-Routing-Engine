@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Type_List__c</fullName>
+    <label>Service Type List</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin Contractor CAN</fullName>
+                <default>false</default>
+                <label>Admin Contractor CAN</label>
+            </value>
+            <value>
+                <fullName>Admin Contractor USA</fullName>
+                <default>false</default>
+                <label>Admin Contractor USA</label>
+            </value>
+            <value>
+                <fullName>Bell FTTP - Locates CAN</fullName>
+                <default>false</default>
+                <label>Bell FTTP - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Bell Ground Level Box - Locates CAN</fullName>
+                <default>false</default>
+                <label>Bell Ground Level Box - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Bell Nexxia BMO - Install</fullName>
+                <default>false</default>
+                <label>Bell Nexxia BMO - Install</label>
+            </value>
+            <value>
+                <fullName>Bell Nexxia BMO - Repair</fullName>
+                <default>false</default>
+                <label>Bell Nexxia BMO - Repair</label>
+            </value>
+            <value>
+                <fullName>BIR CAN - Admin</fullName>
+                <default>false</default>
+                <label>BIR CAN - Admin</label>
+            </value>
+            <value>
+                <fullName>BIR CAN - Install</fullName>
+                <default>false</default>
+                <label>BIR CAN - Install</label>
+            </value>
+            <value>
+                <fullName>BIR CAN - Repair</fullName>
+                <default>false</default>
+                <label>BIR CAN - Repair</label>
+            </value>
+            <value>
+                <fullName>BIR USA - Admin</fullName>
+                <default>false</default>
+                <label>BIR USA - Admin</label>
+            </value>
+            <value>
+                <fullName>BIR USA - Install</fullName>
+                <default>false</default>
+                <label>BIR USA - Install</label>
+            </value>
+            <value>
+                <fullName>BIR USA - Repair</fullName>
+                <default>false</default>
+                <label>BIR USA - Repair</label>
+            </value>
+            <value>
+                <fullName>Business Aerial or Conduit BC</fullName>
+                <default>false</default>
+                <label>Business Aerial or Conduit BC</label>
+            </value>
+            <value>
+                <fullName>Business Buried BC</fullName>
+                <default>false</default>
+                <label>Business Buried BC</label>
+            </value>
+            <value>
+                <fullName>Business IR CAN</fullName>
+                <default>false</default>
+                <label>Business IR CAN</label>
+            </value>
+            <value>
+                <fullName>Business IR USA</fullName>
+                <default>false</default>
+                <label>Business IR USA</label>
+            </value>
+            <value>
+                <fullName>CN Rail - Locates CAN</fullName>
+                <default>false</default>
+                <label>CN Rail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Comcast CAN - Install</fullName>
+                <default>false</default>
+                <label>Comcast CAN - Install</label>
+            </value>
+            <value>
+                <fullName>Comcast CAN - Repair</fullName>
+                <default>false</default>
+                <label>Comcast CAN - Repair</label>
+            </value>
+            <value>
+                <fullName>Comcast USA - Install</fullName>
+                <default>false</default>
+                <label>Comcast USA - Install</label>
+            </value>
+            <value>
+                <fullName>Comcast USA - Repair</fullName>
+                <default>false</default>
+                <label>Comcast USA - Repair</label>
+            </value>
+            <value>
+                <fullName>Drops</fullName>
+                <default>false</default>
+                <label>Drops</label>
+            </value>
+            <value>
+                <fullName>EF&amp;I</fullName>
+                <default>false</default>
+                <label>EF&amp;I</label>
+            </value>
+            <value>
+                <fullName>EF&amp;I - Installation</fullName>
+                <default>false</default>
+                <label>EF&amp;I - Installation</label>
+            </value>
+            <value>
+                <fullName>Falcon</fullName>
+                <default>false</default>
+                <label>Falcon</label>
+            </value>
+            <value>
+                <fullName>Falcon - Drops BC</fullName>
+                <default>false</default>
+                <label>Falcon - Drops BC</label>
+            </value>
+            <value>
+                <fullName>FIN Drops</fullName>
+                <default>false</default>
+                <label>FIN Drops</label>
+            </value>
+            <value>
+                <fullName>FIN - Drops</fullName>
+                <default>false</default>
+                <label>FIN - Drops</label>
+            </value>
+            <value>
+                <fullName>FLM CAN</fullName>
+                <default>false</default>
+                <label>FLM CAN</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Admin</fullName>
+                <default>false</default>
+                <label>FLM CAN - Admin</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Escort</fullName>
+                <default>false</default>
+                <label>FLM CAN - Escort</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Inside Plant</fullName>
+                <default>false</default>
+                <label>FLM CAN - Inside Plant</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Locating Services</fullName>
+                <default>false</default>
+                <label>FLM CAN - Locating Services</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Outside Plant</fullName>
+                <default>false</default>
+                <label>FLM CAN - Outside Plant</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - PMR</fullName>
+                <default>false</default>
+                <label>FLM CAN - PMR</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Radio Frequency</fullName>
+                <default>false</default>
+                <label>FLM CAN - Radio Frequency</label>
+            </value>
+            <value>
+                <fullName>FLM CAN - Trouble Ticket Break Fix</fullName>
+                <default>false</default>
+                <label>FLM CAN - Trouble Ticket Break Fix</label>
+            </value>
+            <value>
+                <fullName>FLM USA</fullName>
+                <default>false</default>
+                <label>FLM USA</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Admin</fullName>
+                <default>false</default>
+                <label>FLM USA - Admin</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Build Support</fullName>
+                <default>false</default>
+                <label>FLM USA - Build Support</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Escort</fullName>
+                <default>false</default>
+                <label>FLM USA - Escort</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Inside Plant</fullName>
+                <default>false</default>
+                <label>FLM USA - Inside Plant</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Locating Services</fullName>
+                <default>false</default>
+                <label>FLM USA - Locating Services</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Outside Plant</fullName>
+                <default>false</default>
+                <label>FLM USA - Outside Plant</label>
+            </value>
+            <value>
+                <fullName>FLM USA - PMR</fullName>
+                <default>false</default>
+                <label>FLM USA - PMR</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Radio Frequency</fullName>
+                <default>false</default>
+                <label>FLM USA - Radio Frequency</label>
+            </value>
+            <value>
+                <fullName>FLM USA - Trouble Ticket Break Fix</fullName>
+                <default>false</default>
+                <label>FLM USA - Trouble Ticket Break Fix</label>
+            </value>
+            <value>
+                <fullName>Hibernia - Locates CAN</fullName>
+                <default>false</default>
+                <label>Hibernia - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Hibernia Offrail - Locates CAN</fullName>
+                <default>false</default>
+                <label>Hibernia Offrail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Infinera Certified - ISP US</fullName>
+                <default>false</default>
+                <label>Infinera Certified - ISP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Build Support</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Build Support</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Escort US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Escort US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - ISP US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - ISP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Locates US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Locates US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - OSP US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - OSP US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - PMR US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - PMR US</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - Site Migration</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - Site Migration</label>
+            </value>
+            <value>
+                <fullName>Kentucky Wired - TTBF US</fullName>
+                <default>false</default>
+                <label>Kentucky Wired - TTBF US</label>
+            </value>
+            <value>
+                <fullName>Masergy - Install</fullName>
+                <default>false</default>
+                <label>Masergy - Install</label>
+            </value>
+            <value>
+                <fullName>Masergy - Repair</fullName>
+                <default>false</default>
+                <label>Masergy - Repair</label>
+            </value>
+            <value>
+                <fullName>Monitor Only - Locates US</fullName>
+                <default>false</default>
+                <label>Monitor Only - Locates US</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin BIR CAN</fullName>
+                <default>false</default>
+                <label>Non-Billable Customer Admin BIR CAN</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin BIR USA</fullName>
+                <default>false</default>
+                <label>Non-Billable Customer Admin BIR USA</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin FLM CAN</fullName>
+                <default>false</default>
+                <label>Non-Billable Customer Admin FLM CAN</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Customer Admin FLM USA</fullName>
+                <default>false</default>
+                <label>Non-Billable Customer Admin FLM USA</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Training - BIR CAN</fullName>
+                <default>false</default>
+                <label>Non-Billable Training - BIR CAN</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Training - BIR USA</fullName>
+                <default>false</default>
+                <label>Non-Billable Training - BIR USA</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Training - FLM CAN</fullName>
+                <default>false</default>
+                <label>Non-Billable Training - FLM CAN</label>
+            </value>
+            <value>
+                <fullName>Non-Billable Training - FLM USA</fullName>
+                <default>false</default>
+                <label>Non-Billable Training - FLM USA</label>
+            </value>
+            <value>
+                <fullName>Outside Build</fullName>
+                <default>false</default>
+                <label>Outside Build</label>
+            </value>
+            <value>
+                <fullName>Part Pick Up - BIR CAN</fullName>
+                <default>false</default>
+                <label>Part Pick Up - BIR CAN</label>
+            </value>
+            <value>
+                <fullName>Part Pick Up - BIR USA</fullName>
+                <default>false</default>
+                <label>Part Pick Up - BIR USA</label>
+            </value>
+            <value>
+                <fullName>Part Pick-Up - FLM CAN</fullName>
+                <default>false</default>
+                <label>Part Pick-Up - FLM CAN</label>
+            </value>
+            <value>
+                <fullName>Part Pick-Up - FLM USA</fullName>
+                <default>false</default>
+                <label>Part Pick-Up - FLM USA</label>
+            </value>
+            <value>
+                <fullName>PBD - Drops</fullName>
+                <default>false</default>
+                <label>PBD - Drops</label>
+            </value>
+            <value>
+                <fullName>PBD Drops - Business Aerial or Conduit</fullName>
+                <default>false</default>
+                <label>PBD Drops - Business Aerial or Conduit</label>
+            </value>
+            <value>
+                <fullName>PBD Drops - Business Buried</fullName>
+                <default>false</default>
+                <label>PBD Drops - Business Buried</label>
+            </value>
+            <value>
+                <fullName>PBD Drops - Residential Aerial or Conduit</fullName>
+                <default>false</default>
+                <label>PBD Drops - Residential Aerial or Conduit</label>
+            </value>
+            <value>
+                <fullName>PBD Drops - Residential Buried</fullName>
+                <default>false</default>
+                <label>PBD Drops - Residential Buried</label>
+            </value>
+            <value>
+                <fullName>Project Time - ViaSat</fullName>
+                <default>false</default>
+                <label>Project Time - ViaSat</label>
+            </value>
+            <value>
+                <fullName>Residential Aerial or Conduit BC</fullName>
+                <default>false</default>
+                <label>Residential Aerial or Conduit BC</label>
+            </value>
+            <value>
+                <fullName>Residential Buried BC</fullName>
+                <default>false</default>
+                <label>Residential Buried BC</label>
+            </value>
+            <value>
+                <fullName>RMA Drop Off - BIR CAN</fullName>
+                <default>false</default>
+                <label>RMA Drop Off - BIR CAN</label>
+            </value>
+            <value>
+                <fullName>RMA Drop Off - BIR USA</fullName>
+                <default>false</default>
+                <label>RMA Drop Off - BIR USA</label>
+            </value>
+            <value>
+                <fullName>RMA Drop Off - FLM CAN</fullName>
+                <default>false</default>
+                <label>RMA Drop Off - FLM CAN</label>
+            </value>
+            <value>
+                <fullName>RMA Drop Off - FLM USA</fullName>
+                <default>false</default>
+                <label>RMA Drop Off - FLM USA</label>
+            </value>
+            <value>
+                <fullName>Rogers Business - Repair</fullName>
+                <default>false</default>
+                <label>Rogers Business - Repair</label>
+            </value>
+            <value>
+                <fullName>Rogers - Drops</fullName>
+                <default>false</default>
+                <label>Rogers - Drops</label>
+            </value>
+            <value>
+                <fullName>Rogers Fixed Wireless - Install</fullName>
+                <default>false</default>
+                <label>Rogers Fixed Wireless - Install</label>
+            </value>
+            <value>
+                <fullName>Rogers Off Rail - Locates CAN</fullName>
+                <default>false</default>
+                <label>Rogers Off Rail - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Rogers Remote Hands - Install &amp; Site Survey</fullName>
+                <default>false</default>
+                <label>Rogers Remote Hands - Install &amp; Site Survey</label>
+            </value>
+            <value>
+                <fullName>Rogers Remote Hands - Repair</fullName>
+                <default>false</default>
+                <label>Rogers Remote Hands - Repair</label>
+            </value>
+            <value>
+                <fullName>Rogers SMB Unison - Install</fullName>
+                <default>false</default>
+                <label>Rogers SMB Unison - Install</label>
+            </value>
+            <value>
+                <fullName>Rogers WIFI - Install MACD</fullName>
+                <default>false</default>
+                <label>Rogers WIFI - Install MACD</label>
+            </value>
+            <value>
+                <fullName>Shaw WIFI - Install</fullName>
+                <default>false</default>
+                <label>Shaw WIFI - Install</label>
+            </value>
+            <value>
+                <fullName>Shaw WIFI - Repair</fullName>
+                <default>false</default>
+                <label>Shaw WIFI - Repair</label>
+            </value>
+            <value>
+                <fullName>Site Survey - BIR CAN</fullName>
+                <default>false</default>
+                <label>Site Survey - BIR CAN</label>
+            </value>
+            <value>
+                <fullName>Site Survey - BIR US</fullName>
+                <default>false</default>
+                <label>Site Survey - BIR US</label>
+            </value>
+            <value>
+                <fullName>Site Survey - FLM CAN</fullName>
+                <default>false</default>
+                <label>Site Survey - FLM CAN</label>
+            </value>
+            <value>
+                <fullName>Site Survey - FLM US</fullName>
+                <default>false</default>
+                <label>Site Survey - FLM US</label>
+            </value>
+            <value>
+                <fullName>Spectrum - Install</fullName>
+                <default>false</default>
+                <label>Spectrum - Install</label>
+            </value>
+            <value>
+                <fullName>Spectrum - ISP US</fullName>
+                <default>false</default>
+                <label>Spectrum - ISP US</label>
+            </value>
+            <value>
+                <fullName>Spectrum - PMR US</fullName>
+                <default>false</default>
+                <label>Spectrum - PMR US</label>
+            </value>
+            <value>
+                <fullName>Spectrum - Repair</fullName>
+                <default>false</default>
+                <label>Spectrum - Repair</label>
+            </value>
+            <value>
+                <fullName>Telus - Locates CAN</fullName>
+                <default>false</default>
+                <label>Telus - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Telus Piece Rate - PMR</fullName>
+                <default>false</default>
+                <label>Telus Piece Rate - PMR</label>
+            </value>
+            <value>
+                <fullName>Telus SMB Install</fullName>
+                <default>false</default>
+                <label>Telus SMB Install</label>
+            </value>
+            <value>
+                <fullName>Telus SMB Repair</fullName>
+                <default>false</default>
+                <label>Telus SMB Repair</label>
+            </value>
+            <value>
+                <fullName>Testing - OSP US</fullName>
+                <default>false</default>
+                <label>Testing - OSP US</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Install CAN</fullName>
+                <default>false</default>
+                <label>Typical - Bus Install CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Install US</fullName>
+                <default>false</default>
+                <label>Typical - Bus Install US</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Repair CAN</fullName>
+                <default>false</default>
+                <label>Typical - Bus Repair CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Bus Repair US</fullName>
+                <default>false</default>
+                <label>Typical - Bus Repair US</label>
+            </value>
+            <value>
+                <fullName>Typical - EF&amp;I Installation</fullName>
+                <default>false</default>
+                <label>Typical - EF&amp;I Installation</label>
+            </value>
+            <value>
+                <fullName>Typical - Escort CAN</fullName>
+                <default>false</default>
+                <label>Typical - Escort CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Escort US</fullName>
+                <default>false</default>
+                <label>Typical - Escort US</label>
+            </value>
+            <value>
+                <fullName>Typical - ISP CAN</fullName>
+                <default>false</default>
+                <label>Typical - ISP CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - ISP US</fullName>
+                <default>false</default>
+                <label>Typical - ISP US</label>
+            </value>
+            <value>
+                <fullName>Typical - Locates CAN</fullName>
+                <default>false</default>
+                <label>Typical - Locates CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - Locates US</fullName>
+                <default>false</default>
+                <label>Typical - Locates US</label>
+            </value>
+            <value>
+                <fullName>Typical - OSP CAN</fullName>
+                <default>false</default>
+                <label>Typical - OSP CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - OSP US</fullName>
+                <default>false</default>
+                <label>Typical - OSP US</label>
+            </value>
+            <value>
+                <fullName>Typical - PMR CAN</fullName>
+                <default>false</default>
+                <label>Typical - PMR CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - PMR US</fullName>
+                <default>false</default>
+                <label>Typical - PMR US</label>
+            </value>
+            <value>
+                <fullName>Typical - TTBF CAN</fullName>
+                <default>false</default>
+                <label>Typical - TTBF CAN</label>
+            </value>
+            <value>
+                <fullName>Typical - TTBF US</fullName>
+                <default>false</default>
+                <label>Typical - TTBF US</label>
+            </value>
+            <value>
+                <fullName>Verizon - Install</fullName>
+                <default>false</default>
+                <label>Verizon - Install</label>
+            </value>
+            <value>
+                <fullName>ViaSat Badged and Trained - RF US</fullName>
+                <default>false</default>
+                <label>ViaSat Badged and Trained - RF US</label>
+            </value>
+            <value>
+                <fullName>ViaSat - RF CAN</fullName>
+                <default>false</default>
+                <label>ViaSat - RF CAN</label>
+            </value>
+            <value>
+                <fullName>Warehouse CAN</fullName>
+                <default>false</default>
+                <label>Warehouse CAN</label>
+            </value>
+            <value>
+                <fullName>Warehouse USA</fullName>
+                <default>false</default>
+                <label>Warehouse USA</label>
+            </value>
+            <value>
+                <fullName>XO Out of Market - Install</fullName>
+                <default>false</default>
+                <label>XO Out of Market - Install</label>
+            </value>
+            <value>
+                <fullName>XO Out of Market - Repair</fullName>
+                <default>false</default>
+                <label>XO Out of Market - Repair</label>
+            </value>
+            <value>
+                <fullName>Zayo - Locates CAN</fullName>
+                <default>false</default>
+                <label>Zayo - Locates CAN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

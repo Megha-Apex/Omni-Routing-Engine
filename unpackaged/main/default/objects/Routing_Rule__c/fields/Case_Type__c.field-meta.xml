@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Type__c</fullName>
+    <label>Case Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canada Bell Late Requests</fullName>
+                <default>false</default>
+                <label>Canada Bell Late Requests</label>
+            </value>
+            <value>
+                <fullName>Canada - Business Support</fullName>
+                <default>false</default>
+                <label>Canada - Business Support</label>
+            </value>
+            <value>
+                <fullName>Canada - FTTP Locates</fullName>
+                <default>false</default>
+                <label>Canada - FTTP Locates</label>
+            </value>
+            <value>
+                <fullName>Canada - GTT BIR</fullName>
+                <default>false</default>
+                <label>Canada - GTT BIR</label>
+            </value>
+            <value>
+                <fullName>Canada - Locates Support</fullName>
+                <default>false</default>
+                <label>Canada - Locates Support</label>
+            </value>
+            <value>
+                <fullName>Canada - Projects</fullName>
+                <default>false</default>
+                <label>Canada - Projects</label>
+            </value>
+            <value>
+                <fullName>Canada - Quote</fullName>
+                <default>false</default>
+                <label>Canada - Quote</label>
+            </value>
+            <value>
+                <fullName>Canada - Radiant Support</fullName>
+                <default>false</default>
+                <label>Canada - Radiant Support</label>
+            </value>
+            <value>
+                <fullName>Canada - Regional Manager Requests</fullName>
+                <default>false</default>
+                <label>Canada - Regional Manager Requests</label>
+            </value>
+            <value>
+                <fullName>Canada - Rogers</fullName>
+                <default>false</default>
+                <label>Canada - Rogers</label>
+            </value>
+            <value>
+                <fullName>Canada - Shaw Support</fullName>
+                <default>false</default>
+                <label>Canada - Shaw Support</label>
+            </value>
+            <value>
+                <fullName>Canada - Travel Request</fullName>
+                <default>false</default>
+                <label>Canada - Travel Request</label>
+            </value>
+            <value>
+                <fullName>Canada - Zayo Canada Support</fullName>
+                <default>false</default>
+                <label>Canada - Zayo Canada Support</label>
+            </value>
+            <value>
+                <fullName>Comcast</fullName>
+                <default>false</default>
+                <label>Comcast</label>
+            </value>
+            <value>
+                <fullName>Comcast Quotes</fullName>
+                <default>false</default>
+                <label>Comcast Quotes</label>
+            </value>
+            <value>
+                <fullName>Telus</fullName>
+                <default>false</default>
+                <label>Telus</label>
+            </value>
+            <value>
+                <fullName>US - Charter Spectrum</fullName>
+                <default>false</default>
+                <label>US - Charter Spectrum</label>
+            </value>
+            <value>
+                <fullName>US - CSC Inbox</fullName>
+                <default>false</default>
+                <label>US - CSC Inbox</label>
+            </value>
+            <value>
+                <fullName>US - Customer Update</fullName>
+                <default>false</default>
+                <label>US - Customer Update</label>
+            </value>
+            <value>
+                <fullName>US - Infinera</fullName>
+                <default>false</default>
+                <label>US - Infinera</label>
+            </value>
+            <value>
+                <fullName>US - Locates</fullName>
+                <default>false</default>
+                <label>US - Locates</label>
+            </value>
+            <value>
+                <fullName>US - Needs Quote</fullName>
+                <default>false</default>
+                <label>US - Needs Quote</label>
+            </value>
+            <value>
+                <fullName>US - PC&#39;s</fullName>
+                <default>false</default>
+                <label>US - PC&#39;s</label>
+            </value>
+            <value>
+                <fullName>US - PMs</fullName>
+                <default>false</default>
+                <label>US - PMs</label>
+            </value>
+            <value>
+                <fullName>US - Project</fullName>
+                <default>false</default>
+                <label>US - Project</label>
+            </value>
+            <value>
+                <fullName>US - Regional Manager Request</fullName>
+                <default>false</default>
+                <label>US - Regional Manager Request</label>
+            </value>
+            <value>
+                <fullName>US - Site Survey</fullName>
+                <default>false</default>
+                <label>US - Site Survey</label>
+            </value>
+            <value>
+                <fullName>US - Tech Request</fullName>
+                <default>false</default>
+                <label>US - Tech Request</label>
+            </value>
+            <value>
+                <fullName>US - Vendor Required</fullName>
+                <default>false</default>
+                <label>US - Vendor Required</label>
+            </value>
+            <value>
+                <fullName>US - Zayo</fullName>
+                <default>false</default>
+                <label>US - Zayo</label>
+            </value>
+            <value>
+                <fullName>VIASAT - PMs</fullName>
+                <default>false</default>
+                <label>VIASAT - PMs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

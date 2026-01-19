@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>SvcApptStatusCategory</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>01 Open</label>
+        <groupingString>None</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Tentative</fullName>
+        <default>false</default>
+        <label>02 Tentative</label>
+        <groupingString>Scheduled</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Dispatched</fullName>
+        <default>false</default>
+        <label>03 Dispatched</label>
+        <groupingString>Dispatched</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>04 Rejected</label>
+        <groupingString>None</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+        <label>05 Accepted</label>
+        <groupingString>Dispatched</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Enroute</fullName>
+        <default>false</default>
+        <label>06 Enroute</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>On-Site</fullName>
+        <default>false</default>
+        <label>07 On-Site</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Off-Site</fullName>
+        <default>false</default>
+        <label>08 Off-Site</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Complete</fullName>
+        <default>false</default>
+        <label>09 Field Complete</label>
+        <groupingString>Completed</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Field Incompleted</fullName>
+        <default>false</default>
+        <label>10 Field Incompleted</label>
+        <groupingString>CannotComplete</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>11 Complete</label>
+        <groupingString>Completed</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Incompleted</fullName>
+        <default>false</default>
+        <label>12 Incompleted</label>
+        <groupingString>CannotComplete</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>13 Cancelled</label>
+        <groupingString>Canceled</groupingString>
+    </standardValue>
+</StandardValueSet>

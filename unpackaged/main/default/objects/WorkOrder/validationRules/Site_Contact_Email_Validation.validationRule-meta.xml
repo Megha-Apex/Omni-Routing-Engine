@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Contact_Email_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(
+ISBLANK(Site_Contact_Email__c)
+),
+NOT(
+REGEX(
+Site_Contact_Email__c,
+&#39;([a-zA-Z0-9_\\-\\.]+)@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,20}|[0-9]{1,3})&#39;
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Site Contact E-Mail must be a valid E-Mail address.</errorMessage>
+</ValidationRule>

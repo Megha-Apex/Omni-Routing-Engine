@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dispatcher_Queue_for_In_Jeopardy_ServiceAppointment</fullName>
+    <columns>Name</columns>
+    <columns>Status</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <filterScope>Queue</filterScope>
+    <label>Dispatcher Queue for In Jeopardy</label>
+    <queue>Dispatcher_Queue_for_In_Jeopardy</queue>
+    <sharedTo>
+        <group>Dispatcher_Group</group>
+        <group>Dispatchers</group>
+    </sharedTo>
+</ListView>

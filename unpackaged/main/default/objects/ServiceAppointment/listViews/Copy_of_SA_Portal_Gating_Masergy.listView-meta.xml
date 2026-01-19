@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_SA_Portal_Gating_Masergy</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5 OR 6)</booleanFilter>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Is_Processed__c</columns>
+    <columns>Is_Processed_CP__c</columns>
+    <columns>Status</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>Sub_Customer__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Completed,Incompleted</value>
+    </filters>
+    <filters>
+        <field>Is_Processed__c</field>
+        <operation>equals</operation>
+        <value>2</value>
+    </filters>
+    <filters>
+        <field>Is_Processed_CP__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>Masergy Communications,Inc. Repair</value>
+    </filters>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>Masergy Communications,Inc. Installs</value>
+    </filters>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>equals</operation>
+        <value>Masergy Communications - Hub</value>
+    </filters>
+    <label>SA Portal Gating Masergy</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

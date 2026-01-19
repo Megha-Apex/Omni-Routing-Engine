@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requestor_EMail_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(
+        ISBLANK(Requestor_E_Mail__c)
+    ),
+    NOT(
+        REGEX(
+            Requestor_E_Mail__c,
+            &#39;([a-zA-Z0-9_\\-\\.]+)@((\\[a-z]{1,3}\\.[a-z]{1,3}\\.[a-z]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,20}|[0-9]{1,3})&#39;
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Requester E-Mail must be a valid E-Mail address.</errorMessage>
+</ValidationRule>

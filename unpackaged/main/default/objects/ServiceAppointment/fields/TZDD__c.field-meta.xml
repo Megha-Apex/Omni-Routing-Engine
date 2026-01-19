@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TZDD__c</fullName>
+    <description>Formula to convert due date to service territory time zone</description>
+    <externalId>false</externalId>
+    <formula>TEXT(CASE(TEXT(ServiceTerritory.OperatingHours.TimeZone),
+&#39;America/St_Johns&#39;,DueDate+(-210/1440),
+&#39;America/Halifax&#39;,DueDate+(-240/1440),
+&#39;America/New_York&#39;,DueDate+(-300/1440),
+&#39;America/Chicago&#39;,DueDate+(-360/1440),
+&#39;America/El_Salvador&#39;,DueDate+(-360/1440),
+&#39;America/Denver&#39;,DueDate+(-420/1440),
+&#39;America/Regina&#39;,DueDate+(-360/1440),
+&#39;America/Phoenix&#39;,DueDate+(-420/1440),
+&#39;America/Los_Angeles&#39;,DueDate+(-480/1440),
+&#39;America/Anchorage&#39;,DueDate+(-540 /1440),
+&#39;Pacific/Honolulu&#39;,DueDate+(-600/1440),
+null
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TZDD</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

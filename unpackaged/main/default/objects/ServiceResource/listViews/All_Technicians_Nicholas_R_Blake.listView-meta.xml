@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Technicians_Nicholas_R_Blake</fullName>
+    <columns>Name</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>ContractID__c</columns>
+    <columns>EngineerType__c</columns>
+    <columns>IsActive</columns>
+    <columns>Max_Travel_Distance__c</columns>
+    <columns>AreaManager__c</columns>
+    <columns>Safety__c</columns>
+    <columns>Email__c</columns>
+    <columns>Address__c</columns>
+    <columns>MobilePhone__c</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Region__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>IsActive</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Area_Manager_Filter__c</field>
+        <operation>notEqual</operation>
+        <value>Area Manager</value>
+    </filters>
+    <label>All Technicians (Kentucky KIH)</label>
+</ListView>

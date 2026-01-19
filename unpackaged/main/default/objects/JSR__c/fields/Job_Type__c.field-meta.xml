@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Type__c</fullName>
+    <label>Job Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add/Move/Change</fullName>
+                <default>false</default>
+                <label>Add/Move/Change</label>
+            </value>
+            <value>
+                <fullName>Trouble Ticket Break Fix</fullName>
+                <default>false</default>
+                <label>Trouble Ticket Break Fix</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>Infinera AMC</fullName>
+                <default>false</default>
+                <label>Infinera AMC</label>
+            </value>
+            <value>
+                <fullName>Escort</fullName>
+                <default>false</default>
+                <label>Escort</label>
+            </value>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <label>Site Survey</label>
+            </value>
+            <value>
+                <fullName>PMR</fullName>
+                <default>false</default>
+                <label>PMR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

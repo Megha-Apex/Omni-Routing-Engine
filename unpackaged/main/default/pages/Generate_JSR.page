@@ -1,0 +1,314 @@
+<apex:page standardController="JSR__c" extensions="PDFController" renderAs="pdf" action="{!getData}">
+<apex:stylesheet value="{!$Resource.PDFStyles}" />
+    <div>
+    <apex:image width="2.75in" url="{!$Resource.ledcorLogo}"/>
+        <h2>Job Summary Report (JSR)</h2>
+        <p><strong>SA Identity Number:</strong> {!jsrRecord.SA_Identity_Number__c}</p>
+        <p><strong>JSR Name:</strong> {!jsrRecord.Name}</p>
+        <p><strong>Business Unit:</strong> {!jsrRecord.Business_Unit__c}</p>
+        <p><strong>Technician:</strong> <apex:outputText value="{!technicianName}" /></p>
+        <p><strong>Manager:</strong> {!jsrRecord.Manager__c}</p>
+        <p><strong>Client Reference:</strong> {!jsrRecord.Client_Reference__c}</p>
+        <p><strong>Service Type:</strong> {!jsrRecord.Service_Type__c}</p>
+        <p><strong>Client:</strong> {!jsrRecord.Client__c}</p>
+        <p><strong>Electronic Agreement:</strong> {!jsrRecord.Electronic_Agreement__c}</p>
+        <p><strong>Date Completion:</strong> {!jsrRecord.Date_Completion__c}</p>
+        <p><strong>Job Type:</strong> {!jsrRecord.Job_Type__c}</p>
+     
+        <!-- Add more common fields here -->
+
+        <apex:outputPanel rendered="{!jsrRecord.Client__c == 'A&W POS Cabling'}">
+          <div class="table-style">
+           <h4>Quality Audit</h4>
+           <table>
+                <tr>
+            <th>48 Port Meraki Switch Installed:</th>
+           <td>{!jsrRecord.X48_Port_Meraki_Switch_Installed__c}</td>
+            </tr>
+            <tr>
+            <th>Patch Panels Labeled:</th> <td>{!jsrRecord.Patch_Panels_Labeled__c}</td> </tr>
+            <tr><th>Patch Panels Files: </th> <td> {!jsrRecord.Patch_Panels_Files2__c} </td></tr>
+            <tr><th>All Cables Tested:</th> <td> {!jsrRecord.All_Cables_Tested__c}</td></tr>
+            <tr><th>All Cables Tested Files:</th> <td> {!jsrRecord.All_Cables_Tested_Files2__c}</td></tr>
+            <tr><th>Black Box Before After Files:</th> <td>  {!jsrRecord.BlackBoxBeforeAfterFiles2__c}</td></tr>
+            <tr><th>PDF Black Box Template Processed:</th> <td> {!jsrRecord.PDF_Black_Box_Template_Processed__c}</td></tr>
+            <tr><th>PDF Black Box Template Files:</th> <td> {!jsrRecord.PDFBlackBoxTemplateFiles2__c}</td></tr>
+            <tr><th>AW Network Separate Black Box:</th> <td> {!jsrRecord.AWNetworkSepBlackBox__c}</td></tr>
+            <tr><th>AW Network Separate Black Box Files:</th> <td> {!jsrRecord.AWNWSepBlackBoxFiles2__c}</td></tr>
+            <tr><th>Receipt Printers Have Ethernet Ports:</th> <td> {!jsrRecord.Receipt_Printers_Have_Ethernet_Ports__c}</td></tr>
+            <tr><th>Receipt Printers Ethernet Ports Files:</th> <td> {!jsrRecord.ReceiptPrintersEthernetPortsFiles2__c}</td></tr>
+            <tr><th>How Many Cash Drawers Present:</th> <td> {!jsrRecord.HowManyCashDrawersPresent__c}</td></tr>
+            <tr><th>Cash Drawers Present Files:</th> <td> {!jsrRecord.CashDrawersPresentFiles2__c}</td></tr>
+            <tr><th>List KDS No HDMI Port:</th> <td> {!jsrRecord.List_KDS_No_HDMI_Port2__c}</td></tr>
+            <tr><th>Test Internet And Speed:</th> <td> {!jsrRecord.Test_Internet_And_Speed__c}</td></tr>
+            <tr><th>Test Internet Files:</th> <td> {!jsrRecord.Test_Internet_Files2__c}</td></tr>
+            <tr><th>Test LTE Backup:</th> <td>{!jsrRecord.Test_LTE_Backup__c}</td></tr>
+            <tr><th>Confirm Wires Concealed:</th> <td>{!jsrRecord.Confirm_Wires_Concealed__c}</td></tr>
+            <tr><th>Wires Concealed Files:</th> <td>{!jsrRecord.Wires_Concealed_Files2__c}</td></tr>
+            <tr><th>Cabling Installed According To MOP:</th> <td>{!jsrRecord.Cabling_Installed_According_To_MOP__c}</td></tr>
+            <tr><th>HDMI Cabling Dressed:</th> <td>{!jsrRecord.HDMI_Cabling_Dressed__c}</td></tr>
+            <tr><th>HDMI Cabling Dressed Files:</th> <td>{!jsrRecord.HDMICablingDressedFiles2__c}</td></tr>
+            <tr><th>How Many Runs Cat5e FT6 Completed:</th> <td>{!jsrRecord.HowManyRunsCat5e__c}</td></tr>
+            <tr><th>HDMI Splitter Installed Files:</th> <td>{!jsrRecord.HDMI_Splitter_Installed_Files2__c}</td></tr>
+            <tr><th>Location Has LUX Display:</th> <td>{!jsrRecord.Location_Has_LUX_Display__c}</td></tr>
+            <tr><th>Scope Of Work Completed In Full:</th> <td>{!jsrRecord.ScopeOfWorkCompletedInFull__c}</td></tr>
+            <tr><th>Incomplete Scope Of Work Contact:</th> <td>{!jsrRecord.Incomplete_Scope_Of_Work_Contact__c}</td></tr>
+            <tr><th>How Many Menu Boards:</th> <td>{!jsrRecord.How_Many_Menu_Boards__c}</td></tr>
+            <tr><th>Menu Boards Files:</th> <td>{!jsrRecord.Menu_Boards_Files2__c}</td></tr>
+            <tr><th>Is There Drive-Thru:</th> <td>{!jsrRecord.Is_There_Drive_Thru__c}</td></tr>
+            <tr><th>Is There Planet Switch:</th> <td>{!jsrRecord.Is_There_Planet_Switch__c}</td></tr>
+            <tr><th>Planet Switch Files:</th> <td>{!jsrRecord.Planet_Switch_Files2__c}</td></tr>
+            <tr><th>Location On Shaw Network:</th> <td>{!jsrRecord.Location_On_Shaw_Network__c}</td></tr>
+            <tr><th>Shaw Network Files:</th> <td>{!jsrRecord.Shaw_Network_Files2__c}</td></tr></table></div>
+
+            <!-- Add more fields specific to "Rogers" client -->
+        </apex:outputPanel>
+
+        <apex:outputPanel rendered="{!jsrRecord.Client__c == 'Viasat'}">
+            <!-- Fields to show for other Clients -->
+             <div class="table-style">
+            <h4>Quality Audit</h4>
+            <table>
+           <tr><th>Parts Received:</th> <td>{!jsrRecord.Parts_Received__c}</td></tr>
+            <tr><th>Received Shipping Container Condition:</th> <td>{!jsrRecord.ReceivedShippingContainer_Condition__c}</td></tr>
+            <tr><th>Container Condition Files:</th> <td>{!jsrRecord.Container_Condition_Files2__c}</td></tr>
+            <tr><th>Waveguide Ports BDC BUC LNA LNBDC HPA:</th> <td>{!jsrRecord.WaveguidePorts__c}</td></tr>
+            <tr><th>Parts Return Shipped?:</th> <td>{!jsrRecord.Parts_Return_Shipped__c}</td></tr>
+            <tr><th>Viasat Return Equipment Files:</th> <td>{!jsrRecord.Viasat_Return_Equipment_Files2__c}</td></tr>
+            <tr><th>Enter Into SparesTracker:</th> <td>{!jsrRecord.Enter_Into_SparesTracker__c}</td></tr>
+            <tr><th>Updated In Viasat Sharepoint:</th> <td>{!jsrRecord.UpdatedViasatSharepoint__c}</td></tr>
+            <tr><th>Equipment Inventory Uploaded Viasat:</th> <td>{!jsrRecord.EquipmentInventoryUploadViasat__c}</td></tr>
+            <tr><th>Consumable Items Ordered Viasat:</th> <td>{!jsrRecord.ConsumableItemsOrderedViasat__c}</td></tr>
+            <tr><th>Any Issues For Follow Up:</th> <td>{!jsrRecord.Any_Issues_For_Follow_Up__c}</td></tr>
+            <tr><th>Issues Emailed To Viasat:</th> <td>{!jsrRecord.Issues_Emailed_To_Viasat__c}</td></tr></table></div>
+
+            <!-- Add more fields specific to other clients -->
+        </apex:outputPanel>
+          <apex:outputPanel rendered="{!jsrRecord.Client__c == 'OBS'}">
+            <!-- Fields to show for other Clients -->
+            <div class="table-style">
+            <h4>Quality Audit</h4>
+            <table>
+            <tr><th>OBS CCN/TCN:</th> <td> {!jsrRecord.OBS_CCN_TCN__c}</td></tr>
+            <tr><th>Site Contact Offered Orange Survey:</th> <td> {!jsrRecord.offeredOrangeSurvey__c}</td></tr>
+            <tr><th>Customer Performed Satisfaction Survey:</th> <td>{!jsrRecord.CustPerformSatisfactSurvey__c}</td></tr>
+            <tr><th>Customer Satisfaction Survey Comment:</th> <td> {!jsrRecord.CustSatisfactSurveyComment2__c}</td></tr></table></div>
+            <!-- Add more fields specific to other clients -->
+        </apex:outputPanel>
+        
+          <apex:outputPanel rendered="{!jsrRecord.Client__c == 'Rogers WBI'}">
+            <!-- Fields to show for other Clients -->
+            <div class="table-style">
+            <h4>Quality Audit</h4>
+            <table>
+            <tr><th>RITM Number:</th> <td> {!jsrRecord.RITM_Number__c}</td></tr>
+            <tr><th>Customer Name:</th> <td> {!jsrRecord.Customer_Name__c}</td></tr>
+            <tr><th>Customer Site Address:</th> <td> {!jsrRecord.Customer_Site_Address__c}</td></tr>
+            <tr><th>Customer Contact Name and Phone Number:</th> <td> {!jsrRecord.CusContNamePhone__c}</td></tr>
+            <tr><th>Cradle Point Model Number:</th> <td> {!jsrRecord.Cradle_Point_Model_Number__c}</td></tr>
+            <tr><th>Cradle Point Mac:</th> <td> {!jsrRecord.Cradle_Point_Mac__c}</td></tr>
+            <tr><th>Cradle Point Serial Number:</th> <td> {!jsrRecord.Cradle_Point_Serial_Number__c}</td></tr>
+            <tr><th>IP Address:</th> <td> {!jsrRecord.IP_Address__c}</td></tr>
+            <tr><th>SIM 1:</th> <td> {!jsrRecord.SIM_1__c}</td></tr>
+            <tr><th>IMEI:</th> <td> {!jsrRecord.IMEI__c}</td></tr>
+            <tr><th>APN:</th> <td> {!jsrRecord.APN__c}</td></tr>
+            <tr><th>Bearing/Angle for Antenna Install (i.e:</th> <td> {!jsrRecord.Bearing_Angle_for_Antenna__c}</td></tr>
+            <tr><th>Config Mode:</th> <td> {!jsrRecord.Config_Mode__c}</td></tr>
+            <tr><th>Average Download Speed:</th> <td> {!jsrRecord.Average_Download_Speed__c}</td></tr>
+            <tr><th>Average Upload Speed:</th> <td> {!jsrRecord.Average_Upload_Speed__c}</td></tr>
+            <tr><th>RSRP Value:</th> <td> {!jsrRecord.RSRP_VAlue__c}</td></tr>
+            <tr><th>SINR Value:</th> <td> {!jsrRecord.SINR_Value__c}</td></tr>
+            <tr><th>Pass or Fail:</th> <td> {!jsrRecord.Pass_or_Fail__c}</td></tr>
+            <tr><th>Band:</th> <td> {!jsrRecord.Band_Number__c}</td></tr>
+            <tr><th>External or Internal Antenna:</th> <td> {!jsrRecord.External_or_Internal__c}</td></tr>
+            <tr><th>Antenna Installed Files:</th> <td> {!jsrRecord.Antenna_Installed_Files2__c}</td></tr>
+            <tr><th>Cradlepoint Installed Files:</th> <td> {!jsrRecord.Cradlepoint_Installed_Files2__c}</td></tr>
+            <tr><th>Entrance Holes Drilled Files:</th> <td> {!jsrRecord.Entrance_Holes_Drilled_Files2__c}</td></tr>
+            <tr><th>Cradle Point Demark Location:</th> <td> {!jsrRecord.Cradle_Point_Demark_Location2__c}</td></tr>
+            <tr><th>Cradlepoint External Antenna Files:</th> <td> {!jsrRecord.CradlepointExtAntFiles2__c}</td></tr>
+            <tr><th>Signal Strength:</th> <td> {!jsrRecord.Signal_Strength__c}</td></tr>
+            <tr><th>Power Cord Plugged Into:</th> <td> {!jsrRecord.Power_Cord_Plugged_Into__c}</td></tr>
+            <tr><th>Power Cord Plugged Into Files:</th> <td> {!jsrRecord.PowerCordPluggedIntoFiles2__c}</td></tr></table></div>
+
+            <!-- Add more fields specific to other clients -->
+             </apex:outputPanel>
+            
+             <apex:outputPanel rendered="{!jsrRecord.Client__c == 'Rogers Femtocell'}">
+            <!-- Fields to show for other Clients -->
+            <div class="table-style">
+            <h4>Quality Audit</h4>
+            <table>
+            <tr><th>Average Download Speed (backhaul Cable Internet speed):</th> <td> {!jsrRecord.Average_Download_Speed__c}</td></tr>
+            <tr><th>Average Upload Speed (backhaul Cable Internet speed):</th> <td> {!jsrRecord.Average_Upload_Speed__c}</td></tr>
+            <tr><th>Rogers Order Number:</th> <td> {!jsrRecord.Rogers_Order_Number__c}</td></tr>
+            <tr><th>Customer Name:</th> <td> {!jsrRecord.Customer_Name__c}</td></tr>
+            <tr><th>Customer Site Address:</th> <td> {!jsrRecord.Customer_Site_Address__c}</td></tr>
+            <tr><th>Customer Contact Name and Phone Number:</th> <td> {!jsrRecord.CusContNamePhone__c}</td></tr>
+            <tr><th>Femtocell Model Number:</th> <td> {!jsrRecord.Femtocell_Model_Number__c}</td></tr>
+            <tr><th>Femtocell Serial Number (start with LMxxxx):</th> <td> {!jsrRecord.Femtocell_Serial_Number__c}</td></tr>
+            <tr><th>Pass or Fail:</th> <td> {!jsrRecord.Pass_or_Fail__c}</td></tr>
+            <tr><th>Installation Location (Room description):</th> <td> {!jsrRecord.Installation_Location_Room_description__c}</td></tr>
+            <tr><th>Photo of Femtocell Installed:</th> <td> {!jsrRecord.Photo_of_Femtocell_Installed__c}</td></tr>
+            <tr><th>Photo of Cable run (show power outlet?):</th> <td> {!jsrRecord.Photo_of_Cable_run__c}</td></tr>
+            <tr><th>Photo of Internet Modem:</th> <td> {!jsrRecord.Photo_of_Internet_Modem__c   }</td></tr>
+            <tr><th>Power Cord Plugged Into:</th> <td> {!jsrRecord.Power_Cord_Plugged_Into__c}</td></tr>
+            <tr><th>Power Cord Plugged Into Files:</th> <td> {!jsrRecord.PowerCordPluggedIntoFiles2__c}</td></tr></table></div>
+            
+            
+        </apex:outputPanel>
+        
+         <apex:outputPanel rendered="{!jsrRecord.Job_Type__c == 'Add/Move/Change'}">
+            <!-- Fields to show for other job type-->
+            <div class="table-style">
+            <h4>Job Type</h4>
+            <table>
+            <tr><th>Has Equipment Installed:</th> <td> {!jsrRecord.HasEquipInstalled__c}</td></tr>
+            <tr><th>Allowed Photos Of Equipment Files:</th> <td> {!jsrRecord.AllowPhotosOfEquipFiles2__c}</td></tr>
+            <tr><th>Manufacturer Tags Installed Files:</th> <td> {!jsrRecord.ManufactTagsInstalledFiles2__c}</td></tr>
+            <tr><th>Out Of Scope Work Completed:</th> <td> {!jsrRecord.OutOfScopeWorkCompleted2__c}</td></tr>
+            <tr><th>AMC After Files:</th> <td> {!jsrRecord.AMC_After_Files2__c}</td></tr>
+            <tr><th>Were ESD Followed:</th> <td> {!jsrRecord.Were_ESD_Followed__c}</td></tr>
+            <tr><th>Chassis or Other Installed:</th> <td> {!jsrRecord.ChassisOrOtherInstalled__c}</td></tr>
+            <tr><th>Hardware Chassis Inspected:</th> <td> {!jsrRecord.Hardware_Chassis_Inspected__c}</td></tr>
+            <tr><th>Chassis Installed Files:</th> <td> {!jsrRecord.Chassis_Installed_Files2__c}</td></tr>
+            <tr><th>Chassis Backplane Files:</th> <td> {!jsrRecord.Chassis_Backplane_Files2__c}</td></tr>
+            <tr><th>Any DC Cables Installed:</th> <td> {!jsrRecord.Any_DC_Cables_Installed__c}</td></tr>
+            <tr><th>PDUs Cable Labeling Files:</th> <td> {!jsrRecord.PDUs_Cable_Labeling_Files2__c}</td></tr>
+            <tr><th>Chassis Ground Files:</th> <td> {!jsrRecord.Chassis_Ground_Files2__c}</td></tr>
+            <tr><th>Copper Breakout Fiber Jumpers Installed:</th> <td> {!jsrRecord.CopperBreakOFibJumpInstall__c}</td></tr>
+            <tr><th>OTDR Shots Performed:</th> <td> {!jsrRecord.OTDR_Shots_Performed__c}</td></tr>
+            <tr><th>BER/RFC Testing Performed:</th> <td> {!jsrRecord.BER_RFC_Testing_Performed__c}</td></tr>
+            <tr><th>Fiber End Faces Ports Inspected:</th> <td> {!jsrRecord.FiberEndFacesPortsInspected__c}</td></tr>
+            <tr><th>Cat5 Cables Installed Files:</th> <td> {!jsrRecord.Cat5_Cables_Installed_Files2__c}</td></tr>
+            <tr><th>TTBF Before Files:</th> <td> {!jsrRecord.TTBF_Before_Files2__c}</td></tr>
+            <tr><th>TTBF Post Files:</th> <td> {!jsrRecord.TTBF_Post_Files2__c}</td></tr></table></div>
+
+            <!-- Add more fields specific to other job type -->
+        </apex:outputPanel>
+        
+        <apex:outputPanel rendered="{!jsrRecord.Job_Type__c == 'Trouble Ticket Break Fix'}">
+            <!-- Fields to show for other job type-->
+             <div class="table-style">
+            <h4>Job Type</h4>
+            <table>
+            <tr><th>Has Equipment Installed:</th> <td> {!jsrRecord.HasEquipInstalled__c}</td></tr>
+             <tr><th>Allowed Photos Of Equipment Files:</th> <td> {!jsrRecord.AllowPhotosOfEquipFiles2__c}</td></tr>
+             <tr><th>Manufacturer Tags Installed Files:</th> <td> {!jsrRecord.ManufactTagsInstalledFiles2__c}</td></tr>
+             <tr><th>Out Of Scope Work Completed:</th> <td> {!jsrRecord.OutOfScopeWorkCompleted__c}</td></tr>
+             <tr><th>AMC After Files:</th> <td> {!jsrRecord.AMC_After_Files2__c}</td></tr>
+             <tr><th>Were ESD Followed:</th> <td> {!jsrRecord.Were_ESD_Followed__c}</td></tr>
+             <tr><th>Chassis or Other Installed:</th> <td> {!jsrRecord.ChassisOrOtherInstalled__c}</td></tr>
+             <tr><th>Hardware Chassis Inspected:</th> <td> {!jsrRecord.Hardware_Chassis_Inspected__c}</td></tr>
+             <tr><th>Chassis Installed Files:</th> <td> {!jsrRecord.Chassis_Installed_Files2__c}</td></tr>
+             <tr><th>Chassis Backplane Files:</th> <td> {!jsrRecord.Chassis_Backplane_Files2__c}</td></tr>
+             <tr><th>Any DC Cables Installed:</th> <td> {!jsrRecord.Any_DC_Cables_Installed__c}</td></tr>
+             <tr><th>PDUs Cable Labeling Files:</th> <td> {!jsrRecord.PDUs_Cable_Labeling_Files2__c}</td></tr>
+             <tr><th>Chassis Ground Files:</th> <td> {!jsrRecord.Chassis_Ground_Files__c}</td></tr>
+             <tr><th>Copper Breakout Fiber Jumpers Installed:</th> <td> {!jsrRecord.CopperBreakOFibJumpInstall__c}</td></tr>
+             <tr><th>OTDR Shots Performed:</th> <td> {!jsrRecord.OTDR_Shots_Performed__c}</td></tr>
+             <tr><th>BER/RFC Testing Performed:</th> <td> {!jsrRecord.BER_RFC_Testing_Performed__c}</td></tr>
+             <tr><th>Fiber End Faces Ports Inspected:</th> <td> {!jsrRecord.FiberEndFacesPortsInspected__c}</td></tr>
+             <tr><th>Cat5 Cables Installed Files:</th> <td> {!jsrRecord.Cat5_Cables_Installed_Files2__c}</td></tr>
+             <tr><th>TTBF Before Files:</th> <td> {!jsrRecord.TTBF_Before_Files2__c}</td></tr>
+             <tr><th>TTBF Post Files:</th> <td> {!jsrRecord.TTBF_Post_Files2__c}</td></tr></table></div>
+
+            <!-- Add more fields specific to other job type -->
+        </apex:outputPanel>
+        
+        
+          <apex:outputPanel rendered="{!jsrRecord.Job_Type__c == 'Escort'}">
+            <!-- Fields to show for other job type-->
+            <div class="table-style">
+            
+            <h4>Job Type</h4>
+            <table>
+            <tr><th>Escort Before Files:</th> <td> {!jsrRecord.Escort_Before_Files2__c}</td></tr>
+             <tr><th>Provide Vendor Name Company Contact:</th> <td> {!jsrRecord.Provide_Vendor_Name_Company_Contact__c}</td></tr>
+             <tr><th>All Activities Coordinated With Customer:</th> <td> {!jsrRecord.AllActivityCoordinatedWithCust__c}</td></tr>
+             <tr><th>Reviewed SOW And Safety:</th> <td> {!jsrRecord.Reviewed_SOW_And_Safety__c}</td></tr>
+             <tr><th>Certify Was On Site:</th> <td> {!jsrRecord.Certify_Was_On_Site__c}</td></tr>
+             <tr><th>Escort After Files:</th> <td> {!jsrRecord.Escort_After_Files2__c}</td></tr>
+             <tr><th>Real Time Updates Provided:</th> <td> {!jsrRecord.Real_Time_Updates_Provided__c}</td></tr>
+             <tr><th>What Issues For Follow Up:</th> <td> {!jsrRecord.What_Issues_For_Follow_Up2__c}</td></tr>
+             <tr><th>Customer Notified Work Complete:</th> <td> {!jsrRecord.CustNotifiedWorkComplete__c}</td></tr></table></div>
+
+        </apex:outputPanel>
+        
+         <apex:outputPanel rendered="{!jsrRecord.Job_Type__c == 'Site Survey'}">
+            <!-- Fields to show for other job type-->
+            <div class="table-style">
+            
+            <h4>Job Type</h4>
+            <table>
+             <tr><th>Purpose Of Site Survey:</th> <td> {!jsrRecord.Purpose_Of_Site_Survey2__c} </td></tr>
+             <tr><th>Completed Customer Provided Survey:</th> <td> {!jsrRecord.CompCustProvidedSurvey__c} </td></tr>
+             <tr><th>No Survey Form, Provided Photo:</th> <td> {!jsrRecord.NoSurveyFormProvidedPhoto__c} </td></tr>
+             <tr><th>Survey Form Used Most Up To Date:</th> <td> {!jsrRecord.SurveyFormUsedMostUpToDate__c} </td></tr>
+             <tr><th>Whom Send Survey Results To?:</th> <td> {!jsrRecord.WhomSendSurveyResultsTo2__c} </td></tr>
+             <tr><th>Confirmed Before Leaving Site:</th> <td> {!jsrRecord.ConfirmBeforeLeavingSite__c} </td></tr>
+             <tr><th>Explain Why Did Not Confirm:</th> <td> {!jsrRecord.Explain_Why_Did_Not_Confirm2__c} </td></tr>
+             <tr><th>Screenshot Survey Forms Files:</th> <td> {!jsrRecord.ScreenshotSurveyFormsFiles2__c} </td></tr></table></div>
+
+        </apex:outputPanel>
+        
+        
+        <apex:outputPanel rendered="{!jsrRecord.Job_Type__c == 'PMR'}">
+            <!-- Fields to show for other job type-->
+            <div class="table-style">
+            
+            <h4>Job Type</h4>
+            <table>
+             <tr><th>Information LTS Quality Standard:</th> <td> {!jsrRecord.InfoLTSQualityStandard__c}</td></tr>
+              <tr><th>Why Information Not LTS Quality:</th> <td> {!jsrRecord.WhyInfoNotLTSQuality2__c}</td></tr>
+              <tr><th>PMR Screenshot Results Files:</th> <td> {!jsrRecord.PMRScreenshotResultsFiles2__c}</td></tr>
+              <tr><th>Customer Provided PMR Form:</th> <td> {!jsrRecord.Customer_Provided_PMR_Form__c}</td></tr>
+              <tr><th>PMR Form Provided Is Most Recent:</th> <td> {!jsrRecord.PMRFormProvidedIsMostRecent__c}</td></tr>
+              <tr><th>Adequate Photos Provided For PMR:</th> <td> {!jsrRecord.AdequatePhotoProvidedForPMR__c}</td></tr>
+              <tr><th>Whom Send PMR Results To?:</th> <td> {!jsrRecord.WhomSendPMRResultsTo2__c}</td></tr>
+              <tr><th>Any Critical Infrastructure Reported:</th> <td> {!jsrRecord.AnyCriticalInfrastructureReported__c}</td></tr>
+              <tr><th>Infrastructure Issues Explanation:</th> <td> {!jsrRecord.Infrastructure_Issues_Explanation2__c}</td></tr>
+              <tr><th>Issues Not Addressed By PMR:</th> <td> {!jsrRecord.Issues_Not_Addressed_By_PMR__c}</td></tr></table></div>
+
+        </apex:outputPanel>
+            <div class="table-style">
+            
+            <h4>RMA</h4>
+            <table>
+            <tr><th>Parts Being Returned?:</th> <td> {!jsrRecord.Parts_Being_Returned__c}</td></tr>
+            <tr><th>RMA Serial Files:</th> <td> {!jsrRecord.RMA_Serial_Files2__c}</td></tr>
+            <tr><th>Why Parts Not Returned:</th> <td> {!jsrRecord.Why_Parts_Not_Returned2__c}</td></tr>
+            <tr><th>Part Number:</th> <td> {!jsrRecord.Part_Number__c}</td></tr>
+            <tr><th>Part Serial Number:</th> <td> {!jsrRecord.Part_Serial_Number__c}</td></tr>
+            <tr><th>Tracking Number:</th> <td> {!jsrRecord.Tracking_Number__c}</td></tr>
+            <tr><th>RMA Router Files:</th> <td> {!jsrRecord.RMA_Router_Files2__c}</td></tr> </table></div>
+            <div class="table-style">
+            
+            <h4>Job Information</h4>
+            <table>
+            <tr><th>Received SOW:</th> <td> {!jsrRecord.SOW_Details__c}</td></tr>
+            <tr><th>SOW Detailed Enough:</th> <td> {!jsrRecord.SOW_Detailed_Enough__c}</td></tr>
+            <tr><th>SOW List Discrepancies And Missing Info:</th> <td> {!jsrRecord.ListDiscrepancyMissingInfo2__c}</td></tr>
+            <tr><th>SOW Completed As Stated:</th> <td> {!jsrRecord.SOW_Completed_As_Stated__c}</td></tr>
+            <tr><th>Questions Regarding SOW:</th> <td> {!jsrRecord.Questions_Regarding_SOW__c}</td></tr>
+            <tr><th>Why Echo Policy Not Used:</th> <td> {!jsrRecord.Why_Echo_Policy_Not_Used2__c}</td></tr>
+            <tr><th>Panels Doors Covers Closed:</th> <td> {!jsrRecord.PanelsDoorsCoversClosed__c}</td></tr>
+            <tr><th>All Panels Closed Files:</th> <td> {!jsrRecord.All_Panels_Closed_Files2__c}</td></tr>
+            <tr><th>Site Left Clean Free Of Trash:</th> <td> {!jsrRecord.Site_Left_Clean__c}</td></tr>
+            <tr><th>Clean Site Files:</th> <td> {!jsrRecord.Clean_Site_Files2__c}</td></tr>
+            <tr><th>Dispatch Closing Details:</th> <td> {!jsrRecord.Dispatch_Closing_Details2__c}</td></tr> </table></div>
+            <div class="table-style">
+            
+            <h4>Completion</h4>
+            <table>
+            <tr><th>Electronic Agreement:  </th> <td> {!jsrRecord.Electronic_Agreement__c}</td></tr>
+            </table></div>  
+    </div>
+    <div>
+        <apex:repeat value="{!images}" var="imageWrapper">
+            <div style="display: inline-block; margin: 10px;">
+                <apex:image value="{!imageWrapper.imageUrl}" height="200" width="200"/>
+                <div>{!imageWrapper.imageTitle}</div>
+            </div>
+        </apex:repeat>
+    </div>
+</apex:page>

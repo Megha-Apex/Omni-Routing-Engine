@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <defaultValue>$User.Department</defaultValue>
+    <label>Department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Customer Support</fullName>
+                <default>false</default>
+                <label>Customer Support</label>
+            </value>
+            <value>
+                <fullName>Telus</fullName>
+                <default>false</default>
+                <label>Telus</label>
+            </value>
+            <value>
+                <fullName>Tier2</fullName>
+                <default>false</default>
+                <label>Tier2</label>
+            </value>
+            <value>
+                <fullName>Triage</fullName>
+                <default>false</default>
+                <label>Triage</label>
+            </value>
+            <value>
+                <fullName>Deactivate</fullName>
+                <default>false</default>
+                <label>Deactivate</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

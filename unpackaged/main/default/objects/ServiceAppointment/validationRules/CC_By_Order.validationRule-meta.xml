@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_By_Order</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISBLANK(Completion_Code_2__c)==false&amp;&amp;ISBLANK(Completion_Code_1__c)==true)
+||
+(ISBLANK(Completion_Code_3__c)==false&amp;&amp;ISBLANK(Completion_Code_2__c)==true)
+||
+(ISBLANK(Completion_Code_4__c)==false&amp;&amp;ISBLANK(Completion_Code_3__c)==true)
+||
+(ISBLANK(Completion_Code_5__c)==false&amp;&amp;ISBLANK(Completion_Code_4__c)==true)
+||
+(ISBLANK(Completion_Code_6__c)==false&amp;&amp;ISBLANK(Completion_Code_5__c)==true)
+||
+(ISBLANK(Completion_Code_7__c)==false&amp;&amp;ISBLANK(Completion_Code_6__c)==true)
+||
+(ISBLANK(Completion_Code_8__c)==false&amp;&amp;ISBLANK(Completion_Code_7__c)==true)
+||
+(ISBLANK(Completion_Code_9__c)==false&amp;&amp;ISBLANK(Completion_Code_8__c)==true)
+||
+(ISBLANK(Completion_Code_10__c)==false&amp;&amp;ISBLANK(Completion_Code_9__c)==true)
+||
+(ISBLANK(Completion_Code_11__c)==false&amp;&amp;ISBLANK(Completion_Code_10__c)==true)
+||
+(ISBLANK(Completion_Code_12__c)==false&amp;&amp;ISBLANK(Completion_Code_11__c)==true)
+||
+(ISBLANK(Completion_Code_13__c)==false&amp;&amp;ISBLANK(Completion_Code_12__c)==true)
+||
+(ISBLANK(Completion_Code_14__c)==false&amp;&amp;ISBLANK(Completion_Code_13__c)==true)
+||
+(ISBLANK(Completion_Code_15__c)==false&amp;&amp;ISBLANK(Completion_Code_14__c)==true)</errorConditionFormula>
+    <errorMessage>Completion Codes were inserted in the wrong order, please insert valid data.</errorMessage>
+</ValidationRule>

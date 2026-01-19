@@ -1,0 +1,14 @@
+<apex:page >
+  <apex:includeLightning />    
+    <div id="LightningComponentid" />    
+    <script>
+      $Lightning.use("c:absenceRecurrenceApp", function() {
+        $Lightning.createComponent("c:AbsenceRecurrenceTable",
+          {},
+          "LightningComponentid",
+          function(cmp) {
+            console.log('LWC Componenet added in VF page');
+          });
+      });
+    </script>
+</apex:page>

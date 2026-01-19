@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority__c</fullName>
+    <label>Priority</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>12 HR MTTR</fullName>
+                <default>false</default>
+                <label>12 HR MTTR</label>
+            </value>
+            <value>
+                <fullName>24 HR MTTR</fullName>
+                <default>false</default>
+                <label>24 HR MTTR</label>
+            </value>
+            <value>
+                <fullName>4 HR MTTR</fullName>
+                <default>false</default>
+                <label>4 HR MTTR</label>
+            </value>
+            <value>
+                <fullName>ADMIN</fullName>
+                <default>false</default>
+                <label>ADMIN</label>
+            </value>
+            <value>
+                <fullName>Best Effort</fullName>
+                <default>false</default>
+                <label>Best Effort</label>
+            </value>
+            <value>
+                <fullName>Emergency</fullName>
+                <default>false</default>
+                <label>Emergency</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Manager Request</fullName>
+                <default>false</default>
+                <label>Manager Request</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>MTTR</fullName>
+                <default>false</default>
+                <label>MTTR</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>Starbucks</fullName>
+                <default>false</default>
+                <label>Starbucks</label>
+            </value>
+            <value>
+                <fullName>Taco Bell</fullName>
+                <default>false</default>
+                <label>Taco Bell</label>
+            </value>
+            <value>
+                <fullName>Travel Zone 1</fullName>
+                <default>false</default>
+                <label>Travel Zone 1</label>
+            </value>
+            <value>
+                <fullName>Travel Zone 2</fullName>
+                <default>false</default>
+                <label>Travel Zone 2</label>
+            </value>
+            <value>
+                <fullName>Travel Zone 3</fullName>
+                <default>false</default>
+                <label>Travel Zone 3</label>
+            </value>
+            <value>
+                <fullName>Travel Zone 4</fullName>
+                <default>false</default>
+                <label>Travel Zone 4</label>
+            </value>
+            <value>
+                <fullName>Travel Zone 5</fullName>
+                <default>false</default>
+                <label>Travel Zone 5</label>
+            </value>
+            <value>
+                <fullName>Urgent</fullName>
+                <default>false</default>
+                <label>Urgent</label>
+            </value>
+            <value>
+                <fullName>US - Regional Manager Request</fullName>
+                <default>false</default>
+                <label>US - Regional Manager Request</label>
+            </value>
+            <value>
+                <fullName>US - Site Survey</fullName>
+                <default>false</default>
+                <label>US - Site Survey</label>
+            </value>
+            <value>
+                <fullName>US - Tech Request</fullName>
+                <default>false</default>
+                <label>US - Tech Request</label>
+            </value>
+            <value>
+                <fullName>US - Vendor Required</fullName>
+                <default>false</default>
+                <label>US - Vendor Required</label>
+            </value>
+            <value>
+                <fullName>US - Zayo</fullName>
+                <default>false</default>
+                <label>US - Zayo</label>
+            </value>
+            <value>
+                <fullName>VIASAT - PMs</fullName>
+                <default>false</default>
+                <label>VIASAT - PMs</label>
+            </value>
+            <value>
+                <fullName>Viasat Sev 1</fullName>
+                <default>false</default>
+                <label>Viasat Sev 1</label>
+            </value>
+            <value>
+                <fullName>Viasat Sev 2</fullName>
+                <default>false</default>
+                <label>Viasat Sev 2</label>
+            </value>
+            <value>
+                <fullName>Viasat Sev 3</fullName>
+                <default>false</default>
+                <label>Viasat Sev 3</label>
+            </value>
+            <value>
+                <fullName>Viasat Sev 4</fullName>
+                <default>false</default>
+                <label>Viasat Sev 4</label>
+            </value>
+            <value>
+                <fullName>Viasat Sev 5</fullName>
+                <default>false</default>
+                <label>Viasat Sev 5</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

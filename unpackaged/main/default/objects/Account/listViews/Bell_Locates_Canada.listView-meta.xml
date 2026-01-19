@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bell_Locates_Canada</fullName>
+    <columns>ACCOUNT.ACCOUNT_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Sub_Customer</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ACCOUNT_NUMBER</field>
+        <operation>equals</operation>
+        <value>1052479</value>
+    </filters>
+    <label>Bell Locates Canada</label>
+    <sharedTo>
+        <role>Order_Entry_Only</role>
+    </sharedTo>
+</ListView>

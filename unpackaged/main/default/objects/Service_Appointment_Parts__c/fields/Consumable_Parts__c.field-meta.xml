@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumable_Parts__c</fullName>
+    <label>Consumable Parts</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Part_Type__c</field>
+            <operation>equals</operation>
+            <valueField>Consumable_Parts__c.Part_Type__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Consumable_Parts__c</referenceTo>
+    <relationshipLabel>Service Appointment Parts</relationshipLabel>
+    <relationshipName>Service_Appointment_Parts</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

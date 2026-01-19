@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_vs_Planned__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Did the Service appointment past the scheduled time?</description>
+    <label>Actual vs Planned</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

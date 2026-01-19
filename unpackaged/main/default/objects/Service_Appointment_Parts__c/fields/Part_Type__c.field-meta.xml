@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Part_Type__c</fullName>
+    <label>Part Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Misc</fullName>
+                <default>false</default>
+                <label>Misc</label>
+            </value>
+            <value>
+                <fullName>Ethernet Cabling</fullName>
+                <default>false</default>
+                <label>Ethernet Cabling</label>
+            </value>
+            <value>
+                <fullName>Labels</fullName>
+                <default>false</default>
+                <label>Labels</label>
+            </value>
+            <value>
+                <fullName>Small Cell Batteries</fullName>
+                <default>false</default>
+                <label>Small Cell Batteries</label>
+            </value>
+            <value>
+                <fullName>Power</fullName>
+                <default>false</default>
+                <label>Power</label>
+            </value>
+            <value>
+                <fullName>Fiber Jumpers Single Mode</fullName>
+                <default>false</default>
+                <label>Fiber Jumpers Single Mode</label>
+            </value>
+            <value>
+                <fullName>Fiber Jumper Multi-Mode</fullName>
+                <default>false</default>
+                <label>Fiber Jumper Multi-Mode</label>
+            </value>
+            <value>
+                <fullName>Attenuator LC</fullName>
+                <default>false</default>
+                <label>Attenuator LC</label>
+            </value>
+            <value>
+                <fullName>Attenuator SC</fullName>
+                <default>false</default>
+                <label>Attenuator SC</label>
+            </value>
+            <value>
+                <fullName>Attenuator FC</fullName>
+                <default>false</default>
+                <label>Attenuator FC</label>
+            </value>
+            <value>
+                <fullName>Fiber Cleaning</fullName>
+                <default>false</default>
+                <label>Fiber Cleaning</label>
+            </value>
+            <value>
+                <fullName>Comcast Expenses</fullName>
+                <default>false</default>
+                <label>Comcast Expenses</label>
+            </value>
+            <value>
+                <fullName>Expenses</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expenses</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comcast_Tentative_Repairs_Waiting_on_PO</fullName>
+    <columns>CreatedBy</columns>
+    <columns>CreatedDate</columns>
+    <columns>Reference1__c</columns>
+    <columns>Reference2__c</columns>
+    <columns>Description</columns>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>LatestEndTime</columns>
+    <columns>ServiceTerritory</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>equals</operation>
+        <value>Comcast US - MES Repair</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Tentative</value>
+    </filters>
+    <label>Comcast Tentative Repairs Waiting on PO</label>
+</ListView>

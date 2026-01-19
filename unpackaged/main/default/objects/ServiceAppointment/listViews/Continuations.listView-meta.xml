@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Continuations</fullName>
+    <columns>Completion_Code_1__c</columns>
+    <columns>Completion_Code_2__c</columns>
+    <columns>Request_Time_Zone__c</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Name</columns>
+    <columns>Continuation__c</columns>
+    <columns>Status</columns>
+    <columns>COUNTRY</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Completion_Comments2__c</columns>
+    <columns>Incompletion_Reason2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Continuation__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Continuations</label>
+    <sharedTo>
+        <group>Dispatcher_Group</group>
+    </sharedTo>
+</ListView>

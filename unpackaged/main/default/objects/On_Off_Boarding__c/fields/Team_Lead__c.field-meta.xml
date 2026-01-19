@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Lead__c</fullName>
+    <inlineHelpText>Reference base on Hiring Manager</inlineHelpText>
+    <label>Team Lead</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Hiring_Manager__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Angel Rodarte</fullName>
+                <default>false</default>
+                <label>Angel Rodarte (BIR)</label>
+            </value>
+            <value>
+                <fullName>Brian Trzeciak</fullName>
+                <default>false</default>
+                <label>Brian Trzeciak (FLM)</label>
+            </value>
+            <value>
+                <fullName>Brock R Kvamme</fullName>
+                <default>false</default>
+                <label>Brock R Kvamme</label>
+            </value>
+            <value>
+                <fullName>Clarence F Dalcour</fullName>
+                <default>false</default>
+                <label>Clarence F Dalcour (FLM)</label>
+            </value>
+            <value>
+                <fullName>Dan Carpiniello</fullName>
+                <default>false</default>
+                <label>Dan Carpiniello</label>
+            </value>
+            <value>
+                <fullName>Frank P Ardelean Jr</fullName>
+                <default>false</default>
+                <label>Frank P Ardelean Jr</label>
+            </value>
+            <value>
+                <fullName>Holley S Wills</fullName>
+                <default>false</default>
+                <label>Holley S Wills</label>
+            </value>
+            <value>
+                <fullName>James Sanders</fullName>
+                <default>false</default>
+                <label>James Sanders (FLM)</label>
+            </value>
+            <value>
+                <fullName>Jason W Banks</fullName>
+                <default>false</default>
+                <label>Jason W Banks</label>
+            </value>
+            <value>
+                <fullName>Joseph A Martin Jr</fullName>
+                <default>false</default>
+                <label>Joseph A Martin Jr</label>
+            </value>
+            <value>
+                <fullName>Mario H Sandoval</fullName>
+                <default>false</default>
+                <label>Jason W Banks/ Mario H Sandoval</label>
+            </value>
+            <value>
+                <fullName>Mark Dykes</fullName>
+                <default>false</default>
+                <label>Mark Dykes (BIR)</label>
+            </value>
+            <value>
+                <fullName>Rocky O Lensegrav</fullName>
+                <default>false</default>
+                <label>Rocky O Lensegrav</label>
+            </value>
+            <value>
+                <fullName>Stacy M Scheff</fullName>
+                <default>false</default>
+                <label>Stacy M Scheff (BIR)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Jones, Dameond - 3001928</controllingFieldValue>
+            <valueName>James Sanders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jones, Dameond - 3001928</controllingFieldValue>
+            <valueName>Mark Dykes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solis, Joel - 1073129</controllingFieldValue>
+            <valueName>Mario H Sandoval</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nelson, Chris - 3012591</controllingFieldValue>
+            <valueName>Brian Trzeciak</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nelson, Chris - 3012591</controllingFieldValue>
+            <valueName>Stacy M Scheff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Swogger, Brian L - 341364</controllingFieldValue>
+            <valueName>Holley S Wills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flores, Jose Luis - 3012407</controllingFieldValue>
+            <valueName>Angel Rodarte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flores, Jose Luis - 3012407</controllingFieldValue>
+            <valueName>Clarence F Dalcour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jaques, Jeremy - 3011506</controllingFieldValue>
+            <valueName>Joseph A Martin Jr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Arient, Jonathan -122877</controllingFieldValue>
+            <valueName>Rocky O Lensegrav</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Morgan, Daniel - 3008831</controllingFieldValue>
+            <valueName>Dan Carpiniello</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rochelle, Michael A - 1153979</controllingFieldValue>
+            <valueName>Frank P Ardelean Jr</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Frisch, Alexander S - 1139604</controllingFieldValue>
+            <valueName>Brock R Kvamme</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

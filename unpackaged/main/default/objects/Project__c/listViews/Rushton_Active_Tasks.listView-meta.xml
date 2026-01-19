@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rushton_Active_Tasks</fullName>
+    <columns>NAME</columns>
+    <columns>Assignee__c</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Status_Color__c</columns>
+    <columns>Sponsor__c</columns>
+    <columns>Is_Parent__c</columns>
+    <columns>Parent_Project__c</columns>
+    <columns>Release__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Project__c.Project</value>
+    </filters>
+    <filters>
+        <field>Project_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed,Launched,On Hold</value>
+    </filters>
+    <filters>
+        <field>Assignee__c</field>
+        <operation>equals</operation>
+        <value>Chris Rushton</value>
+    </filters>
+    <label>Rushton Active Tasks</label>
+</ListView>

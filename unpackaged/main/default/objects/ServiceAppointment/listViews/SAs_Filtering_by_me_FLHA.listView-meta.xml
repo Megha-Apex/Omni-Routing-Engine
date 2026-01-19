@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAs_Filtering_by_me_FLHA</fullName>
+    <columns>Name</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>STATE</columns>
+    <columns>Request_Time_Zone__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>CreatedDate</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/2/2024 4:00 PM</value>
+    </filters>
+    <filters>
+        <field>Assigned_Technician__c</field>
+        <operation>contains</operation>
+        <value>SIVALOG</value>
+    </filters>
+    <label>SAs Filtering by me FLHA</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

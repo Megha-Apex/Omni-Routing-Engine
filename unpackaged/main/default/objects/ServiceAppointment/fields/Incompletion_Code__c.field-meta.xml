@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incompletion_Code__c</fullName>
+    <label>Incompletion Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01 - Travel Time On Incomplete</fullName>
+                <default>false</default>
+                <label>01 - Travel Time On Incomplete</label>
+            </value>
+            <value>
+                <fullName>02 - Other Customer Admin On Incomplete</fullName>
+                <default>false</default>
+                <label>02 - Other Customer Admin On Incomplete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

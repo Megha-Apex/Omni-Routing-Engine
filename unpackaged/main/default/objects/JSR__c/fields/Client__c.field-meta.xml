@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client__c</fullName>
+    <label>Client</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A&amp;W POS Cabling</fullName>
+                <default>false</default>
+                <label>A&amp;W POS Cabling</label>
+            </value>
+            <value>
+                <fullName>Adva</fullName>
+                <default>false</default>
+                <label>Adva</label>
+            </value>
+            <value>
+                <fullName>Akamai</fullName>
+                <default>false</default>
+                <label>Akamai</label>
+            </value>
+            <value>
+                <fullName>Allstream</fullName>
+                <default>false</default>
+                <label>Allstream</label>
+            </value>
+            <value>
+                <fullName>Apple FLM</fullName>
+                <default>false</default>
+                <label>Apple FLM</label>
+            </value>
+            <value>
+                <fullName>Aviat</fullName>
+                <default>false</default>
+                <label>Aviat</label>
+            </value>
+            <value>
+                <fullName>Bell Nexxia</fullName>
+                <default>false</default>
+                <label>Bell Nexxia</label>
+            </value>
+            <value>
+                <fullName>Borealis</fullName>
+                <default>false</default>
+                <label>Borealis</label>
+            </value>
+            <value>
+                <fullName>CBTS</fullName>
+                <default>false</default>
+                <label>CBTS</label>
+            </value>
+            <value>
+                <fullName>Century Link</fullName>
+                <default>false</default>
+                <label>Century Link</label>
+            </value>
+            <value>
+                <fullName>Charter Spectrum</fullName>
+                <default>false</default>
+                <label>Charter Spectrum</label>
+            </value>
+            <value>
+                <fullName>Ciena</fullName>
+                <default>false</default>
+                <label>Ciena</label>
+            </value>
+            <value>
+                <fullName>CN Rail</fullName>
+                <default>false</default>
+                <label>CN Rail</label>
+            </value>
+            <value>
+                <fullName>Comcast</fullName>
+                <default>false</default>
+                <label>Comcast</label>
+            </value>
+            <value>
+                <fullName>Cox Communications</fullName>
+                <default>false</default>
+                <label>Cox Communications</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>GoCo</fullName>
+                <default>false</default>
+                <label>GoCo</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>GTT</fullName>
+                <default>false</default>
+                <label>GTT</label>
+            </value>
+            <value>
+                <fullName>Hibernia</fullName>
+                <default>false</default>
+                <label>Hibernia</label>
+            </value>
+            <value>
+                <fullName>Infinera</fullName>
+                <default>false</default>
+                <label>Infinera</label>
+            </value>
+            <value>
+                <fullName>iTel</fullName>
+                <default>false</default>
+                <label>iTel</label>
+            </value>
+            <value>
+                <fullName>Masergy</fullName>
+                <default>false</default>
+                <label>Masergy</label>
+            </value>
+            <value>
+                <fullName>OBS</fullName>
+                <default>false</default>
+                <label>OBS</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Rogers</fullName>
+                <default>false</default>
+                <label>Rogers</label>
+            </value>
+            <value>
+                <fullName>Rogers Femtocell</fullName>
+                <default>false</default>
+                <label>Rogers Femtocell</label>
+            </value>
+            <value>
+                <fullName>Rogers FLM</fullName>
+                <default>false</default>
+                <label>Rogers FLM</label>
+            </value>
+            <value>
+                <fullName>Rogers WBI</fullName>
+                <default>false</default>
+                <label>Rogers WBI</label>
+            </value>
+            <value>
+                <fullName>SaskTel</fullName>
+                <default>false</default>
+                <label>SaskTel</label>
+            </value>
+            <value>
+                <fullName>Shaw</fullName>
+                <default>false</default>
+                <label>Shaw</label>
+            </value>
+            <value>
+                <fullName>Southern Cross</fullName>
+                <default>false</default>
+                <label>Southern Cross</label>
+            </value>
+            <value>
+                <fullName>Suncor A&amp;W Cabling</fullName>
+                <default>false</default>
+                <label>Suncor A&amp;W Cabling</label>
+            </value>
+            <value>
+                <fullName>Suncor A&amp;W Site Survey</fullName>
+                <default>false</default>
+                <label>Suncor A&amp;W Site Survey</label>
+            </value>
+            <value>
+                <fullName>TELUS</fullName>
+                <default>false</default>
+                <label>TELUS</label>
+            </value>
+            <value>
+                <fullName>Uniti</fullName>
+                <default>false</default>
+                <label>Uniti</label>
+            </value>
+            <value>
+                <fullName>Verizon</fullName>
+                <default>false</default>
+                <label>Verizon</label>
+            </value>
+            <value>
+                <fullName>Viasat</fullName>
+                <default>false</default>
+                <label>Viasat</label>
+            </value>
+            <value>
+                <fullName>Xplornet</fullName>
+                <default>false</default>
+                <label>Xplornet</label>
+            </value>
+            <value>
+                <fullName>Zayo</fullName>
+                <default>false</default>
+                <label>Zayo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subcustomer_Validation_AM</fullName>
+    <active>false</active>
+    <errorConditionFormula>SubCustomer__c =Work_Order__r.Sub_Customer__c</errorConditionFormula>
+    <errorDisplayField>SubCustomer__c</errorDisplayField>
+    <errorMessage>You Must use the SubCustomer from the associated work order</errorMessage>
+</ValidationRule>

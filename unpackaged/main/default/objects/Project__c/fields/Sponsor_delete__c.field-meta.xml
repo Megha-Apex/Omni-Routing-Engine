@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsor_delete__c</fullName>
+    <label>Sponsor_delete</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Christina Lees</fullName>
+                <default>false</default>
+                <label>Christina Lees</label>
+            </value>
+            <value>
+                <fullName>Diane Percy</fullName>
+                <default>false</default>
+                <label>Diane Percy</label>
+            </value>
+            <value>
+                <fullName>Jason Valliere</fullName>
+                <default>false</default>
+                <label>Jason Valliere</label>
+            </value>
+            <value>
+                <fullName>Donovan Blake</fullName>
+                <default>false</default>
+                <label>Donovan Blake</label>
+            </value>
+            <value>
+                <fullName>Lindsay Williams</fullName>
+                <default>false</default>
+                <label>Lindsay Williams</label>
+            </value>
+            <value>
+                <fullName>Victor Lau</fullName>
+                <default>false</default>
+                <label>Victor Lau</label>
+            </value>
+            <value>
+                <fullName>Bernard Mathews</fullName>
+                <default>false</default>
+                <label>Bernard Mathews</label>
+            </value>
+            <value>
+                <fullName>Samir Shrestha</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Samir Shrestha</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

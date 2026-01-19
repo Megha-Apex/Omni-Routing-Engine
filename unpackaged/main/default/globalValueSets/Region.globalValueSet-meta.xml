@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AB-SK</fullName>
+        <default>false</default>
+        <label>AB-SK</label>
+    </customValue>
+    <customValue>
+        <fullName>AB-Telus</fullName>
+        <default>false</default>
+        <label>AB-Telus</label>
+    </customValue>
+    <customValue>
+        <fullName>BC</fullName>
+        <default>false</default>
+        <label>BC</label>
+    </customValue>
+    <customValue>
+        <fullName>BC-Telus</fullName>
+        <default>false</default>
+        <label>BC-Telus</label>
+    </customValue>
+    <customValue>
+        <fullName>MB</fullName>
+        <default>false</default>
+        <label>MB</label>
+    </customValue>
+    <customValue>
+        <fullName>ON-A</fullName>
+        <default>false</default>
+        <label>ON-A</label>
+    </customValue>
+    <customValue>
+        <fullName>ON-B</fullName>
+        <default>false</default>
+        <label>ON-B</label>
+    </customValue>
+    <customValue>
+        <fullName>QC-Atlantic</fullName>
+        <default>false</default>
+        <label>QC-Atlantic</label>
+    </customValue>
+    <customValue>
+        <fullName>Central US</fullName>
+        <default>false</default>
+        <label>Central US</label>
+    </customValue>
+    <customValue>
+        <fullName>East Central</fullName>
+        <default>false</default>
+        <label>East Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Greater Chicago</fullName>
+        <default>false</default>
+        <label>Greater Chicago</label>
+    </customValue>
+    <customValue>
+        <fullName>Mid-Atlantic</fullName>
+        <default>false</default>
+        <label>Mid-Atlantic</label>
+    </customValue>
+    <customValue>
+        <fullName>Northeast</fullName>
+        <default>false</default>
+        <label>Northeast</label>
+    </customValue>
+    <customValue>
+        <fullName>Northwest</fullName>
+        <default>false</default>
+        <label>Northwest</label>
+    </customValue>
+    <customValue>
+        <fullName>South Central</fullName>
+        <default>false</default>
+        <label>South Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Southeast</fullName>
+        <default>false</default>
+        <label>Southeast</label>
+    </customValue>
+    <customValue>
+        <fullName>Southern U.S.</fullName>
+        <default>false</default>
+        <label>Southern U.S.</label>
+    </customValue>
+    <customValue>
+        <fullName>Southwest</fullName>
+        <default>false</default>
+        <label>Southwest</label>
+    </customValue>
+    <customValue>
+        <fullName>SK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SK</label>
+    </customValue>
+    <customValue>
+        <fullName>QC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>QC</label>
+    </customValue>
+    <customValue>
+        <fullName>ON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ON</label>
+    </customValue>
+    <customValue>
+        <fullName>NS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NS</label>
+    </customValue>
+    <customValue>
+        <fullName>NL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NL</label>
+    </customValue>
+    <customValue>
+        <fullName>NB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NB</label>
+    </customValue>
+    <customValue>
+        <fullName>AB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AB</label>
+    </customValue>
+    <masterLabel>Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

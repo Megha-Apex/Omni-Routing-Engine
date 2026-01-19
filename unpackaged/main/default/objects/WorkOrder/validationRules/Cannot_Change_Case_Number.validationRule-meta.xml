@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Case_Number</fullName>
+    <active>true</active>
+    <description>Does not allow users to change Case Number (Parent) on Work Order</description>
+    <errorConditionFormula>AND(ISCHANGED(CaseId),NOT(OR($UserRole.Name = &#39;Admin&#39;, $User.Alias = &#39;platint&#39;)))</errorConditionFormula>
+    <errorDisplayField>CaseId</errorDisplayField>
+    <errorMessage>Cannot change Case Number</errorMessage>
+</ValidationRule>

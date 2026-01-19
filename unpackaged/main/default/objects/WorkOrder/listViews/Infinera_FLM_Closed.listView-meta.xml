@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Infinera_FLM_Closed</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>SiteID__c</columns>
+    <columns>SLA__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>Arrival_Window_Start__c</columns>
+    <columns>Arrival_Window_End__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>ZIP</columns>
+    <columns>Reference1__c</columns>
+    <columns>Short_Description__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>TextAttachments__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sub_Customer__c</field>
+        <operation>equals</operation>
+        <value>Infinera FLM</value>
+    </filters>
+    <filters>
+        <field>CreatedBy</field>
+        <operation>contains</operation>
+        <value>Boomi</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Canceled</value>
+    </filters>
+    <label>Infinera FLM (Closed)</label>
+</ListView>

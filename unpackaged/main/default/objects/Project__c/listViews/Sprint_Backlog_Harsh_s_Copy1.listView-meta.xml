@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sprint_Backlog_Harsh_s_Copy1</fullName>
+    <columns>NAME</columns>
+    <columns>Issue_Type__c</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Rank__c</columns>
+    <columns>Estimated_Hours__c</columns>
+    <columns>Parent_Project__c</columns>
+    <columns>Assignee__c</columns>
+    <columns>Release__c</columns>
+    <columns>Acceptance_CriteriaRT__c</columns>
+    <columns>Sponsor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Project__c.Project</value>
+    </filters>
+    <filters>
+        <field>Project_Status__c</field>
+        <operation>equals</operation>
+        <value>Ready For Work</value>
+    </filters>
+    <label>Sprint Backlog</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Admin</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

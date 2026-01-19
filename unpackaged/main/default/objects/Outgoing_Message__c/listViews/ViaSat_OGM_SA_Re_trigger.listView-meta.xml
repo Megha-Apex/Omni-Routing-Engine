@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ViaSat_OGM_SA_Re_trigger</fullName>
+    <columns>NAME</columns>
+    <columns>Additional_Headers__c</columns>
+    <columns>Object_Id__c</columns>
+    <columns>Status__c</columns>
+    <columns>URL__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Response_Body__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>URL__c</field>
+        <operation>contains</operation>
+        <value>serviceappointment/ViaSatInc</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Fail</value>
+    </filters>
+    <label>ViaSat OGM SA Re-trigger</label>
+</ListView>

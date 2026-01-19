@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Service_Territory</fullName>
+    <columns>Work_Order__c</columns>
+    <columns>Name</columns>
+    <columns>Service_Appointment_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>Sub_Customer_Name__c</columns>
+    <columns>IntErrorResponse__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>STATE</columns>
+    <columns>ZIP</columns>
+    <columns>COUNTRY</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>CreatedDate</columns>
+    <columns>Owner</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Is_Processed__c</field>
+        <operation>notEqual</operation>
+        <value>2</value>
+    </filters>
+    <filters>
+        <field>ServiceTerritory</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Missing Service Territory</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comcast_Cases_Nicole</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND (4 OR 5) AND 6</booleanFilter>
+    <columns>OWNER_NAME</columns>
+    <columns>Stage__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CaseDueDate__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Case_Identity__c</columns>
+    <columns>Bill_To_Customer__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed,Open,Merged</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notEqual</operation>
+        <value>NEW COMCAST BID,FW: New Comcast Bid</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Comcast</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>equals</operation>
+        <value>Comcast Quotes</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.EmailtoCase</value>
+    </filters>
+    <label>Comcast Cases - Minus BID</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Dispatch_Manager</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

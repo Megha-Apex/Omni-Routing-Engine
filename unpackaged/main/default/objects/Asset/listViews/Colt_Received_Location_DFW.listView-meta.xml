@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colt_Received_Location_DFW</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>Part_Number__c</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Location</columns>
+    <columns>ASSET.QUANTITY</columns>
+    <columns>Shipment__c</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>Work_Order__c</columns>
+    <columns>LTSTag__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Colt</value>
+    </filters>
+    <filters>
+        <field>ASSET.STATUS</field>
+        <operation>equals</operation>
+        <value>Received</value>
+    </filters>
+    <filters>
+        <field>Location</field>
+        <operation>contains</operation>
+        <value>DFW</value>
+    </filters>
+    <label>Colt - Received - Location: DFW</label>
+</ListView>

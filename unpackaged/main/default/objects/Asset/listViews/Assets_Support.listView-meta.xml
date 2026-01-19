@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assets_Support</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Location</columns>
+    <columns>Part_Number__c</columns>
+    <columns>ASSET.QUANTITY</columns>
+    <columns>Shipment__c</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>Used_on_WorkOrder__c</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>Work_Order__c</columns>
+    <columns>LTSTag__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>ASSET.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ASSET.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>hyeun</value>
+    </filters>
+    <label>Assets Support</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Potential_Tech__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This Field will be used to Trigger the CandidateFetcherQueueable class. If the Checkbox is true, the trigger will run and get the Activate candidate on SA</description>
+    <label>Send Potential Tech</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

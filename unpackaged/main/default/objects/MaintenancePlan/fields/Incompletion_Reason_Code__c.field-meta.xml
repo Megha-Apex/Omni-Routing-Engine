@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incompletion_Reason_Code__c</fullName>
+    <label>Incompletion Reason Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client: Cancelled Work - Inside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Cancelled Work - Inside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Work - Inside 4 hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Cancelled Work - Inside 4 hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Work - Outside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Cancelled Work - Outside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Duplicate Work Order</fullName>
+                <default>false</default>
+                <label>Client: Duplicate Work Order</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Confined Spaces</fullName>
+                <default>false</default>
+                <label>Client: No Access - Confined Spaces</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Customer Site Not Ready</fullName>
+                <default>false</default>
+                <label>Client: No Access - Customer Site Not Ready</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Premise Inaccessible</fullName>
+                <default>false</default>
+                <label>Client: No Access - Premise Inaccessible</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Unsafe Work Location</fullName>
+                <default>false</default>
+                <label>Client: No Access - Unsafe Work Location</label>
+            </value>
+            <value>
+                <fullName>Client: Non-Doable Work - Part Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>Client: Non-Doable Work - Part Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Client: Non-Doable Work - SOW Inaccuracy</fullName>
+                <default>false</default>
+                <label>Client: Non-Doable Work - SOW Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Client: Non-Doable Work - Tool Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>Client: Non-Doable Work - Tool Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Client: Rescheduled Time - Inside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Rescheduled Time - Inside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Rescheduled Time - Inside 4 hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Rescheduled Time - Inside 4 hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Rescheduled Time - Outside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Rescheduled Time - Outside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>LTS: Duplicate Work Order</fullName>
+                <default>false</default>
+                <label>LTS: Duplicate Work Order</label>
+            </value>
+            <value>
+                <fullName>LTS: Incorrectly Built Work Order</fullName>
+                <default>false</default>
+                <label>LTS: Incorrectly Built Work Order</label>
+            </value>
+            <value>
+                <fullName>LTS: Non-Doable Work - Part Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>LTS: Non-Doable Work - Part Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>LTS: Non-Doable Work - Tool Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>LTS: Non-Doable Work - Tool Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>LTS: Over 24 hrs - Extreme Weather</fullName>
+                <default>false</default>
+                <label>LTS: Over 24 hrs - Extreme Weather</label>
+            </value>
+            <value>
+                <fullName>LTS: Over 24 hrs - Unavailable Technician</fullName>
+                <default>false</default>
+                <label>LTS: Over 24 hrs - Unavailable Technician</label>
+            </value>
+            <value>
+                <fullName>LTS: Task Sequence Not Needed</fullName>
+                <default>false</default>
+                <label>LTS: Task Sequence Not Needed</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 24 hrs - Emergency Ticket</fullName>
+                <default>false</default>
+                <label>LTS: Within 24 hrs - Emergency Ticket</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 24 hrs - Inclement Weather</fullName>
+                <default>false</default>
+                <label>LTS: Within 24 hrs - Inclement Weather</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 24 hrs - Unavailable Technician</fullName>
+                <default>false</default>
+                <label>LTS: Within 24 hrs - Unavailable Technician</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 4 Hrs - Emergency Ticket</fullName>
+                <default>false</default>
+                <label>LTS: Within 4 Hrs - Emergency Ticket</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 4 hrs - Inclement Weather</fullName>
+                <default>false</default>
+                <label>LTS: Within 4 hrs - Inclement Weather</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 4 hrs - Unavailable Technician</fullName>
+                <default>false</default>
+                <label>LTS: Within 4 hrs - Unavailable Technician</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

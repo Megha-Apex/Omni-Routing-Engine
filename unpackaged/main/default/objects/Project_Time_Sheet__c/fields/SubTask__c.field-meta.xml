@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubTask__c</fullName>
+    <label>SubTask</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Project_Task__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Billflex Overlap</fullName>
+                <default>false</default>
+                <label>Billflex Overlap</label>
+            </value>
+            <value>
+                <fullName>Time backdating</fullName>
+                <default>false</default>
+                <label>Time backdating</label>
+            </value>
+            <value>
+                <fullName>FS Mobile</fullName>
+                <default>false</default>
+                <label>FS Mobile</label>
+            </value>
+            <value>
+                <fullName>LOC Support</fullName>
+                <default>false</default>
+                <label>LOC Support</label>
+            </value>
+            <value>
+                <fullName>Reports</fullName>
+                <default>false</default>
+                <label>Reports</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

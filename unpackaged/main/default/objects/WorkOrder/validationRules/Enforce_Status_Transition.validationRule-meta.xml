@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enforce_Status_Transition</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+OR(AND(
+ISPICKVAL(PRIORVALUE(Status),&#39;Canceled&#39;),ISPICKVAL(Is_Processed__c,&#39;2&#39;)),
+ISPICKVAL(PRIORVALUE(Status),&#39;Completed&#39;)
+),
+ISCHANGED(Status)
+
+),
+True,
+False
+)
+||
+IF(
+AND(
+AND(
+ISPICKVAL(PRIORVALUE(Status),&#39;On-Hold&#39;),
+ISPICKVAL(Status, &#39;Completed&#39;)
+
+),
+ISCHANGED(Status)
+),
+True,
+False
+)</errorConditionFormula>
+    <errorMessage>This status transition is not allowed</errorMessage>
+</ValidationRule>

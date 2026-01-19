@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MTTR_Late_to_be_Accepted__c</fullName>
+    <formula>Is_Falcon__c =false
+&amp;&amp;
+SchedStartTime &gt;= (NOW() - 6/24)
+	&amp;&amp;
+	SchedStartTime &lt;= (NOW() + 1)
+	&amp;&amp;
+ISPICKVAL(Status, &quot;Dispatched&quot;)
+&amp;&amp;
+(SLA_Name__c = &quot;4hr&quot; || SLA_Name__c = &quot;8hr&quot; || SLA_Name__c = &quot;2hr Repair&quot; || SLA_Name__c = &quot;CBUD E After Hours&quot; || SLA_Name__c = &quot;2hr&quot; || SLA_Name__c = &quot;3hr&quot; || SLA_Name__c = &quot;CBUD E&quot; || SLA_Name__c = &quot;6hr&quot; || SLA_Name__c = &quot;5 Business Hours&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MTTR Late to be Accepted</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

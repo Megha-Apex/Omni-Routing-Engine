@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unbilled_SA</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>Name</columns>
+    <columns>ParentRecord</columns>
+    <columns>ParentRecordType</columns>
+    <columns>Status</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <filterScope>AssignedToMe</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Dispatched,Accepted</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Enroute,On-Site,Off-Site</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Field Complete,Field Incompleted</value>
+    </filters>
+    <label>My Unbilled Service Appointments</label>
+    <sharedTo>
+        <group>Technician_Search_Views</group>
+    </sharedTo>
+</ListView>

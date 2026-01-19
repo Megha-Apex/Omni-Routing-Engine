@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_FLHA</fullName>
+    <columns>NAME</columns>
+    <columns>Technician__c</columns>
+    <columns>Location__c</columns>
+    <columns>Electronic_Agreement__c</columns>
+    <columns>Date_Completion__c</columns>
+    <columns>First_Job__c</columns>
+    <columns>Last_Job__c</columns>
+    <columns>Incident__c</columns>
+    <columns>Incident_Reported_To_Supervisor__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My FLHA</label>
+</ListView>

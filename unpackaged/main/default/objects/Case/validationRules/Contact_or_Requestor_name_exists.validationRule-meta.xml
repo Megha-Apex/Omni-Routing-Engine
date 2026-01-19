@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_or_Requestor_name_exists</fullName>
+    <active>false</active>
+    <errorConditionFormula>ContactId = NULL &amp;&amp;  Requestor_E_Mail__c = NULL</errorConditionFormula>
+    <errorMessage>Please enter Requestor email or select a Contact</errorMessage>
+</ValidationRule>

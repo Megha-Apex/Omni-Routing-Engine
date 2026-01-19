@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suggested_Time_Zone__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(&quot;HI&quot;,State),&quot;Hawaiian&quot;,
+IF(CONTAINS(&quot;AK&quot;,State),&quot;Alaskan&quot;,
+IF(CONTAINS(&quot;CA:NV:WA:BC&quot;,State),&quot;Pacific&quot;,
+IF(CONTAINS(&quot;CO:MT:NM:UT:WY:AB&quot;,State),&quot;Mountain&quot;,
+IF(CONTAINS(&quot;AZ&quot;,State),&quot;Arizona&quot;,
+IF(CONTAINS(&quot;AL:AR:IL:IA:KS:LA:MN:MS:MO:OK:WI:MB&quot;,State),&quot;Central&quot;,
+IF(CONTAINS(&quot;SK&quot;,State),&quot;Saskatchewan&quot;,
+IF(CONTAINS(&quot;CT:DE:DC:GA:ME:MD:MA:NH:NJ:NY:NC:OH:PA:RI:SC:VT:VA:WV:ON:QC&quot;,State),&quot;Eastern&quot;,
+IF(CONTAINS(&quot;NS&quot;,State),&quot;Atlantic&quot;,
+IF(CONTAINS(&quot;NL&quot;,State),&quot;Newfoundland&quot;,
+IF(CONTAINS(&quot;ID:OR&quot;,State),&quot;Verify Pacific or Mountain&quot;,
+IF(CONTAINS(&quot;ND:NE:SD:TX&quot;,State),&quot;Verify Mountain or Central&quot;,
+IF(CONTAINS(&quot;FL:IN:KY:MI:TN&quot;,State),&quot;Verify Central or Eastern&quot;,&quot;Undefined&quot;)))))))))))))</formula>
+    <label>Suggested Time Zone</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

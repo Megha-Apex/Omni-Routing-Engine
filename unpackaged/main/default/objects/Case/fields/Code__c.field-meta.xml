@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Code__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Stage__c,
+&quot;New&quot;, IMAGE( &quot;/resource/GreenDot&quot;,&quot;GreenDot&quot;,24,24),
+&quot;MTTR&quot;, IMAGE( &quot;/resource/RedDot&quot;,&quot;RedDot&quot;,24,24),
+&quot;Urgent&quot;, IMAGE( &quot;/resource/RedDot&quot;,&quot;RedDot&quot;,24,24),
+&quot;Customer Escalated&quot;, IMAGE( &quot;/resource/RedDot&quot;,&quot;RedDot&quot;,24,24),
+&quot;Internally Escalate&quot;, IMAGE( &quot;/resource/RedDot&quot;,&quot;RedDot&quot;,24,24),
+&quot;Today&quot;, IMAGE( &quot;/resource/OrangeDot&quot;,&quot;OrangeDot&quot;,24,24),
+&quot;Action Today&quot;, IMAGE( &quot;/resource/OrangeDot&quot;,&quot;OrangeDot&quot;,24,24),
+&quot;Tomorrow&quot;, IMAGE( &quot;/resource/YellowDot&quot;,&quot;YellowDot&quot;,24,24),
+&quot;Closed&quot;, IMAGE( &quot;/resource/BlackDot&quot;,&quot;BlackDot&quot;,24,24),
+&quot;In Progress&quot;, IMAGE( &quot;/resource/BlueDot&quot;,&quot;BlueDot&quot;,24,24),
+&quot;Waiting On Contractor&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Waiting On Customer&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Waiting On Manager&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Waiting On Vendor&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Waiting On Tech&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Waiting On PC&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Awaiting Quote&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Pending COI&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Reschedule&quot;, IMAGE( &quot;/resource/GreenDot&quot;,&quot;GreenDot&quot;,24,24),
+&quot;Cancellation&quot;, IMAGE( &quot;/resource/GreyDot&quot;,&quot;GreyDot&quot;,24,24),
+&quot;Admin&quot;, IMAGE( &quot;/resource/PurpleDot&quot;,&quot;PurpleDot&quot;,24,24),
+&quot;Follow Up&quot;, IMAGE( &quot;/resource/PurpleDot&quot;,&quot;PurpleDot&quot;,24,24),
+&quot;Needs To Be Scheduled&quot;, IMAGE( &quot;/resource/DullDot&quot;,&quot;DullDot&quot;,24,24),
+&quot;Waiting On Comcast Acceptance&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Shipping Address Within 1 Hour&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Tech Concern - Urgent&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Checked&quot;, IMAGE( &quot;/resource/BlueDot&quot;,&quot;BlueDot&quot;,24,24),
+&quot;Waiting On Director&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;SEV 1&quot;, IMAGE( &quot;/resource/RedDot&quot;,&quot;RedDot&quot;,24,24),
+&quot;SEV 2&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;SEV 3&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;SEV 4&quot;, IMAGE( &quot;/resource/YellowDot&quot;,&quot;YellowDot&quot;,24,24),
+&quot;SEV 5&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+&quot;Lift Required&quot;, IMAGE( &quot;/resource/PinkDot&quot;,&quot;PinkDot&quot;,24,24),
+null)</formula>
+    <inlineHelpText>Code color based on the stage of the case</inlineHelpText>
+    <label>Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

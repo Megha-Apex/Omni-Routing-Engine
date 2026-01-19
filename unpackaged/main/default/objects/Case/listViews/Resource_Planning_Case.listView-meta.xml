@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resource_Planning_Case</fullName>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Code__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Assignee__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.EmailtoCase</value>
+    </filters>
+    <label>Resource Planning - Open</label>
+    <queue>Resource_Planning</queue>
+    <sharedTo>
+        <roleAndSubordinatesInternal>Dispatch_Manager</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

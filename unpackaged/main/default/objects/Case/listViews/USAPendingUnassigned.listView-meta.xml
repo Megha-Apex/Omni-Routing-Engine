@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>USAPendingUnassigned</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 4 OR 6 OR 7) AND 5 AND 8 AND 9 AND 10</booleanFilter>
+    <columns>OWNER_NAME</columns>
+    <columns>CaseID__c</columns>
+    <columns>Case_Identity__c</columns>
+    <columns>CaseDueDate__c</columns>
+    <columns>Code__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Stage__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Assignee__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Inbox__c</columns>
+    <columns>DayRemain__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>CASES.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>5/30/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Assignee__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>CSCEmails</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>EmailQue</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notContain</operation>
+        <value>New Comcast Bid,LTS US - Assigned Tech Confirmation</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>Portal</value>
+    </filters>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Boomi User</value>
+    </filters>
+    <filters>
+        <field>CASES.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Comcast,Telus</value>
+    </filters>
+    <filters>
+        <field>Stage__c</field>
+        <operation>notEqual</operation>
+        <value>Closed,Shipping</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.EmailtoCase</value>
+    </filters>
+    <label>Pending Unassigned</label>
+    <sharedTo>
+        <role>Dispatch_Manager</role>
+        <role>Dispatch_Team_Leads_Project_Coordinators</role>
+        <role>Dispatcher</role>
+    </sharedTo>
+</ListView>

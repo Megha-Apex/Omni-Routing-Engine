@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Config_Mode__c</fullName>
+    <label>Config Mode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Passthrough</fullName>
+                <default>false</default>
+                <label>Passthrough</label>
+            </value>
+            <value>
+                <fullName>DMZ</fullName>
+                <default>false</default>
+                <label>DMZ</label>
+            </value>
+            <value>
+                <fullName>Simple Nat</fullName>
+                <default>false</default>
+                <label>Simple Nat</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Guided_Selection__c</fullName>
+    <label>Guided Selection</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Build Support</fullName>
+                <default>false</default>
+                <label>Build Support</label>
+            </value>
+            <value>
+                <fullName>Escort</fullName>
+                <default>false</default>
+                <label>Escort</label>
+            </value>
+            <value>
+                <fullName>Inside Plant</fullName>
+                <default>false</default>
+                <label>Inside Plant</label>
+            </value>
+            <value>
+                <fullName>Install</fullName>
+                <default>false</default>
+                <label>Install</label>
+            </value>
+            <value>
+                <fullName>Locating Services</fullName>
+                <default>false</default>
+                <label>Locating Services</label>
+            </value>
+            <value>
+                <fullName>Outside Plant</fullName>
+                <default>false</default>
+                <label>Outside Plant</label>
+            </value>
+            <value>
+                <fullName>PMR</fullName>
+                <default>false</default>
+                <label>PMR</label>
+            </value>
+            <value>
+                <fullName>Radio Frequency</fullName>
+                <default>false</default>
+                <label>Radio Frequency</label>
+            </value>
+            <value>
+                <fullName>Repair</fullName>
+                <default>false</default>
+                <label>Repair</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

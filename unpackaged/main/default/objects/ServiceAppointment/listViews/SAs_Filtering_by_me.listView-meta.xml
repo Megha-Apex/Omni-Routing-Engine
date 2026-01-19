@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAs_Filtering_by_me</fullName>
+    <columns>Name</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Status</columns>
+    <columns>CITY</columns>
+    <columns>Request_Time_Zone__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>Request_Arrival_Start__c</columns>
+    <columns>Request_Arrival_End__c</columns>
+    <columns>Request_Schedule_Start__c</columns>
+    <columns>Request_Schedule_End__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SchedEndTime</field>
+        <operation>greaterThan</operation>
+        <value>11/15/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Sub_Customer_Name__c</field>
+        <operation>contains</operation>
+        <value>Infinera</value>
+    </filters>
+    <label>SAs Filtering by me</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

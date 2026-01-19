@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bell_FTTP_Service_Appointments_RODELIN</fullName>
+    <columns>Name</columns>
+    <columns>Reference1__c</columns>
+    <columns>EarliestStartTime</columns>
+    <columns>STATE</columns>
+    <columns>Status</columns>
+    <columns>CreatedBy</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>CreatedDate</columns>
+    <columns>LastModifiedBy</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>STREET</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Service_Type__c</field>
+        <operation>contains</operation>
+        <value>Bell FTTP</value>
+    </filters>
+    <filters>
+        <field>Assigned_Technician__c</field>
+        <operation>contains</operation>
+        <value>RODELIN</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Open,01 Open,Tentative,Dispatched,Rejected,Accepted</value>
+    </filters>
+    <label>Bell FTTP Service Appointments (RODELIN</label>
+    <sharedTo>
+        <role>Technicians_with_Dispatcher_Access</role>
+    </sharedTo>
+</ListView>

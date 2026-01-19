@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leave_Flag</fullName>
+    <active>true</active>
+    <description>Must Flag when date added</description>
+    <errorConditionFormula>IF(ISBLANK( Return_to_Work__c ),  Tech_on_Leave__c = true, Tech_on_Leave__c = false)</errorConditionFormula>
+    <errorDisplayField>Tech_on_Leave__c</errorDisplayField>
+    <errorMessage>Must check Tech on Leave or enter the return date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Release_8_September_2025</fullName>
+    <columns>NAME</columns>
+    <columns>Assignee__c</columns>
+    <columns>Project_Status__c</columns>
+    <columns>Status_Color__c</columns>
+    <columns>Sponsor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Project__c.Project</value>
+    </filters>
+    <filters>
+        <field>Release__c</field>
+        <operation>equals</operation>
+        <value>Release 9</value>
+    </filters>
+    <label>September Tasks 2025</label>
+</ListView>

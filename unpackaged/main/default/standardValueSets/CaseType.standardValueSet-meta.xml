@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Comcast</fullName>
+        <default>false</default>
+        <label>Comcast</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telus</fullName>
+        <default>false</default>
+        <label>Telus</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Business Support</fullName>
+        <default>false</default>
+        <label>Canada - Business Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - FTTP Locates</fullName>
+        <default>false</default>
+        <label>Canada - FTTP Locates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - GTT BIR</fullName>
+        <default>false</default>
+        <label>Canada - GTT BIR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Locates Support</fullName>
+        <default>false</default>
+        <label>Canada - Locates Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Projects</fullName>
+        <default>false</default>
+        <label>Canada - Projects</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Quote</fullName>
+        <default>false</default>
+        <label>Canada - Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Radiant Support</fullName>
+        <default>false</default>
+        <label>Canada - Radiant Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Regional Manager Requests</fullName>
+        <default>false</default>
+        <label>Canada - Regional Manager Requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Rogers</fullName>
+        <default>false</default>
+        <label>Canada - Rogers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Shaw Support</fullName>
+        <default>false</default>
+        <label>Canada - Shaw Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Travel Request</fullName>
+        <default>false</default>
+        <label>Canada - Travel Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada - Zayo Canada Support</fullName>
+        <default>false</default>
+        <label>Canada - Zayo Canada Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Canada Bell Late Requests</fullName>
+        <default>false</default>
+        <label>Canada Bell Late Requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Comcast Quotes</fullName>
+        <default>false</default>
+        <label>Comcast Quotes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Charter Spectrum</fullName>
+        <default>false</default>
+        <label>US - Charter Spectrum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - CSC Inbox</fullName>
+        <default>false</default>
+        <label>US - CSC Inbox</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Customer Update</fullName>
+        <default>false</default>
+        <label>US - Customer Update</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Infinera</fullName>
+        <default>false</default>
+        <label>US - Infinera</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Locates</fullName>
+        <default>false</default>
+        <label>US - Locates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Needs Quote</fullName>
+        <default>false</default>
+        <label>US - Needs Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - PC&#39;s</fullName>
+        <default>false</default>
+        <label>US - PC&#39;s</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - PMs</fullName>
+        <default>false</default>
+        <label>US - PMs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Project</fullName>
+        <default>false</default>
+        <label>US - Project</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Regional Manager Request</fullName>
+        <default>false</default>
+        <label>US - Regional Manager Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Site Survey</fullName>
+        <default>false</default>
+        <label>US - Site Survey</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Tech Request</fullName>
+        <default>false</default>
+        <label>US - Tech Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Vendor Required</fullName>
+        <default>false</default>
+        <label>US - Vendor Required</label>
+    </standardValue>
+    <standardValue>
+        <fullName>US - Zayo</fullName>
+        <default>false</default>
+        <label>US - Zayo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VIASAT - PMs</fullName>
+        <default>false</default>
+        <label>VIASAT - PMs</label>
+    </standardValue>
+</StandardValueSet>

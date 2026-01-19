@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_VAN</fullName>
+    <columns>Name</columns>
+    <columns>LocationType</columns>
+    <columns>VisitorAddress</columns>
+    <columns>ParentLocation</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LocationType</field>
+        <operation>equals</operation>
+        <value>Van</value>
+    </filters>
+    <label>Location - VAN</label>
+    <sharedTo>
+        <role>Admin</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_incomplete_with_completion_fields</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Status)
+&amp;&amp;
+ISPICKVAL(Status, &#39;Field Incompleted&#39;)
+&amp;&amp;
+(NOT(ISBLANK(Completion_Code_1__c ))
+	||
+	NOT(ISBLANK(Completion_Code_2__c ))
+	||
+	NOT(ISBLANK(Completion_Code_3__c ))
+	||
+	NOT(ISBLANK(Completion_Code_4__c ))
+	||
+	NOT(ISBLANK(Completion_Code_5__c ))
+	||
+	NOT(ISBLANK(Completion_Code_6__c ))
+	||
+	NOT(ISBLANK(Completion_Code_7__c ))
+	||
+	NOT(ISBLANK(Completion_Code_8__c ))
+	||
+	NOT(ISBLANK(Completion_Code_9__c ))
+	||
+	NOT(ISBLANK(Completion_Code_10__c ))
+	||
+	NOT(ISBLANK(Completion_Code_11__c ))
+	||
+	NOT(ISBLANK(Completion_Code_12__c ))
+	||
+	NOT(ISBLANK(Completion_Code_13__c ))
+	||
+	NOT(ISBLANK(Completion_Code_14__c ))
+	||
+	NOT(ISBLANK(Completion_Code_15__c ))
+	)</errorConditionFormula>
+    <errorMessage>Please remove completion information in order to change the status to Field Incomplete</errorMessage>
+</ValidationRule>

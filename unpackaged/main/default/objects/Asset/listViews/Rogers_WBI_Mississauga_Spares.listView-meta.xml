@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rogers_WBI_Mississauga_Spares</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Location</columns>
+    <columns>Part_Number__c</columns>
+    <columns>ASSET.QUANTITY</columns>
+    <columns>Shipment__c</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>Used_on_WorkOrder__c</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Work_Order__c</columns>
+    <columns>LTSTag__c</columns>
+    <columns>MAC_Address__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>Rogers WBI - Install</value>
+    </filters>
+    <filters>
+        <field>Location</field>
+        <operation>contains</operation>
+        <value>Mississauga,ON</value>
+    </filters>
+    <filters>
+        <field>ASSET.STATUS</field>
+        <operation>equals</operation>
+        <value>Spares</value>
+    </filters>
+    <label>Rogers WBI - Mississauga - Spares</label>
+</ListView>

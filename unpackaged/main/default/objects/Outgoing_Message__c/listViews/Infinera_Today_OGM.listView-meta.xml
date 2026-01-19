@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Infinera_Today_OGM</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Response_Body__c</columns>
+    <columns>Object_Id__c</columns>
+    <columns>Status__c</columns>
+    <columns>URL__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Additional_Headers__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>URL__c</field>
+        <operation>contains</operation>
+        <value>Infinera</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Infinera (Today) OGM</label>
+</ListView>

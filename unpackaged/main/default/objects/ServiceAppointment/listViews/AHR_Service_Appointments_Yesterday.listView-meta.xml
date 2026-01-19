@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AHR_Service_Appointments_Yesterday</fullName>
+    <columns>Name</columns>
+    <columns>ArrivalWindowStartTime</columns>
+    <columns>LocalArrivalStart__c</columns>
+    <columns>ArrivalWindowEndTime</columns>
+    <columns>LocalArrivalEnd__c</columns>
+    <columns>Status</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Assigned_Technician__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Reference2__c</columns>
+    <columns>STREET</columns>
+    <columns>STATE</columns>
+    <columns>Is_Processed__c</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>equals</operation>
+        <value>8/15/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Reference2__c</field>
+        <operation>equals</operation>
+        <value>QID 3299</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>contains</operation>
+        <value>01 Open,02 Tentative</value>
+    </filters>
+    <label>Comcast MachineQ - QID 3299- Hrushton</label>
+    <sharedTo>
+        <role>Dispatch_Team_Leads_Project_Coordinators</role>
+    </sharedTo>
+</ListView>

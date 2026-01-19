@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Signature_Temp__c</fullName>
+    <description>This is used in the Update Email Signature flow as a text placeholder for $User.Signature field.</description>
+    <inlineHelpText>This signature will be added to your outgoing emails (1333 characters max).</inlineHelpText>
+    <label>My Email Signature</label>
+    <length>1333</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>7</visibleLines>
+</CustomField>

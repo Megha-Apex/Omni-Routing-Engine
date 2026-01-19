@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delay_Reason__c</fullName>
+    <label>Delay Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Error</fullName>
+                <default>false</default>
+                <label>Client Error</label>
+            </value>
+            <value>
+                <fullName>Equipment Pickup</fullName>
+                <default>false</default>
+                <label>Equipment Pickup</label>
+            </value>
+            <value>
+                <fullName>MTTR Callout</fullName>
+                <default>false</default>
+                <label>MTTR Callout</label>
+            </value>
+            <value>
+                <fullName>Personal Emergency</fullName>
+                <default>false</default>
+                <label>Personal Emergency</label>
+            </value>
+            <value>
+                <fullName>Previous Appointment</fullName>
+                <default>false</default>
+                <label>Previous Appointment</label>
+            </value>
+            <value>
+                <fullName>Tech Late Start</fullName>
+                <default>false</default>
+                <label>Tech Late Start</label>
+            </value>
+            <value>
+                <fullName>Traffic</fullName>
+                <default>false</default>
+                <label>Traffic</label>
+            </value>
+            <value>
+                <fullName>Vehicle Issue</fullName>
+                <default>false</default>
+                <label>Vehicle Issue</label>
+            </value>
+            <value>
+                <fullName>Weather</fullName>
+                <default>false</default>
+                <label>Weather</label>
+            </value>
+            <value>
+                <fullName>Ticket Error - Incorrect Time Zone</fullName>
+                <default>false</default>
+                <label>Ticket Error - Incorrect Time Zone</label>
+            </value>
+            <value>
+                <fullName>Ticket Error - Incorrect Location</fullName>
+                <default>false</default>
+                <label>Ticket Error - Incorrect Location</label>
+            </value>
+            <value>
+                <fullName>Ticket Error - Incorrect Date</fullName>
+                <default>false</default>
+                <label>Ticket Error - Incorrect Date</label>
+            </value>
+            <value>
+                <fullName>Ticket Error - Incorrect Time</fullName>
+                <default>false</default>
+                <label>Ticket Error - Incorrect Time</label>
+            </value>
+            <value>
+                <fullName>Ticket Error - Incorrect SLA</fullName>
+                <default>false</default>
+                <label>Ticket Error - Incorrect SLA</label>
+            </value>
+            <value>
+                <fullName>Client Error - Scheduling Overlap</fullName>
+                <default>false</default>
+                <label>Client Error - Scheduling Overlap</label>
+            </value>
+            <value>
+                <fullName>Technician Compliance Error</fullName>
+                <default>false</default>
+                <label>Technician Compliance Error</label>
+            </value>
+            <value>
+                <fullName>Parts Not Delivered</fullName>
+                <default>false</default>
+                <label>Parts Not Delivered</label>
+            </value>
+            <value>
+                <fullName>CSR Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CSR Error</label>
+            </value>
+            <value>
+                <fullName>Timezone Exception</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Timezone Exception</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

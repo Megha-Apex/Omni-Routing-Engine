@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outage_Type__c</fullName>
+    <label>Outage Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equipment Outage</fullName>
+                <default>false</default>
+                <label>Equipment Outage</label>
+            </value>
+            <value>
+                <fullName>Fiber Outage</fullName>
+                <default>false</default>
+                <label>Fiber Outage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dont_allow_creataion_if_case_is_complete</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Case.Status, &quot;Closed&quot;)
+&amp;&amp;
+$Profile.Name != &#39;System Administrator&#39;
+&amp;&amp;
+$User.Alias != &#39;lilliams&#39;
+&amp;&amp;
+$User.Alias != &#39;jlasn&#39;
+&amp;&amp;
+$User.Alias != &#39;bparks&#39;
+&amp;&amp;
+$User.Alias != &#39;mpena&#39;
+&amp;&amp;
+$User.Alias != &#39;tane&#39;
+&amp;&amp;
+$User.Alias != &#39;aernande&#39;
+&amp;&amp;
+$User.Alias != &#39;cedondo&#39;
+&amp;&amp;
+$User.Alias != &#39;hrush&#39;
+&amp;&amp;
+$User.Alias != &#39;njack&#39;
+&amp;&amp;
+$User.Alias != &#39;bwrig&#39;</errorConditionFormula>
+    <errorMessage>You can&#39;t create new work orders for a closed case</errorMessage>
+</ValidationRule>

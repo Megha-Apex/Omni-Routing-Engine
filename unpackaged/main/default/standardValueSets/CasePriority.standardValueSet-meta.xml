@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>MTTR</fullName>
+        <default>false</default>
+        <label>MTTR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4 HR MTTR</fullName>
+        <default>false</default>
+        <label>4 HR MTTR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Urgent</fullName>
+        <default>false</default>
+        <label>Urgent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled</fullName>
+        <default>true</default>
+        <label>Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Best Effort</fullName>
+        <default>false</default>
+        <label>Best Effort</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Emergency</fullName>
+        <default>false</default>
+        <label>Emergency</label>
+    </standardValue>
+    <standardValue>
+        <fullName>12 HR MTTR</fullName>
+        <default>false</default>
+        <label>12 HR MTTR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>24 HR MTTR</fullName>
+        <default>false</default>
+        <label>24 HR MTTR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viasat Sev 1</fullName>
+        <default>false</default>
+        <label>Viasat Sev 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viasat Sev 2</fullName>
+        <default>false</default>
+        <label>Viasat Sev 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viasat Sev 3</fullName>
+        <default>false</default>
+        <label>Viasat Sev 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viasat Sev 4</fullName>
+        <default>false</default>
+        <label>Viasat Sev 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viasat Sev 5</fullName>
+        <default>false</default>
+        <label>Viasat Sev 5</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ADMIN</fullName>
+        <default>false</default>
+        <label>ADMIN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Zone 1</fullName>
+        <default>false</default>
+        <label>Travel Zone 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Zone 2</fullName>
+        <default>false</default>
+        <label>Travel Zone 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Zone 3</fullName>
+        <default>false</default>
+        <label>Travel Zone 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Zone 4</fullName>
+        <default>false</default>
+        <label>Travel Zone 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Travel Zone 5</fullName>
+        <default>false</default>
+        <label>Travel Zone 5</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Taco Bell</fullName>
+        <default>false</default>
+        <label>Taco Bell</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager Request</fullName>
+        <default>false</default>
+        <label>Manager Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Starbucks</fullName>
+        <default>false</default>
+        <label>Starbucks</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medium</fullName>
+        <default>false</default>
+        <label>Medium</label>
+    </standardValue>
+</StandardValueSet>

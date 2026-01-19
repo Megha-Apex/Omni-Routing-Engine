@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_On_Offboarding</fullName>
+    <columns>NAME</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Hiring_Manager__c</columns>
+    <columns>Service_Territory__c</columns>
+    <columns>Time_Zone_Code__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>JDE_Status__c</columns>
+    <columns>JDE__c</columns>
+    <columns>JDE_Completed_Date__c</columns>
+    <columns>Ball_in_Court__c</columns>
+    <columns>FSL_TimeZone__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ball_in_Court__c</field>
+        <operation>notEqual</operation>
+        <value>Pending,Complete</value>
+    </filters>
+    <filters>
+        <field>Action__c</field>
+        <operation>equals</operation>
+        <value>Add</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>On_Off_Boarding__c.Technician</value>
+    </filters>
+    <label>1 JDE</label>
+    <sharedTo>
+        <role>Dispatch_Manager</role>
+        <role>Resource_Manager</role>
+    </sharedTo>
+</ListView>

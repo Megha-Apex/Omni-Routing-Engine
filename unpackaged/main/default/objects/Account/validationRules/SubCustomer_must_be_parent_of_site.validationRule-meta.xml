@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubCustomer_must_be_parent_of_site</fullName>
+    <active>true</active>
+    <description>Site Account cannot be created if it&#39;s parent Account is not &#39;Sub Customer&#39;</description>
+    <errorConditionFormula>AND(RecordType.Name =&quot;Site&quot;,Parent.RecordType.Name &lt;&gt; &quot;Sub Customer&quot;)</errorConditionFormula>
+    <errorMessage>Site Account cannot be created if it&#39;s parent Account is not &#39;Sub Customer&#39;</errorMessage>
+</ValidationRule>

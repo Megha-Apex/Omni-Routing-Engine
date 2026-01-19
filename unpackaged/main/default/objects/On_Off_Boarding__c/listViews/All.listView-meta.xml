@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Ball_in_Court__c</columns>
+    <columns>Full_Name__c</columns>
+    <columns>Employee_ID__c</columns>
+    <columns>Business_Unit__c</columns>
+    <columns>Action__c</columns>
+    <columns>Regional_Manager__c</columns>
+    <columns>Contract_ID__c</columns>
+    <columns>Request_Date__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>BillFlex_Completed_Date__c</columns>
+    <columns>Completed__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>On_Off_Boarding__c.Technician</value>
+    </filters>
+    <label>All Technician</label>
+</ListView>

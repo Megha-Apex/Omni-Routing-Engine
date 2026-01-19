@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_WorkOrders</fullName>
+    <columns>Name</columns>
+    <columns>Work_Order_Identity__c</columns>
+    <columns>Status</columns>
+    <columns>SLA__c</columns>
+    <columns>Bill_to_Customer__c</columns>
+    <columns>Sub_Customer__c</columns>
+    <columns>Reference1__c</columns>
+    <columns>Requestor_Name__c</columns>
+    <columns>Service_Type__c</columns>
+    <columns>SiteID__c</columns>
+    <columns>STREET</columns>
+    <columns>CITY</columns>
+    <columns>ZIP</columns>
+    <columns>STATE</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Work Orders</label>
+</ListView>

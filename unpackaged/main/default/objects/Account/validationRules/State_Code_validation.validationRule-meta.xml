@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Code_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(
+ISBLANK(BillingState)  
+),
+AND(
+REGEX(BillingState,&quot;[A-Z]&quot;),
+LEN(BillingState) = 2
+)
+)</errorConditionFormula>
+    <errorMessage>State/Province must be in a code format.</errorMessage>
+</ValidationRule>

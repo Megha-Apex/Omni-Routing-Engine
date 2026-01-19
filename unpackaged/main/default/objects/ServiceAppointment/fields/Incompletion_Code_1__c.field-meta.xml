@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incompletion_Code_1__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Incompletion Code 1</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Completion_Code__c.Type__c</field>
+            <operation>equals</operation>
+            <value>Incomplete</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Completion_Code__c</referenceTo>
+    <relationshipLabel>Service Appointments</relationshipLabel>
+    <relationshipName>Service_Appointments</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

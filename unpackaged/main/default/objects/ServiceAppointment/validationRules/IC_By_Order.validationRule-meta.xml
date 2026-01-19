@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IC_By_Order</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISBLANK(Incompletion_Code_2__c)==false&amp;&amp;ISBLANK(Incompletion_Code_1__c)==true)
+||
+(ISBLANK(Incompletion_Code_3__c)==false&amp;&amp;ISBLANK(Incompletion_Code_2__c)==true)
+||
+(ISBLANK(Incompletion_Code_4__c)==false&amp;&amp;ISBLANK(Incompletion_Code_3__c)==true)</errorConditionFormula>
+    <errorMessage>Incompletion Codes were inserted in the wrong order, please insert valid data.</errorMessage>
+</ValidationRule>

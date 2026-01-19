@@ -1,0 +1,2023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubSubCustomer__c</fullName>
+    <label>SubSubCustomer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SubSubCustMain__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generic - Customer not in list</fullName>
+                <default>false</default>
+                <label>Generic - Customer not in list</label>
+            </value>
+            <value>
+                <fullName>Ledcor Technical Services - Generic</fullName>
+                <default>false</default>
+                <label>Ledcor Technical Services - Generic</label>
+            </value>
+            <value>
+                <fullName>Ciena - Ciena - Pooled</fullName>
+                <default>false</default>
+                <label>Ciena - Ciena - Pooled</label>
+            </value>
+            <value>
+                <fullName>Ciena - ABN AMRO - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - ABN AMRO - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - ABOVENET</fullName>
+                <default>false</default>
+                <label>Ciena - ABOVENET</label>
+            </value>
+            <value>
+                <fullName>Ciena - AG Edwards - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - AG Edwards - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Alcatel Lucent Gold - AT&amp;T</fullName>
+                <default>false</default>
+                <label>Ciena - Alcatel Lucent Gold - AT&amp;T</label>
+            </value>
+            <value>
+                <fullName>Ciena - Alliance - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Alliance - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Allstream</fullName>
+                <default>false</default>
+                <label>Ciena - Allstream</label>
+            </value>
+            <value>
+                <fullName>Ciena - Allstream New York City</fullName>
+                <default>false</default>
+                <label>Ciena - Allstream New York City</label>
+            </value>
+            <value>
+                <fullName>Ciena - Alverno Franciscan Alliance</fullName>
+                <default>false</default>
+                <label>Ciena - Alverno Franciscan Alliance</label>
+            </value>
+            <value>
+                <fullName>Ciena - Amazon</fullName>
+                <default>false</default>
+                <label>Ciena - Amazon</label>
+            </value>
+            <value>
+                <fullName>Ciena - AMD AT&amp;T AMDOCS</fullName>
+                <default>false</default>
+                <label>Ciena - AMD AT&amp;T AMDOCS</label>
+            </value>
+            <value>
+                <fullName>Ciena - AOL</fullName>
+                <default>false</default>
+                <label>Ciena - AOL</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T - Costco</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T - Costco</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T - Fresenius Medical</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T - Fresenius Medical</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T - Geico</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T - Geico</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T - Palmetto</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T - Palmetto</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T - Wellington Management</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T - Wellington Management</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Alcoa</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Alcoa</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T BAE</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T BAE</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Capital One</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Capital One</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Conexus</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Conexus</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T DTTC</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T DTTC</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Dunkin Brands</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Dunkin Brands</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Enterprise</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Enterprise</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Fidelity</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Fidelity</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T GOLD - Blue Cross - Blue Shield</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T GOLD - Blue Cross - Blue Shield</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Gold - ICE</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Gold - ICE</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Gold - Verizon Wireless</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Gold - Verizon Wireless</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T MBNA</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T MBNA</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T TIAA</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T TIAA</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T TJX</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T TJX</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T UVN</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T UVN</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T Windstream Allstate</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T Windstream Allstate</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T/Knight Capital</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T/Knight Capital</label>
+            </value>
+            <value>
+                <fullName>Ciena - AT&amp;T2 - ARRP</fullName>
+                <default>false</default>
+                <label>Ciena - AT&amp;T2 - ARRP</label>
+            </value>
+            <value>
+                <fullName>Ciena - ATT</fullName>
+                <default>false</default>
+                <label>Ciena - ATT</label>
+            </value>
+            <value>
+                <fullName>Ciena - AWS - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - AWS - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Bancorp</fullName>
+                <default>false</default>
+                <label>Ciena - Bancorp</label>
+            </value>
+            <value>
+                <fullName>Ciena - Bank Of New York - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Bank Of New York - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Barclays</fullName>
+                <default>false</default>
+                <label>Ciena - Barclays</label>
+            </value>
+            <value>
+                <fullName>Ciena - Bloomberg Metro - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Bloomberg Metro - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Board Of Trade - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Board Of Trade - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Canarie</fullName>
+                <default>false</default>
+                <label>Ciena - Canarie</label>
+            </value>
+            <value>
+                <fullName>Ciena - Cerner - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Cerner - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Chicago Tribune - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Chicago Tribune - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Citigroup - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Citigroup - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - City of Philly</fullName>
+                <default>false</default>
+                <label>Ciena - City of Philly</label>
+            </value>
+            <value>
+                <fullName>Ciena - Comcast</fullName>
+                <default>false</default>
+                <label>Ciena - Comcast</label>
+            </value>
+            <value>
+                <fullName>Ciena - Computershare - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Computershare - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Consumers Energy</fullName>
+                <default>false</default>
+                <label>Ciena - Consumers Energy</label>
+            </value>
+            <value>
+                <fullName>Ciena - Deutsche Bank - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Deutsche Bank - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Digital Realty</fullName>
+                <default>false</default>
+                <label>Ciena - Digital Realty</label>
+            </value>
+            <value>
+                <fullName>Ciena - Dow Jones - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Dow Jones - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - EMC</fullName>
+                <default>false</default>
+                <label>Ciena - EMC</label>
+            </value>
+            <value>
+                <fullName>Ciena - EmpireCLS Worldwide Chauffeured Services</fullName>
+                <default>false</default>
+                <label>Ciena - EmpireCLS Worldwide Chauffeured Services</label>
+            </value>
+            <value>
+                <fullName>Ciena - Equant</fullName>
+                <default>false</default>
+                <label>Ciena - Equant</label>
+            </value>
+            <value>
+                <fullName>Ciena - Exxon / Mobil</fullName>
+                <default>false</default>
+                <label>Ciena - Exxon / Mobil</label>
+            </value>
+            <value>
+                <fullName>Ciena - Facebook</fullName>
+                <default>false</default>
+                <label>Ciena - Facebook</label>
+            </value>
+            <value>
+                <fullName>Ciena - Fidelity - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Fidelity - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - First Boston - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - First Boston - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - First Data - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - First Data - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Goldman Sachs - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Goldman Sachs - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Hewlett Packard - AT&amp;T</fullName>
+                <default>false</default>
+                <label>Ciena - Hewlett Packard - AT&amp;T</label>
+            </value>
+            <value>
+                <fullName>Ciena - HSBC - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - HSBC - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - IBM BCRS</fullName>
+                <default>false</default>
+                <label>Ciena - IBM BCRS</label>
+            </value>
+            <value>
+                <fullName>Ciena - IBM Global</fullName>
+                <default>false</default>
+                <label>Ciena - IBM Global</label>
+            </value>
+            <value>
+                <fullName>Ciena - Innovative Health Strategies</fullName>
+                <default>false</default>
+                <label>Ciena - Innovative Health Strategies</label>
+            </value>
+            <value>
+                <fullName>Ciena - Internal</fullName>
+                <default>false</default>
+                <label>Ciena - Internal</label>
+            </value>
+            <value>
+                <fullName>Ciena - Internet2</fullName>
+                <default>false</default>
+                <label>Ciena - Internet2</label>
+            </value>
+            <value>
+                <fullName>Ciena - Key Bank - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Key Bank - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Kmart</fullName>
+                <default>false</default>
+                <label>Ciena - Kmart</label>
+            </value>
+            <value>
+                <fullName>Ciena - Kohl&#39;s</fullName>
+                <default>false</default>
+                <label>Ciena - Kohl&#39;s</label>
+            </value>
+            <value>
+                <fullName>Ciena - Kroger</fullName>
+                <default>false</default>
+                <label>Ciena - Kroger</label>
+            </value>
+            <value>
+                <fullName>Ciena - Level(3)</fullName>
+                <default>false</default>
+                <label>Ciena - Level(3)</label>
+            </value>
+            <value>
+                <fullName>Ciena - Marsh - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Marsh - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Massachusettes Executive Office of Public Safety</fullName>
+                <default>false</default>
+                <label>Ciena - Massachusettes Executive Office of Public Safety</label>
+            </value>
+            <value>
+                <fullName>Ciena - Massachusettes Institute of Technology</fullName>
+                <default>false</default>
+                <label>Ciena - Massachusettes Institute of Technology</label>
+            </value>
+            <value>
+                <fullName>Ciena - MBNA - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - MBNA - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - MIT (MA Institute of Tech)</fullName>
+                <default>false</default>
+                <label>Ciena - MIT (MA Institute of Tech)</label>
+            </value>
+            <value>
+                <fullName>Ciena - Morgan Stanley</fullName>
+                <default>false</default>
+                <label>Ciena - Morgan Stanley</label>
+            </value>
+            <value>
+                <fullName>Ciena - Nebraska Medical Center</fullName>
+                <default>false</default>
+                <label>Ciena - Nebraska Medical Center</label>
+            </value>
+            <value>
+                <fullName>Ciena - New York State Office of Technology</fullName>
+                <default>false</default>
+                <label>Ciena - New York State Office of Technology</label>
+            </value>
+            <value>
+                <fullName>Ciena - NHA Global</fullName>
+                <default>false</default>
+                <label>Ciena - NHA Global</label>
+            </value>
+            <value>
+                <fullName>Ciena - Non-Contract</fullName>
+                <default>false</default>
+                <label>Ciena - Non-Contract</label>
+            </value>
+            <value>
+                <fullName>Ciena - Novec</fullName>
+                <default>false</default>
+                <label>Ciena - Novec</label>
+            </value>
+            <value>
+                <fullName>Ciena - NYSE Euronext</fullName>
+                <default>false</default>
+                <label>Ciena - NYSE Euronext</label>
+            </value>
+            <value>
+                <fullName>Ciena - Oppenheimer - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Oppenheimer - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Other</fullName>
+                <default>false</default>
+                <label>Ciena - Other</label>
+            </value>
+            <value>
+                <fullName>Ciena - Pacific Carriage</fullName>
+                <default>false</default>
+                <label>Ciena - Pacific Carriage</label>
+            </value>
+            <value>
+                <fullName>Ciena - Pershing - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Pershing - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - PP&amp;L</fullName>
+                <default>false</default>
+                <label>Ciena - PP&amp;L</label>
+            </value>
+            <value>
+                <fullName>Ciena - Progressive - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Progressive - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Prudential - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Prudential - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Regency Beauty Institute</fullName>
+                <default>false</default>
+                <label>Ciena - Regency Beauty Institute</label>
+            </value>
+            <value>
+                <fullName>Ciena - Ropes &amp; Gray</fullName>
+                <default>false</default>
+                <label>Ciena - Ropes &amp; Gray</label>
+            </value>
+            <value>
+                <fullName>Ciena - S&amp;L F Inc/Cyclegadgets.com</fullName>
+                <default>false</default>
+                <label>Ciena - S&amp;L F Inc/Cyclegadgets.com</label>
+            </value>
+            <value>
+                <fullName>Ciena - Scottrade - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Scottrade - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Solutions/Bloomberg - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Solutions/Bloomberg - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - SONY - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - SONY - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - Spread Networks</fullName>
+                <default>false</default>
+                <label>Ciena - Spread Networks</label>
+            </value>
+            <value>
+                <fullName>Ciena - Sprint</fullName>
+                <default>false</default>
+                <label>Ciena - Sprint</label>
+            </value>
+            <value>
+                <fullName>Ciena - St. Francis Hospital</fullName>
+                <default>false</default>
+                <label>Ciena - St. Francis Hospital</label>
+            </value>
+            <value>
+                <fullName>Ciena - State Farm - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - State Farm - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - SunGard</fullName>
+                <default>false</default>
+                <label>Ciena - SunGard</label>
+            </value>
+            <value>
+                <fullName>Ciena - Telus</fullName>
+                <default>false</default>
+                <label>Ciena - Telus</label>
+            </value>
+            <value>
+                <fullName>Ciena - Tennenbaum Capital Partners</fullName>
+                <default>false</default>
+                <label>Ciena - Tennenbaum Capital Partners</label>
+            </value>
+            <value>
+                <fullName>Ciena - Thompson Financial - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Thompson Financial - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - T-Mobile - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - T-Mobile - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Ciena - UMass Memorial Health Care</fullName>
+                <default>false</default>
+                <label>Ciena - UMass Memorial Health Care</label>
+            </value>
+            <value>
+                <fullName>Ciena - Verizon Deutsche Bank</fullName>
+                <default>false</default>
+                <label>Ciena - Verizon Deutsche Bank</label>
+            </value>
+            <value>
+                <fullName>Ciena - Verizon National Grid</fullName>
+                <default>false</default>
+                <label>Ciena - Verizon National Grid</label>
+            </value>
+            <value>
+                <fullName>Ciena - Verizon Wireless (Baltimore NON AT&amp;T)</fullName>
+                <default>false</default>
+                <label>Ciena - Verizon Wireless (Baltimore NON AT&amp;T)</label>
+            </value>
+            <value>
+                <fullName>Ciena - Verizon Wireless (NON AT&amp;T)</fullName>
+                <default>false</default>
+                <label>Ciena - Verizon Wireless (NON AT&amp;T)</label>
+            </value>
+            <value>
+                <fullName>Ciena - Verizon Wireless Southwest</fullName>
+                <default>false</default>
+                <label>Ciena - Verizon Wireless Southwest</label>
+            </value>
+            <value>
+                <fullName>Ciena - Walt Disney World</fullName>
+                <default>false</default>
+                <label>Ciena - Walt Disney World</label>
+            </value>
+            <value>
+                <fullName>Ciena - Wells Fargo</fullName>
+                <default>false</default>
+                <label>Ciena - Wells Fargo</label>
+            </value>
+            <value>
+                <fullName>Ciena - Worldspan - AT&amp;T Gold</fullName>
+                <default>false</default>
+                <label>Ciena - Worldspan - AT&amp;T Gold</label>
+            </value>
+            <value>
+                <fullName>Infinera - - Generic .. Customer not specified -</fullName>
+                <default>false</default>
+                <label>Infinera - - Generic .. Customer not specified -</label>
+            </value>
+            <value>
+                <fullName>Infinera - Century Link</fullName>
+                <default>false</default>
+                <label>Infinera - Century Link</label>
+            </value>
+            <value>
+                <fullName>Infinera - Telia Sonera</fullName>
+                <default>false</default>
+                <label>Infinera - Telia Sonera</label>
+            </value>
+            <value>
+                <fullName>Infinera - Zayo</fullName>
+                <default>false</default>
+                <label>Infinera - Zayo</label>
+            </value>
+            <value>
+                <fullName>Fujitsu - Fujitsu - Mixed</fullName>
+                <default>false</default>
+                <label>Fujitsu - Fujitsu - Mixed</label>
+            </value>
+            <value>
+                <fullName>Pacific Carriage - Southern Cross</fullName>
+                <default>false</default>
+                <label>Pacific Carriage - Southern Cross</label>
+            </value>
+            <value>
+                <fullName>CenturyLink - Bank Of America</fullName>
+                <default>false</default>
+                <label>CenturyLink - Bank Of America</label>
+            </value>
+            <value>
+                <fullName>Aviat - Aviat - Pooled</fullName>
+                <default>false</default>
+                <label>Aviat - Aviat - Pooled</label>
+            </value>
+            <value>
+                <fullName>Aviat - AT&amp;T Compass Minerals</fullName>
+                <default>false</default>
+                <label>Aviat - AT&amp;T Compass Minerals</label>
+            </value>
+            <value>
+                <fullName>Aviat - BayRICS</fullName>
+                <default>false</default>
+                <label>Aviat - BayRICS</label>
+            </value>
+            <value>
+                <fullName>Aviat - CFN Services</fullName>
+                <default>false</default>
+                <label>Aviat - CFN Services</label>
+            </value>
+            <value>
+                <fullName>Aviat - City of Oakland</fullName>
+                <default>false</default>
+                <label>Aviat - City of Oakland</label>
+            </value>
+            <value>
+                <fullName>Aviat - EBRCS - Alameda County Sub System</fullName>
+                <default>false</default>
+                <label>Aviat - EBRCS - Alameda County Sub System</label>
+            </value>
+            <value>
+                <fullName>Aviat - GenComm - Cust 1</fullName>
+                <default>false</default>
+                <label>Aviat - GenComm - Cust 1</label>
+            </value>
+            <value>
+                <fullName>Aviat - GenComm - Cust 2</fullName>
+                <default>false</default>
+                <label>Aviat - GenComm - Cust 2</label>
+            </value>
+            <value>
+                <fullName>Aviat - GenComm - Cust 3</fullName>
+                <default>false</default>
+                <label>Aviat - GenComm - Cust 3</label>
+            </value>
+            <value>
+                <fullName>Aviat - GenComm - Pooled</fullName>
+                <default>false</default>
+                <label>Aviat - GenComm - Pooled</label>
+            </value>
+            <value>
+                <fullName>Aviat - McKay Brothers, LLC</fullName>
+                <default>false</default>
+                <label>Aviat - McKay Brothers, LLC</label>
+            </value>
+            <value>
+                <fullName>Aviat - NewCo, LLC.</fullName>
+                <default>false</default>
+                <label>Aviat - NewCo, LLC.</label>
+            </value>
+            <value>
+                <fullName>Aviat - Santa Clara Water District</fullName>
+                <default>false</default>
+                <label>Aviat - Santa Clara Water District</label>
+            </value>
+            <value>
+                <fullName>Aviat - Strike Technologies</fullName>
+                <default>false</default>
+                <label>Aviat - Strike Technologies</label>
+            </value>
+            <value>
+                <fullName>Aviat - SVRIA - Santa Clara County</fullName>
+                <default>false</default>
+                <label>Aviat - SVRIA - Santa Clara County</label>
+            </value>
+            <value>
+                <fullName>Radiant - Radiant - Pooled</fullName>
+                <default>false</default>
+                <label>Radiant - Radiant - Pooled</label>
+            </value>
+            <value>
+                <fullName>Radiant - 7 Eleven</fullName>
+                <default>false</default>
+                <label>Radiant - 7 Eleven</label>
+            </value>
+            <value>
+                <fullName>Radiant - A&amp;W</fullName>
+                <default>false</default>
+                <label>Radiant - A&amp;W</label>
+            </value>
+            <value>
+                <fullName>Radiant - All Weather Windows</fullName>
+                <default>false</default>
+                <label>Radiant - All Weather Windows</label>
+            </value>
+            <value>
+                <fullName>Radiant - Aritzia</fullName>
+                <default>false</default>
+                <label>Radiant - Aritzia</label>
+            </value>
+            <value>
+                <fullName>Radiant - Baptist Housing</fullName>
+                <default>false</default>
+                <label>Radiant - Baptist Housing</label>
+            </value>
+            <value>
+                <fullName>Radiant - BGC</fullName>
+                <default>false</default>
+                <label>Radiant - BGC</label>
+            </value>
+            <value>
+                <fullName>Radiant - Bombay</fullName>
+                <default>false</default>
+                <label>Radiant - Bombay</label>
+            </value>
+            <value>
+                <fullName>Radiant - Boston Pizza</fullName>
+                <default>false</default>
+                <label>Radiant - Boston Pizza</label>
+            </value>
+            <value>
+                <fullName>Radiant - Burger King</fullName>
+                <default>false</default>
+                <label>Radiant - Burger King</label>
+            </value>
+            <value>
+                <fullName>Radiant - CMLS</fullName>
+                <default>false</default>
+                <label>Radiant - CMLS</label>
+            </value>
+            <value>
+                <fullName>Radiant - Coast Hotels &amp; Resorts</fullName>
+                <default>false</default>
+                <label>Radiant - Coast Hotels &amp; Resorts</label>
+            </value>
+            <value>
+                <fullName>Radiant - Cuecom</fullName>
+                <default>false</default>
+                <label>Radiant - Cuecom</label>
+            </value>
+            <value>
+                <fullName>Radiant - Danier</fullName>
+                <default>false</default>
+                <label>Radiant - Danier</label>
+            </value>
+            <value>
+                <fullName>Radiant - Earls</fullName>
+                <default>false</default>
+                <label>Radiant - Earls</label>
+            </value>
+            <value>
+                <fullName>Radiant - Edward Jones</fullName>
+                <default>false</default>
+                <label>Radiant - Edward Jones</label>
+            </value>
+            <value>
+                <fullName>Radiant - Explorer</fullName>
+                <default>false</default>
+                <label>Radiant - Explorer</label>
+            </value>
+            <value>
+                <fullName>Radiant - Flight Centre</fullName>
+                <default>false</default>
+                <label>Radiant - Flight Centre</label>
+            </value>
+            <value>
+                <fullName>Radiant - Fruits &amp; Passion</fullName>
+                <default>false</default>
+                <label>Radiant - Fruits &amp; Passion</label>
+            </value>
+            <value>
+                <fullName>Radiant - FYIdoctors</fullName>
+                <default>false</default>
+                <label>Radiant - FYIdoctors</label>
+            </value>
+            <value>
+                <fullName>Radiant - Global Payments</fullName>
+                <default>false</default>
+                <label>Radiant - Global Payments</label>
+            </value>
+            <value>
+                <fullName>Radiant - Hampton Inn &amp; Suites</fullName>
+                <default>false</default>
+                <label>Radiant - Hampton Inn &amp; Suites</label>
+            </value>
+            <value>
+                <fullName>Radiant - Jordans</fullName>
+                <default>false</default>
+                <label>Radiant - Jordans</label>
+            </value>
+            <value>
+                <fullName>Radiant - kobo</fullName>
+                <default>false</default>
+                <label>Radiant - kobo</label>
+            </value>
+            <value>
+                <fullName>Radiant - Laura</fullName>
+                <default>false</default>
+                <label>Radiant - Laura</label>
+            </value>
+            <value>
+                <fullName>Radiant - laVieen Rose</fullName>
+                <default>false</default>
+                <label>Radiant - laVieen Rose</label>
+            </value>
+            <value>
+                <fullName>Radiant - Loblaws</fullName>
+                <default>false</default>
+                <label>Radiant - Loblaws</label>
+            </value>
+            <value>
+                <fullName>Radiant - Matrix</fullName>
+                <default>false</default>
+                <label>Radiant - Matrix</label>
+            </value>
+            <value>
+                <fullName>Radiant - Nygard</fullName>
+                <default>false</default>
+                <label>Radiant - Nygard</label>
+            </value>
+            <value>
+                <fullName>Radiant - Party Packagers</fullName>
+                <default>false</default>
+                <label>Radiant - Party Packagers</label>
+            </value>
+            <value>
+                <fullName>Radiant - Running Room</fullName>
+                <default>false</default>
+                <label>Radiant - Running Room</label>
+            </value>
+            <value>
+                <fullName>Radiant - SONY</fullName>
+                <default>false</default>
+                <label>Radiant - SONY</label>
+            </value>
+            <value>
+                <fullName>Radiant - Sports Mart</fullName>
+                <default>false</default>
+                <label>Radiant - Sports Mart</label>
+            </value>
+            <value>
+                <fullName>Radiant - Sun Life Financial</fullName>
+                <default>false</default>
+                <label>Radiant - Sun Life Financial</label>
+            </value>
+            <value>
+                <fullName>Radiant - Tim Horton</fullName>
+                <default>false</default>
+                <label>Radiant - Tim Horton</label>
+            </value>
+            <value>
+                <fullName>Radiant - Town Shoes</fullName>
+                <default>false</default>
+                <label>Radiant - Town Shoes</label>
+            </value>
+            <value>
+                <fullName>Radiant - Viceroy</fullName>
+                <default>false</default>
+                <label>Radiant - Viceroy</label>
+            </value>
+            <value>
+                <fullName>Radiant - Virtela</fullName>
+                <default>false</default>
+                <label>Radiant - Virtela</label>
+            </value>
+            <value>
+                <fullName>Radiant - VitalAire</fullName>
+                <default>false</default>
+                <label>Radiant - VitalAire</label>
+            </value>
+            <value>
+                <fullName>Radiant - Walmart</fullName>
+                <default>false</default>
+                <label>Radiant - Walmart</label>
+            </value>
+            <value>
+                <fullName>Radiant - West49</fullName>
+                <default>false</default>
+                <label>Radiant - West49</label>
+            </value>
+            <value>
+                <fullName>Radiant - White Spot</fullName>
+                <default>false</default>
+                <label>Radiant - White Spot</label>
+            </value>
+            <value>
+                <fullName>ADVA - ADVA - Pooled Spares</fullName>
+                <default>false</default>
+                <label>ADVA - ADVA - Pooled Spares</label>
+            </value>
+            <value>
+                <fullName>ADVA - Blue Fire</fullName>
+                <default>false</default>
+                <label>ADVA - Blue Fire</label>
+            </value>
+            <value>
+                <fullName>ADVA - Bridgewater</fullName>
+                <default>false</default>
+                <label>ADVA - Bridgewater</label>
+            </value>
+            <value>
+                <fullName>ADVA - BT Americas</fullName>
+                <default>false</default>
+                <label>ADVA - BT Americas</label>
+            </value>
+            <value>
+                <fullName>ADVA - Chopper Trading</fullName>
+                <default>false</default>
+                <label>ADVA - Chopper Trading</label>
+            </value>
+            <value>
+                <fullName>ADVA - Citadel</fullName>
+                <default>false</default>
+                <label>ADVA - Citadel</label>
+            </value>
+            <value>
+                <fullName>ADVA - CitiCorp North America</fullName>
+                <default>false</default>
+                <label>ADVA - CitiCorp North America</label>
+            </value>
+            <value>
+                <fullName>ADVA - D.F. King &amp; Co., Inc.</fullName>
+                <default>false</default>
+                <label>ADVA - D.F. King &amp; Co., Inc.</label>
+            </value>
+            <value>
+                <fullName>ADVA - Deutsche Bank</fullName>
+                <default>false</default>
+                <label>ADVA - Deutsche Bank</label>
+            </value>
+            <value>
+                <fullName>ADVA - Dynamite Technologies</fullName>
+                <default>false</default>
+                <label>ADVA - Dynamite Technologies</label>
+            </value>
+            <value>
+                <fullName>ADVA - ECS - Sharp</fullName>
+                <default>false</default>
+                <label>ADVA - ECS - Sharp</label>
+            </value>
+            <value>
+                <fullName>ADVA - Fairleigh Dickinson University</fullName>
+                <default>false</default>
+                <label>ADVA - Fairleigh Dickinson University</label>
+            </value>
+            <value>
+                <fullName>ADVA - IMC</fullName>
+                <default>false</default>
+                <label>ADVA - IMC</label>
+            </value>
+            <value>
+                <fullName>ADVA - Jump</fullName>
+                <default>false</default>
+                <label>ADVA - Jump</label>
+            </value>
+            <value>
+                <fullName>ADVA - Library of Congress</fullName>
+                <default>false</default>
+                <label>ADVA - Library of Congress</label>
+            </value>
+            <value>
+                <fullName>ADVA - Lockheed Martin</fullName>
+                <default>false</default>
+                <label>ADVA - Lockheed Martin</label>
+            </value>
+            <value>
+                <fullName>ADVA - MLB Advanced Media L.P.</fullName>
+                <default>false</default>
+                <label>ADVA - MLB Advanced Media L.P.</label>
+            </value>
+            <value>
+                <fullName>ADVA - Morgan Stanley</fullName>
+                <default>false</default>
+                <label>ADVA - Morgan Stanley</label>
+            </value>
+            <value>
+                <fullName>ADVA - MOX Networks</fullName>
+                <default>false</default>
+                <label>ADVA - MOX Networks</label>
+            </value>
+            <value>
+                <fullName>ADVA - Mt. Sinai</fullName>
+                <default>false</default>
+                <label>ADVA - Mt. Sinai</label>
+            </value>
+            <value>
+                <fullName>ADVA - Nationwide</fullName>
+                <default>false</default>
+                <label>ADVA - Nationwide</label>
+            </value>
+            <value>
+                <fullName>ADVA - NYSE</fullName>
+                <default>false</default>
+                <label>ADVA - NYSE</label>
+            </value>
+            <value>
+                <fullName>ADVA - Optic Access</fullName>
+                <default>false</default>
+                <label>ADVA - Optic Access</label>
+            </value>
+            <value>
+                <fullName>ADVA - Optiver US, LLC</fullName>
+                <default>false</default>
+                <label>ADVA - Optiver US, LLC</label>
+            </value>
+            <value>
+                <fullName>ADVA - PDT Partners</fullName>
+                <default>false</default>
+                <label>ADVA - PDT Partners</label>
+            </value>
+            <value>
+                <fullName>ADVA - RR Donnelley</fullName>
+                <default>false</default>
+                <label>ADVA - RR Donnelley</label>
+            </value>
+            <value>
+                <fullName>ADVA - STV Group, Inc.</fullName>
+                <default>false</default>
+                <label>ADVA - STV Group, Inc.</label>
+            </value>
+            <value>
+                <fullName>ADVA - Teza</fullName>
+                <default>false</default>
+                <label>ADVA - Teza</label>
+            </value>
+            <value>
+                <fullName>ADVA - T-Systems</fullName>
+                <default>false</default>
+                <label>ADVA - T-Systems</label>
+            </value>
+            <value>
+                <fullName>ADVA - UBS Financial Services Inc.</fullName>
+                <default>false</default>
+                <label>ADVA - UBS Financial Services Inc.</label>
+            </value>
+            <value>
+                <fullName>ADVA - Weill Cornell</fullName>
+                <default>false</default>
+                <label>ADVA - Weill Cornell</label>
+            </value>
+            <value>
+                <fullName>AllStream - Pooled</fullName>
+                <default>false</default>
+                <label>AllStream - Pooled</label>
+            </value>
+            <value>
+                <fullName>MDSI - ADVA</fullName>
+                <default>false</default>
+                <label>MDSI - ADVA</label>
+            </value>
+            <value>
+                <fullName>XO Communications - Pooled Resources</fullName>
+                <default>false</default>
+                <label>XO Communications - Pooled Resources</label>
+            </value>
+            <value>
+                <fullName>Zayo Group Pooled Resources</fullName>
+                <default>false</default>
+                <label>Zayo Group Pooled Resources</label>
+            </value>
+            <value>
+                <fullName>COLT - Asia</fullName>
+                <default>false</default>
+                <label>COLT - Asia</label>
+            </value>
+            <value>
+                <fullName>COLT - Europe</fullName>
+                <default>false</default>
+                <label>COLT - Europe</label>
+            </value>
+            <value>
+                <fullName>Indigo - Pooled</fullName>
+                <default>false</default>
+                <label>Indigo - Pooled</label>
+            </value>
+            <value>
+                <fullName>Commdex - Pooled</fullName>
+                <default>false</default>
+                <label>Commdex - Pooled</label>
+            </value>
+            <value>
+                <fullName>Rogers WBI</fullName>
+                <default>false</default>
+                <label>Rogers WBI</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Ledcor Technical Services</controllingFieldValue>
+            <valueName>Ledcor Technical Services - Generic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MDSI</controllingFieldValue>
+            <valueName>MDSI - ADVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pacific Carriage</controllingFieldValue>
+            <valueName>Pacific Carriage - Southern Cross</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Radiant - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - 7 Eleven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - A&amp;W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - All Weather Windows</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Aritzia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Baptist Housing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - BGC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Bombay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Boston Pizza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Burger King</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - CMLS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Coast Hotels &amp; Resorts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Cuecom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Danier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Earls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Edward Jones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Explorer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Flight Centre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Fruits &amp; Passion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - FYIdoctors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Global Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Hampton Inn &amp; Suites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Jordans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - kobo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Laura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - laVieen Rose</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Loblaws</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Matrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Nygard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Party Packagers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Running Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - SONY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Sports Mart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Sun Life Financial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Tim Horton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Town Shoes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Viceroy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Virtela</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - VitalAire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - Walmart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - West49</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Radiant</controllingFieldValue>
+            <valueName>Radiant - White Spot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>XO Communications</controllingFieldValue>
+            <valueName>XO Communications - Pooled Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Zayo Group</controllingFieldValue>
+            <valueName>Zayo Group Pooled Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Generic</controllingFieldValue>
+            <valueName>Generic - Customer not in list</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rogers</controllingFieldValue>
+            <valueName>Rogers WBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - ADVA - Pooled Spares</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Blue Fire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Bridgewater</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - BT Americas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Chopper Trading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Citadel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - CitiCorp North America</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - D.F. King &amp; Co., Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Deutsche Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Dynamite Technologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - ECS - Sharp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Fairleigh Dickinson University</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - IMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Jump</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Library of Congress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Lockheed Martin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - MLB Advanced Media L.P.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Morgan Stanley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - MOX Networks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Mt. Sinai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Nationwide</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - NYSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Optic Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Optiver US, LLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - PDT Partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - RR Donnelley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - STV Group, Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Teza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - T-Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - UBS Financial Services Inc.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ADVA</controllingFieldValue>
+            <valueName>ADVA - Weill Cornell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AllStream</controllingFieldValue>
+            <valueName>AllStream - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - Aviat - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - AT&amp;T Compass Minerals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - BayRICS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - CFN Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - City of Oakland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - EBRCS - Alameda County Sub System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - GenComm - Cust 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - GenComm - Cust 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - GenComm - Cust 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - GenComm - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - McKay Brothers, LLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - NewCo, LLC.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - Santa Clara Water District</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - Strike Technologies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aviat</controllingFieldValue>
+            <valueName>Aviat - SVRIA - Santa Clara County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CenturyLink</controllingFieldValue>
+            <valueName>CenturyLink - Bank Of America</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Ciena - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - ABN AMRO - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - ABOVENET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AG Edwards - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Alcatel Lucent Gold - AT&amp;T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Alliance - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Allstream</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Allstream New York City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Alverno Franciscan Alliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Amazon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AMD AT&amp;T AMDOCS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T - Costco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T - Fresenius Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T - Geico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T - Palmetto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T - Wellington Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Alcoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T BAE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Capital One</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Conexus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T DTTC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Dunkin Brands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Enterprise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Fidelity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T GOLD - Blue Cross - Blue Shield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Gold - ICE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Gold - Verizon Wireless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T MBNA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T TIAA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T TJX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T UVN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T Windstream Allstate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T/Knight Capital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AT&amp;T2 - ARRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - ATT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - AWS - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Bancorp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Bank Of New York - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Barclays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Bloomberg Metro - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Board Of Trade - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Canarie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Cerner - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Chicago Tribune - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Citigroup - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - City of Philly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Comcast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Computershare - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Consumers Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Deutsche Bank - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Digital Realty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Dow Jones - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - EMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - EmpireCLS Worldwide Chauffeured Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Equant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Exxon / Mobil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Facebook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Fidelity - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - First Boston - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - First Data - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Goldman Sachs - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Hewlett Packard - AT&amp;T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - HSBC - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - IBM BCRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - IBM Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Innovative Health Strategies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Internal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Internet2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Key Bank - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Kmart</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Kohl&#39;s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Kroger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Level(3)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Marsh - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Massachusettes Executive Office of Public Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Massachusettes Institute of Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - MBNA - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - MIT (MA Institute of Tech)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Morgan Stanley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Nebraska Medical Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - New York State Office of Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - NHA Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Non-Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Novec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - NYSE Euronext</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Oppenheimer - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Pacific Carriage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Pershing - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - PP&amp;L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Progressive - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Prudential - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Regency Beauty Institute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Ropes &amp; Gray</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - S&amp;L F Inc/Cyclegadgets.com</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Scottrade - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Solutions/Bloomberg - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - SONY - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Spread Networks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Sprint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - St. Francis Hospital</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - State Farm - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - SunGard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Telus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Tennenbaum Capital Partners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Thompson Financial - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - T-Mobile - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - UMass Memorial Health Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Verizon Deutsche Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Verizon National Grid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Verizon Wireless (Baltimore NON AT&amp;T)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Verizon Wireless (NON AT&amp;T)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Verizon Wireless Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Walt Disney World</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Wells Fargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ciena</controllingFieldValue>
+            <valueName>Ciena - Worldspan - AT&amp;T Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COLT</controllingFieldValue>
+            <valueName>COLT - Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>COLT</controllingFieldValue>
+            <valueName>COLT - Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commdex</controllingFieldValue>
+            <valueName>Commdex - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fujitsu</controllingFieldValue>
+            <valueName>Fujitsu - Fujitsu - Mixed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Indigo</controllingFieldValue>
+            <valueName>Indigo - Pooled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infinera</controllingFieldValue>
+            <valueName>Infinera - - Generic .. Customer not specified -</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infinera</controllingFieldValue>
+            <valueName>Infinera - Century Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infinera</controllingFieldValue>
+            <valueName>Infinera - Telia Sonera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Infinera</controllingFieldValue>
+            <valueName>Infinera - Zayo</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

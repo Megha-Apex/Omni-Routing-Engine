@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>USFO_Point_of_Presence__c</fullName>
+    <label>USFO Point of Presence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALBANY</fullName>
+                <default>false</default>
+                <label>ALBA NY</label>
+            </value>
+            <value>
+                <fullName>ALBUQUERQUENM</fullName>
+                <default>false</default>
+                <label>ALBUQUERQUE NM</label>
+            </value>
+            <value>
+                <fullName>AMARILLOTX</fullName>
+                <default>false</default>
+                <label>AMARILLO TX</label>
+            </value>
+            <value>
+                <fullName>ASHBURNVA</fullName>
+                <default>false</default>
+                <label>ASHBURN VA</label>
+            </value>
+            <value>
+                <fullName>ATLANTAGA</fullName>
+                <default>false</default>
+                <label>ATLANTA GA</label>
+            </value>
+            <value>
+                <fullName>AUSTINTX</fullName>
+                <default>false</default>
+                <label>AUSTIN TX</label>
+            </value>
+            <value>
+                <fullName>BAKERSFIELDCA</fullName>
+                <default>false</default>
+                <label>BAKERSFIELD CA</label>
+            </value>
+            <value>
+                <fullName>BALTIMOREMD</fullName>
+                <default>false</default>
+                <label>BALTIMORE MD</label>
+            </value>
+            <value>
+                <fullName>BIRMINGHAMAL</fullName>
+                <default>false</default>
+                <label>BIRMINGHAM AL</label>
+            </value>
+            <value>
+                <fullName>BISMARCKND</fullName>
+                <default>false</default>
+                <label>BISMARCK ND</label>
+            </value>
+            <value>
+                <fullName>BOISEID</fullName>
+                <default>false</default>
+                <label>BOISE ID</label>
+            </value>
+            <value>
+                <fullName>BOSTONMA</fullName>
+                <default>false</default>
+                <label>BOSTON MA</label>
+            </value>
+            <value>
+                <fullName>BOZEMANMT</fullName>
+                <default>false</default>
+                <label>BOZEMAN MT</label>
+            </value>
+            <value>
+                <fullName>BUFFALONY</fullName>
+                <default>false</default>
+                <label>BUFFALO NY</label>
+            </value>
+            <value>
+                <fullName>CHARLESTONWV</fullName>
+                <default>false</default>
+                <label>CHARLESTON WV</label>
+            </value>
+            <value>
+                <fullName>CHARLOTTENC</fullName>
+                <default>false</default>
+                <label>CHARLOTTE NC</label>
+            </value>
+            <value>
+                <fullName>CHICAGOIL</fullName>
+                <default>false</default>
+                <label>CHICAGO IL</label>
+            </value>
+            <value>
+                <fullName>CHILOQUINOR</fullName>
+                <default>false</default>
+                <label>CHILOQUIN OR</label>
+            </value>
+            <value>
+                <fullName>CINCINNATIOH</fullName>
+                <default>false</default>
+                <label>CINCINNATI OH</label>
+            </value>
+            <value>
+                <fullName>CLEVELANDOH</fullName>
+                <default>false</default>
+                <label>CLEVELAND OH</label>
+            </value>
+            <value>
+                <fullName>COLORADO_SPRINGSCO</fullName>
+                <default>false</default>
+                <label>COLORADO SPRINGS CO</label>
+            </value>
+            <value>
+                <fullName>COLUMBIASC</fullName>
+                <default>false</default>
+                <label>COLUMBIA SC</label>
+            </value>
+            <value>
+                <fullName>COLUMBUSOH</fullName>
+                <default>false</default>
+                <label>COLUMBUS OH</label>
+            </value>
+            <value>
+                <fullName>DALLASTX</fullName>
+                <default>false</default>
+                <label>DALLAS TX</label>
+            </value>
+            <value>
+                <fullName>DANBURYCT</fullName>
+                <default>false</default>
+                <label>DANBURY CT</label>
+            </value>
+            <value>
+                <fullName>DENVERCO</fullName>
+                <default>false</default>
+                <label>DENVER CO</label>
+            </value>
+            <value>
+                <fullName>DES_MOINESIA</fullName>
+                <default>false</default>
+                <label>DES MOINES IA</label>
+            </value>
+            <value>
+                <fullName>DETROITMI</fullName>
+                <default>false</default>
+                <label>DETROIT MI</label>
+            </value>
+            <value>
+                <fullName>EL_ PASOTX</fullName>
+                <default>false</default>
+                <label>EL_PASO TX</label>
+            </value>
+            <value>
+                <fullName>FARGOND</fullName>
+                <default>false</default>
+                <label>FARGO ND</label>
+            </value>
+            <value>
+                <fullName>FORT_COLLINSCO</fullName>
+                <default>false</default>
+                <label>FORT COLLINS CO</label>
+            </value>
+            <value>
+                <fullName>GRAND_RAPIDSMI</fullName>
+                <default>false</default>
+                <label>GRAND RAPIDS MI</label>
+            </value>
+            <value>
+                <fullName>HARTFORDCT</fullName>
+                <default>false</default>
+                <label>HARTFORD CT</label>
+            </value>
+            <value>
+                <fullName>HONOLULUHI</fullName>
+                <default>false</default>
+                <label>HONOLULUHI</label>
+            </value>
+            <value>
+                <fullName>HOUSTONTX</fullName>
+                <default>false</default>
+                <label>HOUSTON TX</label>
+            </value>
+            <value>
+                <fullName>INDIANAPOLISIN</fullName>
+                <default>false</default>
+                <label>INDIANAPOLIS IN</label>
+            </value>
+            <value>
+                <fullName>JACKSONMS</fullName>
+                <default>false</default>
+                <label>JACKSON MS</label>
+            </value>
+            <value>
+                <fullName>JACKSONVILLEFL</fullName>
+                <default>false</default>
+                <label>JACKSONVILLE FL</label>
+            </value>
+            <value>
+                <fullName>KANSAS_CITYKS</fullName>
+                <default>false</default>
+                <label>KANSAS CITY KS</label>
+            </value>
+            <value>
+                <fullName>KNOXVILLETN</fullName>
+                <default>false</default>
+                <label>KNOXVILLE TN</label>
+            </value>
+            <value>
+                <fullName>LAS_VEGASNV</fullName>
+                <default>false</default>
+                <label>LAS VEGAS NV</label>
+            </value>
+            <value>
+                <fullName>LITTLE_ROCKAR</fullName>
+                <default>false</default>
+                <label>LITTLE ROCK AR</label>
+            </value>
+            <value>
+                <fullName>LOS_ANGELESCA</fullName>
+                <default>false</default>
+                <label>LOS ANGELES CA</label>
+            </value>
+            <value>
+                <fullName>LOUISVILLEKY</fullName>
+                <default>false</default>
+                <label>LOUISVILLE KY</label>
+            </value>
+            <value>
+                <fullName>LUBBOCKTX</fullName>
+                <default>false</default>
+                <label>LUBBOCK TX</label>
+            </value>
+            <value>
+                <fullName>MACONGA</fullName>
+                <default>false</default>
+                <label>MACON GA</label>
+            </value>
+            <value>
+                <fullName>MCALLENTX</fullName>
+                <default>false</default>
+                <label>MCALLEN TX</label>
+            </value>
+            <value>
+                <fullName>MEMPHISTN</fullName>
+                <default>false</default>
+                <label>MEMPHIS TN</label>
+            </value>
+            <value>
+                <fullName>MIAMIFL</fullName>
+                <default>false</default>
+                <label>MIAMI FL</label>
+            </value>
+            <value>
+                <fullName>MIDDLESEXNJ</fullName>
+                <default>false</default>
+                <label>MIDDLESEX NJ</label>
+            </value>
+            <value>
+                <fullName>MILWAUKEEWI</fullName>
+                <default>false</default>
+                <label>MILWAUKEE WI</label>
+            </value>
+            <value>
+                <fullName>MINNEAPOLISMN</fullName>
+                <default>false</default>
+                <label>MINNEAPOLIS MN</label>
+            </value>
+            <value>
+                <fullName>NASHVILLETN</fullName>
+                <default>false</default>
+                <label>NASHVILLE TN</label>
+            </value>
+            <value>
+                <fullName>NEW_ORLEANSLA</fullName>
+                <default>false</default>
+                <label>NEW ORLEANS LA</label>
+            </value>
+            <value>
+                <fullName>NEW_YORK_CITYNY</fullName>
+                <default>false</default>
+                <label>NEW YORK CITY NY</label>
+            </value>
+            <value>
+                <fullName>ODESSATX</fullName>
+                <default>false</default>
+                <label>ODESSA TX</label>
+            </value>
+            <value>
+                <fullName>OKLAHOMA_CITYOK</fullName>
+                <default>false</default>
+                <label>OKLAHOMA CITY OK</label>
+            </value>
+            <value>
+                <fullName>OMAHANE</fullName>
+                <default>false</default>
+                <label>OMAHA NE</label>
+            </value>
+            <value>
+                <fullName>ORLANDOFL</fullName>
+                <default>false</default>
+                <label>ORLANDO FL</label>
+            </value>
+            <value>
+                <fullName>PENSACOLAFL</fullName>
+                <default>false</default>
+                <label>PENSACOLA FL</label>
+            </value>
+            <value>
+                <fullName>PHILADELPHIAPA</fullName>
+                <default>false</default>
+                <label>PHILADELPHIA PA</label>
+            </value>
+            <value>
+                <fullName>PHOENIXAZ</fullName>
+                <default>false</default>
+                <label>PHOENIX AZ</label>
+            </value>
+            <value>
+                <fullName>PITTSBURGHPA</fullName>
+                <default>false</default>
+                <label>PITTSBURGH PA</label>
+            </value>
+            <value>
+                <fullName>PORTLANDOR</fullName>
+                <default>false</default>
+                <label>PORTLAND OR</label>
+            </value>
+            <value>
+                <fullName>RALEIGHNC</fullName>
+                <default>false</default>
+                <label>RALEIGH NC</label>
+            </value>
+            <value>
+                <fullName>RAPID_CITYSD</fullName>
+                <default>false</default>
+                <label>RAPID CITY SD</label>
+            </value>
+            <value>
+                <fullName>RENONV</fullName>
+                <default>false</default>
+                <label>RENO NV</label>
+            </value>
+            <value>
+                <fullName>RICHMONDVA</fullName>
+                <default>false</default>
+                <label>RICHMOND VA</label>
+            </value>
+            <value>
+                <fullName>RIVERSIDECA</fullName>
+                <default>false</default>
+                <label>RIVERSIDE CA</label>
+            </value>
+            <value>
+                <fullName>SACRAMENTO</fullName>
+                <default>false</default>
+                <label>SACRAMENTO</label>
+            </value>
+            <value>
+                <fullName>SAINT_LOUISMO</fullName>
+                <default>false</default>
+                <label>SAINT LOUIS MO</label>
+            </value>
+            <value>
+                <fullName>SALT_LAKE_CITYUT</fullName>
+                <default>false</default>
+                <label>SALT LAKE CITY UT</label>
+            </value>
+            <value>
+                <fullName>SAN_ANTONIOTX</fullName>
+                <default>false</default>
+                <label>SAN ANTONIO TX</label>
+            </value>
+            <value>
+                <fullName>SAN_DIEGOCA</fullName>
+                <default>false</default>
+                <label>SAN DIEGO CA</label>
+            </value>
+            <value>
+                <fullName>SAN_FRANCISCOCA</fullName>
+                <default>false</default>
+                <label>SAN FRANCISCO CA</label>
+            </value>
+            <value>
+                <fullName>SAN_JOSECA</fullName>
+                <default>false</default>
+                <label>SAN JOSE CA</label>
+            </value>
+            <value>
+                <fullName>SEATTLEWA</fullName>
+                <default>false</default>
+                <label>SEATTLE WA</label>
+            </value>
+            <value>
+                <fullName>SIOUX_FALLSSD</fullName>
+                <default>false</default>
+                <label>SIOUX FALLS SD</label>
+            </value>
+            <value>
+                <fullName>SOUTH_BENDIN</fullName>
+                <default>false</default>
+                <label>SOUTH BEND IN</label>
+            </value>
+            <value>
+                <fullName>TULSAOK</fullName>
+                <default>false</default>
+                <label>TULSA OK</label>
+            </value>
+            <value>
+                <fullName>WASHINGTONDC</fullName>
+                <default>false</default>
+                <label>WASHINGTON DC</label>
+            </value>
+            <value>
+                <fullName>WORLANDWY</fullName>
+                <default>false</default>
+                <label>WORLAND WY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

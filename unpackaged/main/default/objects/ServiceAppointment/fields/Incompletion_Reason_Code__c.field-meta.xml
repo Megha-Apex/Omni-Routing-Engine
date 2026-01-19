@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incompletion_Reason_Code__c</fullName>
+    <label>Incompletion Reason Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client: Cancelled Work - Inside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Cancelled Work - Inside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Work - Inside 4 hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Cancelled Work - Inside 4 hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Work - Outside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Cancelled Work - Outside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Duplicate Work Order</fullName>
+                <default>false</default>
+                <label>Client: Duplicate Work Order</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Confined Spaces</fullName>
+                <default>false</default>
+                <label>Client: No Access - Confined Spaces</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Customer Site Not Ready</fullName>
+                <default>false</default>
+                <label>Client: No Access - Customer Site Not Ready</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Premise Inaccessible</fullName>
+                <default>false</default>
+                <label>Client: No Access - Premise Inaccessible</label>
+            </value>
+            <value>
+                <fullName>Client: No Access - Unsafe Work Location</fullName>
+                <default>false</default>
+                <label>Client: No Access - Unsafe Work Location</label>
+            </value>
+            <value>
+                <fullName>Client: Non-Doable Work - Part Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>Client: Non-Doable Work - Part Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Client: Non-Doable Work - SOW Inaccuracy</fullName>
+                <default>false</default>
+                <label>Client: Non-Doable Work - SOW Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Client: Non-Doable Work - Tool Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>Client: Non-Doable Work - Tool Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Client: Rescheduled Time - Inside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Rescheduled Time - Inside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Rescheduled Time - Inside 4 hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Rescheduled Time - Inside 4 hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client: Rescheduled Time - Outside 24 Hrs Notice</fullName>
+                <default>false</default>
+                <label>Client: Rescheduled Time - Outside 24 Hrs Notice</label>
+            </value>
+            <value>
+                <fullName>Client/LTS: Cancelled As Previous Job Running Late</fullName>
+                <default>false</default>
+                <label>Client/LTS: Cancelled As Previous Job Running Late</label>
+            </value>
+            <value>
+                <fullName>LTS: Customer cancelled - resource not available</fullName>
+                <default>false</default>
+                <label>LTS: Customer cancelled - resource not available</label>
+            </value>
+            <value>
+                <fullName>LTS: Inclement Weather</fullName>
+                <default>false</default>
+                <label>LTS: Inclement Weather</label>
+            </value>
+            <value>
+                <fullName>LTS: Incorrectly Built Work Order</fullName>
+                <default>false</default>
+                <label>LTS: Incorrectly Built Work Order</label>
+            </value>
+            <value>
+                <fullName>LTS: Job completed prior to this request</fullName>
+                <default>false</default>
+                <label>LTS: Job completed prior to this request</label>
+            </value>
+            <value>
+                <fullName>LTS: Non-Doable Work - Part Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>LTS: Non-Doable Work - Part Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>LTS: Non-Doable Work - Tool Supply Inaccuracy</fullName>
+                <default>false</default>
+                <label>LTS: Non-Doable Work - Tool Supply Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - SLA Change</fullName>
+                <default>false</default>
+                <label>LTS: Sequence Not Needed - SLA Change</label>
+            </value>
+            <value>
+                <fullName>LTS: Task Sequence Not Needed</fullName>
+                <default>false</default>
+                <label>LTS: Task Sequence Not Needed</label>
+            </value>
+            <value>
+                <fullName>LTS: Unavailable Technician</fullName>
+                <default>false</default>
+                <label>LTS: Unavailable Technician</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled - Given To Other Vendor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled - Given To Other Vendor</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Over 24hrs - Tech Confirmation Was Not Sent Same Day</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled Over 24hrs - Tech Confirmation Was Not Sent Same Day</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Over 24hrs - Unavailable Resource On Date Requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled Over 24hrs - Unavailable Resource On Date Requested</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Under 24hrs - Tech Confirmation Was Not Sent Same Day</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled Under 24hrs - Tech Confirmation Was Not Sent Same Day</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Under 24hrs - Unavailable Resource On Date Requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled Under 24hrs - Unavailable Resource On Date Requested</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Under 4hrs - Tech Confirmation Was Not Sent Same Day</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled Under 4hrs - Tech Confirmation Was Not Sent Same Day</label>
+            </value>
+            <value>
+                <fullName>Client: Cancelled Under 4hrs - Unavailable Resource On Date Requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client: Cancelled Under 4hrs - Unavailable Resource On Date Requested</label>
+            </value>
+            <value>
+                <fullName>LTS: Duplicate Work Order</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Duplicate Work Order</label>
+            </value>
+            <value>
+                <fullName>LTS: Over 24 hrs - Extreme Weather</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Over 24 hrs - Extreme Weather</label>
+            </value>
+            <value>
+                <fullName>LTS: Over 24 hrs - Unavailable Technician</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Over 24 hrs - Unavailable Technician</label>
+            </value>
+            <value>
+                <fullName>LTS: Prioritized Another Client</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Prioritized Another Client</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - Created in Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Sequence Not Needed - Created in Error</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - Customer Sent Under A New Ticket Number</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Sequence Not Needed - Customer Sent Under A New Ticket Number</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - Job Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Sequence Not Needed - Job Complete</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - Pending Contractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Sequence Not Needed - Pending Contractor</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - Pending Customer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Sequence Not Needed - Pending Customer</label>
+            </value>
+            <value>
+                <fullName>LTS: Sequence Not Needed - Vendor Could Not Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Sequence Not Needed - Vendor Could Not Support</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 24 hrs - Emergency Ticket</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Within 24 hrs - Emergency Ticket</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 24 hrs - Unavailable Technician</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Within 24 hrs - Unavailable Technician</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 4 Hrs - Emergency Ticket</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Within 4 Hrs - Emergency Ticket</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 4 hrs - Inclement Weather</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Within 4 hrs - Inclement Weather</label>
+            </value>
+            <value>
+                <fullName>LTS: Within 4 hrs - Unavailable Technician</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LTS: Within 4 hrs - Unavailable Technician</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

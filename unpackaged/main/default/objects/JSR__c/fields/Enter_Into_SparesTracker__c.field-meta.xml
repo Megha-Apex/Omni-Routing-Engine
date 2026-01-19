@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_Into_SparesTracker__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Enter Into SparesTracker</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
